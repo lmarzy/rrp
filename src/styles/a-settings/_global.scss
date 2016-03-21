@@ -3,13 +3,13 @@
 $settings: (
 
 	type: (
-		fontFamily 					: sans-serif,
+		fontFamily 					: ("Playfair Display", serif),
 		fontSize 						: 100%,
 		lineHeight 					: $line-height / $font-size
 	),
 
 	headings: (
-		fontFamily 					: inherit,
+		fontFamily 					: ("Lato", sans-serif),
 		fontSize 						: inherit,
 		fontWeight 					: 700
 	),
