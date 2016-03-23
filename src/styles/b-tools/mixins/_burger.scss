@@ -15,7 +15,7 @@
     height: rem(6px);
     background: $bgLine;
     border-radius: setting(misc, borderRadius);
-    transition: top 300ms 600ms ease, bottom 300ms 600ms ease, transform 300ms ease;
+    transition: top 200ms 400ms ease, bottom 200ms 400ms ease, transform 200ms ease;
   }
   span:first-child {
     top: 50%;
@@ -31,7 +31,7 @@
     &::before,
     &::after {
       background: $bgLineActive;
-      transition: top 300ms ease, bottom 300ms ease, transform 300ms 600ms ease;
+      transition: top 200ms ease, bottom 200ms ease, transform 200ms 400ms ease;
     }
     span:first-child {
       background: transparent;

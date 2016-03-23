@@ -10,6 +10,14 @@
     &.nav-is-active {
       background: rgba(colour(brand,b),0.9);
       padding-bottom: 0;
+
+        .c-siteHeader__nav {
+          display: block;
+        }
+    }
+
+    &__nav {
+      display: none;
     }
 
     &__burger {
@@ -23,6 +31,9 @@
 
         &__logo {
           float: left;
+        }
+        &__nav {
+          display: inherit;
         }
     }
 }

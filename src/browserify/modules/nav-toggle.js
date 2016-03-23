@@ -3,5 +3,5 @@
 var burgerId = document.getElementById('js-burger');
 
 burgerId.addEventListener('click', function() {
-  this.parentNode.classList.toggle('nav-is-active');
+  this.parent().classList.add('nav-is-active');
 });
