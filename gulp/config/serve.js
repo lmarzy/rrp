@@ -21,8 +21,7 @@ module.exports = {
     },
     js: {
       src : path.src + 'browserify/**',
-      task: 'browserify',
-      task: 'js'
+      task: 'browserify'
     },
     img: {
       src: path.src + 'img/**',
