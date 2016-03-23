@@ -30,16 +30,16 @@
       &[disabled] {}
     }
     &--tiny {
-      font-size: $btn-tiny;
+      font-size: rem(11px);
     }
     &--small {
-      font-size: $btn-small;
+      font-size: rem(13px);
     }
     &--large {
-      font-size: $btn-large;
+      font-size: rem(18px);
     }
     &--huge {
-      font-size: $btn-huge;
+      font-size: rem(20px);
     }
   }
   // disabled buttons

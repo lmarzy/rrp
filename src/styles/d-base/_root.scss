@@ -23,6 +23,11 @@ html {
       }
     }
   }
+
+  &.c-indexPage {
+    background: url($imgPath+'bg-index.jpg') 0 0 no-repeat;
+    background-size: cover;
+  }
 }
 
 *,

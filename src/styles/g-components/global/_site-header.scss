@@ -2,5 +2,27 @@
    COMPONENTS - HEADER
    ========================================================================== */
 
-.c-site-header {
+.c-siteHeader {
+  position: relative;
+  padding-top: $rhythm / 2;
+  padding-bottom: $rhythm / 2;
+
+    &.nav-is-active {
+      background: rgba(colour(brand,b),0.9);
+      padding-bottom: 0;
+    }
+
+    &__burger {
+      position: absolute;
+      top: rem(12px);
+      right: 0;
+    }
+
+    @include bp(30) {
+      @include cf;
+
+        &__logo {
+          float: left;
+        }
+    }
 }

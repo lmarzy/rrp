@@ -16,34 +16,33 @@ $gutter             : 20px / $font-size * 1rem;
 
 // paths
 
-$imgPath 						  : 'assets/img';
-$fontPath 					  : 'assets/fonts';
+$imgPath 						  : 'img/';
 
 // imports
 
 // base
-$blockquotes				  : false;
-$embedded 					  : false;
-$headings 					  : false;
-$inputs 						  : false;
-$labels 						  : false;
-$links  						  : false;
-$lists 			 				  : false;
-$paragraphs 				  : false;
-$tables 						  : false;
+$blockquotes				  : true;
+$embedded 					  : true;
+$headings 					  : true;
+$inputs 						  : true;
+$labels 						  : true;
+$links  						  : true;
+$lists 			 				  : true;
+$paragraphs 				  : true;
+$tables 						  : true;
 
 // objects
-$o-grids 				 		  : false;
+$o-grids 				 		  : true;
 $o-grids-classes 		  : false;
-$o-wrapper 					  : false;
+$o-wrapper 					  : true;
 $o-media              : false;
 
 // components
-$c-nav-site 				  : false;
-$c-buttons 					  : false;
-$c-icons              : false;
+$c-nav-site 				  : true;
+$c-buttons 					  : true;
+$c-icons              : true;
 
 // utilities/helpers
-$colours 		          : false;
-$visibility 	        : false;
-$widths-flexbox       : false;
+$colours 		          : true;
+$visibility 	        : true;
+$widths-flexbox       : true;

@@ -1,0 +1,5 @@
+<a href="#js-siteNav" class="c-siteHeader__burger c-burger hide-bp30-up">
+  <span>
+    <span class="is-vh">Toggle the site navigation</span>
+  </span>
+</a>

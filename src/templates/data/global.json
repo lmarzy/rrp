@@ -4,8 +4,85 @@
 	"siteName": "Rapid Racer Products",
 
 	"siteNav": [
-		{ "linkName": "Link one", "linkUrl": "/" },
-		{ "linkName": "Link two", "linkUrl": "/" }
-	]
+		{
+      "title": "Home",
+      "link": "/"
+    },
+		{
+      "title": "Mudguards",
+      "link": "#mudguards",
+      "subnav": [
+        {
+          "title": "EnduroGuard",
+          "link": "/enduroguard.html",
+          "type": "OFF ROAD"
+        },
+        {
+          "title": "FatGuard",
+          "link": "/fatguard.html",
+          "type": "OFF ROAD"
+        },
+        {
+          "title": "RearGuard",
+          "link": "/enduroguard-off-road.html",
+          "type": "OFF ROAD"
+        },
+        {
+          "title": "RearGuard",
+          "link": "/enduroguard-road.html",
+          "type": "ROAD"
+        },
+        {
+          "title": "CX-Guard",
+          "link": "/cx-guard.html",
+          "type": "CX"
+        },
+        {
+          "title": "NeoGuard RIGID",
+          "link": "/neoguard-rigid.html",
+          "type": "OFF ROAD & CX"
+        }
+      ]
+    },
+    {
+      "title": "Tools",
+      "link": "#tools",
+      "subnav": [
+        {
+          "title": "ValveGuard",
+          "link": "valveguard.html",
+          "type": "Road"
+        }
+      ]
+    },
+    {
+      "title": "Wheel accessories",
+      "link": "#wheels",
+      "subnav": [
+        {
+          "title": "PunctureGuard",
+          "link": "punctureguard.html",
+          "type": "Road"
+        }
+      ]
+    },
+    {
+      "title": "Clothing",
+      "link": "http://1022106.spreadshirt.co.uk/",
+      "external": true
+    },
+    {
+      "title": "Distributors",
+      "link": "/distributors.html"
+    },
+    {
+      "title": "Contact",
+      "link": "/contact.html"
+    }
+	],
+
+  "links": {
+    "home": "/"
+  }
 
 }

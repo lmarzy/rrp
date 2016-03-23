@@ -1,15 +1,15 @@
 // MIXIN - BURGER
 
-@mixin burger($bgColour, $bgLine, $bgLineActive) {
-  position: relative;
+@mixin burger($bgLine, $bgLineActive) {
   display: block;
   width: rem(60px);
   height: rem(48px);
-  background-color: $bgColour;
   span:first-child,
   &::before,
   &::after {
-    @extend %pseudos;
+    display: block;
+    content: '';
+    position: absolute;
     left: rem(12px);
     right: rem(12px);
     height: rem(6px);

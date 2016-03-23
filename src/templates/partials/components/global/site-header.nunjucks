@@ -1,6 +1,9 @@
-<header class="c-site-header">
+<header class="c-siteHeader o-container">
 
-		<h1 class="c-logo">{{ siteName }}</h1>
-		<h1 class="c-logo">{{ test }}</h1>
+		{% include "logo-header.nunjucks" %}
+
+    {% include "burger.nunjucks" %}
+
+    {% include "site-nav.nunjucks" %}
 
 </header> <!-- !END header.c-site-header -->

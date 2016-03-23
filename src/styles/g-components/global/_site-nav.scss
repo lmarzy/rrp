@@ -2,7 +2,125 @@
   /* ==========================================================================
    COMPONENTS - SITE NAVIGATION
    ========================================================================== */
-  .c-site-nav {
-    &__item {}
+
+  .c-siteNav {
+
+      &__item {
+        position: relative;
+      }
+      &__icon {
+        position: absolute;
+        top: calc(50% - 8px);
+        right: rem(12px);
+      }
+      &__link, &__linkSub {
+        display: block;
+        padding: 0 rem(12px);
+        height: rem(48px);
+        line-height: rem(48px);
+        color: white;
+      }
+      &__linkSub {
+        padding: 0 rem(24px);
+        color: darken(white,25);
+      }
+      &__type {
+        float: right;
+        margin-right: rem(-18px);
+        padding: 0 rem(12px);
+        width: rem(118px);
+        font-size: rem(11px);
+        background: rgba(white,0.4);
+        text-transform: uppercase;
+        text-align: right
+      }
+      &__listSub {
+        display: none;
+        background: lighten(colour(brand, b),5);
+      }
+
+      @include bp(30, max) {
+        margin: 0 rem(-12px);
+        &__item {
+          border-bottom: 1px solid lighten(colour(brand, b),5);
+            &:last-child {
+              border: none;
+                a {
+                  border: none;
+                }
+            }
+        }
+        &__link {
+          border-bottom: 1px solid darken(colour(brand, b),5);
+        }
+        &__linkSub {
+          border-bottom: 1px solid colour(brand, b);
+        }
+        &__itemSub {
+          border-bottom: 1px solid lighten(colour(brand, b),10);
+
+            &:last-child {
+              border: none;
+
+                a {
+                  border: none;
+                }
+            }
+        }
+      }
+      @include bp(30) {
+        float: right;
+
+          &__list {
+            display: flex;
+          }
+          &__item {
+            &:hover {
+              background: rgba(white,0.8);
+              border-radius: 4px 4px 0 0;
+
+                .c-siteNav__link {
+                  color: colour(main, text);
+                }
+                .c-siteNav__listSub {
+                  display: block;
+                }
+                .icon {
+                  transform: rotate(180deg);
+                }
+            }
+          }
+          &__itemSub {
+            border-bottom: 1px solid darken(white,15);
+
+              &:hover {
+                background: white
+              }
+          }
+          &__link {
+            height: rem(60px);
+            padding: 0 rem(18px);
+            line-height: rem(60px);
+          }
+          &__item--sub {
+            padding-right: rem(30px);
+          }
+          &__icon {
+            color: darken(white,20);
+          }
+          &__listSub {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: rem(280px);
+            background: rgba(white,0.8);
+            box-shadow: 4px 4px 6px rgba(black, 0.4);
+          }
+          &__linkSub {
+            padding: 0 rem(18px);
+            color: colour(main, text);
+          }
+      }
   }
+
 }

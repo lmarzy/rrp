@@ -1,10 +1,7 @@
 /* ==========================================================================
-   COMPONENTS - LOGO
+   COMPONENTS - BURGER
    ========================================================================== */
 
-.c-logo {
-  a {
-    display: block;
-    line-height: 0;
-  }
+.c-burger {
+  @include burger(white, colour(brand, a));
 }

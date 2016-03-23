@@ -1,7 +1,6 @@
 'use strict';
 
 var path            = require('./_global').paths,
-    vr              = require('postcss-vr'),
     autoprefixer    = require('autoprefixer'),
     mqPacker        = require('css-mqpacker'),
     cssNano         = require('cssnano'),
@@ -14,7 +13,6 @@ module.exports = {
   mapWrite: './map',
   dest: path.dest + 'css',
   processorsDev: [
-    vr,
     autoprefixer({browsers: ['last 2 version']}),
     focus
   ],

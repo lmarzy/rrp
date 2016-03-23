@@ -1,0 +1,43 @@
+<nav id="js-siteNav" class="c-siteHeader__nav c-siteNav" itemscope itemtype="http://schema.org/SiteNavigationElement">
+
+	<h1 class="is-vh">Site navigation</h1>
+
+	<ul class="c-siteNav__list">
+
+		{% for links in siteNav %}
+
+      {% if links.subnav or links.external %}
+			<li class="c-siteNav__item c-siteNav__item--sub">
+      {% else %}
+      <li class="c-siteNav__item">
+      {% endif %}
+
+        <a href="{{ links.link }}" class="c-siteNav__link">
+          {{ links.title }}
+        </a>
+
+        {% if links.external %}
+          <svg class="icon icon-external-link c-siteNav__icon"><use xlink:href="#icon-external-link"></use></svg>
+        {% endif %}
+
+        {% if links.subnav %}
+          <svg class="icon icon-chevron-down c-siteNav__icon"><use xlink:href="#icon-chevron-down"></use></svg>
+          <ul class="c-siteNav__listSub">
+            {% for links in links.subnav %}
+            <li class="c-siteNav__itemSub">
+              <a href="{{ links.link }}" class="c-siteNav__linkSub">
+                <span class="c-siteNav__title">{{ links.title }}</span>
+                <span class="c-siteNav__type">{{ links.type }}</span>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+      </li>
+
+		{% endfor %}
+
+	</ul>
+
+</nav>

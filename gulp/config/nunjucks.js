@@ -10,6 +10,8 @@ module.exports = {
       path.src + 'templates/layout/head',
       path.src + 'templates/layout/foot',
       path.src + 'templates/partials/components/global',
+      path.src + 'templates/partials/components/global/site-header',
+      path.src + 'templates/partials/components/global/site-footer',
       path.src + 'templates/partials/icons'
     ],
     data: path.src + 'templates/data/global.json',
