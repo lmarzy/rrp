@@ -7,10 +7,16 @@
 
       &__item {
         position: relative;
+
+          &--sub-active {
+            .c-siteNav__listSub {
+              display: block;
+            }
+          }
       }
       &__icon {
         position: absolute;
-        top: calc(50% - 8px);
+        top: rem(12px);
         right: rem(12px);
       }
       &__link, &__linkSub {
@@ -22,15 +28,15 @@
       }
       &__linkSub {
         padding: 0 rem(24px);
-        color: darken(white,25);
+        color: darken(white,20);
       }
       &__type {
         float: right;
-        margin-right: rem(-18px);
-        padding: 0 rem(12px);
-        width: rem(118px);
+        margin-right: rem(-24px);
+        padding: 0 rem(18px);
+        width: rem(120px);
         font-size: rem(11px);
-        background: rgba(white,0.4);
+        background: rgba(black,0.2);
         text-transform: uppercase;
         text-align: right
       }
@@ -106,6 +112,7 @@
             padding-right: rem(30px);
           }
           &__icon {
+            top: calc(50% - 8px);
             color: darken(white,20);
           }
           &__listSub {
@@ -119,6 +126,10 @@
           &__linkSub {
             padding: 0 rem(18px);
             color: colour(main, text);
+          }
+          &__type {
+            margin-right: rem(-18px);
+            background: rgba(white,0.4);
           }
       }
   }

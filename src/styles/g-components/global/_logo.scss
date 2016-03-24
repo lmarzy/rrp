@@ -3,8 +3,13 @@
    ========================================================================== */
 
 .c-logo {
+  margin-bottom: $rhythm / 2;
   a {
     display: block;
     line-height: 0;
+  }
+
+  @include bp(30) {
+    margin-top: rem(6px);
   }
 }
