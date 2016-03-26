@@ -11,7 +11,8 @@ $colours: (
 
 	brand: (
 		a 						: #EC2B0C,
-    b             : #2e3233
+    b             : #2e3233,
+    c             : #D8D8D8
 	),
 
 	alerts: (
@@ -25,11 +26,11 @@ $colours: (
 		facebook      : hsl(221, 44%, 41%),
 		twitter       : hsl(196, 100%, 46%),
 		google        : hsl(7, 71%, 55%),
-		instagram     : hsl(207, 34%, 48%)
+		instagram     : hsl(207, 34%, 48%),
+    youtube       : hsl(0, 100%, 37%),
 	),
 
 	tech: (
-		youtube       : hsl(0, 100%, 37%),
 		html          : hsl(31, 97%, 62%),
 		css           : hsl(196, 66%, 41%),
 		js            : hsl(41, 94%, 65%),

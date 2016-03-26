@@ -1,0 +1,3 @@
+<img src="img/logo-black.svg" alt="{{ siteName }}" class="c-siteFooter__logo">
+
+<p class="c-siteFooter__name">Rapid Racer Products Ltd</p>

@@ -3,18 +3,28 @@
    COMPONENT - ICONS
    ========================================================================== */
 
-   .icon {
-   	display: inline-block;
-   	width: 1em;
-   	height: 1em;
-   	fill: currentColor;
-   }
+  .icon {
+  	display: inline-block;
+  	width: 1em;
+  	height: 1em;
+  	fill: currentColor;
 
-   .icon-chevron-down {
-   	width: 0.9999999850988388em;
-   }
-   .icon-external-link {
-   	width: 0.9999981845417096em;
-   }
+      &--large {
+        font-size: rem(24px);
+      }
+  }
+
+  .icon-facebook {
+    color: rgba(colour(social, facebook),0.7);
+  }
+  .icon-youtube {
+    color: rgba(colour(social, youtube), 0.7);
+  }
+  .icon-chevron-down {
+  	width: 0.9999999850988388em;
+  }
+  .icon-external-link {
+  	width: 0.9999981845417096em;
+  }
 
 } // END IF

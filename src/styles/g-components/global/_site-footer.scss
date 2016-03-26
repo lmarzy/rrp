@@ -2,5 +2,32 @@
    COMPONENTS - FOOTER
    ========================================================================== */
 
-.c-site-footer {
+.c-siteFooter {
+  padding: rem(12px);
+  background: rgba(colour(brand, c), 0.9);
+  text-align: center;
+
+    &__social {
+      margin-bottom: rem(12px);
+    }
+
+    @include bp(20) {
+      @include cf;
+      &__logo, &__name {
+        float: left;
+      }
+      &__name {
+        margin: rem(6px) 0 0 rem(12px);
+        padding-left: rem(12px);
+        border-left: 1px solid colour(brand, b);
+      }
+      &__social {
+        float: right;
+      }
+      &__small {
+        display: inline-block;
+        padding-top: rem(24px);
+        clear: both;
+      }
+    }
 }

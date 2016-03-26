@@ -1,5 +1,12 @@
-<footer class="c-site-footer">
+<footer class="c-siteFooter">
 
-	<small class="c-copyright">&copy;</small>
+  <div class="o-container">
 
-</footer> <!-- !END footer.c-site-footer -->	
+    {% include "logo-footer.nunjucks" %}
+
+    {% include "social-nav.nunjucks" %}
+
+    {% include "small-print.nunjucks" %}
+
+  </div>
+</footer> <!-- !END footer.c-site-footer -->

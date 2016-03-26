@@ -8,7 +8,7 @@
       &__item {
         position: relative;
 
-          &--sub-active {
+          &.sub-active {
             .c-siteNav__listSub {
               display: block;
             }
