@@ -21,11 +21,11 @@
     }
 
     @include bp(20) {
-      padding-top: rem(60px);
-      padding-bottom: rem(60px);
+      padding-top: rem(72px);
+      padding-bottom: rem(108px);
 
         &__title {
-          font-size: rem(60px);
+          font-size: rem(72px);
         }
     }
 }

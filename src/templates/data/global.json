@@ -49,8 +49,8 @@
       "link": "#tools",
       "subnav": [
         {
-          "title": "ValveGuard",
-          "link": "valveguard.html",
+          "title": "Bearing Press & Extraction Tool",
+          "link": "bpet.html",
           "type": "Road"
         }
       ]
@@ -60,9 +60,14 @@
       "link": "#wheels",
       "subnav": [
         {
+          "title": "ValveGuard",
+          "link": "valveguard.html",
+          "type": "Road"
+        },
+        {
           "title": "PunctureGuard",
           "link": "punctureguard.html",
-          "type": "Road"
+          "type": "MTB"
         }
       ]
     },
@@ -91,6 +96,99 @@
       "name": "Youtube",
       "url": "/",
       "icon": "youtube"
+    }
+  ],
+
+  "products": [
+    {
+      "name": "EnduroGuard",
+      "category": "Mudguard",
+      "for": "MTB",
+      "imgUrl": "/img/products/mudguards/enduroguard.png",
+      "imgAlt": "EnduroGuard product image",
+      "url": "/products/mudguards/endurguard.html",
+      "latest": true
+    },
+    {
+      "name": "FatGuard",
+      "category": "Mudguard",
+      "for": "MTB",
+      "imgUrl": "/img/products/mudguards/fatguard.png",
+      "imgAlt": "FatGuard product image",
+      "url": "/products/mudguards/fatguard.html",
+      "latest": true
+    },
+    {
+      "name": "RearGuard",
+      "category": "Mudguard",
+      "for": "MTB",
+      "imgUrl": "/img/products/mudguards/rearguard-offroad.png",
+      "imgAlt": "RearGuard product image",
+      "url": "/products/mudguards/rearguard-offroad.html",
+      "latest": true
+    },
+    {
+      "name": "RearGuard",
+      "category": "Mudguard",
+      "for": "Road",
+      "imgUrl": "/img/products/mudguards/rearguard-road.png",
+      "imgAlt": "RearGuard product image",
+      "url": "/products/mudguards/rearguard-road.html",
+      "latest": true
+    },
+    {
+      "name": "CX-Guard",
+      "category": "Mudguard",
+      "for": "CX",
+      "imgUrl": "/img/products/mudguards/cxguard.png",
+      "imgAlt": "CX-Guard product image",
+      "url": "/products/mudguards/cxguard.html",
+      "latest": false
+    },
+    {
+      "name": "NeoGuard",
+      "category": "Mudguard",
+      "for": "MTB",
+      "imgUrl": "/img/products/mudguards/neoguard.png",
+      "imgAlt": "NeoGuard product image",
+      "url": "/products/mudguards/neoguard.html",
+      "latest": false
+    },
+    {
+      "name": "NeoGuard RIGID",
+      "category": "Mudguard",
+      "for": "MTB & CX",
+      "imgUrl": "/img/products/mudguards/neoguard-rigid.png",
+      "imgAlt": "NeoGuard RIGID product image",
+      "url": "/products/mudguards/neoguard-rigid.html",
+      "latest": false
+    },
+    {
+      "name": "Bearing Press & Extraction Tool(BPET)",
+      "category": "Tools",
+      "for": "MTB",
+      "imgUrl": "/img/products/mudguards/bpet.png",
+      "imgAlt": "Bearing Press & Extraction Tool(BPET) product image",
+      "url": "/products/mudguards/bpet.html",
+      "latest": false
+    },
+    {
+      "name": "ValveGuard",
+      "category": "Wheel Accessories",
+      "for": "Road Bike",
+      "imgUrl": "/img/products/mudguards/valveguard.png",
+      "imgAlt": "ValveGuard product image",
+      "url": "/products/mudguards/valveguard.html",
+      "latest": false
+    },
+    {
+      "name": "PunctureGuard",
+      "category": "Wheel Accessories",
+      "for": "MTB",
+      "imgUrl": "/img/products/mudguards/punctureguard.png",
+      "imgAlt": "PunctureGuard product image",
+      "url": "/products/mudguards/punctureguard.html",
+      "latest": false
     }
   ],
 

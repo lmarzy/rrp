@@ -82,11 +82,12 @@
           }
           &__item {
             &:hover {
-              background: rgba(white,0.8);
+              background: rgba(white,0.9);
               border-radius: 4px 4px 0 0;
 
                 .c-siteNav__link {
-                  color: colour(main, text);
+                  color: darken(colour(main, text),10);
+                  text-shadow: none;
                 }
                 .c-siteNav__listSub {
                   display: block;
@@ -105,8 +106,10 @@
           }
           &__link {
             height: rem(60px);
-            padding: 0 rem(18px);
+            padding: 0 rem(15px);
+            font-size: rem(18px);
             line-height: rem(60px);
+            text-shadow: 1px 1px 6px rgba(black,0.5);
           }
           &__item--sub {
             padding-right: rem(30px);
@@ -119,13 +122,13 @@
             position: absolute;
             top: 100%;
             left: 0;
-            width: rem(280px);
-            background: rgba(white,0.8);
+            width: rem(375px);
+            background: rgba(white,0.9);
             box-shadow: 4px 4px 6px rgba(black, 0.4);
           }
           &__linkSub {
             padding: 0 rem(18px);
-            color: colour(main, text);
+            color: darken(colour(main, text),10);
           }
           &__type {
             margin-right: rem(-18px);
