@@ -1,0 +1,31 @@
+/* ==========================================================================
+   COMPONENTS/PAGES - HERO
+   ========================================================================== */
+
+.c-hero {
+  padding-top: rem(24px);
+  padding-bottom: rem(24px);
+  text-align: center;
+  color: white;
+
+    &__category, &__title, &__social {
+      margin-bottom: $rhythm;
+    }
+    &__title {
+      font-size: rem(32px);
+      text-shadow: 0 0 6px rgba(black,0.6);
+
+        span {
+          display: block;
+        }
+    }
+
+    @include bp(20) {
+      padding-top: rem(60px);
+      padding-bottom: rem(60px);
+
+        &__title {
+          font-size: rem(60px);
+        }
+    }
+}

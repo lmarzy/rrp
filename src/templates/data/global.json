@@ -95,7 +95,8 @@
   ],
 
   "links": {
-    "home": "/"
+    "home": "/",
+    "distributors": "/distributors.html"
   }
 
 }

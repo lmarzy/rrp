@@ -1,0 +1,21 @@
+/* ==========================================================================
+   COMPONENTS/PAGES - CATEGORY-LIST
+   ========================================================================== */
+
+.c-categoryList {
+
+  &__item {
+    display: inline-block;
+    padding: 0 rem(10px);
+    line-height: 1;
+
+      &:not(:last-child) {
+        border-right: 1px solid white;
+      }
+  }
+
+  @include bp(20) {
+    font-size: rem(24px);
+  }
+
+}

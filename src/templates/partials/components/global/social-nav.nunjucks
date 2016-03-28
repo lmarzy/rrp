@@ -1,12 +1,8 @@
-<ul class="c-siteFooter__social c-socialNav">
-
-  {% for link in socialNav %}
-  <li class="c-socialNav__item">
-    <a href="{{ link.url }}">
-      <span class="is-vh">Click to visit out {{ link.name }} page</span>
-      <svg class="icon icon--large icon-{{ link.icon }}"><use xlink:href="#icon-{{ link.icon }}"></use></svg>
-    </a>
-  </li>
-  {% endfor %}
-
-</ul>
+{% for link in socialNav %}
+<li class="c-socialNav__item">
+  <a href="{{ link.url }}">
+    <span class="is-vh">Click to visit out {{ link.name }} page</span>
+    <svg class="icon icon--large icon-{{ link.icon }}"><use xlink:href="#icon-{{ link.icon }}"></use></svg>
+  </a>
+</li>
+{% endfor %}

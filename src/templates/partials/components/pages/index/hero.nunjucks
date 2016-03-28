@@ -1,0 +1,20 @@
+<aside class="o-container c-hero">
+
+  <ul class="c-hero__category c-categoryList">
+    <li class="c-categoryList__item">Road</li>
+    <li class="c-categoryList__item">Mountain bike</li>
+    <li class="c-categoryList__item">Cyclo Cross</li>
+  </ul>
+
+  <h2 class="c-hero__title">
+    <span>Designed by racers,</span>
+    <span>Used by riders</span>
+  </h2>
+
+  <ul class="c-hero__social c-socialNav">
+    {% include "social-nav.nunjucks" %}
+  </ul>
+
+  <a href="{{ links.distributors }}" class="c-btn c-btn--a c-btn--large">Find distributors</a>
+
+</aside>

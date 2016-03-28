@@ -3,31 +3,57 @@
    COMPONENTS - BUTTONS
    ========================================================================== */
   .c-btn {
+    position: relative;
     display: inline-block;
-    height: em(40px);
-    padding: 0 em(10px);
+    height: em(48px);
+    padding: 0 em(24px);
     font: inherit;
-    line-height: em(40px);
+    line-height: em(48px);
     text-align: center;
     vertical-align: middle;
     border-width: 1px;
     border-style: solid;
+    border-radius: 6px;
     text-decoration: none;
     cursor: pointer;
-    &:hover,
-    &:active,
-    &:focus,
-    &:visited {}
-    &--a {
-      background: white;
-      border-color: colour(main, borders);
-      color: black;
+    overflow: hidden;
+
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 100%;
+        transform: translateY(100%);
+        z-index: -1;
+        transition: transform 250ms ease-in;
+      }
+
       &:hover,
-      &:focus,
       &:active,
-      &:visited,
-      &.btn-disabled,
-      &[disabled] {}
+      &:focus,
+      &:visited {}
+
+    &--a {
+      background: transparent;
+      border-color: colour(main, borders);
+      color: white;
+
+        &:before {
+          background: white;
+        }
+
+        &:hover,
+        &:focus,
+        &:active,
+        &:visited,
+        &.btn-disabled,
+        &[disabled] {
+          color: black;
+          &:before {
+            transform: translateY(0%);
+          }
+        }
     }
     &--tiny {
       font-size: rem(11px);
@@ -36,10 +62,10 @@
       font-size: rem(13px);
     }
     &--large {
-      font-size: rem(18px);
+      font-size: rem(20px);
     }
     &--huge {
-      font-size: rem(20px);
+      font-size: rem(22px);
     }
   }
   // disabled buttons
