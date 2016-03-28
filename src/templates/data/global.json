@@ -164,10 +164,10 @@
       "latest": false
     },
     {
-      "name": "Bearing Press & Extraction Tool(BPET)",
+      "name": "Bearing Press & Extraction Tool",
       "category": "Tools",
       "for": "MTB",
-      "imgUrl": "/img/products/mudguards/bpet.png",
+      "imgUrl": "/img/products/tools/bpet.png",
       "imgAlt": "Bearing Press & Extraction Tool(BPET) product image",
       "url": "/products/mudguards/bpet.html",
       "latest": false
@@ -176,7 +176,7 @@
       "name": "ValveGuard",
       "category": "Wheel Accessories",
       "for": "Road Bike",
-      "imgUrl": "/img/products/mudguards/valveguard.png",
+      "imgUrl": "/img/products/wheel-accessories/valveguard.png",
       "imgAlt": "ValveGuard product image",
       "url": "/products/mudguards/valveguard.html",
       "latest": false
@@ -185,7 +185,7 @@
       "name": "PunctureGuard",
       "category": "Wheel Accessories",
       "for": "MTB",
-      "imgUrl": "/img/products/mudguards/punctureguard.png",
+      "imgUrl": "/img/products/wheel-accessories/punctureguard.png",
       "imgAlt": "PunctureGuard product image",
       "url": "/products/mudguards/punctureguard.html",
       "latest": false
@@ -194,7 +194,8 @@
 
   "links": {
     "home": "/",
-    "distributors": "/distributors.html"
+    "distributors": "/distributors.html",
+    "videos": "https://www.youtube.com/playlist?list=PLkJnWfJ0ZkrwzStSFaVtez97eh7JiaxfE"
   }
 
 }

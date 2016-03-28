@@ -15,6 +15,8 @@
     {% include "social-nav.nunjucks" %}
   </ul>
 
-  <a href="{{ links.distributors }}" class="c-btn c-btn--a c-btn--large">Find distributors</a>
+  <a href="{{ links.distributors }}" class="c-btn c-btn--a c-btn--large">
+    <span>Find distributors</span>
+  </a>
 
 </aside>

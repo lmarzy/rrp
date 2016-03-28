@@ -1,0 +1,42 @@
+/* ==========================================================================
+   COMPONENTS/PAGES - AD
+   ========================================================================== */
+
+.c-ad {
+  padding: rem(12px);
+  color: white;
+  @include cf;
+
+    &--distributor {
+      background: url($imgPath+'bg-distributors.png') 0 0 no-repeat;
+      background-size: cover;
+    }
+    &--fittingvids {
+      background: url($imgPath+'bg-fittingvids.png') 0 0 no-repeat;
+      background-size: cover;
+    }
+
+    &__title {
+      margin-bottom: rem(6px);
+      font-size: rem(20px);
+      text-transform: uppercase;
+      text-shadow: 1px 1px 6px rgba(black,0.5);
+    }
+    &__info {
+      font-size: rem(18px);
+      text-shadow: 1px 1px 4px rgba(black,0.6);
+    }
+    &__link {
+      float: right;
+      color: white;
+    }
+
+    @include bp(20) {
+      &__title {
+        font-size: rem(24px);
+      }
+      &__info {
+        font-size: rem(20px);
+      }
+    }
+}

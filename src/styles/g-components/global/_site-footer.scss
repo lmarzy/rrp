@@ -5,29 +5,35 @@
 .c-siteFooter {
   padding-top: rem(24px);
   padding-bottom: rem(24px);
-  background: rgba(colour(brand, c), 0.9);
+  background: rgba(colour(brand, b), 0.9);
+  color: white;
   text-align: center;
 
     &__social {
       margin-bottom: rem(12px);
+
+        .icon {
+          color: white;
+        }
     }
 
     @include bp(20) {
+      text-align: left;
       @include cf;
       &__logo, &__name {
         float: left;
       }
       &__name {
-        margin: rem(6px) 0 0 rem(12px);
+        margin: rem(10px) 0 0 rem(12px);
         padding-left: rem(12px);
-        border-left: 1px solid colour(brand, b);
+        border-left: 1px solid colour(brand, c);
       }
       &__social {
         float: right;
       }
       &__small {
-        display: inline-block;
-        padding-top: rem(24px);
+        display: block;
+        padding-top: rem(36px);
         clear: both;
       }
     }

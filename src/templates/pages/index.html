@@ -4,8 +4,23 @@ desc: Needs updating
 pageId: js-index
 pageClass: c-indexPage
 pageCss: index
+ads: [
+  {
+    class: distributor,
+    title: Find a distributor,
+    info: "Our products are stocked throughout the world, find the one closest to you.",
+    linkText: Find now,
+    linkUrl: https://www.youtube.com/playlist?list=PLkJnWfJ0ZkrwzStSFaVtez97eh7JiaxfE
+  },
+  {
+    class: fittingvids,
+    title: How to fit videos,
+    info: "Our products are easy to fit, watch our simple instructional videos.",
+    linkText: Watch now,
+    linkUrl: /distributors.html
+  }
+]
 ---
-
 {% extends "default.html" %}
 
 {% block icons %}
@@ -17,5 +32,11 @@ pageCss: index
   {% include "hero.nunjucks" %}
 
   {% include "latest-products.nunjucks" %}
+
+  {% include "our-products.nunjucks" %}
+
+  {% include "quote.nunjucks" %}
+
+  {% include "ads.nunjucks" %}
 
 {% endblock %}

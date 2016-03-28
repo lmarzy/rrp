@@ -3,6 +3,7 @@
    ========================================================================== */
 
 html {
+  height: 100%;
   font-family: setting(type, fontFamily);
   font-size: setting(type, fontSize);
   line-height: setting(type, lineHeight);
@@ -23,11 +24,6 @@ html {
       }
     }
   }
-
-  &.c-indexPage {
-    background: url($imgPath+'bg-index.jpg') 0 0 no-repeat;
-    background-size: cover;
-  }
 }
 
 *,
@@ -40,4 +36,13 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100%;
+
+    &.c-indexPage {
+      background: black url($imgPath+'bg-index.jpg') 0 0 no-repeat;
+      background-size: 120%;
+
+        @include bp(20) {
+          background-size: 100%;
+        }
+    }
 }
