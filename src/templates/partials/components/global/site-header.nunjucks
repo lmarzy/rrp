@@ -4,6 +4,10 @@
 
     {% include "burger.nunjucks" %}
 
+    <ul class="c-siteHeader__social c-socialNav">
+      {% include "social-nav.nunjucks" %}
+    </ul>
+
     {% include "site-nav.nunjucks" %}
 
 </header> <!-- !END header.c-site-header -->

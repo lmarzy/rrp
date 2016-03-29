@@ -7,7 +7,7 @@
       <section class="c-ad c-ad--{{ item.class }}">
         <h2 class="c-ad__title">{{ item.title }}</h2>
         <p class="c-ad__info">{{ item.info }}</p>
-        <a href="{{ item.linkUrl }}" class="c-ad__link c-btn c-btn--a">
+        <a href="{{ item.linkUrl }}" title="{{ item.title }}" class="c-ad__link c-btn c-btn--a">
           <span>{{ item.linkText }}</span>
         </a>
       </section>

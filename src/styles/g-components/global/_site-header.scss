@@ -6,6 +6,7 @@
   position: relative;
   padding-top: $rhythm / 2;
   padding-bottom: $rhythm / 2;
+  z-index: 10;
 
     &.nav-is-active {
       background: rgba(colour(brand,b),0.9);
@@ -26,6 +27,17 @@
       right: 0;
     }
 
+    &__social {
+      position: absolute;
+      top: rem(24px);
+      right: rem(72px);
+
+        .icon {
+          color: white;
+          opacity: 0.9;
+        }
+    }
+
     @include bp(30) {
       @include cf;
 
@@ -34,6 +46,10 @@
         }
         &__nav {
           display: inherit;
+        }
+        &__social {
+          top: rem(12px);
+          right: rem(20px);
         }
     }
 }

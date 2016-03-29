@@ -33,11 +33,6 @@
           "type": "ROAD"
         },
         {
-          "title": "CX-Guard",
-          "link": "/cx-guard.html",
-          "type": "ROAD & OFF ROAD"
-        },
-        {
           "title": "NeoGuard",
           "link": "/neoguard.html",
           "type": "Off Road"
@@ -45,7 +40,12 @@
         {
           "title": "NeoGuard RIGID",
           "link": "/neoguard-rigid.html",
-          "type": "ROAD & OFF ROAD"
+          "type": "ROAD, OFF ROAD, CX"
+        },
+        {
+          "title": "CX-Guard",
+          "link": "/cx-guard.html",
+          "type": "ROAD, OFF ROAD, CX"
         }
       ]
     },
@@ -95,11 +95,13 @@
     {
       "name": "Facebook",
       "url": "/",
+      "title": "Facebook",
       "icon": "facebook"
     },
     {
       "name": "Youtube",
       "url": "/",
+      "title": "Fitting Videos",
       "icon": "youtube"
     }
   ],
@@ -172,6 +174,7 @@
     },
     {
       "name": "BPET",
+      "title": "Bearing Press & Extraction Tool",
       "nameMore": "KIT 13a",
       "category": "Tools",
       "for": "MTB",

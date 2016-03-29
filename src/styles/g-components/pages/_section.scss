@@ -42,8 +42,8 @@
     }
 
     @include bp(20) {
-      padding-top: rem(48px);
-      padding-bottom: rem(48px);
+      padding-top: rem(36px);
+      padding-bottom: rem(36px);
       &__title {
         font-size: rem(22px);
       }

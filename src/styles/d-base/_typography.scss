@@ -23,7 +23,6 @@ q {
 
 blockquote {
   position: relative;
-  border-left: 10px solid colour(brand, c);
   margin: 1.5em 10px;
   padding: 0.5em 10px 0.5em 2.5em;
   quotes: "\201C""\201D""\2018""\2019";
@@ -38,12 +37,9 @@ blockquote:before {
   line-height: 0.1em;
 }
 blockquote p {
-  font-size: rem(18px);
+  margin-bottom: $rhythm / 2;
   font-style: italic;
-
-    @include bp(20) {
-      font-size: rem(22px);
-    }
+  color: white;
 }
 
 cite {

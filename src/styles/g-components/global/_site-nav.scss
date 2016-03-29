@@ -27,14 +27,13 @@
         color: white;
       }
       &__linkSub {
-        padding: 0 rem(24px);
         color: darken(white,20);
       }
       &__type {
         float: right;
         margin-right: rem(-24px);
         padding: 0 rem(18px);
-        width: rem(140px);
+        width: rem(145px);
         font-size: rem(11px);
         background: rgba(black,0.2);
         text-transform: uppercase;
@@ -76,6 +75,7 @@
       }
       @include bp(30) {
         float: right;
+        margin-top: rem(14px);
 
           &__list {
             display: flex;
@@ -122,7 +122,7 @@
             position: absolute;
             top: 100%;
             left: 0;
-            width: rem(390px);
+            width: rem(400px);
             background: rgba(white,0.9);
             box-shadow: 4px 4px 6px rgba(black, 0.4);
           }
@@ -132,7 +132,7 @@
           }
           &__type {
             margin-right: rem(-18px);
-            background: rgba(white,0.4);
+            background: rgba(white,0.6);
           }
       }
   }

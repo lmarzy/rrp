@@ -15,6 +15,7 @@
     }
 
     &--latest {
+      margin: rem(12px);
       border-radius: 4px;
     }
 
@@ -50,5 +51,6 @@
       border-top: 1px solid colour(main, borders);
       text-transform: uppercase;
       text-align: center;
+      color: colour(main, text);
     }
 }

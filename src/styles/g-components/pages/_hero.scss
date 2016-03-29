@@ -8,11 +8,11 @@
   text-align: center;
   color: white;
 
-    &__category, &__title, &__social {
+    &__category, &__title {
       margin-bottom: $rhythm;
     }
     &__title {
-      font-size: rem(32px);
+      font-size: rem(24px);
       font-weight: normal;
       text-shadow: 0 0 6px rgba(black,0.4);
 
@@ -22,20 +22,20 @@
     }
 
     @include bp(10) {
-      padding-top: rem(48px);
+      padding-top: rem(36px);
       padding-bottom: rem(72px);
 
         &__title {
-          font-size: rem(38px);
+          font-size: rem(32px);
         }
     }
 
     @include bp(20) {
-      padding-top: rem(72px);
-      padding-bottom: rem(108px);
+      padding-top: rem(60px);
+      padding-bottom: rem(96px);
 
         &__title {
-          font-size: rem(60px);
+          font-size: rem(48px);
         }
     }
 }
