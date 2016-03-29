@@ -13,7 +13,8 @@
     }
     &__title {
       font-size: rem(32px);
-      text-shadow: 0 0 6px rgba(black,0.6);
+      font-weight: normal;
+      text-shadow: 0 0 6px rgba(black,0.4);
 
         span {
           display: block;
@@ -25,7 +26,7 @@
       padding-bottom: rem(72px);
 
         &__title {
-          font-size: rem(42px);
+          font-size: rem(38px);
         }
     }
 
@@ -34,7 +35,7 @@
       padding-bottom: rem(108px);
 
         &__title {
-          font-size: rem(72px);
+          font-size: rem(60px);
         }
     }
 }

@@ -6,6 +6,7 @@
   padding-top: rem(24px);
   padding-bottom: rem(24px);
   background: white;
+  text-align: center;
 
     &__title {
       margin-bottom: $rhythm;
@@ -18,12 +19,23 @@
         }
     }
 
+    &__subTitle {
+      margin-bottom: $rhythm;
+      text-transform: uppercase;
+
+        span {
+          color: colour(brand, a);
+        }
+    }
+
+    &__info {
+      margin-bottom: $rhythm * 2;
+      font-size: rem(18px);
+    }
+
     &--dark {
       background: rgba(black,0.5);
-
-        .c-section__title {
-          color: white;
-        }
+      color: white;
     }
     &--light {
       background: colour(brand, c);
@@ -33,7 +45,6 @@
       padding-top: rem(48px);
       padding-bottom: rem(48px);
       &__title {
-        margin-bottom: $rhythm * 2;
         font-size: rem(22px);
       }
     }

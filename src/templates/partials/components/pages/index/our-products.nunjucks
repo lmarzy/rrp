@@ -6,20 +6,77 @@
       <span>Our</span> products
     </h2>
 
-    <ul class="c-products">
-      {% for product in products %}
-      <li class="c-products__item">
-        <a href="{{ product.url }}">
-          <article class="c-product">
-            <h2 class="c-product__name">{{ product.name }}</h2>
-            <img src="{{ product.imgUrl }}" alt="{{ product.imgAlt }}" class="c-product__img">
-            <p class="c-product__for">{{ product.for }}</p>
-          </article>
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
+    <div class="c-section__info">Our products cater for all the biking disciplines including Mountain bikes, Road bikes and Cycle cross, see below for our full range.</div>
+
+    <section class="u-mb2">
+
+      <h2 class="c-section__subTitle"><span>Mountain</span> Bikes</h2>
+
+      <ul class="c-products">
+        {% for product in products %}
+        {% if product.for == "MTB" or product.for == "MTB & CX" %}
+        <li class="c-products__item">
+          <a href="{{ product.url }}">
+            <article class="c-product">
+              <h2 class="c-product__name">{{ product.name }}</h2>
+              <img src="{{ product.imgUrl }}" alt="{{ product.imgAlt }}" class="c-product__img">
+              <p class="c-product__for">{{ product.for }}</p>
+            </article>
+          </a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+
+    </section>
+
+    <section class="u-mb2">
+
+      <h2 class="c-section__subTitle"><span>Road</span></h2>
+
+      <ul class="c-products">
+        {% for product in products %}
+        {% if product.for == "Road" %}
+        <li class="c-products__item">
+          <a href="{{ product.url }}">
+            <article class="c-product">
+              <h2 class="c-product__name">{{ product.name }}</h2>
+              <img src="{{ product.imgUrl }}" alt="{{ product.imgAlt }}" class="c-product__img">
+              <p class="c-product__for">{{ product.for }}</p>
+            </article>
+          </a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+
+    </section>
 
   </div>
+
+{% include "quote.nunjucks" %}
+
+
+    <section class="o-container">
+
+      <h2 class="c-section__subTitle"><span>Cyclo</span> Cross</h2>
+
+      <ul class="c-products">
+        {% for product in products %}
+        {% if product.for == "CX" or product.for == "MTB & CX" %}
+        <li class="c-products__item">
+          <a href="{{ product.url }}">
+            <article class="c-product">
+              <h2 class="c-product__name">{{ product.name }}</h2>
+              <img src="{{ product.imgUrl }}" alt="{{ product.imgAlt }}" class="c-product__img">
+              <p class="c-product__for">{{ product.for }}</p>
+            </article>
+          </a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+
+    </section>
 
 </section>

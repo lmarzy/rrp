@@ -26,6 +26,7 @@
 
     &__name {
       margin: 0 rem(-12px);
+      color: colour(main, text);
     }
     &__name {
       margin-bottom: rem(12px);
@@ -33,6 +34,11 @@
       background: lighten(colour(brand, c),12);
       border-bottom: 1px solid colour(main, borders);
       z-index: 10;
+
+        &--more {
+          font-size: rem(14px);
+          color: colour(brand, a);
+        }
     }
     &__img {
       margin-bottom: rem(12px);

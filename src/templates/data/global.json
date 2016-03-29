@@ -35,12 +35,17 @@
         {
           "title": "CX-Guard",
           "link": "/cx-guard.html",
-          "type": "CX"
+          "type": "ROAD & OFF ROAD"
+        },
+        {
+          "title": "NeoGuard",
+          "link": "/neoguard.html",
+          "type": "Off Road"
         },
         {
           "title": "NeoGuard RIGID",
           "link": "/neoguard-rigid.html",
-          "type": "OFF ROAD & CX"
+          "type": "ROAD & OFF ROAD"
         }
       ]
     },
@@ -51,7 +56,7 @@
         {
           "title": "Bearing Press & Extraction Tool",
           "link": "bpet.html",
-          "type": "Road"
+          "type": "Off Road"
         }
       ]
     },
@@ -102,6 +107,7 @@
   "products": [
     {
       "name": "EnduroGuard",
+      "nameMore": "v3",
       "category": "Mudguard",
       "for": "MTB",
       "imgUrl": "/img/products/mudguards/enduroguard.png",
@@ -120,6 +126,7 @@
     },
     {
       "name": "RearGuard",
+      "nameMore": "OFF ROAD",
       "category": "Mudguard",
       "for": "MTB",
       "imgUrl": "/img/products/mudguards/rearguard-offroad.png",
@@ -134,7 +141,7 @@
       "imgUrl": "/img/products/mudguards/rearguard-road.png",
       "imgAlt": "RearGuard product image",
       "url": "/products/mudguards/rearguard-road.html",
-      "latest": true
+      "latest": false
     },
     {
       "name": "CX-Guard",
@@ -143,7 +150,7 @@
       "imgUrl": "/img/products/mudguards/cxguard.png",
       "imgAlt": "CX-Guard product image",
       "url": "/products/mudguards/cxguard.html",
-      "latest": false
+      "latest": true
     },
     {
       "name": "NeoGuard",
@@ -164,18 +171,19 @@
       "latest": false
     },
     {
-      "name": "Bearing Press & Extraction Tool",
+      "name": "BPET",
+      "nameMore": "KIT 13a",
       "category": "Tools",
       "for": "MTB",
       "imgUrl": "/img/products/tools/bpet.png",
       "imgAlt": "Bearing Press & Extraction Tool(BPET) product image",
       "url": "/products/mudguards/bpet.html",
-      "latest": false
+      "latest": true
     },
     {
       "name": "ValveGuard",
       "category": "Wheel Accessories",
-      "for": "Road Bike",
+      "for": "Road",
       "imgUrl": "/img/products/wheel-accessories/valveguard.png",
       "imgAlt": "ValveGuard product image",
       "url": "/products/mudguards/valveguard.html",

@@ -6,13 +6,15 @@
       <span>Latest</span> products
     </h2>
 
+    <p class="c-section__info">We are continually updating and imporoving our product range, below are our latest products.</p>
+
     <ul class="o-grid">
       {% for product in products %}
       {% if product.latest %}
-      <li class="o-grid__item u-bp10-1of2 u-bp20-1of4 u-mb1">
+      <li class="o-grid__item u-bp10-1of2 u-bp20-1of5 u-mb1">
         <a href="{{ product.url }}">
           <article class="c-product c-product--latest">
-            <h2 class="c-product__name">{{ product.name }}</h2>
+            <h2 class="c-product__name">{{ product.name }} <span class="c-product__name--more">{{ product.nameMore }}</span></h2>
             <img src="{{ product.imgUrl }}" alt="{{ product.imgAlt }}" class="c-product__img">
             <p class="c-product__for">{{ product.for }}</p>
           </article>
