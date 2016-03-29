@@ -48,12 +48,7 @@
           background: white;
         }
 
-        &:hover,
-        &:focus,
-        &:active,
-        &:visited,
-        &.btn-disabled,
-        &[disabled] {
+        &:hover {
           color: black;
           &:before {
             transform: translateY(0%);

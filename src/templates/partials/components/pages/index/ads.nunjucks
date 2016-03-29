@@ -9,7 +9,7 @@
         <p class="c-ad__info">{{ item.info }}</p>
         <a href="{{ item.linkUrl }}" class="c-ad__link c-btn c-btn--a">
           <span>{{ item.linkText }}</span>
-          </a>
+        </a>
       </section>
     </li>
     {% endfor %}
