@@ -29,7 +29,6 @@
     }
 
     &__info {
-      margin-bottom: $rhythm * 2;
       font-size: rem(18px);
     }
 
@@ -46,6 +45,10 @@
       padding-bottom: rem(36px);
       &__title {
         font-size: rem(22px);
+      }
+      &--dark {
+        padding-top: rem(24px);
+        padding-bottom: rem(12px);
       }
     }
 }

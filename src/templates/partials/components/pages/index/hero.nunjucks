@@ -11,7 +11,7 @@
     <span>used by riders</span>
   </h2>
 
-  <a href="{{ links.distributors }}" class="c-btn c-btn--a c-btn--large">
+  <a href="{{ links.distributors }}" class="c-btn c-btn--a">
     <span>Find distributors</span>
   </a>
 

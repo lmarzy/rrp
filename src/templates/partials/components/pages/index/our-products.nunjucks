@@ -6,11 +6,11 @@
       <span>Our</span> products
     </h2>
 
-    <div class="c-section__info">Our products cater for most biking disciplines including Mountain bikes, Road bikes and Cycle cross, see below for our full range</div>
+    <div class="c-section__info u-mb2">Our products cater for most biking disciplines including Mountain bikes, Road bikes and Cycle cross, see below for our full range</div>
 
     <section class="u-mb2">
 
-      <h2 class="c-section__subTitle"><span>Mountain</span> Bikes</h2>
+      <h2 class="c-section__subTitle"><span>Mountain</span> bikes</h2>
 
       <ul class="c-products">
         {% for product in products %}
@@ -52,7 +52,7 @@
 
     </section>
 
-      <h2 class="c-section__subTitle"><span>Cyclo</span> Cross</h2>
+      <h2 class="c-section__subTitle"><span>Cyclo</span> cross</h2>
 
       <ul class="c-products">
         {% for product in products %}
