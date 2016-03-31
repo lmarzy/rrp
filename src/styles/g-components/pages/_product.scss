@@ -31,7 +31,7 @@
       color: colour(main, text);
     }
     &__name {
-      margin-bottom: rem(12px);
+      margin-bottom: rem(6px);
       padding: rem(6px);
       background: lighten(colour(brand, c),12);
       border-bottom: 1px solid colour(main, borders);
@@ -41,9 +41,6 @@
           font-size: rem(14px);
           color: colour(brand, a);
         }
-    }
-    &__img {
-      margin-bottom: rem(12px);
     }
     &__for {
       margin: 0;

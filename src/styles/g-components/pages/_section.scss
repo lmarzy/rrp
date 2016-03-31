@@ -9,7 +9,7 @@
   text-align: center;
 
     &__title {
-      margin-bottom: $rhythm;
+      margin-bottom: $rhythm / 2;
       font-size: rem(18px);
       text-align: center;
       text-transform: uppercase;
@@ -47,7 +47,7 @@
         font-size: rem(22px);
       }
       &--dark {
-        padding-top: rem(24px);
+        padding-top: rem(18px);
         padding-bottom: rem(12px);
       }
     }

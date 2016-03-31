@@ -38,11 +38,15 @@ body {
   min-height: 100%;
 
     &.c-indexPage {
-      background: black url($imgPath+'bg-index.jpg') 0 0 no-repeat;
+      background-color: black;
+      background-image: url($imgPath+'bg-index.jpg');
+      background-position: 0 0;
+      background-repeat: no-repeat;
       background-size: 120%;
 
         @include bp(20) {
           background-size: 100%;
+          background-position: 0 -32px;
         }
     }
 }
