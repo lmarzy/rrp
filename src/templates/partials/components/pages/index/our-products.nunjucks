@@ -32,7 +32,7 @@
 
     <section class="u-mb2">
 
-      <h2 class="c-section__subTitle"><span>Road</span></h2>
+      <h2 class="c-section__subTitle"><span>Road</span> bikes</h2>
 
       <ul class="c-products">
         {% for product in products %}

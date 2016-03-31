@@ -30,10 +30,10 @@ blockquote {
 blockquote:before {
   position: absolute;
   top: rem(30px);
-  left: rem(8px);
+  left: 0;
   color: #ccc;
   content: open-quote;
-  font-size: 4em;
+  font-size: 6em;
   line-height: 0.1em;
 }
 blockquote p {

@@ -8,7 +8,7 @@
   background: white;
   border: 1px solid colour(main, borders);
   text-align: center;
-  transition: all 200ms ease-in;
+  transition: all 150ms ease-in;
 
     a {
       display: block;
@@ -20,8 +20,9 @@
     }
 
     &:hover {
-      transform: scale(1.05);
       box-shadow: 0 0 8px rgba(black, 0.4);
+      transform: scale(1.04);
+      -webkit-filter: blur(0);
       z-index: 10;
     }
 
