@@ -3,7 +3,7 @@
 var path = require('./_global').paths;
 
 module.exports = {
-    src: path.src + 'templates/pages/**/*.html',
+    src: path.src + 'templates/pages/**/**/*.html',
     paths: [
       path.src + 'templates',
       path.src + 'templates/layout',
@@ -14,6 +14,7 @@ module.exports = {
       path.src + 'templates/partials/components/global/site-footer',
       path.src + 'templates/partials/components/pages',
       path.src + 'templates/partials/components/pages/index',
+      path.src + 'templates/partials/components/pages/products',
       path.src + 'templates/partials/icons'
     ],
     data: path.src + 'templates/data/global.json',

@@ -1,0 +1,27 @@
+<div class="o-container">
+
+  <h2 class="c-productMain__title">
+    <span class="is-vh">{{ productName }}</span>
+    <img src="/img/product-logos/{{ productLogo }}.svg" alt="EnduroGuard">
+  </h2>
+
+  <div class="o-grid">
+
+    <div class="o-grid__item u-1of1 u-bp20-3of5">
+
+      <div class="c-box c-box--white">
+        images
+      </div>
+
+    </div>
+
+    <div class="o-grid__item u-1of1 u-bp20-2of5">
+      <div class="c-box c-box--white">
+        <h3 class="u-mb1">{{ productName }} {{ productVersion }}</h3>
+        <p>{{ productOverview }}</p>
+      </div>
+    </div>
+
+  </div>
+
+</div><!-- !END div.o-grid -->

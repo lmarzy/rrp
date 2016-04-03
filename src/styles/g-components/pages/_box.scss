@@ -1,12 +1,12 @@
 /* ==========================================================================
-   OBJECTS - GRID-FLEXBOX
+   COMPONENTS/PAGES - BOX
    ========================================================================== */
 
-.o-grid {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -$gutter;
-  &__item {
-    padding-left: $gutter;
-  }
+.c-box {
+  padding: $rhythm / 2;
+  border-radius: 4px;
+
+    &--white {
+      background: rgba(white,0.9);
+    }
 }

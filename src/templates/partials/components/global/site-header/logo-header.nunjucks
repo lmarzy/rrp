@@ -1,5 +1,5 @@
 <h1 class="c-siteHeader__logo c-logo">
   <a href="{{ links.home }}">
-    <img src="img/logo-white.svg" alt="{{ siteName }}">
+    <img src="/img/logo-white.svg" alt="{{ siteName }}">
   </a>
 </h1>

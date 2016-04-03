@@ -6,26 +6,22 @@
   padding-top: rem(24px);
   padding-bottom: rem(24px);
   background: white;
-  text-align: center;
 
-    &__title {
-      margin-bottom: $rhythm / 2;
-      font-size: rem(18px);
-      text-align: center;
+    &__title, &__subTitle {
       text-transform: uppercase;
+      text-align: center;
 
         span {
           color: colour(brand, a);
         }
     }
+    &__title {
+      margin-bottom: $rhythm / 2;
+      font-size: rem(18px);
+    }
 
     &__subTitle {
       margin-bottom: $rhythm;
-      text-transform: uppercase;
-
-        span {
-          color: colour(brand, a);
-        }
     }
 
     &__info {
