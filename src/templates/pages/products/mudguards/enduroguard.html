@@ -5,22 +5,28 @@ pageId: js-product
 pageClass: c-productPage
 pageCss: product
 productName: EnduroGuard
+uk: true
 productVersion: v3 2016
 productLogo: enduroguard
-productOverview: Our new ENDUROGUARD v3 mudguard is a much improved design which is much better at coping with the bigger wheel sizes, we have also added new graphics and colourways to our range. Our mudguards are used by some of the best riders in the world keeping the mud and spray out of your eyes, we believe our new ENDUROGUARD v3 is the best mudguard of its type available today. Just snap-off the round holes either side of the RRP logo and you can attach it to the rear stays to protect your linkages and shock from getting hammered.
-productSizeDetails: {
+productOverview: [
+  "Our new ENDUROGUARD v3 mudguard is a much improved design which is much better at coping with the bigger wheel sizes, we have also added new graphics and colourways to our range.",
+  "Our mudguards are used by some of the best riders in the world keeping the mud and spray out of your eyes, we believe our new ENDUROGUARD v3 is the best mudguard of its type available today. Just snap-off the round holes either side of the RRP logo and you can attach it to the rear stays to protect your linkages and shock from getting hammered."
+]
+productSizes: {
   title: Available in 2 sizes,
   sizes: [
     {
-      size: Standard,
+      size: "Standard:",
       details: for forks from 80mm to 125mm travel
     },
     {
-      size: Large,
+      size: "Large:",
       details: for forks from 130mm to 200mm travel
     }
   ]
 }
+productImages: enduroguard/1
+productAlt: EnduroGuard
 ---
 
 {% extends "default.html" %}
@@ -29,10 +35,21 @@ productSizeDetails: {
 
   <article class="c-productMain">
 
-    {% include "product-overview.nunjucks" %}
+    <div class="o-container">
 
-    <div class="c-section">
-      details
+      {% include "product-overview.nunjucks" %}
+
+      {% if productSizes %}
+        <p class="u-center u-colWhite u-textLarge">Our <span class="u-upper u-col-white">{{ title }}</span> is designed, manufactured, and packed in the United Kingdom</p>
+      {% endif %}
+
+    </div><!-- !END div.o-grid -->
+
+    <div class="c-section c-section--dark">
+
+      <div class="o-container">
+        details
+      </div>
     </div>
 
   </article>

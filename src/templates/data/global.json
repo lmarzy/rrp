@@ -14,37 +14,37 @@
       "subnav": [
         {
           "title": "EnduroGuard",
-          "link": "/enduroguard.html",
+          "link": "/products/mudguards/enduroguard.html",
           "type": "OFF ROAD"
         },
         {
           "title": "FatGuard",
-          "link": "/fatguard.html",
+          "link": "/products/mudguards/fatguard.html",
           "type": "OFF ROAD"
         },
         {
           "title": "RearGuard",
-          "link": "/enduroguard-off-road.html",
+          "link": "/products/mudguards/enduroguard-off-road.html",
           "type": "OFF ROAD"
         },
         {
           "title": "RearGuard",
-          "link": "/enduroguard-road.html",
+          "link": "/products/mudguards/enduroguard-road.html",
           "type": "ROAD"
         },
         {
           "title": "NeoGuard",
-          "link": "/neoguard.html",
+          "link": "/products/mudguards/neoguard.html",
           "type": "Off Road"
         },
         {
           "title": "NeoGuard RIGID",
-          "link": "/neoguard-rigid.html",
+          "link": "/products/mudguards/neoguard-rigid.html",
           "type": "ROAD, OFF ROAD, CX"
         },
         {
           "title": "CX-Guard",
-          "link": "/cx-guard.html",
+          "link": "/products/mudguards/cx-guard.html",
           "type": "ROAD, OFF ROAD, CX"
         }
       ]
@@ -55,7 +55,7 @@
       "subnav": [
         {
           "title": "Bearing Press & Extraction Tool",
-          "link": "bpet.html",
+          "link": "/products/tools/bpet.html",
           "type": "Off Road"
         }
       ]
@@ -66,12 +66,12 @@
       "subnav": [
         {
           "title": "ValveGuard",
-          "link": "valveguard.html",
+          "link": "/products/wheel-accessories/toolsvalveguard.html",
           "type": "Road"
         },
         {
           "title": "PunctureGuard",
-          "link": "punctureguard.html",
+          "link": "/products/wheel-accessories/punctureguard.html",
           "type": "MTB"
         }
       ]
@@ -114,7 +114,7 @@
       "for": "MTB",
       "imgUrl": "/img/products/mudguards/enduroguard.png",
       "imgAlt": "EnduroGuard product image",
-      "url": "/products/mudguards/endurguard.html",
+      "url": "/products/mudguards/enduroguard.html",
       "latest": true
     },
     {
@@ -180,7 +180,7 @@
       "for": "MTB",
       "imgUrl": "/img/products/tools/bpet.png",
       "imgAlt": "Bearing Press & Extraction Tool(BPET) product image",
-      "url": "/products/mudguards/bpet.html",
+      "url": "/products/tools/bpet.html",
       "latest": true
     },
     {
@@ -189,7 +189,7 @@
       "for": "Road",
       "imgUrl": "/img/products/wheel-accessories/valveguard.png",
       "imgAlt": "ValveGuard product image",
-      "url": "/products/mudguards/valveguard.html",
+      "url": "/products/wheel-accessories/valveguard.html",
       "latest": false
     },
     {
@@ -198,7 +198,7 @@
       "for": "MTB",
       "imgUrl": "/img/products/wheel-accessories/punctureguard.png",
       "imgAlt": "PunctureGuard product image",
-      "url": "/products/mudguards/punctureguard.html",
+      "url": "/products/wheel-accessories/punctureguard.html",
       "latest": false
     }
   ],

@@ -1,13 +1,11 @@
 /* ==========================================================================
- UTILITIES/HELPERS - SPACINGS
+ UTILITIES/HELPERS - TYPOGRAPHY
  ========================================================================== */
 
-.u-mb05 {
-  margin-bottom: $rhythm / 2;
+.u-center {
+  text-align: center;
 }
-.u-mb1 {
-  margin-bottom: $rhythm;
-}
-.u-mb2 {
-  margin-bottom: $rhythm * 2;
+
+.u-textLarge {
+  font-size: rem(20px);
 }

@@ -2,6 +2,11 @@
   /* ==========================================================================
      UTILITIES/HELPERS - COLOURS
      ========================================================================== */
+
+  .u-colWhite {
+    color: white;
+  }
+
   @each $theme,$colour in map-get($colours, brand) {
     .u-col-#{$theme} {
       color: $colour !important;
