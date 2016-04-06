@@ -1,0 +1,26 @@
+<div class="c-tabs">
+
+  <ul class="c-tabs__nav o-container">
+    {% for item in tabsNav %}
+    <li class="c-tabs__navItem">
+      <a href="#{{ item.id }}" class="c-tabs__link {{ item.activeClass }}">{{ item.link }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <div class="c-tabs__contentWrap">
+
+    <div class="o-container">
+
+      <div id="details" class="c-tabs__content is-active">
+        details
+      </div>
+      <div id="details" class="c-tabs__content">
+        fitting
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

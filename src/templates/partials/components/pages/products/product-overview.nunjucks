@@ -3,32 +3,38 @@
   <img src="/img/product-logos/{{ productLogo }}.svg" alt="EnduroGuard">
 </h2>
 
-<div class="o-grid">
+<div class="c-box c-box--white u-mb2">
 
-  <div class="o-grid__item u-1of1 u-bp20-7of12 u-mb1">
+  <div class="o-grid">
 
-    <div class="c-box c-box--white">
+    <div class="o-grid__item u-1of1 u-bp20-7of12">
+
       <img src="/img/products/mudguards/{{ productImages }}.png" alt="{{ ProductAlt }}" class="c-productMain__img">
+
     </div>
 
-  </div>
+    <div class="o-grid__item u-1of1 u-bp20-5of12">
 
-  <div class="o-grid__item u-1of1 u-bp20-5of12 u-mb1">
-    <section class="c-box c-box--white">
-      <h3 class="u-mb1">{{ productName }} {{ productVersion }}</h3>
-      {% for item in productOverview %}
-        <p>{{ item }}</p>
-      {% endfor %}
-      {% if productSizes %}
-        <h3 class="u-mb05">{{ productSizes.title }}</h3>
-        <dl class="c-dl u-mb1">
-          {% for item in productSizes.sizes %}
-            <dt>{{ item.size }}</dt>
-            <dd>{{ item.details }}</dd>
-          {% endfor %}
-        </dl>
-      {% endif %}
-    </section>
+      <section class="c-productMain__overview">
+
+        <h3 class="u-mb1">{{ productName }} {{ productVersion }}</h3>
+        {% for item in productOverview %}
+          <p>{{ item }}</p>
+        {% endfor %}
+        <!-- {% if productSizes %}
+          <h3 class="u-mb05">{{ productSizes.title }}</h3>
+          <dl class="c-dl u-mb1">
+            {% for item in productSizes.sizes %}
+              <dt>{{ item.size }}</dt>
+              <dd>{{ item.details }}</dd>
+            {% endfor %}
+          </dl>
+        {% endif %} -->
+
+      </section>
+
+    </div>
+
   </div>
 
 </div>

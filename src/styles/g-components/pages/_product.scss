@@ -15,7 +15,7 @@
     }
 
     &--latest {
-      margin: rem(16px);
+      margin: rem(14px);
       border-radius: 4px;
     }
 
@@ -38,7 +38,7 @@
       z-index: 10;
 
         &--more {
-          font-size: rem(14px);
+          font-size: rem(12px);
           color: colour(brand, a);
         }
     }

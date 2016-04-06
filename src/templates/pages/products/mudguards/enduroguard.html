@@ -27,6 +27,17 @@ productSizes: {
 }
 productImages: enduroguard/1
 productAlt: EnduroGuard
+tabsNav: [
+  {
+    link: Details,
+    id: details,
+    activeClass: is-active
+  },
+  {
+    link: Fitting,
+    id: fitting
+  }
+]
 ---
 
 {% extends "default.html" %}
@@ -39,18 +50,11 @@ productAlt: EnduroGuard
 
       {% include "product-overview.nunjucks" %}
 
-      {% if productSizes %}
-        <p class="u-center u-colWhite u-textLarge">Our <span class="u-upper u-col-white">{{ title }}</span> is designed, manufactured, and packed in the United Kingdom</p>
-      {% endif %}
+      <!-- <p class="u-center u-colWhite u-textLarge">Our <span class="u-upper u-col-white">{{ title }}</span> is designed, manufactured, and packed in the United Kingdom</p> -->
 
     </div><!-- !END div.o-grid -->
 
-    <div class="c-section c-section--dark">
-
-      <div class="o-container">
-        details
-      </div>
-    </div>
+    {% include "tabs.nunjucks" %}
 
   </article>
 

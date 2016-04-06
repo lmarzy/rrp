@@ -5,29 +5,22 @@
 .c-productMain {
 
     &__title {
-      margin-bottom: $rhythm;
       padding: $rhythm 0;
       text-align: center;
       line-height: 0;
+      border-top: 1px solid darken(colour(brand, c),14);
     }
 
     &__img {
       display: block;
       width: 100%;
+      box-shadow: 0 0 8px rgba(black, 0.4);
     }
 
     @include bp(20, max) {
-      &__title {
-        padding: $rhythm / 2 rem(6px);
-        background: rgba(white, 0.6);
+      &__overview {
+        padding-top: $rhythm;
       }
     }
-    @include bp(20) {
-      &__title {
-        padding: $rhythm 0;
-        border-width: 1px 0 1px 0;
-        border-style: solid;
-        border-color: darken(colour(brand, c),14);
-      }
-    }
+
 }

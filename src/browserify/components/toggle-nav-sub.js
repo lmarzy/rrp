@@ -1,3 +1,7 @@
+/*
+ * Toggle nav sub items
+*/
+
 export default function toggleItem() {
   var itemClass = this.parentNode.classList.contains('c-siteNav__item--sub-active');
   console.log(itemClass);

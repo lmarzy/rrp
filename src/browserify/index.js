@@ -1,3 +1,5 @@
+import { tabs } from './components/tabs';
+
 'use strict';
 
 var burgerId = document.getElementById('js-burger');
@@ -22,3 +24,17 @@ function toggleItem() {
 for (var i=0; i < subNavId.length; i++) {
   subNavId[i].addEventListener('click', toggleItem, false);
 }
+
+//tabs
+
+var productTabs = tabs({
+  el: '.c-tabs',
+  link: '.c-tabs__link',
+  content: '.c-tabs__content'
+});
+
+var productTabs2 = tabs({
+  el: '.c-tabss',
+  link: '.c-tabs__links',
+  content: '.c-tabs__contents'
+});

@@ -1,3 +1,7 @@
+/*
+ * Toggle nav
+*/
+
 'use strict';
 
 var burgerId = document.getElementById('js-burger');
