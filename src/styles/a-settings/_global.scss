@@ -3,13 +3,13 @@
 $settings: (
 
 	type: (
-		fontFamily 					: ('Open Sans', sans-serif),
+		fontFamily 					: ("Lato", sans-serif),
 		fontSize 						: 100%,
 		lineHeight 					: $line-height / $font-size
 	),
 
 	headings: (
-		fontFamily 					: ('Droid Serif', serif),
+		fontFamily 					: ("Playfair Display", serif),
 		fontSize 						: inherit,
 		fontWeight 					: 700
 	),
