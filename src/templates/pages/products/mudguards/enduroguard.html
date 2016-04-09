@@ -9,19 +9,61 @@ uk: true
 productVersion: v3 2016
 productLogo: enduroguard
 productOverview: [
-  "Our new ENDUROGUARD v3 mudguard is a much improved design which is much better at coping with the bigger wheel sizes, we have also added new graphics and colourways to our range.",
-  "Our mudguards are used by some of the best riders in the world keeping the mud and spray out of your eyes, we believe our new ENDUROGUARD v3 is the best mudguard of its type available today. Just snap-off the round holes either side of the RRP logo and you can attach it to the rear stays to protect your linkages and shock from getting hammered."
+  "Our new ENDUROGUARD v3 mudguard is a much improved design which is much better at coping with the bigger wheel sizes, we have also added new graphics and colourways to our range."
 ]
 productSizes: {
   title: Available in 2 sizes,
   sizes: [
     {
       size: "Standard:",
-      details: for forks from 80mm to 125mm travel
+      details: for forks from 80mm to 125mm travel,
+      weight: 31g (with uncut zip ties)
     },
     {
       size: "Large:",
-      details: for forks from 130mm to 200mm travel
+      details: for forks from 130mm to 200mm travel,
+      weight: 35g (with uncut zip ties)
+    }
+  ]
+}
+productColours: {
+  title: Colours available,
+  colours: [
+    {
+      colour: Black,
+      class: black
+    },
+    {
+      colour: White,
+      class: white
+    },
+    {
+      colour: Cyan,
+      class: cyan
+    },
+    {
+      colour: Yellow,
+      class: yellow
+    },
+    {
+      colour: Green,
+      class: green
+    },
+    {
+      colour: Red,
+      class: red
+    },
+    {
+      colour: Magenta,
+      class: magenta
+    },
+    {
+      colour: Blue,
+      class: blue
+    },
+    {
+      colour: Orange,
+      class: orange
     }
   ]
 }
@@ -50,11 +92,34 @@ tabsNav: [
 
       {% include "product-overview.nunjucks" %}
 
-      <!-- <p class="u-center u-colWhite u-textLarge">Our <span class="u-upper u-col-white">{{ title }}</span> is designed, manufactured, and packed in the United Kingdom</p> -->
-
     </div><!-- !END div.o-grid -->
 
-    {% include "tabs.nunjucks" %}
+    <div class="c-tabs">
+
+      <ul class="c-tabs__nav o-container">
+        {% for item in tabsNav %}
+        <li class="c-tabs__navItem">
+          <a href="#{{ item.id }}" class="c-tabs__link {{ item.activeClass }}">{{ item.link }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <div class="c-tabs__contentWrap">
+
+        <div class="o-container">
+
+          <div id="details" class="c-tabs__content is-active">
+            {% include "details-enduroguard.nunjucks" %}
+          </div>
+          <div id="details" class="c-tabs__content">
+            fitting
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
 
   </article>
 
