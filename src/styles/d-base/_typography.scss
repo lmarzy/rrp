@@ -33,13 +33,17 @@ blockquote:before {
   left: 0;
   color: #ccc;
   content: open-quote;
+  font-family: "Playfair Display", serif;
   font-size: 6em;
   line-height: 0.1em;
+}
+blockquote:after {
+  content: close-quote;
+  visibility: hidden;
 }
 blockquote p {
   margin-bottom: $rhythm / 2;
   font-style: italic;
-  color: white;
 }
 
 cite {

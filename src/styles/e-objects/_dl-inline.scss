@@ -3,10 +3,12 @@
    ========================================================================== */
 
 .o-dlInline {
+  dt {
+    margin-right: rem(4px);
+  }
   dt,
   dd {
     display: inline;
-    margin: 0;
   }
   dd::after {
     content: "\A";

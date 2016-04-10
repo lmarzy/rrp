@@ -67,8 +67,19 @@ productColours: {
     }
   ]
 }
-productImages: enduroguard/1
-productAlt: EnduroGuard
+productImages: [
+  {
+    imageUrl: enduroguard/1,
+    imageAlt: EnduroGuard
+  },
+  {
+    imageUrl: enduroguard/2,
+    imageAlt: EnduroGuard
+  }
+]
+ukDistributor: [
+  EXTRA UK
+]
 tabsNav: [
   {
     link: Details,
@@ -76,13 +87,31 @@ tabsNav: [
     activeClass: is-active
   },
   {
-    link: Fitting,
-    id: fitting
+    link: Reviews,
+    id: reviews
+  }
+]
+reviews: [
+  {
+    quote: "We think RRP might have managed to sneak ahead of the competition thanks to some neat little touches on this new EnduroGuard",
+    cite: Dirt mountainbike magazine
+  },
+  {
+    quote: "They are real easy to install, their performance is good, these are very affordable. The EnduroGuard Mudguard fits all sized wheels and the colour choice is also a great option",
+    cite: Enduro mountainbike magazine
+  },
+  {
+    quote: "A more aesthetically pleasing splatter guard, a wee bit stiffer than some of the rivals. Fit is great, it's almost compulsary to have one of these fitted even if you only ride in the dry. Seal Guards! Yes",
+    cite: Decent-World
   }
 ]
 ---
 
 {% extends "default.html" %}
+
+{% block icons %}
+  {% include "icons-products.nunjucks" %}
+{% endblock %}
 
 {% block content %}
 
@@ -111,8 +140,8 @@ tabsNav: [
           <div id="details" class="c-tabs__content is-active">
             {% include "details-enduroguard.nunjucks" %}
           </div>
-          <div id="details" class="c-tabs__content">
-            fitting
+          <div id="reviews" class="c-tabs__content">
+            {% include "reviews-enduroguard.nunjucks" %}
           </div>
 
         </div>

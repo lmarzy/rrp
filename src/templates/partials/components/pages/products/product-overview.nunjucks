@@ -9,8 +9,19 @@
 
     <div class="o-grid__item u-1of1 u-bp20-7of12">
 
-      <img src="/img/products/mudguards/{{ productImages }}.png" alt="{{ ProductAlt }}" class="c-productMain__img">
-
+      <div class="c-gallery">
+        {% for image in productImages %}
+          <img src="/img/products/mudguards/{{ image.imageUrl }}.png" alt="{{ image.imageAlt }}" class="c-gallery__img">
+        {% endfor %}
+        <button type="button" class="c-gallery__btn c-gallery__btn--prev">
+          <span class="is-vh">Click for previous image</span>
+          <svg class="icon icon-chevron-left"><use xlink:href="#icon-chevron-left"></use></svg>
+        </button>
+        <button type="button" class="c-gallery__btn c-gallery__btn--next">
+          <span class="is-vh">Click for next image</span>
+          <svg class="icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
+        </button>
+      </div>
     </div>
 
     <div class="o-grid__item u-1of1 u-bp20-5of12">
@@ -38,13 +49,22 @@
 
         {% if productColours %}
           <h4 class="u-mb05">{{ productColours.title }}</h4>
-          <ul class="c-productCols">
+          <ul class="c-productCols u-mb1">
             {% for item in productColours.colours %}
               <li class="c-productCols__item c-productCols__item--{{ item.class }}">
                 {{ item.colour }}
               </li>
             {% endfor %}
           </ul>
+        {% endif %}
+
+        {% if ukDistributor %}
+          <dl class="o-dlInline">
+            <dt>UK distributor:</dt>
+            {% for distributor in ukDistributor %}
+              <dd>{{ distributor }}</dd>
+            {% endfor %}
+          </dl>
         {% endif %}
 
       </section>

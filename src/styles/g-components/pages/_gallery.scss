@@ -1,0 +1,40 @@
+/* ==========================================================================
+   COMPONENTS/PAGES - GALLERY
+   ========================================================================== */
+
+.c-gallery {
+  box-shadow: 0 0 8px rgba(black, 0.4);
+
+    &__img {
+      display: none;
+      width: 100%;
+      margin-bottom: rem(6px);
+
+        &.is-visible {
+          display: block
+        }
+    }
+    &__btn {
+      padding: rem(6px) rem(10px);
+      font-size: rem(20px);
+      line-height: 0;
+      background: lighten(colour(brand, a),10);
+      border-radius: 8px;
+      color: white;
+      border: none;
+      box-shadow: 0 0 8px rgba(black, 0.4);
+      opacity: 0.8;
+      cursor: pointer;
+
+        &:hover {
+          opacity: 1;
+        }
+
+        &--prev {
+          float: left;
+        }
+        &--next {
+          float: right;
+        }
+    }
+}

@@ -1,4 +1,5 @@
 import { tabs } from './components/tabs';
+import { gallery } from './components/gallery';
 
 'use strict';
 

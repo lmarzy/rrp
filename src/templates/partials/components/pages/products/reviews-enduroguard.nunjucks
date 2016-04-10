@@ -1,0 +1,8 @@
+{% for item in reviews %}
+  <blockquote>
+    <p>{{ item.quote }}</p>
+    <footer>
+      <cite>{{ item.cite }}</cite>
+    </footer>
+  </blockquote>
+{% endfor %}

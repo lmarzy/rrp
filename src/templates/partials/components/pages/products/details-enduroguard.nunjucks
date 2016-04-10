@@ -30,4 +30,4 @@ Choose either the STANDARD or LARGE size depending on what rear protection you w
 <h3>MATERIAL</h3>
 <p>We took a more expensive route opting for a custom thickness of polypropylene to meet our requirements, we felt the standard "off the shelf" options used by others were either too thick (1.2mic) or too thin (0.8mic), our custom material sits squarely in-between. This allows us to offer the best of both worlds, the durability and quality feel that a thicker material gives, combined with the fit flexibility that a thinner material delivers</p>
 
-<p class="u-center u-colWhite u-textLarge">Our <span class="u-upper u-col-white">{{ title }}</span> is designed, manufactured, and packed in the United Kingdom</p>
+{% include "made-in-uk.nunjucks" %}
