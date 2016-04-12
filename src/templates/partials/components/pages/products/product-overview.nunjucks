@@ -52,7 +52,7 @@
           <ul class="c-productCols u-mb1">
             {% for item in productColours.colours %}
               <li class="c-productCols__item c-productCols__item--{{ item.class }}">
-                {{ item.colour }}
+                <img src="/img/products/{{ item.imageUrl }}" alt="{{ item.imageAlt }}" class="c-productCols__img" title="{{ item.colour }}">
               </li>
             {% endfor %}
           </ul>

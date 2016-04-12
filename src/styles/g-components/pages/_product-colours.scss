@@ -7,44 +7,14 @@
   flex-wrap: wrap;
 
   &__item {
-    flex: 1 0 100px;
-    max-width: 100px;
-    padding: rem(6px);
-    border: 1px solid lighten(colour(brand, b), 65);
-    font-size: rem(12px);
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
-
-    &--black {
-      background: black;
-    }
-    &--white {
-      background: white;
-      color: colour(main, text);
-    }
-    &--cyan {
-      background: colour(products, cyan);
-    }
-    &--yellow {
-      background: colour(products, yellow);
-      color: colour(main, text);
-    }
-    &--red {
-      background: colour(products, red);
-    }
-    &--magenta {
-      background: colour(products, magenta);
-    }
-    &--orange {
-      background: colour(products, orange);
-    }
-    &--green {
-      background: colour(products, green);
-    }
-    &--blue {
-      background: colour(products, blue);
-    }
+    flex: 1 0 80px;
+    max-width: 80px;
+    padding: rem(4px);
+    background: white;
+    border: 1px solid lighten(colour(brand, a),45);
+  }
+  &__img {
+    display: block;
   }
 
 }
