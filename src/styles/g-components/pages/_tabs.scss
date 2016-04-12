@@ -7,8 +7,10 @@
   &__nav {
     display: flex;
   }
-  &__navItem:not(:last-child) {
-    border-right: 1px solid colour(brand, b);
+  &__navItem {
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: lighten(colour(brand, b),10);
   }
   &__link {
     display: block;

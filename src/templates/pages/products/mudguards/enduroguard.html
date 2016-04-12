@@ -6,22 +6,22 @@ pageClass: c-productPage
 pageCss: product
 productName: EnduroGuard
 uk: true
-productVersion: v3 
+productVersion: v3
 productLogo: enduroguard
 productOverview: [
-  "Our new ENDUROGUARD v3 mudguard is a much improved design which is much better at coping with the bigger wheel sizes, we have also added new graphics and colourways to our range."
+  "Our new ENDUROGUARD v3 mudguard is an improved design which is much better at coping with the bigger wheel sizes, we believe our mudguard is the best designed offering by far the best protection of its type We have also added new graphics and colourways to our range."
 ]
 productSizes: {
   title: Available in 2 sizes,
   sizes: [
     {
       size: "Standard:",
-      details: for forks from 80mm to 125mm travel,
+      details: For forks from 80mm to 125mm travel,
       weight: 31g (with uncut zip ties)
     },
     {
       size: "Large:",
-      details: for forks from 130mm to 200mm travel,
+      details: For forks from 130mm to 200mm travel,
       weight: 35g (with uncut zip ties)
     }
   ]
@@ -132,10 +132,47 @@ tabsNav: [
     activeClass: is-active
   },
   {
+    link: Fitting,
+    id: fitting
+  },
+  {
     link: Reviews,
     id: reviews
   }
 ]
+fitting: {
+  front: [
+    {
+      step: Remove zip ties and insert them into all the holes as shown below
+    },
+    {
+      step: Bend and slide the ENDUROGUARD into position from the front
+    },
+    {
+      step: Loosely fasten up the top zip ties around the fork brace first then the legs4) Centralise and then tighten up the top zip ties real tight so it won't move
+    },
+    {
+      step: Rotate/twist the bottom arms around the legs to raise the back of the guard (ensure the guard doesn't hit the frame when bottoming the fork)
+    },
+    {
+      step: Tighten all zip ties and cut off any excess and move them to cover the holes
+    },
+    {
+      step: Finally push up the arms to shove the guard up towards the fork brace
+    }
+  ],
+  rear: [
+    {
+      step: Remove the snap-off holes either side of the RRP logo if you have a rear brace, if you don't have a rear brace then use the other snap-off holes
+    },
+    {
+      step: Loosely attach the zip ties to the rear seatstays and rear brace
+    },
+    {
+      step: Align the ENDUROGUARD and do up all the zip ties real tight
+    }
+  ]
+}
 reviews: [
   {
     quote: "We think RRP might have managed to sneak ahead of the competition thanks to some neat little touches on this new EnduroGuard",
@@ -184,6 +221,9 @@ reviews: [
 
           <div id="details" class="c-tabs__content is-active">
             {% include "details-enduroguard.nunjucks" %}
+          </div>
+          <div id="fitting" class="c-tabs__content">
+            {% include "fitting-enduroguard.nunjucks" %}
           </div>
           <div id="reviews" class="c-tabs__content">
             {% include "reviews-enduroguard.nunjucks" %}

@@ -7,14 +7,24 @@
   flex-wrap: wrap;
 
   &__item {
-    flex: 1 0 80px;
-    max-width: 80px;
+    flex: 1 0 75px;
+    max-width: 75px;
     padding: rem(4px);
     background: white;
-    border: 1px solid lighten(colour(brand, a),45);
+    border: 1px solid lighten(colour(brand, b),48);
   }
   &__img {
     display: block;
+  }
+  &__name {
+    display: block;
+    margin: rem(2px) rem(-3px) rem(-3px) rem(-3px);
+    padding: rem(1px);
+    font-size: rem(11px);
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    background: rgba(black, 0.3);
   }
 
 }
