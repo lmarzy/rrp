@@ -14,37 +14,37 @@
       "subnav": [
         {
           "title": "EnduroGuard",
-          "link": "/products/mudguards/enduroguard.html",
+          "link": "/products/mudguards/thumbs/enduroguard.html",
           "type": "OFF ROAD"
         },
         {
           "title": "FatGuard",
-          "link": "/products/mudguards/fatguard.html",
+          "link": "/products/mudguards/thumbs/fatguard.html",
           "type": "OFF ROAD"
         },
         {
           "title": "RearGuard",
-          "link": "/products/mudguards/enduroguard-off-road.html",
+          "link": "/products/mudguards/thumbs/enduroguard-off-road.html",
           "type": "OFF ROAD"
         },
         {
           "title": "RearGuard",
-          "link": "/products/mudguards/enduroguard-road.html",
+          "link": "/products/mudguards/thumbs/enduroguard-road.html",
           "type": "ROAD"
         },
         {
           "title": "NeoGuard",
-          "link": "/products/mudguards/neoguard.html",
+          "link": "/products/mudguards/thumbs/neoguard.html",
           "type": "Off Road"
         },
         {
           "title": "NeoGuard RIGID",
-          "link": "/products/mudguards/neoguard-rigid.html",
+          "link": "/products/mudguards/thumbs/neoguard-rigid.html",
           "type": "ROAD, OFF ROAD, CX"
         },
         {
           "title": "CX-Guard",
-          "link": "/products/mudguards/cx-guard.html",
+          "link": "/products/mudguards/thumbs/cx-guard.html",
           "type": "ROAD, OFF ROAD, CX"
         }
       ]
@@ -55,7 +55,7 @@
       "subnav": [
         {
           "title": "Bearing Press & Extraction Tool",
-          "link": "/products/tools/bpet.html",
+          "link": "/products/tools/thumbs/bpet.html",
           "type": "Off Road"
         }
       ]
@@ -66,12 +66,12 @@
       "subnav": [
         {
           "title": "ValveGuard",
-          "link": "/products/wheel-accessories/toolsvalveguard.html",
+          "link": "/products/wheel-accessories/thumbs/toolsvalveguard.html",
           "type": "Road"
         },
         {
           "title": "PunctureGuard",
-          "link": "/products/wheel-accessories/punctureguard.html",
+          "link": "/products/wheel-accessories/thumbs/punctureguard.html",
           "type": "MTB"
         }
       ]

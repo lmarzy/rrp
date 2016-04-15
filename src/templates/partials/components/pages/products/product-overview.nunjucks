@@ -11,7 +11,7 @@
 
       <div class="c-gallery">
         {% for image in productImages %}
-          <img src="/img/products/mudguards/{{ image.imageUrl }}.png" alt="{{ image.imageAlt }}" class="c-gallery__img">
+          <img src="/img/products/{{ image.imageUrl }}.png" alt="{{ image.imageAlt }}" class="c-gallery__img">
         {% endfor %}
         <button type="button" class="c-gallery__btn c-gallery__btn--prev">
           <span class="is-vh">Click for previous image</span>

@@ -1,0 +1,8 @@
+<li class="c-fitting__item">
+  {{ step.step }}
+  {% if step.images %}
+    {% for image in step.images %}
+      <img src="/img/products/{{ image.imgUrl }}" alt="{{ image.imgUrl }}" class="c-fitting__img">
+    {% endfor %}
+  {% endif %}
+</li>

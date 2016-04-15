@@ -2,18 +2,18 @@
 
 {% if fitting.front %}
   <h4>Front mudguard</h4>
-  <ol>
+  <ol class="c-fitting">
   {% for step in fitting.front %}
-    <li>{{ step.step }}</li>
+    {% include "fitting.nunjucks" %}
   {% endfor %}
   </ol>
 {% endif %}
 
 {% if fitting.rear %}
   <h4>Rear mudguard</h4>
-  <ol>
-  {% for step in fitting.rear %}
-    <li>{{ step.step }}</li>
-  {% endfor %}
+  <ol class="c-fitting">
+    {% for step in fitting.rear %}
+      {% include "fitting.nunjucks" %}
+    {% endfor %}
   </ol>
 {% endif %}
