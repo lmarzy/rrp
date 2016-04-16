@@ -34,4 +34,5 @@ var productTabs = tabs({
   content: '.c-tabs__content'
 });
 
+gallery();
 prodColImage();

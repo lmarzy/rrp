@@ -6,6 +6,9 @@
 let fn = (options) => {
 
   let $el         = document.querySelector(options.el);
+
+  if(!$el) return;
+
   let $tabLinks   = $el.querySelectorAll(options.link);
   let $tabContent = $el.querySelectorAll(options.content);
   let activeIndex = 0;

@@ -7,6 +7,9 @@ import { selectorMatches } from '../helpers/selector-matches';
 const init = () => {
 
   const productCols = document.querySelector('.c-productCols');
+
+  if(!productCols) return;
+
   const gallery     = document.getElementsByClassName('c-gallery')[0];
   const images      = gallery.getElementsByTagName('img');
 
