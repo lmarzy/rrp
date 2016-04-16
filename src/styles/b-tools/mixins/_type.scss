@@ -5,7 +5,7 @@
   line-height: ceil($size / $line-height) * (($line-height * $multiplier) / $size);
 
   @if ($margin-bottom != null) {
-    margin-bottom: $base-spacing * $margin-bottom;
+    margin-bottom: $rhythm * $margin-bottom;
   }
 }
 

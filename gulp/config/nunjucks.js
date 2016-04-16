@@ -16,6 +16,7 @@ module.exports = {
       path.src + 'templates/partials/components/pages/index',
       path.src + 'templates/partials/components/pages/products',
       path.src + 'templates/partials/components/pages/products/enduroguard',
+      path.src + 'templates/partials/components/pages/products/fatguard',
       path.src + 'templates/partials/icons'
     ],
     data: path.src + 'templates/data/global.json',

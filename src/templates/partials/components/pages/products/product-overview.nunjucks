@@ -34,7 +34,11 @@
 
       <section class="c-productMain__overview">
 
-        <h3 class="u-mb1">{{ productName }} <em>{{ productVersion }}</em></h3>
+        <h3 class="c-productMain__subTitle">{{ productName }} <em>{{ productVersion }}</em></h3>
+
+        {% if productShortDesc %}
+          <p class="c-productMain__shortDesc">{{ productShortDesc }}</p>
+        {% endif %}
 
         {% for item in productOverview %}
           <p>{{ item }}</p>

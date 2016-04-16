@@ -1,4 +1,4 @@
-<h3 class="u-mb1">Fitting the EnduroGuard</h3>
+<h3 class="u-mb1">Fitting the {{ productName }}</h3>
 
 {% if fitting.front %}
   <h4>Front mudguard</h4>
