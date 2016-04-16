@@ -39,14 +39,20 @@ body {
 
     &.c-indexPage, &.c-productPage {
       background-color: black;
-      background-image: url($imgPath+'bg-index.jpg');
+      background-image: url($imgPath+'bg-main1.jpg');
       background-position: 0 0;
       background-repeat: no-repeat;
-      background-size: 120%;
+      background-size: 100%;
 
-        @include bp(20) {
-          background-size: 100%;
-          background-position: 0 -64px;
+        @include bp(bg1) {
+          background-image: url($imgPath+'bg-main2.jpg');
         }
+        @include bp(bg2) {
+          background-image: url($imgPath+'bg-main3.jpg');
+        }
+        @include bp(bg3) {
+          background-image: url($imgPath+'bg-main4.jpg');
+        }
+
     }
 }

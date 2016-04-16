@@ -10,8 +10,6 @@ let nextBtn   = gallery.getElementsByClassName('c-gallery__btn--next')[0];
 let prevBtn   = gallery.getElementsByClassName('c-gallery__btn--prev')[0];
 let counter   = 0;
 
-console.log(nextBtn);
-
 function showImage (index) {
   // Set classname on the image-elements (hide them)
   for (var i = 0; i < images.length; i += 1) {

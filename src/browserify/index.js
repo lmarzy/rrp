@@ -1,5 +1,6 @@
-import { tabs } from './components/tabs';
-import { gallery } from './components/gallery';
+import { tabs }     from './components/tabs';
+import { gallery }  from './components/gallery';
+import { prodColImage }  from './components/product-colour-image';
 
 'use strict';
 
@@ -27,15 +28,10 @@ for (var i=0; i < subNavId.length; i++) {
 }
 
 //tabs
-
 var productTabs = tabs({
   el: '.c-tabs',
   link: '.c-tabs__link',
   content: '.c-tabs__content'
 });
 
-var productTabs2 = tabs({
-  el: '.c-tabss',
-  link: '.c-tabs__links',
-  content: '.c-tabs__contents'
-});
+prodColImage();

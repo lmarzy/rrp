@@ -11,7 +11,13 @@
 
       <div class="c-gallery">
         {% for image in productImages %}
-          <img src="/img/products/{{ image.imageUrl }}.png" alt="{{ image.imageAlt }}" class="c-gallery__img">
+          <img
+            src="/img/products/{{ image.imageUrl }}.png"
+            alt="{{ image.imageAlt }}"
+            {% if image.colour %}
+            id="col{{ image.colour }}"
+            {% endif %}
+            class="c-gallery__img">
         {% endfor %}
         <button type="button" class="c-gallery__btn c-gallery__btn--prev">
           <span class="is-vh">Click for previous image</span>
@@ -28,7 +34,7 @@
 
       <section class="c-productMain__overview">
 
-        <h3 class="u-mb1">{{ productName }} {{ productVersion }}</h3>
+        <h3 class="u-mb1">{{ productName }} <em>{{ productVersion }}</em></h3>
 
         {% for item in productOverview %}
           <p>{{ item }}</p>
@@ -52,8 +58,10 @@
           <ul class="c-productCols u-mb1">
             {% for item in productColours.colours %}
               <li class="c-productCols__item c-productCols__item--{{ item.class }}">
-                <img src="/img/products/{{ item.imageUrl }}" alt="{{ item.imageAlt }}" class="c-productCols__img" title="{{ item.colour }}">
-                <span class="c-productCols__name">{{ item.colour }}</span>
+                <a href="#col{{ item.colour }}">
+                  <img src="/img/products/{{ item.imageUrl }}" alt="{{ item.imageAlt }}" class="c-productCols__img" title="{{ item.colour }}" data-target="col{{ item.colour }}">
+                  <span class="c-productCols__name">{{ item.colour }}</span>
+                </a>
               </li>
             {% endfor %}
           </ul>

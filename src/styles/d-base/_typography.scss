@@ -46,6 +46,11 @@ blockquote p {
   font-style: italic;
 }
 
+em {
+  font-style: normal;
+  color: colour(brand, a);
+}
+
 cite {
   color: colour(brand, a);
 }
