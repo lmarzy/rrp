@@ -36,4 +36,11 @@
       }
   }
 
+  @include bp(15) {
+    &__fittingVid {
+      float: right;
+      margin-top: rem(-60px);
+    }
+  }
+
 }

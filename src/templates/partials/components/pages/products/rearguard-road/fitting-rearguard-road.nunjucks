@@ -1,5 +1,9 @@
 <h3 class="u-mb1">Fitting the {{ productName }}</h3>
 
+<a href="{{ fitting.fittingVidLink }}" title="View the how to fit video on YouTube" class="c-tabs__fittingVid">
+  <img src="/img/fittingVid-link.svg" alt="Link to how to fit video">
+</a>
+
 <ol class="c-fitting">
   {% for step in fitting.saddle %}
     {% include "fitting.nunjucks" %}
@@ -19,5 +23,3 @@
 <h4 class="u-col-a">Important</h4>
 <p>{{ fittingImportant }}</p>
 {% endif %}
-
-{% include "made-in-uk.nunjucks" %}
