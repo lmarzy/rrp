@@ -1,0 +1,148 @@
+---
+title: RearGuard - off road
+desc: Needs updating
+pageId: js-product
+pageClass: c-productPage
+pageCss: product
+productName: RearGuard - off road,
+productShortDesc: "Simply the best last minute rear mudguard 'keep your rear clear' off road & road"
+uk: true
+productLogo: rearguard
+productOverview: [
+  "The RearGuard - OFF ROAD is designed for use off road on either a mountain bike or CX bike, its a fast fitting mudguard for those last minute decisions. It attaches underneath the saddle with 1 velcro strap and takes less than 20 seconds to fit (after initial set up). It will never come off during your ride and offers great protection for your REAR and back"
+]
+productWeight: 23g
+productColours: {
+  title: Colours available,
+  colours: [
+    {
+      colour: Black,
+      imageUrl: mudguards/rearguard-offroad/gallery/black.png,
+      imageAlt: RearGuard in black
+    },
+    {
+      colour: White,
+      imageUrl: mudguards/rearguard-offroad/gallery/white.png,
+      imageAlt: RearGuard in black
+    }
+  ]
+}
+productImages: [
+  {
+    imageUrl: mudguards/rearguard-offroad/gallery/1,
+    imageAlt: RearGuard-OffRoad
+  },
+  {
+    imageUrl: mudguards/rearguard-offroad/gallery/2,
+    imageAlt: RearGuard-OffRoad
+  },
+  {
+    imageUrl: mudguards/rearguard-offroad/gallery/3,
+    imageAlt: RearGuard-OffRoad
+  },
+  {
+    imageUrl: mudguards/rearguard-offroad/gallery/4,
+    imageAlt: RearGuard-OffRoad
+  },
+  {
+    imageUrl: mudguards/rearguard-offroad/gallery/black,
+    imageAlt: RearGuard-OffRoad,
+    colour: Black
+  },
+  {
+    imageUrl: mudguards/rearguard-offroad/gallery/white,
+    imageAlt: RearGuard-OffRoad,
+    colour: White
+  }
+]
+tabsNav: [
+  {
+    link: Fitting,
+    id: fitting,
+    activeClass: is-active
+  },
+  {
+    link: Reviews,
+    id: reviews
+  },
+]
+fitting: {
+  saddle: [
+    {
+      step: If your RearGuard doesn't come with the strap fitted, then feed the Velcro strap A through the slots on the RearGuard with the hook and loop side facing upwards (outside) NB: the holes are designed to be a tight fit to stop the Velcro sliding when fitting
+    },
+    {
+      step: Pinch / bend the sides of the RearGuard hard in area C marked below and slide through the rear seat rails
+    },
+    {
+      step: "Then push both the arms B and the Velcro strap A over the top of the saddle rail both sides from the inside NB: you can be aggressive if tight, its important all 4 arms B and Velcro strap A sit on the OUTSIDE of the rail"
+    },
+    {
+      step: Now loop the Velcro strap A through the plastic buckle and attach loosely ensuring that the plastic buckle finishes up between the rails, now centre the guard at the rear
+    },
+    {
+      step: This next bit is important, once loosely fitted you need to undo and hold the Velcro strap A with one hand, and then push the guard in from the rear whilst tightening the Velcro strap back up TIGHT to finish.,
+      images: [
+        {
+          imgUrl: mudguards/rearguard-offroad/fitting/saddle-1.svg,
+          imgAlt: Image showing how to fit the RearGuard Off Road
+        }
+      ]
+    }
+  ],
+  removal: [
+    {
+      step: "Simply undo the Velcro strap A, pinch the sides of the RearGuard hard in area C marked below until all 4 arms B have popped back over the saddle rail, and then pull out backwards"
+    }
+  ]
+}
+fittingImportant: This mudguard is not suitable for riding off the back of the saddle THE VELCRO STRAPS MUST BE TIGHT AND OUT OF THE WAY OF ANY CLOTHING OR MOVEMENT BE CAREFUL not to kick the RearGuard when getting on and off the bike as this may cause damage orinjury Not advised to be used with DROPPER seat posts as it may strike the tyre under full compression when the post is down
+---
+
+{% extends "default.html" %}
+
+{% block icons %}
+  {% include "icons-products.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+
+  <article class="c-productMain">
+
+    <div class="o-container">
+
+      {% include "product-overview.nunjucks" %}
+
+    </div><!-- !END div.o-grid -->
+
+    <div class="c-tabs">
+
+      <ul class="c-tabs__nav o-container">
+        {% for item in tabsNav %}
+        <li class="c-tabs__navItem">
+          <a href="#{{ item.id }}" class="c-tabs__link {{ item.activeClass }}">{{ item.link }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <div class="c-tabs__contentWrap">
+
+        <div class="o-container">
+
+          <div id="fitting" class="c-tabs__content is-active">
+            {% include "fitting-rearguard-offroad.nunjucks" %}
+          </div>
+
+          <div id="reviews" class="c-tabs__content">
+            {% include "reviews.nunjucks" %}
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </article>
+
+{% endblock %}

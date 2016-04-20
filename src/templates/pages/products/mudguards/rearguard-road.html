@@ -1,0 +1,170 @@
+---
+title: RearGuard - road
+desc: Needs updating
+pageId: js-product
+pageClass: c-productPage
+pageCss: product
+productName: RearGuard - road,
+productShortDesc: "Simply the best last minute rear mudguard 'keep your rear clear' off road & road"
+uk: true
+productLogo: rearguard
+productOverview: [
+  "The RearGuard is simply a 'game changer' in the last minute fast fitting REAR mudguard field, nothing is as secure. It attaches underneath the saddle with a velcro strap and takes less than 20 seconds to fit."
+]
+productWeight: 23g
+productColours: {
+  title: Colours available,
+  colours: [
+    {
+      colour: Black,
+      imageUrl: mudguards/rearguard-road/gallery/black.png,
+      imageAlt: RearGuard in black
+    },
+    {
+      colour: White,
+      imageUrl: mudguards/rearguard-road/gallery/white.png,
+      imageAlt: RearGuard in black
+    }
+  ]
+}
+productImages: [
+  {
+    imageUrl: mudguards/rearguard-road/gallery/1,
+    imageAlt: RearGuard-Road
+  },
+  {
+    imageUrl: mudguards/rearguard-road/gallery/2,
+    imageAlt: RearGuard-Road
+  },
+  {
+    imageUrl: mudguards/rearguard-road/gallery/3,
+    imageAlt: RearGuard-Road
+  },
+  {
+    imageUrl: mudguards/rearguard-road/gallery/4,
+    imageAlt: RearGuard-Road
+  },
+  {
+    imageUrl: mudguards/rearguard-road/gallery/5,
+    imageAlt: RearGuard-Road
+  },
+  {
+    imageUrl: mudguards/rearguard-road/gallery/black,
+    imageAlt: RearGuard-Road,
+    colour: Black
+  },
+  {
+    imageUrl: mudguards/rearguard-road/gallery/white,
+    imageAlt: RearGuard-Road,
+    colour: White
+  }
+]
+ukDistributor: [
+  EXTRA UK
+]
+tabsNav: [
+  {
+    link: Details,
+    id: details,
+    activeClass: is-active
+  },
+  {
+    link: Fitting,
+    id: fitting
+  },
+  {
+    link: Reviews,
+    id: reviews
+  },
+]
+fitting: {
+  saddle: [
+    {
+      step:  "If your RearGuard doesn't come with the strap already fitted, then feed the Velcro strap through the slots as shown on the RearGuard with the hook and loop side facing upwards (outside) NB: the holes are designed to be a tight fit to stop the Velcro sliding when fitting"
+    },
+    {
+      step: Pinch / bend the sides of the RearGuard hard and slide through the rear seat rails
+    },
+    {
+      step: "Then push both the arms and the Velcro strap over the top of the saddle rail both sides from the inside. NB: you can be aggressive if tight, its important all 4 arms and the Velcro strap sit on the OUTSIDE of the rail"
+    },
+    {
+      step: Now loop the Velcro strap through the plastic buckle and attach loosely ensuring that the plastic buckle finishes up between the rails, now centre the guard at the rear
+    },
+    {
+      step: "This next bit is important, once loosely fitted you need to undo and hold the Velcro strap with one hand, and then push the guard in from the rear whilst tightening the Velcro strap back up TIGHT to finish",
+      images: [
+        {
+          imgUrl: mudguards/rearguard-road/fitting/saddle-1.svg,
+          imgAlt: Image showing how to fit the EnduroGuard Road
+        }
+      ]
+    }
+  ],
+  removal: [
+    {
+      step: "Simply undo the Velcro strap, pinch the sides of the RearGuard hard until all 4 arms have popped back over the saddle rail, and then pull out backwards. Our REARGUARD is designed, manufactured, and packed in the UK"
+    }
+  ]
+}
+fittingImportant: This mudguard is not suitable for riding off the back of the saddle THE VELCRO STRAPS MUST BE TIGHT AND OUT OF THE WAY OF ANY CLOTHING OR MOVEMENT BE CAREFUL not to kick the RearGuard when getting on and off the bike as this may cause damage or injury Check clearance when used with DROPPER seat posts as it may strike the tyre under full compression when the post is down RapidRacerProducts Ltd accepts no liability for damage/injury caused to persons/equipment/clothing due to improper fitting
+
+reviews: [
+  {
+    quote: "The RRP RearGuard could be the perfect product for you, doing a good job of keeping your rear end protected from wheelspray. Unlike the Ass Saver, the RRP RearGuard has the added security of a Velcro strap, which means that you don't get back at the end of a ride to discover that your mini-mudguard has fallen off mid-ride (something that I've experienced a number of times with the Ass Saver. As an added bonus it is seriously cheap. Surely £8.99 is a price worth paying for a dry bum this winter",
+    cite: Cycling Weekly
+  }
+]
+---
+
+{% extends "default.html" %}
+
+{% block icons %}
+  {% include "icons-products.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+
+  <article class="c-productMain">
+
+    <div class="o-container">
+
+      {% include "product-overview.nunjucks" %}
+
+    </div><!-- !END div.o-grid -->
+
+    <div class="c-tabs">
+
+      <ul class="c-tabs__nav o-container">
+        {% for item in tabsNav %}
+        <li class="c-tabs__navItem">
+          <a href="#{{ item.id }}" class="c-tabs__link {{ item.activeClass }}">{{ item.link }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <div class="c-tabs__contentWrap">
+
+        <div class="o-container">
+
+          <div id="details" class="c-tabs__content is-active">
+            {% include "details-rearguard-road.nunjucks" %}
+          </div>
+
+          <div id="fitting" class="c-tabs__content is-active">
+            {% include "fitting-rearguard-road.nunjucks" %}
+          </div>
+
+          <div id="reviews" class="c-tabs__content">
+            {% include "reviews.nunjucks" %}
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </article>
+
+{% endblock %}

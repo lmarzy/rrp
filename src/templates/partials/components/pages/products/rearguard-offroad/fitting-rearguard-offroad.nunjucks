@@ -1,0 +1,25 @@
+<h3 class="u-mb1">Fitting the {{ productName }}</h3>
+
+<ol class="c-fitting">
+  {% for step in fitting.saddle %}
+    {% include "fitting.nunjucks" %}
+  {% endfor %}
+</ol>
+
+<p>NB: Optimal fit is where the front of the guard pushes on the top of the seatpost although this is not essential, the fit and profile of the rear of the mudguard will vary from saddle to saddle</p>
+
+{% if fitting.removal %}
+  <h4>Removal</h4>
+  <ol class="c-fitting">
+    {% for step in fitting.removal %}
+      {% include "fitting.nunjucks" %}
+    {% endfor %}
+  </ol>
+{% endif %}
+
+{% if fittingImportant %}
+<h4 class="u-col-a">Important</h4>
+<p>{{ fittingImportant }}</p>
+{% endif %}
+
+{% include "made-in-uk.nunjucks" %}
