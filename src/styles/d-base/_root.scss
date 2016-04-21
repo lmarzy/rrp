@@ -39,19 +39,25 @@ body {
 
     &.c-indexPage, &.c-productPage {
       background-color: black;
-      background-image: url($imgPath+'bg-main1.jpg');
+      background-image: url($imgPath+'bg-main1-test.jpg');
       background-position: 0 0;
       background-repeat: no-repeat;
       background-size: 100%;
 
-        @include bp(bg1) {
-          background-image: url($imgPath+'bg-main2.jpg');
-        }
+        // @include bp(bg1) {
+        //   background-image: url($imgPath+'bg-main2.jpg');
+        // }
+        // @include bp(bg2) {
+        //   background-image: url($imgPath+'bg-main3.jpg');
+        // }
+        // @include bp(bg3) {
+        //   background-image: url($imgPath+'bg-main4.jpg');
+        // }
         @include bp(bg2) {
-          background-image: url($imgPath+'bg-main3.jpg');
+          background-position: 0 -500px;
         }
         @include bp(bg3) {
-          background-image: url($imgPath+'bg-main4.jpg');
+          background-position: 0 -500px;
         }
 
     }
