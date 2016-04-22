@@ -53,12 +53,6 @@ body {
         // @include bp(bg3) {
         //   background-image: url($imgPath+'bg-main4.jpg');
         // }
-        @include bp(bg2) {
-          background-position: 0 -500px;
-        }
-        @include bp(bg3) {
-          background-position: 0 -500px;
-        }
 
     }
 }
