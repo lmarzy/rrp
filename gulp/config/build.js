@@ -6,8 +6,7 @@ module.exports = {
     'styles',
     'browserify',
     'assets:css',
-    'assets:images',
-    'htmlValidation',
+    'assets:images'
   ],
   c: [
     'revAll',

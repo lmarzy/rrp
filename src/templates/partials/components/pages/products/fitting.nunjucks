@@ -1,8 +1,73 @@
-<li class="c-fitting__item">
-  {{ step.step }}
-  {% if step.images %}
-    {% for image in step.images %}
-      <img src="/img/products/{{ image.imgUrl }}" alt="{{ image.imgUrl }}" class="c-fitting__img">
+<h3 class="u-mb1">Fitting the {{ productName }}</h3>
+
+{% if fitting.front %}
+  <h4>Front mudguard</h4>
+  <ol class="c-fitting">
+  {% for step in fitting.front %}
+  <li class="c-fitting__item">
+    {{ step.step }}
+    {% if step.images %}
+      {% for image in step.images %}
+        <img src="/img/products/{{ image.imgUrl }}" alt="{{ image.imgUrl }}" class="c-fitting__img">
+      {% endfor %}
+    {% endif %}
+  </li>
+  {% endfor %}
+  </ol>
+{% endif %}
+
+{% if fitting.saddle %}
+<ol class="c-fitting">
+  {% for step in fitting.saddle %}
+  <li class="c-fitting__item">
+    {{ step.step }}
+    {% if step.images %}
+      {% for image in step.images %}
+        <img src="/img/products/{{ image.imgUrl }}" alt="{{ image.imgUrl }}" class="c-fitting__img">
+      {% endfor %}
+    {% endif %}
+  </li>
+  {% endfor %}
+</ol>
+{% endif %}
+
+{% if fitting.nb %}
+<p>NB: {{ fitting.nb }}</p>
+{% endif %}
+
+{% if fitting.rear %}
+  <h4>Rear mudguard</h4>
+  <ol class="c-fitting">
+    {% for step in fitting.rear %}
+    <li class="c-fitting__item">
+      {{ step.step }}
+      {% if step.images %}
+        {% for image in step.images %}
+          <img src="/img/products/{{ image.imgUrl }}" alt="{{ image.imgUrl }}" class="c-fitting__img">
+        {% endfor %}
+      {% endif %}
+    </li>
     {% endfor %}
-  {% endif %}
-</li>
+  </ol>
+{% endif %}
+
+{% if fitting.removal %}
+  <h4>Removal</h4>
+  <ol class="c-fitting">
+    {% for step in fitting.removal %}
+    <li class="c-fitting__item">
+      {{ step.step }}
+      {% if step.images %}
+        {% for image in step.images %}
+          <img src="/img/products/{{ image.imgUrl }}" alt="{{ image.imgUrl }}" class="c-fitting__img">
+        {% endfor %}
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+{% endif %}
+
+{% if fitting.important %}
+<h4 class="u-col-a">Important</h4>
+<p>{{ fitting.important }}</p>
+{% endif %}
