@@ -127,7 +127,7 @@ reviews: [
             {% include "details-.nunjucks" %}
           </div>
           <div id="fitting" class="c-tabs__content">
-            {% include "fitting-.nunjucks" %}
+            {% include "fitting.nunjucks" %}
           </div>
           <div id="reviews" class="c-tabs__content">
             {% include "reviews.nunjucks" %}

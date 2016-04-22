@@ -1,0 +1,147 @@
+---
+title: NeoGuard
+desc: Needs updating
+pageId: js-product
+pageClass: c-productPage
+pageCss: product
+productName: NeoGuard
+uk: false
+productOverview: [
+  "Our NeoGuard is the original neoprene mudguard specifically designed to prevent mud and spray from getting in your face and eyes, its much copied but still the best. Traditional mudguards are fragile and can hold on to pounds of unwanted mud affecting your riding performance and slowing you down. The NeoGuard throws the mud off every time the fork compresses keeping your bike light and agile."
+]
+productSizes: {
+  title: Available in 4 sizes,
+  sizes: [
+    {
+      size: "Extra small:",
+      details: from 80mm to 130mm,
+      weight: 18g
+    },
+    {
+      size: "Small:",
+      details: from 120mm to 150mm,
+      weight: 20g
+    },
+    {
+      size: "Medium:",
+      details: from 160mm to 180mm,
+      weight: 21g
+    },
+    {
+      size: "Large:",
+      details: from 180mm to 200mm,
+      weight: 25g
+    }
+  ]
+}
+productImages: [
+  {
+    imageUrl: mudguards//gallery/1,
+    imageAlt: Alt
+  }
+]
+ukDistributor: [
+  EXTRA UK
+]
+tabsNav: [
+  {
+    link: Details,
+    id: details,
+    activeClass: is-active
+  },
+  {
+    link: Fitting,
+    id: fitting
+  },
+  {
+    link: Reviews,
+    id: reviews
+  }
+]
+fitting: {
+  front: [
+    {
+      step: Remove zip ties and insert them into all the holes as shown below,
+      images: [
+        {
+          imgUrl: mudguards//fitting/.svg,
+          imgAlt: Image showing..
+        }
+      ]
+    }
+  ],
+  rear: [
+    {
+      step: ""
+    }
+  ],
+  saddle: [
+    {
+      step: ""
+    }
+  ],
+  remove: [
+    {
+      step: ""
+    }
+  ],
+  vidLink: url,
+  important: ""
+}
+reviews: [
+  {
+    quote: "",
+    cite:
+  }
+]
+---
+
+{% extends "default.html" %}
+
+{% block icons %}
+  {% include "icons-products.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+
+  <article class="c-productMain">
+
+    <div class="o-container">
+
+      {% include "product-overview.nunjucks" %}
+
+    </div><!-- !END div.o-grid -->
+
+    <div class="c-tabs">
+
+      <ul class="c-tabs__nav o-container">
+        {% for item in tabsNav %}
+        <li class="c-tabs__navItem">
+          <a href="#{{ item.id }}" class="c-tabs__link {{ item.activeClass }}">{{ item.link }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <div class="c-tabs__contentWrap">
+
+        <div class="o-container">
+
+          <div id="details" class="c-tabs__content is-active">
+            {% include "details-neoguard.nunjucks" %}
+          </div>
+          <div id="fitting" class="c-tabs__content">
+            {% include "fitting.nunjucks" %}
+          </div>
+          <div id="reviews" class="c-tabs__content">
+            {% include "reviews.nunjucks" %}
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </article>
+
+{% endblock %}

@@ -1,6 +1,9 @@
 <h2 class="c-productMain__title">
-  <span class="is-vh">{{ productName }}</span>
+  {% if productLogo %}
   <img src="/img/product-logos/{{ productLogo }}.svg" alt="EnduroGuard">
+  {% else %}
+  <span>{{ productName }}</span>
+  {% endif %}
 </h2>
 
 <div class="c-box c-box--white u-mb2">
