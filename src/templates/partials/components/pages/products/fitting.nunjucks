@@ -1,4 +1,24 @@
-<h3 class="u-mb1">Fitting the {{ productName }}</h3>
+<h3 class="u-mb1">
+  Fitting the {{ productName }}
+  {% if printInstructionsUrl %}
+  <a href="/img/downloads/{{ printInstructionsUrl }}.pdf">(Print instructions)</a>
+  {% endif %}
+</h3>
+
+{% if fitting.single %}
+  <ol class="c-fitting">
+  {% for step in fitting.single %}
+  <li class="c-fitting__item">
+    {{ step.step }}
+    {% if step.images %}
+      {% for image in step.images %}
+        <img src="/img/products/{{ image.imgUrl }}" alt="{{ image.imgUrl }}" class="c-fitting__img">
+      {% endfor %}
+    {% endif %}
+  </li>
+  {% endfor %}
+  </ol>
+{% endif %}
 
 {% if fitting.front %}
   <h4>Front mudguard</h4>
