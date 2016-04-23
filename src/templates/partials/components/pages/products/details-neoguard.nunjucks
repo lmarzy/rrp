@@ -10,13 +10,14 @@
 
 <section class="u-mb1">
 
-  <h3>SIZING GUIDE</h3>
+  <h3 class="u-mb1">SIZING GUIDE</h3>
 
   <table class="u-mb1">
     <thead>
       <tr>
         <th>Size</th>
         <th>Fork size</th>
+        <th>Forks</th>
         <th>Weight</th>
       </tr>
     </thead>
@@ -24,21 +25,25 @@
       <tr>
         <td>Extra Small</td>
         <td>from 80mm to 130mm</td>
+        <td>Fox, Marzocchi, RockShox up to 130mm</td>
         <td>18g</td>
       </tr>
       <tr>
         <td>Small</td>
         <td>from 120mm to 150mm</td>
+        <td>Fox(130 to 160mm), Marzocchi(120 to 140mm), RockShox(115 to 140mm), RockShox(130 to 150mm)</td>
         <td>20g</td>
       </tr>
       <tr>
         <td>Medium</td>
         <td>from 160mm to 180mm</td>
+        <td>Marzocchi, RockShox(160 to 180mm)</td>
         <td>21g</td>
       </tr>
       <tr>
         <td>Large</td>
         <td>from 180mm to 200mm</td>
+        <td>Marzocchi(180 to 200mm), RockShox, Fox(200mm)</td>
         <td>25g</td>
       </tr>
     </tbody>
@@ -48,7 +53,7 @@
 
 </section>
 
-<dl class="o-dlInline">
+<dl class="o-dlInline u-mb1">
   <dt>MBUK rating:</dt>
   <dd>10/10</dd>
   <dt>MBR rating:</dt>

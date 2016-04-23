@@ -6,9 +6,15 @@
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
+    border: 1px solid lighten(colour(brand, b), 60);
   }
   th {
     text-align: left;
+  }
+  th, td {
+    padding: rem(6px);
+    border-bottom: 1px solid lighten(colour(brand, b), 60);
+    border-right: 1px solid lighten(colour(brand, b), 60);
   }
 }
 
