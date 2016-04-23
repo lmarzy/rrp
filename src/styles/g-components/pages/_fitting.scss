@@ -4,12 +4,14 @@
 
 .c-fitting {
   padding-left: rem(16px);
-  
+
   &__item {
     padding: rem(4px) 0;
   }
   &__img {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: rem(12px);
     border: 1px solid colour(brand, c);
 

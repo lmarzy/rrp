@@ -1,0 +1,153 @@
+<p>If you can't find your fork on the main page then don't worry, just measure the A to B of your fork as shown in the diagram opposite. Then look below for what size of NeoGuard you need....it's that simple!</p>
+
+<div class="o-grid">
+  <div class="o-grid__item u-1of1 u-bp20-2of3">
+    <div class="c-tableWrap u-mb1">
+      <table>
+        <tbody>
+          <tr>
+          <td colspan="15">A to B' measurement in mm</td>
+          </tr>
+        <tr>
+          <td ></td>
+          <td>80</td>
+          <td>90</td>
+          <td>100</td>
+          <td>110</td>
+          <td>120</td>
+          <td>130</td>
+          <td>140</td>
+          <td>150</td>
+          <td>160</td>
+          <td>170</td>
+          <td>180</td>
+          <td>190</td>
+          <td>200</td>
+          <td>210</td>
+        </tr>
+        <tr>
+          <td>XS</td>
+          <td class="u-bgcol-a"></td>
+          <td class="u-bgcol-a"></td>
+          <td class="u-bgcol-a"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>S</td>
+          <td></td>
+          <td></td>
+          <td class="u-bgcol-a"></td>
+          <td class="u-bgcol-a"></td>
+          <td class="u-bgcol-a"></td>
+          <td class="u-bgcol-a"></td>
+          <td class="u-bgcol-a"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>M</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="u-bgcol-a"></td>
+          <td class="u-bgcol-a"></td>
+          <td class="u-bgcol-a"></td>
+          <td class="u-bgcol-a"></td>
+          <td class="u-bgcol-a"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>L</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="u-bgcol-a"></td>
+          <td class="u-bgcol-a"></td>
+          <td class="u-bgcol-a"></td>
+          <td class="u-bgcol-a"></td>
+          <td class="u-bgcol-a"></td>
+          <td class="u-bgcol-a"></td>
+        </tr>
+      </tbody>
+      </table>
+    </div>
+
+    <p>** The following forks have additional fitting details:</p>
+
+    <table>
+      <tbody>
+        <tr>
+          <td>Fork</td>
+          <td>Detail</td>
+        </tr>
+        <tr>
+          <td>
+            Marzocchi Drop Off<br>
+            Triple Clamp 170mm (2004)</td>
+          <td>
+            Fits MEDIUM when stanchions are set at min (steep head angle)<br>
+            Fits a modified LARGE if stanchions are set nearer to maximum (slack head angle).<br>
+            (LARGE will need equal amounts trimming off the sides to
+            fit between the stanchions)
+          </td>
+        </tr>
+        <tr>
+          <td>
+            RockShox Domain
+          </td>
+          <td>
+            Will fit a SMALL when running 115mm, will fit MEDIUM when running 160mm
+          </td>
+        </tr>
+        <tr>
+          <td>
+            RockShox Tura
+          </td>
+          <td>
+            Will fit a EXTRA SMALL when running 100mm, will fit SMALL when running 130mm</td>
+        </tr>
+        <tr>
+          <td>
+            Fox Forx Float 32
+          </td>
+          <td>
+            Will fit a EXTRA SMALL when running 130mm, will fit SMALL when running 140mm
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+  <div class="o-grid__item u-1of1 u-bp20-1of3">
+
+    <img src="/img/products/mudguards/neoguard/sizing/a-b.jpg" alt="Image showing A-B Dimensions on front forks">
+
+  </div>
+
+</div>

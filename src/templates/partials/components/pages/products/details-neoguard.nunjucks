@@ -12,6 +12,7 @@
 
   <h3 class="u-mb1">SIZING GUIDE</h3>
 
+  <div class="c-tableWrap">
   <table class="u-mb1">
     <thead>
       <tr>
@@ -48,6 +49,7 @@
       </tr>
     </tbody>
   </table>
+  </div>
 
   <p>There are overlaps in sizing where 2 sizes will fit your fork, always choose the smaller of the two as a stretched NeoGuard will be more effective, don't be afraid to stretch the eyelets they are very strong!</p>
 

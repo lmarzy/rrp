@@ -5,7 +5,7 @@
   a {
     color: colour(main, links);
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
     &:active,
     &:hover {
       outline: none;

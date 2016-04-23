@@ -1,0 +1,15 @@
+<h3 class="u-mb1">
+  Fitting the {{ productName }}
+  <a href="/img/downloads/fitting-NeoGuard.pdf">(Print instructions)</a>
+</h3>
+
+<ol class="c-fitting u-mb1">
+{% for step in fitting.front %}
+<li class="c-fitting__item">
+  {{ step.step }}
+  {% for image in step.images %}
+    <img src="/img/products/{{ image.imgUrl }}" alt="{{ image.imgUrl }}" class="c-fitting__img">
+  {% endfor %}
+</li>
+{% endfor %}
+</ol>

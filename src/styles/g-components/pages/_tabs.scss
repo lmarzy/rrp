@@ -14,9 +14,10 @@
   }
   &__link {
     display: block;
-    padding: rem(18px);
+    padding: rem(6px);
     background: colour(brand, b);
     color: white;
+    text-decoration: none;
 
       &.is-active, &:hover {
         background: white;
@@ -37,6 +38,9 @@
   }
 
   @include bp(15) {
+    &__link {
+      padding: rem(20px);
+    }
     &__fittingVid {
       float: right;
       margin-top: rem(-60px);
