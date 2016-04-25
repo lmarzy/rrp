@@ -1,0 +1,144 @@
+---
+title: CX-Guard
+desc: Needs updating
+pageId: js-product
+pageClass: c-productPage
+pageCss: product
+productName: CX-Guard
+uk: true/false
+productLogo: cxguard
+productShortDesc: "AWESOME PROTECTION FOR FACE AND LOWER BEARING (compatible with disc or cantilever brakes)"
+productOverview: [
+  "The CX-Guard is a simple front mudguard designed for both disc brake and cantilever brake systems on cyclocross bikes.  The CX-Guard significantly reduces the amount of spray and mud thrown up into your face and eyes, it also stops the lower bearing seals from being hammered at high velocity increasing their durability and saving you money. We have built-in a cable relief section either side of the RRP logo at the front to allow you to use with cantilever brakes as well as disc"
+]
+productWeight: 22g
+productColours: {
+  title: Colours available,
+  colours: [
+    {
+      colour: Black,
+      imageUrl: mudguards/cxguard/gallery/black.png,
+      imageAlt: CX-Guard in black
+    },
+    {
+      colour: White,
+      imageUrl: mudguards/cxguard/gallery/white.png,
+      imageAlt: CX-Guard in white
+    }
+  ]
+}
+productImages: [
+  {
+    imageUrl: mudguards/cxguard/gallery/1,
+    imageAlt: CX-Guard
+  },
+  {
+    imageUrl: mudguards/cxguard/gallery/2,
+    imageAlt: CX-Guard
+  },
+  {
+    imageUrl: mudguards/cxguard/gallery/3,
+    imageAlt: CX-Guard
+  },
+  {
+    imageUrl: mudguards/cxguard/gallery/4,
+    imageAlt: CX-Guard
+  },
+  {
+    imageUrl: mudguards/cxguard/gallery/5,
+    imageAlt: CX-Guard
+  },
+  {
+    imageUrl: mudguards/cxguard/gallery/black,
+    imageAlt: CX-Guard black,
+    colour: Black
+  },
+  {
+    imageUrl: mudguards/cxguard/gallery/white,
+    imageAlt: CX-Guard in white,
+    colour: White
+  }
+]
+tabsNav: [
+
+  {
+    link: Fitting,
+    id: fitting,
+    activeClass: is-active
+  }
+]
+fitting: {
+  front: [
+    {
+      step: "Simply bend and slide the mudguard under the fork or fork brace"
+    },
+    {
+      step: "Attach the zip ties to the fork legs very loosely with the CX-Guard at the TOP of the fork"
+    },
+    {
+      step: "You can now set the angle you want the guard to finish at ensuring it doesn't strike the downtube of your frame, optimal is 10mm from the downtube"
+    },
+    {
+      step: "Hold in position and see which snap-off holes you need to use, use a screw driver or similar to push out the holes you want to use"
+    },
+    {
+      step: "Slide zip ties through the selected holes and attach"
+    },
+    {
+      step: "Finally check angle and alignment and then do up all zip ties very tight",
+      images: [
+        {
+          imgUrl: mudguards/cxguard/fitting/fitted.svg,
+          imgAlt: Image showing fitted cx-guard
+        }
+      ]
+    }
+  ],
+  important: "You must ensure there is 10mm between the back of the guard and the downtube of the frame to ensure there is no interference when steering. Do not use in sticky or claggy conditions as it may cause a blockage"
+}
+---
+
+{% extends "default.html" %}
+
+{% block icons %}
+  {% include "icons-products.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+
+  <article class="c-productMain">
+
+    <div class="o-container">
+
+      {% include "product-overview.nunjucks" %}
+
+    </div><!-- !END div.o-grid -->
+
+    <div class="c-tabs">
+
+      <ul class="c-tabs__nav o-container">
+        {% for item in tabsNav %}
+        <li class="c-tabs__navItem">
+          <a href="#{{ item.id }}" class="c-tabs__link {{ item.activeClass }}">{{ item.link }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <div class="c-tabs__contentWrap">
+
+        <div class="o-container">
+
+          <div id="fitting" class="c-tabs__content is-active">
+            {% include "fitting.nunjucks" %}
+            {% include "made-in-uk.nunjucks" %}
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </article>
+
+{% endblock %}

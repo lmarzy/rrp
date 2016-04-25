@@ -81,8 +81,8 @@ fitting: {
     {
       step: ""
     }
-  ]
-  vidLink:
+  ],
+  vidLink: "",
   important: ""
 }
 reviews: [
@@ -124,7 +124,7 @@ reviews: [
         <div class="o-container">
 
           <div id="details" class="c-tabs__content is-active">
-            {% include "details-.nunjucks" %}
+            {% include "details-enduroguard.nunjucks" %}
           </div>
           <div id="fitting" class="c-tabs__content">
             {% include "fitting.nunjucks" %}
