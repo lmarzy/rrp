@@ -1,0 +1,123 @@
+---
+title: BPET
+desc: Needs updating
+pageId: js-product
+pageClass: c-productPage
+pageCss: product
+productName: Bearing press & extraction tool
+productOverview: [
+  "The Bearing Press & Extraction Tool (BPET) is designed for the ‘Home Mechanic’ for use on ‘LINKAGE BEARINGS’, however it still works on many pivot and hub bearings"
+]
+productImages: [
+  {
+    imageUrl: tools/bpet/gallery/1,
+    imageAlt: BPET Tool
+  },
+  {
+    imageUrl: tools/bpet/gallery/2,
+    imageAlt: BPET Tool Kit
+  },
+  {
+    imageUrl: tools/bpet/gallery/3,
+    imageAlt: BPET Tool Extras
+  }
+]
+tabsNav: [
+  {
+    link: Details,
+    id: details,
+    activeClass: is-active
+  },
+  {
+    link: Instructions,
+    id: instructions
+  },
+  {
+    link: Reviews,
+    id: reviews
+  }
+]
+fitting: {
+  front: [
+    {
+      step: Remove zip ties and insert them into all the holes as shown below,
+      images: [
+        {
+          imgUrl: mudguards//fitting/.svg,
+          imgAlt: Image showing..
+        }
+      ]
+    }
+  ],
+  rear: [
+    {
+      step: ""
+    }
+  ],
+  saddle: [
+    {
+      step: ""
+    }
+  ],
+  remove: [
+    {
+      step: ""
+    }
+  ],
+  vidLink: "",
+  important: ""
+}
+reviews: [
+  {
+    quote: "",
+    cite:
+  }
+]
+---
+
+{% extends "default.html" %}
+
+{% block icons %}
+  {% include "icons-products.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+
+  <article class="c-productMain">
+
+    <div class="o-container">
+
+      {% include "product-overview.nunjucks" %}
+
+    </div><!-- !END div.o-grid -->
+
+    <div class="c-tabs">
+
+      <ul class="c-tabs__nav o-container">
+        {% for item in tabsNav %}
+        <li class="c-tabs__navItem">
+          <a href="#{{ item.id }}" class="c-tabs__link {{ item.activeClass }}">{{ item.link }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <div class="c-tabs__contentWrap">
+
+        <div class="o-container">
+
+          <div id="details" class="c-tabs__content is-active">
+            {% include "details-bpet.nunjucks" %}
+          </div>
+          <div id="reviews" class="c-tabs__content">
+            {% include "reviews.nunjucks" %}
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </article>
+
+{% endblock %}

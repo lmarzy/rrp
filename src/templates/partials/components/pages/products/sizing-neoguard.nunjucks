@@ -103,48 +103,50 @@
 
     <p>** The following forks have additional fitting details:</p>
 
-    <table>
-      <tbody>
-        <tr>
-          <td>Fork</td>
-          <td>Detail</td>
-        </tr>
-        <tr>
-          <td>
-            Marzocchi Drop Off<br>
-            Triple Clamp 170mm (2004)</td>
-          <td>
-            Fits MEDIUM when stanchions are set at min (steep head angle)<br>
-            Fits a modified LARGE if stanchions are set nearer to maximum (slack head angle).<br>
-            (LARGE will need equal amounts trimming off the sides to
-            fit between the stanchions)
-          </td>
-        </tr>
-        <tr>
-          <td>
-            RockShox Domain
-          </td>
-          <td>
-            Will fit a SMALL when running 115mm, will fit MEDIUM when running 160mm
-          </td>
-        </tr>
-        <tr>
-          <td>
-            RockShox Tura
-          </td>
-          <td>
-            Will fit a EXTRA SMALL when running 100mm, will fit SMALL when running 130mm</td>
-        </tr>
-        <tr>
-          <td>
-            Fox Forx Float 32
-          </td>
-          <td>
-            Will fit a EXTRA SMALL when running 130mm, will fit SMALL when running 140mm
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="c-tableWrap u-mb1">
+      <table>
+        <tbody>
+          <tr>
+            <td>Fork</td>
+            <td>Detail</td>
+          </tr>
+          <tr>
+            <td>
+              Marzocchi Drop Off<br>
+              Triple Clamp 170mm (2004)</td>
+            <td>
+              Fits MEDIUM when stanchions are set at min (steep head angle)<br>
+              Fits a modified LARGE if stanchions are set nearer to maximum (slack head angle).<br>
+              (LARGE will need equal amounts trimming off the sides to
+              fit between the stanchions)
+            </td>
+          </tr>
+          <tr>
+            <td>
+              RockShox Domain
+            </td>
+            <td>
+              Will fit a SMALL when running 115mm, will fit MEDIUM when running 160mm
+            </td>
+          </tr>
+          <tr>
+            <td>
+              RockShox Tura
+            </td>
+            <td>
+              Will fit a EXTRA SMALL when running 100mm, will fit SMALL when running 130mm</td>
+          </tr>
+          <tr>
+            <td>
+              Fox Forx Float 32
+            </td>
+            <td>
+              Will fit a EXTRA SMALL when running 130mm, will fit SMALL when running 140mm
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
   <aside class="o-grid__item u-1of1 u-bp20-1of3">
     <img src="/img/products/mudguards/neoguard/sizing/a-b.jpg" alt="Image showing A-B Dimensions on front forks">
