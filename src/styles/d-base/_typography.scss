@@ -16,8 +16,7 @@ p {
   margin: 0 0 $rhythm;
 }
 
-blockquote,
-q {
+blockquote {
   quotes: none;
 }
 
@@ -43,6 +42,10 @@ blockquote:after {
 }
 blockquote p {
   margin-bottom: $rhythm / 2;
+  font-style: italic;
+}
+
+q {
   font-style: italic;
 }
 

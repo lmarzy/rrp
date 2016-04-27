@@ -43,6 +43,10 @@
           <p class="c-productMain__shortDesc">{{ productShortDesc }}</p>
         {% endif %}
 
+        {% if productQuote %}
+          <p><q>{{ productQuote }}</q></p>
+        {% endif %}
+
         {% for item in productOverview %}
           <p>{{ item }}</p>
         {% endfor %}

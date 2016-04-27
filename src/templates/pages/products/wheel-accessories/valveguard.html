@@ -1,0 +1,110 @@
+---
+title: ValveGuard
+desc: Needs updating
+pageId: js-product
+pageClass: c-productPage
+pageCss: product
+productName: ValveGuard
+productLogo: valveguard
+productShortDesc: "ELIMINATE VALVE RATTLES FOREVER (FITS ALL PRESTA VALVES & VALVE EXTENDERS)"
+productQuote: "The ValveGuard is an incredible no brainer…."
+productOverview: [
+  "The ValveGuard is a simple and subtle valve silencing solution for your road wheels.  The noise of a valves or valve extenders rattling in your road wheel can be extremely annoying and sound like an expensive problem, the ValveGuard silences the noise to make your ride more pleasant, sure you can just use electrical tape but why would you do that to your expensive pride and joy?",
+  "Each pack comes with 6 oval ValveGuards to fit 3 sets of wheels and 4 frame savers.",
+  "NB: The ValveGuard will still remain in place even if you change the tube"
+]
+productWeight: Less than 1g
+productImages: [
+  {
+    imageUrl: wheel-accessories/valveguard/gallery/1,
+    imageAlt: PunctureGuard bottles
+  },
+  {
+    imageUrl: wheel-accessories/valveguard/gallery/2,
+    imageAlt: PunctureGuard bottle
+  },
+  {
+    imageUrl: wheel-accessories/valveguard/gallery/3,
+    imageAlt: PunctureGuard bottle
+  }
+]
+tabsNav: [
+  {
+    link: Details,
+    id: details,
+    activeClass: is-active
+  },
+  {
+    link: Fitting,
+    id: fitting
+  }
+]
+fitting: {
+  single: [
+    {
+      step: "Clean the rim and the valve extremely well then dry, this is important!"
+    },
+    {
+      step: "Peel off the oval rubber ValveGuard"
+    },
+    {
+      step: "Slide over the valve with the widest ends following the circumference of the rim"
+    },
+    {
+      step: " Push down hard on the entire ValveGuard to ensure it sticks flat and tight against the rim, now enjoy the silence......"
+    }
+  ],
+  removal: [
+    step: "Simply lift up the ValveGuard with your nail and peel off, you can use a hair dryer to warm the adhesive first"
+  ],
+  vidLink: "https://www.youtube.com/watch?v=NIX8jQNMF0Q&feature=youtu.be&list=PLkJnWfJ0ZkrwzStSFaVtez97eh7JiaxfE",
+  important: "The rim must be totally clean and free from any contaminates for the valveguard to stick"
+}
+---
+
+{% extends "default.html" %}
+
+{% block icons %}
+  {% include "icons-products.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+
+  <article class="c-productMain">
+
+    <div class="o-container">
+
+      {% include "product-overview.nunjucks" %}
+
+    </div><!-- !END div.o-grid -->
+
+    <div class="c-tabs">
+
+      <ul class="c-tabs__nav o-container">
+        {% for item in tabsNav %}
+        <li class="c-tabs__navItem">
+          <a href="#{{ item.id }}" class="c-tabs__link {{ item.activeClass }}">{{ item.link }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <div class="c-tabs__contentWrap">
+
+        <div class="o-container">
+
+          <div id="details" class="c-tabs__content is-active">
+            {% include "details-punctureguard.nunjucks" %}
+          </div>
+          <div id="fitting" class="c-tabs__content">
+            {% include "fitting.nunjucks" %}
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </article>
+
+{% endblock %}

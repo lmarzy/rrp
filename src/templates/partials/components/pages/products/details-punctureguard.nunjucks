@@ -18,7 +18,9 @@
 
 <p>Some sealants have damaging additives which eat away and corrode the tire wall thickness, this will make the tire wall breath bubbles rendering it useless as a tubeless tire. PunctureGuard will not solve this problem but is designed with non-caustic additives to prevent this ever happening when using our tubeless sealant.</p>
 
-<dl class="o-dlInline">
+<dl class="o-dlInline u-mb1">
   <dt>Note:</dt>
   <dd>PunctureGuard is not designed to help you seal poorly fitting or old tires that leak air through the bead (or through a perished/corroded tire wall). Our formula is specifically designed to cure punctures from thorns and small snake bites.</dd>
 </dl>
+
+{% include "made-in-uk.nunjucks" %}
