@@ -1,0 +1,24 @@
+<h3 class="u-mb1">{{ productFeatures.title }}</h3>
+
+<ul class="c-bullets u-mb1">
+  {% for item in productFeatures.features %}
+  <li class="c-bullets__bullet">{{ item }}</li>
+  {% endfor %}
+</ul>
+
+
+<p>Use the markings on the side of the label to apply 62ml of solution for each tyre, you can do this by removing the core from you innertube valve and pushing the extendable hose over it, or you can apply inside the tyre after taking one side of the tyre off the rim.</p>
+
+<ul class="c-bullets u-mb1">
+  <li class="c-bullets__bullet">Extendable hose</li>
+  <li class="c-bullets__bullet">Cap can be used to remove Schrader valve cores</li>
+</ul>
+
+<h3>Important notice</h3>
+
+<p>Some sealants have damaging additives which eat away and corrode the tire wall thickness, this will make the tire wall breath bubbles rendering it useless as a tubeless tire. PunctureGuard will not solve this problem but is designed with non-caustic additives to prevent this ever happening when using our tubeless sealant.</p>
+
+<dl class="o-dlInline">
+  <dt>Note:</dt>
+  <dd>PunctureGuard is not designed to help you seal poorly fitting or old tires that leak air through the bead (or through a perished/corroded tire wall). Our formula is specifically designed to cure punctures from thorns and small snake bites.</dd>
+</dl>

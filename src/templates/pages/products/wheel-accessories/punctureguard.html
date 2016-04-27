@@ -1,0 +1,114 @@
+---
+title: PunctureGuard
+desc: Needs updating
+pageId: js-product
+pageClass: c-productPage
+pageCss: product
+productName: PunctureGuard
+productOverview: [
+  "PunctureGuard is a non-drying tubeless tire sealant with specially formulated Micro-Fibre technology to suit your riding needs, it’s so environmentally safe we don't even need a warning label to meet EU standards.",
+  "The Downhill formula has larger fibres to seal bigger snake bites to ensure you can still post your vital time. The Cross Country sealant is formulated to seal small snake bites and thorns to keep you spinning all day.",
+  "One 250ml bottle protects 4 tyres"
+]
+productFeatures: {
+  title: Features include,
+  features: [
+    Micro-fibre technology that doesn’t dry out like latex based solutions,
+    Specific Downhill and Cross Country formulas to protect against snake bites and thorns,
+    250ml bottle protects 4 tires,
+    Tested and highly recommended by the ‘Trek World Racing Team’,
+    Measurement indicator on bottle for accurate application,
+    Convenient extending hose for ease of application,
+    No caustic additives, we add corrosive inhibitors to prevent corrosion and protect the tire,
+    PH is approximately 8 which is almost neutral,
+    Our ingredients are carefully chosen for their minimal environmental impact,
+    Environmentally safe, we don't even need a warning label to meet EU Standards
+  ]
+}
+productImages: [
+  {
+    imageUrl: wheel-accessories/punctureguard/gallery/1,
+    imageAlt: PunctureGuard bottles
+  },
+  {
+    imageUrl: wheel-accessories/punctureguard/gallery/2,
+    imageAlt: PunctureGuard bottle
+  },
+  {
+    imageUrl: wheel-accessories/punctureguard/gallery/3,
+    imageAlt: PunctureGuard bottle
+  },
+  {
+    imageUrl: wheel-accessories/punctureguard/gallery/4,
+    imageAlt: PunctureGuard bottle extended
+  },
+  {
+    imageUrl: wheel-accessories/punctureguard/gallery/5,
+    imageAlt: PunctureGuard bottle cap
+  }
+]
+tabsNav: [
+  {
+    link: Details,
+    id: details,
+    activeClass: is-active
+  },
+  {
+    link: Reviews,
+    id: reviews
+  }
+]
+reviews: [
+  {
+    quote: '“Our mechanics and riders LOVE the PuntureGuard, the sealant is way better than other well-known brands we have been using. In summary; it’s easier to handle and apply, we have had less punctures, it’s easier to pump up the tyre, creates less mess, and it never dries out. We really like working with the PunctureGuard sealant”',
+    cite: Trek team
+  }
+]
+---
+
+{% extends "default.html" %}
+
+{% block icons %}
+  {% include "icons-products.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+
+  <article class="c-productMain">
+
+    <div class="o-container">
+
+      {% include "product-overview.nunjucks" %}
+
+    </div><!-- !END div.o-grid -->
+
+    <div class="c-tabs">
+
+      <ul class="c-tabs__nav o-container">
+        {% for item in tabsNav %}
+        <li class="c-tabs__navItem">
+          <a href="#{{ item.id }}" class="c-tabs__link {{ item.activeClass }}">{{ item.link }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <div class="c-tabs__contentWrap">
+
+        <div class="o-container">
+
+          <div id="details" class="c-tabs__content is-active">
+            {% include "details-punctureguard.nunjucks" %}
+          </div>
+          <div id="reviews" class="c-tabs__content">
+            {% include "reviews.nunjucks" %}
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </article>
+
+{% endblock %}
