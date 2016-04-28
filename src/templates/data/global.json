@@ -214,11 +214,11 @@
       "country": "Bulgaria",
       "distributors": [
         {
-          "companyName": "Bikes International Ltd",
-          "address": "38 Airpark Drive, Auckland Airport, Auckland, 2022, New Zealand",
-          "tel": "0926 71245",
-          "email": "sales@bikesinternational.co.nz",
-          "website": "www.bikesinternational.co.nz"
+          "companyName": "Invert Ltd",
+          "address": "Gurko Str #72, Sofia 1000, Bulgaria",
+          "tel": "+359885657882",
+          "email": "nikki@invertfamily.com",
+          "website": "www.breakpointshop.com"
         }
       ]
     },
@@ -254,7 +254,16 @@
       "country": "Latvia, Lithuania and Estonia"
     },
     {
-      "country": "New Zealand"
+      "country": "New Zealand",
+      "distributors": [
+        {
+          "companyName": "Bikes International Ltd",
+          "address": "38 Airpark Drive, Auckland Airport, Auckland, 2022, New Zealand",
+          "tel": "0926 71245",
+          "email": "sales@bikesinternational.co.nz",
+          "website": "www.bikesinternational.co.nz"
+        }
+      ]
     },
     {
       "country": "Norway"

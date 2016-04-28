@@ -1,0 +1,17 @@
+/* ==========================================================================
+   COMPONENTS/PAGES - DISTRIBUTOR-COMPANY
+   ========================================================================== */
+
+.c-distributorCompany {
+
+  &__name {
+    margin-bottom: $rhythm;
+    font-size: rem(20px);
+  }
+
+  @include bp(20) {
+    &__contacts {
+      border-left: 1px solid lighten(colour(brand, b),48);
+    }
+  }
+}

@@ -19,14 +19,64 @@ pageCss: distributors
     Distributors
   </h2>
 
-  <div class="c-letterAnchors">
-    <ul>
+  <div class="c-distributorCountries">
+    <label for="countries" class="c-distributorCountries__label">Select a country from the list below</label>
+    <select id="countries" class="c-distributorCountries__select">
       {% for country in distributors %}
-        <li>
-          <a href="#{{ country.country }}">{{ country.country }}</a>
-        </li>
+        <option value="{{ country.country }}">{{ country.country }}</option>
       {% endfor %}
-    </ul>
+    </select>
+  </div>
+
+  {% for distributor in distributors %}
+  <section class="c-distributorCountry">
+
+    <h3 class="c-distributorCountry__title">{{ distributor.country }}</h3>
+
+    {% for details in distributors[loop.index0].distributors %}
+    <article class="c-distributorCompany">
+      <h4 class="c-distributorCompany__name">{{ details.companyName }}</h4>
+
+      <div class="o-grid">
+        <div class="o-grid__item u-1of1 u-bp20-2of3 u-mb1">
+          <dl class="o-dlInline">
+            <dt>Address:</dt>
+            <dd>{{ details.address }}</dd>
+          </dl>
+        </div>
+        <div class="o-grid__item u-1of1 u-bp20-1of3 c-distributorCompany__contacts">
+          <dl class="o-dlInline">
+            <dt>Tel:</dt>
+            <dd>{{ details.tel }}</dd>
+            {% if details.mob %}
+              <dt>Mob:</dt>
+              <dd>{{ details.mob }}</dd>
+            {% endif %}
+            {% if details.fax %}
+              <dt>Fax:</dt>
+              <dd>{{ details.fax }}</dd>
+            {% endif %}
+            {% if details.email %}
+              <dt>Email:</dt>
+              <dd><a href="mailto:{{details.email}}">{{ details.email }}</a></dd>
+            {% endif %}
+            {% if details.website %}
+              <dt>Website</dt>
+              <dd><a href="http://{{ details.website }}">{{ details.website }}</a></dd>
+            {% endif %}
+          </dl>
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+
+  </section>
+  {% endfor %}
+
+  <div class="c-distributorsWanted">
+
+    <p>Distributors wanted - for more information <a href="/contact.html">contact us</a></p>
+
   </div>
 
 </section>

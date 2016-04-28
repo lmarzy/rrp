@@ -1,0 +1,16 @@
+/* ==========================================================================
+   COMPONENTS/PAGES - DISTRIBUTOR-COUNTRY
+   ========================================================================== */
+
+.c-distributorCountry {
+  margin-bottom: $rhythm;
+  padding: $rhythm / 2 $rhythm $rhythm * 2 $rhythm;
+  background: rgba(white, 0.7);
+
+    &__title {
+      margin-bottom: $rhythm;
+      font-size: rem(28px);
+      color: lighten(colour(main, text),20);
+      border-bottom: 1px solid lighten(colour(brand, b),48);
+    }
+}

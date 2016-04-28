@@ -1,0 +1,16 @@
+/* ==========================================================================
+   COMPONENTS/PAGES - DISTRIBUTORS-WANTED
+   ========================================================================== */
+
+.c-distributorsWanted {
+  margin-bottom: $rhythm * 2;
+  padding: $rhythm;
+  text-align: center;
+  background: colour(brand, b);
+
+    p {
+      margin: 0;
+      font-size: rem(20px);
+      color: white;
+    }
+}
