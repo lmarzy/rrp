@@ -7,7 +7,7 @@ var path            = require('./_global').paths,
     focus           = require('postcss-focus');
 
 module.exports = {
-  src: path.src + 'styles/{global,index,product}.scss',
+  src: path.src + 'styles/{global,index,product,distributors}.scss',
   uncssGlob: path.dest + '**/*.html',
   uncssIgnore: [''],
   mapWrite: './map',

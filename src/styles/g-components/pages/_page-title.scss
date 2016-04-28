@@ -1,0 +1,16 @@
+/* ==========================================================================
+   COMPONENTS/PAGES - PAGE-TITLE
+   ========================================================================== */
+
+.c-pageTitle {
+  padding: $rhythm * 1.5 0;
+  text-align: center;
+  line-height: 0;
+  border-top: 1px solid darken(colour(brand, c),14);
+  font-size: rem(32px);
+  text-shadow: 1px 1px 8px rgba(black, 0.5);
+
+    @include bp(20) {
+      font-size: rem(40px);
+    }
+}

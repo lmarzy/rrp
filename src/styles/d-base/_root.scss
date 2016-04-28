@@ -55,4 +55,11 @@ body {
         }
 
     }
+
+    &.c-distributorsPage {
+      background-image: url($imgPath+'bg-distributors.svg');
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 }

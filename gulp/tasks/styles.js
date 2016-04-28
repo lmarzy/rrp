@@ -32,7 +32,7 @@ gulp.task("lint:css", function () {
     }))
 })
 
-gulp.task('styles', ["lint:css"], function() {
+gulp.task('styles', function() {
   return gulp.src(configTask.src)
     .pipe(plumber(configGlobal.onError))
     .pipe(configGlobal.isProduction ? gutil.noop() : sourcemaps.init())

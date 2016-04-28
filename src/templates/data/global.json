@@ -207,6 +207,84 @@
     "home": "/",
     "distributors": "/distributors.html",
     "videos": "https://www.youtube.com/playlist?list=PLkJnWfJ0ZkrwzStSFaVtez97eh7JiaxfE"
-  }
+  },
+
+  "distributors": [
+    {
+      "country": "Bulgaria",
+      "distributors": [
+        {
+          "companyName": "Bikes International Ltd",
+          "address": "38 Airpark Drive, Auckland Airport, Auckland, 2022, New Zealand",
+          "tel": "0926 71245",
+          "email": "sales@bikesinternational.co.nz",
+          "website": "www.bikesinternational.co.nz"
+        }
+      ]
+    },
+    {
+      "country": "Canada",
+      "distributors": [
+        {
+          "companyName": "Cycle Component Network Inc",
+          "address": "107 Kings Road West, Unit 1, North Vancouver, British Columbia, Canada, V7N 2L7",
+          "tel": " 604 988 7783",
+          "mob": "778 998 BIKE (2453)",
+          "email": "nfo@ccnbikes.com",
+          "website": "www.ccnbikes.com"
+        }
+      ]
+    },
+    {
+      "country": "France"
+    },
+    {
+      "country": "Greeze"
+    },
+    {
+      "country": "Czech Republic, Slovakia"
+    },
+    {
+      "country": "Italy"
+    },
+    {
+      "country": "Japan"
+    },
+    {
+      "country": "Latvia, Lithuania and Estonia"
+    },
+    {
+      "country": "New Zealand"
+    },
+    {
+      "country": "Norway"
+    },
+    {
+      "country": "Portugal"
+    },
+    {
+      "country": "Romania"
+    },
+    {
+      "country": "Singapore"
+    },
+    {
+      "country": "Slovinia"
+    },
+    {
+      "country": "Spain",
+      "distributors": [
+        {
+          "company": "Crosscountrysports Distribution - Spain (Distributor), Gallocanta 3, 2C, 09400 Aranda de Duero, Burgos, Spain",
+          "tel": "+34 625634855",
+          "email": "info@crosscountrysports.org",
+          "Website": "www.crosscountrysports.org"
+        }
+      ]
+    },
+    {
+      "country": "UK & Ireland"
+    }
+  ]
 
 }
