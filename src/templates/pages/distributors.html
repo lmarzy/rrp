@@ -19,17 +19,19 @@ pageCss: distributors
     Distributors
   </h2>
 
-  <div class="c-distributorCountries">
-    <label for="countries" class="c-distributorCountries__label">Select a country from the list below</label>
-    <select id="countries" class="c-distributorCountries__select">
+  <section class="c-distributorCountries">
+    <h3 class="c-distributorCountries__title">Select a country from the list below</h3>
+    <ul id="countries">
       {% for country in distributors %}
-        <option value="{{ country.country }}">{{ country.country }}</option>
+        <li class="c-distributorCountries__country">
+          <a href="#{{ country.country }}" data-target="{{ country.country }}">{{ country.country }}</a>
+        </li>
       {% endfor %}
-    </select>
-  </div>
+    </ul>
+  </section>
 
   {% for distributor in distributors %}
-  <section class="c-distributorCountry">
+  <section id="{{ distributor.country }}" class="c-distributorCountry">
 
     <h3 class="c-distributorCountry__title">{{ distributor.country }}</h3>
 
@@ -63,6 +65,18 @@ pageCss: distributors
             {% if details.website %}
               <dt>Website</dt>
               <dd><a href="http://{{ details.website }}">{{ details.website }}</a></dd>
+            {% endif %}
+            {% if details.orders %}
+              <dt>Orders</dt>
+              <dd><a href="http://{{ details.orders }}">{{ details.orders }}</a></dd>
+            {% endif %}
+            {% if details.customerService %}
+              <dt>Customer Service</dt>
+              <dd><a href="http://{{ details.customerService }}">{{ details.customerService }}</a></dd>
+            {% endif %}
+            {% if details.enquiries %}
+              <dt>enquiries</dt>
+              <dd><a href="http://{{ details.enquiries }}">{{ details.enquiries }}</a></dd>
             {% endif %}
           </dl>
         </div>

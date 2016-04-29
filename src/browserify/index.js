@@ -1,6 +1,7 @@
 import { tabs }     from './components/tabs';
 import { gallery }  from './components/gallery';
 import { prodColImage }  from './components/product-colour-image';
+import { distributors }  from './components/distributors';
 
 'use strict';
 
@@ -36,3 +37,4 @@ var productTabs = tabs({
 
 gallery();
 prodColImage();
+distributors();

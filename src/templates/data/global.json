@@ -236,22 +236,64 @@
       ]
     },
     {
-      "country": "France"
+      "country": "France",
+      "distributors": [
+        {
+          "companyName": "TRIBE Sportgroup",
+          "address": "1 Rue Condorcet, ZA de Cogolin, 83310 Cogolin, France",
+          "tel": "0033(4)94541950",
+          "email": "contact@tribesportgroup.fr",
+          "website": "www.tribesportgroup.com"
+        }
+      ]
     },
     {
-      "country": "Greeze"
+      "country": "Greece",
+      "distributors": [
+        {
+          "companyName": "LIFE CYCLES Bike Work Shop",
+          "address": "Vas. Konstantinou 2 171-21 Nea Smirni Athens, Greece",
+          "tel": "+30 2130265613",
+          "email": "ffwracing@gmail.com",
+          "website": "www.lifecycles.gr"
+        }
+      ]
     },
     {
-      "country": "Czech Republic, Slovakia"
+      "country": "Czech Republic, Slovakia",
+      "distributors": [
+        {
+          "companyName": "TL Sport",
+          "address": "Havirska 1442, Teplice, 415 01, Czech Republic",
+          "tel": "+420 722 354 356",
+          "email": "info@tlsportuk.com",
+          "Website": "www.tlsportuk.com"
+        }
+      ]
     },
     {
-      "country": "Italy"
+      "country": "Italy",
+      "distributors": [
+        {
+          "companyName": "TRIBE Distribution",
+          "address": "Via Cuneo, 74, 12084 Mondovì CN, Italy",
+          "tel": "+39 0174 33 01 52",
+          "email": "info@tribedistribution.com",
+          "website": "www.tribedistribution.com"
+        }
+      ]
     },
     {
-      "country": "Japan"
-    },
-    {
-      "country": "Latvia, Lithuania and Estonia"
+      "country": "Latvia, Lithuania and Estonia",
+      "distributors": [
+        {
+          "companyName": "Gandrs Ltd",
+          "address": "Kapselu iela 11, Riga, LV-1046, Latvia",
+          "tel": "00371 6761 2624",
+          "email": "gandrs@gandrs.lv",
+          "website": "www.gandrs.lv"
+        }
+      ]
     },
     {
       "country": "New Zealand",
@@ -266,19 +308,52 @@
       ]
     },
     {
-      "country": "Norway"
+      "country": "Norway",
+      "distributors": [
+        {
+          "companyName": "Deler AS",
+          "address": "Postboks 1004, 1442 Drøbak, Norway",
+          "tel": "0047 64989950",
+          "email": "parts@deler.no",
+          "website": "www.deler.no"
+        }
+      ]
     },
     {
-      "country": "Portugal"
+      "country": "Portugal",
+      "distributors": [
+        {
+          "companyName": "Saltar Trilhos Unipessoal, Lda",
+          "address": "Rua Jose Basaliza, 81 Loja, Valejas, 2730-106 Barcarena, Portugal",
+          "tel": "+351966589441",
+          "website": "www.saltartrilhos.pt",
+          "email": "saltartrilhos@gmail.com"
+        }
+      ]
     },
     {
-      "country": "Romania"
+      "country": "Romania",
+      "distributors": [
+        {
+          "companyName": "Surmont Sport SR",
+          "address": "STR Lomonosov, NR.1, 550005, Sibiu, Romania",
+          "tel": "0040728949494",
+          "website": "www.surmont.ro",
+          "email": "contact@surmont.ro"
+        }
+      ]
     },
     {
-      "country": "Singapore"
-    },
-    {
-      "country": "Slovinia"
+      "country": "Slovinia",
+      "distributors": [
+        {
+          "companyName": "ETAPA",
+          "address": "Kidriceva cesta 75, 4220 Škofja Loka, Slovenia",
+          "tel": "+386 833 02000",
+          "website": "www.etapa.si",
+          "email": "info@etapa.si"
+        }
+      ]
     },
     {
       "country": "Spain",
@@ -292,7 +367,18 @@
       ]
     },
     {
-      "country": "UK & Ireland"
+      "country": "UK & Ireland",
+      "distributors": [
+        {
+          "companyName": "EXTRA (UK) Ltd",
+          "address": "Datamex House, Morris Close, Park Farm Industrial Estate, Wellingborough, Northants, NN8 6XF",
+          "tel": "01933 672 170",
+          "website": "www.extrauk.co.uk",
+          "orders": "orders@extrauk.co.uk",
+          "customerService": "service@extrauk.co.uk",
+          "enquiries": "mailbox@extrauk.co.uk"
+        }
+      ]
     }
   ]
 

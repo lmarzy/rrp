@@ -3,6 +3,7 @@
    ========================================================================== */
 
 .c-distributorCountry {
+  display: none;
   margin-bottom: $rhythm;
   padding: $rhythm / 2 $rhythm $rhythm * 2 $rhythm;
   background: rgba(white, 0.7);
@@ -12,5 +13,9 @@
       font-size: rem(28px);
       color: lighten(colour(main, text),20);
       border-bottom: 1px solid lighten(colour(brand, b),48);
+    }
+
+    &.is-visible {
+      display: block;
     }
 }

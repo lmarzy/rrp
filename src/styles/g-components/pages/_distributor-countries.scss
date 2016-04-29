@@ -8,9 +8,11 @@
   background: rgba(white, 0.7);
   text-align: center;
 
-    &__label {
-      display: block;
-      margin-bottom: rem(6px);
-      font-size: rem(18px);
+    &__title {
+      font-size: rem(20px);
+    }
+    &__country {
+      display: inline-block;
+      padding: rem(8px);
     }
 }
