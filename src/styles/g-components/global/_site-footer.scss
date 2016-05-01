@@ -3,6 +3,10 @@
    ========================================================================== */
 
 .c-siteFooter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   padding-top: rem(24px);
   padding-bottom: rem(24px);
   background: rgba(colour(brand, b), 0.9);

@@ -7,10 +7,12 @@
   text-align: center;
   line-height: 0;
   border-top: 1px solid darken(colour(brand, c),14);
+  color: white;
   font-size: rem(32px);
-  text-shadow: 1px 1px 8px rgba(black, 0.5);
+  text-shadow: 1px 1px 6px rgba(black, 0.4);
 
     @include bp(20) {
+      padding: $rhythm * 2.5 0;
       font-size: rem(40px);
     }
 }

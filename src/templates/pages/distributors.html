@@ -7,10 +7,6 @@ pageCss: distributors
 ---
 {% extends "default.html" %}
 
-{% block icons %}
-  {% include "icons-distributors.nunjucks" %}
-{% endblock %}
-
 {% block content %}
 
 <section class="o-container">
@@ -20,14 +16,13 @@ pageCss: distributors
   </h2>
 
   <section class="c-distributorCountries">
-    <h3 class="c-distributorCountries__title">Select a country from the list below</h3>
-    <ul id="countries">
+    <label for="contries" class="c-distributorCountries__label">Select a country from the list below</label>
+    <select id="countries" class="c-distributorCountries__options">
+      <option selected disabled>Please choose</option>
       {% for country in distributors %}
-        <li class="c-distributorCountries__country">
-          <a href="#{{ country.country }}" data-target="{{ country.country }}">{{ country.country }}</a>
-        </li>
+        <option value="{{ country.country }}" class="c-distributorCountries__country">{{ country.country }}</option>
       {% endfor %}
-    </ul>
+    </select>
   </section>
 
   {% for distributor in distributors %}

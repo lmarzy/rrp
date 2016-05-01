@@ -359,7 +359,8 @@
       "country": "Spain",
       "distributors": [
         {
-          "company": "Crosscountrysports Distribution - Spain (Distributor), Gallocanta 3, 2C, 09400 Aranda de Duero, Burgos, Spain",
+          "company": "Crosscountrysports Distribution",
+          "address": "Gallocanta 3, 2C, 09400 Aranda de Duero, Burgos, Spain",
           "tel": "+34 625634855",
           "email": "info@crosscountrysports.org",
           "Website": "www.crosscountrysports.org"

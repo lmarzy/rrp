@@ -4,15 +4,18 @@
 
 .c-distributorCountries {
   margin-bottom: $rhythm;
-  padding: $rhythm;
-  background: rgba(white, 0.7);
+  padding: $rhythm 0;
   text-align: center;
+  background: white;
+  border-radius: 6px;
 
-    &__title {
+    &__label {
+      display: block;
+      margin-bottom: $rhythm;
       font-size: rem(20px);
     }
-    &__country {
-      display: inline-block;
-      padding: rem(8px);
+    &__options {
+      background: colour(brand, b);
+      color: white;
     }
 }

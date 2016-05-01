@@ -6,7 +6,8 @@
   display: none;
   margin-bottom: $rhythm;
   padding: $rhythm / 2 $rhythm $rhythm * 2 $rhythm;
-  background: rgba(white, 0.7);
+  background: rgba(white, 0.8);
+  border-radius: 8px;
 
     &__title {
       margin-bottom: $rhythm;

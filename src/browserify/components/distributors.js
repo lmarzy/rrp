@@ -11,9 +11,7 @@ const init = () => {
 
   if(!$countrySelect) return;
 
-  $countrySelect.addEventListener('click', function(e) {
-
-    if (!e.target || !selectorMatches(e.target, 'a')) return;
+  $countrySelect.addEventListener('change', function(e) {
 
     e.preventDefault();
 
@@ -21,7 +19,7 @@ const init = () => {
       $distributorCountry[i].classList.remove('is-visible');
     }
 
-    const target = document.getElementById(e.target.getAttribute('data-target'));
+    const target = document.getElementById(e.target.value);
 
     target.classList.add('is-visible');
 
