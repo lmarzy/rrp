@@ -15,6 +15,6 @@ if(!configGlobal.isProduction) {
   });
 }else {
   gulp.task('default', function(cb) {
-    runSequence(configTask.a, configTask.b, configTask.c, cb);
+    runSequence(configTask.a, configTask.b, configTask.c, configTask.d, configTask.e, cb);
   });
 }

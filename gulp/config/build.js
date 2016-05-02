@@ -8,8 +8,7 @@ module.exports = {
     'assets:css',
     'assets:images'
   ],
-  c: [
-    'revAll',
-    'sitemap'
-  ]
+  c: 'sitemap',
+  d: 'copy:favicon',
+  e: 'revAll'
 }
