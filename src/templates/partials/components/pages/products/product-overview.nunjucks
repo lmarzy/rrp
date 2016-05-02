@@ -31,6 +31,25 @@
           <svg class="icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
         </button>
       </div>
+
+      <ul class="c-socialShare">
+          <li class="c-socialShare__item">
+            Share
+          </li>
+          <li class="c-socialShare__item">
+            <a href="http://www.facebook.com/sharer.php?u=http://www.rapidracerproducts.co.uk/products/{{ productUrl }}.html" target="_blank" class="c-socialShare__link c-socialShare__link--facebook">
+              <span class="is-vh">Share this product on Facebook</span>
+              <svg class="icon icon-facebook-share" viewBox="0 0 16 16"><use xlink:href="#icon-facebook-share"></use></svg>
+            </a>
+          </li>
+          <li class="c-socialShare__item">
+            <a href="http://twitter.com/share?url=http://www.rapidracerproducts.co.uk/products/{{ productUrl }}.html&text=Checkout this great product" target="_blank" class="c-socialShare__link c-socialShare__link--twitter">
+              <span class="is-vh">Share this product on Twitter</span>
+              <svg class="icon icon-twitter-share" viewBox="0 0 16 16"><use xlink:href="#icon-twitter-share"></use></svg>
+            </a>
+          </li>
+        </ul>
+
     </div>
 
     <div class="o-grid__item u-1of1 u-bp20-5of12">

@@ -1,0 +1,33 @@
+/* ==========================================================================
+   COMPONENTS/PAGES - SOCIAL-SHARE
+   ========================================================================== */
+
+.c-socialShare {
+  margin: 0 auto;
+  padding: rem(4px) 0;
+  width: rem(150px);
+
+  &__item {
+    display: inline-block;
+    padding: rem(4px);
+    vertical-align: middle;
+  }
+  &__link {
+    display: block;
+    width: rem(28px);
+    height: rem(28px);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: rem(32px);
+    overflow: hidden;
+
+      &--facebook {
+        background: colour(social, facebook);
+      }
+      &--twitter {
+        background: colour(social, twitter);
+      }
+  }
+
+}
