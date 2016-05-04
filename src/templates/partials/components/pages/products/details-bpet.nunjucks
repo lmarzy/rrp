@@ -17,14 +17,14 @@
   <h4>Extracting Bearings (<span class="u-col-a">RED adaptors</span>) - SOLD SEPARATELY</h4>
   <p>Place the RED adaptors from your RRP BEARING KIT as shown below, take time to ensure that all the parts fit flush and are aligned to prevent any damage to parts or frame. In particular check that the female adaptor cup is flush on the frame to prevent frame damage.</p>
   <p>Wind on the main handle until the parts all come together, make a final check that everything is aligned properly. Continue to wind on the main handle which will allow the male adaptor to pull on the inner race of the bearing and extract it into the female adaptor cup (NB: The male adaptor passes through the female adaptor to ensure a uniform and true extraction*), it will become harder to turn once the bearing starts to extract. After a couple of turns stop and check that the bearing is extracting properly before continuing</p>
-  <img src="/img/products/tools/bpet/instructions/1.svg" alt="Extracting Bearings for Red adaptors" class="c-fitting__img">
+  <img src="/img/products/tools/bpet/instructions/1.png" alt="Extracting Bearings for Red adaptors" class="c-fitting__img">
 </section>
 
 <section class="u-mb1">
   <h4>Inserting Bearings (<span class="u-col-d">BLUE adaptors</span>) - SOLD SEPARATELY</h4>
   <p>Place the BLUE adaptors from your RRP BEARING KIT as shown below, take time to ensure that all the parts fit flush and are aligned to prevent any damage to parts or frame.</p>
   <p>Wind on the main handle until all the parts come together, the male adaptor should be pressing on the outer race of the bearing you are inserting. Make a final check that everything is all aligned. Continue to wind on the main handle, the male adaptor will press onto the outer race of the bearing and insert it (NB: The male adaptor passes through the female adaptor to ensure a uniform and true insertion*), it will become harder to turn once the bearing starts to insert. After a couple of turns stop and check that the bearing is inserting properly before continuing</p>
-  <img src="/img/products/tools/bpet/instructions/2.svg" alt="Extracting Bearings for Blue adaptors" class="c-fitting__img">
+  <img src="/img/products/tools/bpet/instructions/2.png" alt="Extracting Bearings for Blue adaptors" class="c-fitting__img">
 </section>
 
 <div class="c-tableWrap u-mb1">
@@ -81,6 +81,13 @@
         <td>BPET6000</td>
         <td>10</td>
         <td>26</td>
+      </tr>
+      <tr>
+        <td>6801 2rs / 61801 2rs</td>
+        <td>6a</td>
+        <td>BPET6801</td>
+        <td>12</td>
+        <td>21</td>
       </tr>
       <tr>
         <td>6901 2rs / 61901 2rs</td>
@@ -166,13 +173,6 @@
         <td>25</td>
         <td>37</td>
       </tr>
-      <tr>
-        <td>Bearing Press & Extraction Tool (BPET)</td>
-        <td>-</td>
-        <td>BPETHTB</td>
-        <td>-</td>
-        <td>-</td>
-      </tr>
     </tbody>
     <tfoot>
       <tr>
@@ -194,7 +194,7 @@
   </table>
 </div>
 
-<img src="/img/products/tools/bpet/instructions/bearing-diagram.svg" alt="Image of Bearing Diagram" class="c-fitting__img">
+<img src="/img/products/tools/bpet/instructions/bearing-diagram.png" alt="Image of Bearing Diagram" class="c-fitting__img">
 
 <p>*Bearing Kits 1, 2 & 3 don’t have male adaptors (all are female adaptors) due to the small size of the bearing bore hole</p>
 

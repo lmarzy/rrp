@@ -23,6 +23,10 @@
     }
     &__shortDesc {
       font-size: rem(18px);
+
+        &:nth-of-type(1) {
+          margin-bottom: 0;
+        }
     }
 
     @include bp(20, max) {

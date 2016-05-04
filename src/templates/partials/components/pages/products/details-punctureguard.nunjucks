@@ -9,6 +9,8 @@
 
 <p>Use the markings on the side of the label to apply 62ml of solution for each tyre, you can do this by removing the core from you innertube valve and pushing the extendable hose over it, or you can apply inside the tyre after taking one side of the tyre off the rim.</p>
 
+<h3 class="u-mb1">Bottle features</h3>
+
 <ul class="c-bullets u-mb1">
   <li class="c-bullets__bullet">Extendable hose</li>
   <li class="c-bullets__bullet">Cap can be used to remove Schrader valve cores</li>
@@ -23,4 +25,4 @@
   <dd>PunctureGuard is not designed to help you seal poorly fitting or old tires that leak air through the bead (or through a perished/corroded tire wall). Our formula is specifically designed to cure punctures from thorns and small snake bites.</dd>
 </dl>
 
-{% include "made-in-uk.nunjucks" %}
+<p class="u-center u-textLarge">Our <span class="u-upper u-col-a">{{ title }}</span> is designed, and packed in the United Kingdom</p>

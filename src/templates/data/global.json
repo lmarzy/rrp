@@ -94,13 +94,13 @@
   "socialNav": [
     {
       "name": "Facebook",
-      "url": "/",
+      "url": "https://www.facebook.com/Rapidracerproducts-164956666850593/",
       "title": "Facebook",
       "icon": "facebook"
     },
     {
       "name": "Youtube",
-      "url": "/",
+      "url": "https://www.youtube.com/playlist?list=PLkJnWfJ0ZkrwzStSFaVtez97eh7JiaxfE",
       "title": "Fitting Videos",
       "icon": "youtube"
     }
@@ -344,7 +344,7 @@
       ]
     },
     {
-      "country": "Slovinia",
+      "country": "Slovenia",
       "distributors": [
         {
           "companyName": "ETAPA",
@@ -359,7 +359,7 @@
       "country": "Spain",
       "distributors": [
         {
-          "company": "Crosscountrysports Distribution",
+          "companyName": "Crosscountrysports Distribution",
           "address": "Gallocanta 3, 2C, 09400 Aranda de Duero, Burgos, Spain",
           "tel": "+34 625634855",
           "email": "info@crosscountrysports.org",
