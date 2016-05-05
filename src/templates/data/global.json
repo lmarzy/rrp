@@ -223,7 +223,7 @@
       ]
     },
     {
-      "country": "Canada",
+      "country": "Canada/USA",
       "distributors": [
         {
           "companyName": "Cycle Component Network Inc",
@@ -244,6 +244,19 @@
           "tel": "0033(4)94541950",
           "email": "contact@tribesportgroup.fr",
           "website": "www.tribesportgroup.com"
+        }
+      ]
+    },
+    {
+      "country": "Germany / Austria",
+      "distributors": [
+        {
+          "companyName": "Fusion Bikes GmbH",
+          "address": "Hauptstrasse 177, 63110 Rodgau Germany",
+          "tel": "06106-2066",
+          "fax": "06106-645233",
+          "email": "webshop@fusion-bikes.de",
+          "website": "www.fusion-bikes.de"
         }
       ]
     },

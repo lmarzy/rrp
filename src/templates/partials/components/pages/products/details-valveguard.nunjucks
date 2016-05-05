@@ -6,3 +6,5 @@
 
 <h3>Material</h3>
 <p>We use a custom thickness of rubber along with a specifically tested adhesive ideally suited to reduce the movement of the valve and dampen resonance from uneven roads.</p>
+
+{% include "made-in-uk.nunjucks" %}

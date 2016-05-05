@@ -73,12 +73,15 @@
 
         {% if productSizes %}
           <h4 class="u-mb05">{{ productSizes.title }}</h4>
-          <dl class="c-dl u-mb1">
+          {% if productSizes.subTitle %}
+            <p class="u-mb05">{{ productSizes.subTitle }}</p>
+          {% endif %}
+          <dl class="o-dlInline u-mb1">
             {% for item in productSizes.sizes %}
               <dt>{{ item.size }}</dt>
               <dd>
-                <p class="u-mb0">{{ item.details }}</p>
-                <p class="u-textSmall u-mb05">{{ item.weight }}</p>
+                <span class="u-mb0">{{ item.details }}</span>
+                <span class="u-textSmall u-mb05">({{ item.weight }})</span>
               </dd>
             {% endfor %}
           </dl>
