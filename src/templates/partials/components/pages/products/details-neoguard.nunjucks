@@ -62,4 +62,4 @@
   <dd>9/10</dd>
 </dl>
 
-{% include "made-in-uk.nunjucks" %}
+<p class="u-center u-textLarge">Our <span class="u-upper u-col-a">{{ title }}</span> is designed, and packed in the United Kingdom</p>

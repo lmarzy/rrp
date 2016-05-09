@@ -71,12 +71,23 @@
           <p>{{ item }}</p>
         {% endfor %}
 
+        {% if productOverviewImportant %}
+          <p class="u-col-a">{{ productOverviewImportant }}</p>
+        {% endif %}
+
+        {% if productOverviewImportantNote %}
+        <dl class="o-dlInline u-mb1 u-col-a">
+          <dt>Note:</dt>
+          <dd>{{ productOverviewImportantNote }}</dd>
+        </dl>
+        {% endif %}
+
         {% if productSizes %}
           <h4 class="u-mb05">{{ productSizes.title }}</h4>
           {% if productSizes.subTitle %}
             <p class="u-mb05">{{ productSizes.subTitle }}</p>
           {% endif %}
-          <dl class="o-dlInline u-mb1">
+          <dl class="c-productSizes u-mb1">
             {% for item in productSizes.sizes %}
               <dt>{{ item.size }}</dt>
               <dd>
