@@ -12,16 +12,13 @@
     padding: rem(4px);
     background: white;
     border: 1px solid lighten(colour(brand, b),48);
-    transition: transform 150ms ease-in;
+    transition: box-shadow 150ms ease-in;
 
       a {
         text-decoration: none;
       }
       &:hover {
-        box-shadow: 0 0 8px rgba(black, 0.4);
-        transform: scale(1.2);
-        filter: none;
-        -webkit-filter: blur(0px);
+        box-shadow: 0 0 15px rgba(black, 0.7);
       }
   }
   &__img {
