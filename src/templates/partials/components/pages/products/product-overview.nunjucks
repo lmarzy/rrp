@@ -71,12 +71,8 @@
           <p>{{ item }}</p>
         {% endfor %}
 
-        {% if productOverviewImportant %}
-          <p class="u-col-a">{{ productOverviewImportant }}</p>
-        {% endif %}
-
         {% if productOverviewImportantNote %}
-        <dl class="o-dlInline u-mb1 u-col-a">
+        <dl class="o-dlInline u-mb1">
           <dt>Note:</dt>
           <dd>{{ productOverviewImportantNote }}</dd>
         </dl>
