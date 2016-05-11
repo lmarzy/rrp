@@ -32,9 +32,9 @@
       }
       &__type {
         float: right;
-        margin-right: rem(-24px);
-        padding: 0 rem(18px);
-        width: rem(160px);
+        margin-right: rem(-16px);
+        padding: 0 rem(8px);
+        min-width: rem(70px);
         font-size: rem(11px);
         background: rgba(black,0.2);
         text-transform: uppercase;
