@@ -87,8 +87,8 @@
             {% for item in productSizes.sizes %}
               <dt>{{ item.size }}</dt>
               <dd>
-                <span class="u-mb0">{{ item.details }}</span>
-                <span class="u-textSmall u-mb05">({{ item.weight }})</span>
+                <p class="u-mb0">{{ item.details }}</p>
+                <p class="u-textSmall u-mb05">({{ item.weight }})</p>
               </dd>
             {% endfor %}
           </dl>
