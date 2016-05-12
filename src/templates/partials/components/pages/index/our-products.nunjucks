@@ -18,7 +18,7 @@
         <li class="c-products__item">
           <a href="{{ product.url }}">
             <article class="c-product">
-              <h2 class="c-product__name">{{ product.name }}</h2>
+              <h2 class="c-product__name">{{ product.name }} {{ product.nameMore }}</h2>
               <img src="{{ product.imgUrl }}" alt="{{ product.imgAlt }}" class="c-product__img">
               <p class="c-product__for">{{ product.for }}</p>
             </article>
@@ -40,7 +40,7 @@
         <li class="c-products__item">
           <a href="{{ product.url }}">
             <article class="c-product">
-              <h2 class="c-product__name">{{ product.name }}</h2>
+              <h2 class="c-product__name">{{ product.name }} {{ product.nameMore }}</h2>
               <img src="{{ product.imgUrl }}" alt="{{ product.imgAlt }}" class="c-product__img">
               <p class="c-product__for">{{ product.for }}</p>
             </article>
@@ -52,7 +52,7 @@
 
     </section>
 
-      <h2 class="c-section__subTitle"><span>Cyclo</span> cross</h2>
+      <h2 class="c-section__subTitle"><span>Cyclocross</span> bikes</h2>
 
       <ul class="c-products">
         {% for product in products %}
@@ -60,7 +60,7 @@
         <li class="c-products__item">
           <a href="{{ product.url }}">
             <article class="c-product">
-              <h2 class="c-product__name">{{ product.name }}</h2>
+              <h2 class="c-product__name">{{ product.name }} {{ product.nameMore }}</h2>
               <img src="{{ product.imgUrl }}" alt="{{ product.imgAlt }}" class="c-product__img">
               <p class="c-product__for">{{ product.for }}</p>
             </article>

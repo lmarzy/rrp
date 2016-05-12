@@ -9,5 +9,9 @@
 
     &__item {
       flex: 1 0 260px;
+
+        a {
+          text-decoration: none;
+        }
     }
 }

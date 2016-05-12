@@ -23,12 +23,12 @@
           "type": "OFF ROAD"
         },
         {
-          "title": "RearGuard",
+          "title": "RearGuard OFF ROAD",
           "link": "/products/mudguards/rearguard-offroad.html",
           "type": "OFF ROAD"
         },
         {
-          "title": "RearGuard",
+          "title": "RearGuard ROAD",
           "link": "/products/mudguards/rearguard-road.html",
           "type": "ROAD"
         },
@@ -138,6 +138,7 @@
     },
     {
       "name": "RearGuard",
+      "nameMore": "ROAD",
       "category": "Mudguard",
       "for": "Road",
       "imgUrl": "/img/products/mudguards/thumbs/rearguard-road.png",
