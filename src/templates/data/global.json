@@ -167,8 +167,17 @@
     {
       "name": "NeoGuard RIGID",
       "category": "Mudguard",
-      "for": "MTB & CX",
-      "imgUrl": "/img/products/mudguards/thumbs/neoguard-rigid.png",
+      "for": "CX",
+      "imgUrl": "/img/products/mudguards/thumbs/neoguard-rigid-cx.png",
+      "imgAlt": "NeoGuard RIGID product image",
+      "url": "/products/mudguards/neoguard-rigid.html",
+      "latest": false
+    },
+    {
+      "name": "NeoGuard RIGID",
+      "category": "Mudguard",
+      "for": "MTB",
+      "imgUrl": "/img/products/mudguards/thumbs/neoguard-rigid-mtb.png",
       "imgAlt": "NeoGuard RIGID product image",
       "url": "/products/mudguards/neoguard-rigid.html",
       "latest": false
@@ -274,7 +283,7 @@
       ]
     },
     {
-      "country": "Czech Republic, Slovakia",
+      "country": "Czech Republic / Slovakia",
       "distributors": [
         {
           "companyName": "TL Sport",
@@ -298,7 +307,7 @@
       ]
     },
     {
-      "country": "Latvia, Lithuania and Estonia",
+      "country": "Latvia / Lithuania / Estonia",
       "distributors": [
         {
           "companyName": "Gandrs Ltd",
@@ -382,7 +391,7 @@
       ]
     },
     {
-      "country": "UK & Ireland",
+      "country": "UK / Ireland",
       "distributors": [
         {
           "companyName": "EXTRA (UK) Ltd",
