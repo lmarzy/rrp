@@ -1,6 +1,6 @@
 <h2 class="c-productMain__title">
   {% if productLogo %}
-  <img src="/img/product-logos/{{ productLogo }}.svg" alt="EnduroGuard">
+  <img src="/img/product-logos/{{ productLogo }}.png" alt="EnduroGuard">
   {% else %}
   <span>{{ productName }}</span>
   {% endif %}
@@ -37,7 +37,7 @@
             Share
           </li>
           <li class="c-socialShare__item">
-            <a href="http://www.facebook.com/sharer.php?u=http://www.rapidracerproducts.co.uk/products/{{ productUrl }}.html" target="_blank" class="c-socialShare__link c-socialShare__link--facebook">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.rapidracerproducts.com%2F&t=" target="_blank" class="c-socialShare__link c-socialShare__link--facebook">
               <span class="is-vh">Share this product on Facebook</span>
               <svg class="icon icon-facebook-share" viewBox="0 0 16 16"><use xlink:href="#icon-facebook-share"></use></svg>
             </a>

@@ -9,6 +9,5 @@ module.exports = {
     'assets:images'
   ],
   c: 'sitemap',
-  d: 'copy:favicon',
-  e: 'revAll'
+  d: 'copy:favicon'
 }

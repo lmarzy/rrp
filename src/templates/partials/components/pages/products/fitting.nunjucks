@@ -7,7 +7,7 @@
 
 {% if fitting.vidLink %}
 <a href="{{ fitting.vidLink }}" title="View the how to fit video on YouTube" class="c-tabs__fittingVid">
-  <img src="/img/fittingVid-link.svg" alt="Link to how to fit video">
+  <img src="/img/fittingVid-link.png" alt="Link to how to fit video">
 </a>
 {% endif %}
 
