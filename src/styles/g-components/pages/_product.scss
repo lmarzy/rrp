@@ -16,7 +16,7 @@
     }
 
     &--latest {
-      margin: rem(14px);
+      margin-bottom: rem(12px);
       border-radius: 4px;
     }
 
@@ -51,5 +51,31 @@
       text-transform: uppercase;
       text-align: center;
       color: colour(main, text);
+    }
+
+    @include bpMinMax(20, 30) {
+      &--latest {
+        .c-product__name {
+          min-height: rem(65px);
+        }
+      }
+    }
+    @include bp(20, max) {
+      &--latest {
+        .c-product__for {
+          border-top: none;
+        }
+        .c-product__img {
+          display: none;
+        }
+      }
+    }
+    @include bp(30) {
+      &--latest {
+        margin: rem(15px);
+        .c-product__img {
+          max-width: 75%;
+        }
+      }
     }
 }

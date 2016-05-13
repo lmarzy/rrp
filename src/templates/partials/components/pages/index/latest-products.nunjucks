@@ -11,7 +11,7 @@
     <ul class="o-grid">
       {% for product in products %}
       {% if product.latest %}
-      <li class="o-grid__item u-bp10-1of2 u-bp20-1of5 u-mb1">
+      <li class="o-grid__item u-1of1 u-bp10-1of2 u-bp20-1of5">
         <a href="{{ product.url }}" title="{{ product.title }}">
           <article class="c-product c-product--latest">
             <h2 class="c-product__name">{{ product.name }} <span class="c-product__name--more">{{ product.nameMore }}</span></h2>

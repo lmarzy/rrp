@@ -4,3 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{{ desc }}">
 <meta name="Author" content="{{ metaAuthor }}">
+
+<meta property="og:url" content="http://rapidracerproducts.com/products/{{ productUrl }}.html" />
+<meta property="og:image" content="http://rapidracerproducts.com/img/products/{{ productImages[0].imageUrl }}.png" />
