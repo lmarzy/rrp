@@ -17,7 +17,6 @@ module.exports = {
     focus
   ],
   processorsProd: [
-    mqPacker,
     cssNano
   ]
 }
