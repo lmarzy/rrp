@@ -3,7 +3,7 @@
   <ul class="c-hero__category c-categoryList">
     <li class="c-categoryList__item">Road</li>
     <li class="c-categoryList__item">Mountain bike</li>
-    <li class="c-categoryList__item">Cyclo Cross</li>
+    <li class="c-categoryList__item">CycloCross</li>
   </ul>
 
   <h2 class="c-hero__title">

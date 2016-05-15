@@ -4,5 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{{ desc }}">
 
-<meta property="og:url" content="http://rapidracerproducts.com{{ ogUrl }}" />
-<meta property="og:image" content="http://rapidracerproducts.com{{ ogImg }}" />
+<meta property="og:url"           content="http://rapidracerproducts.com{{ ogUrl }}" />
+<meta property="og:type"          content="Website" />
+<meta property="og:title"         content="{{ title }}" />
+<meta property="og:description"   content="{{ desc }}" />
+<meta property="og:image"         content="http://rapidracerproducts.com{{ ogImg }}" />

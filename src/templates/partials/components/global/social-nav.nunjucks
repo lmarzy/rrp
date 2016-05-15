@@ -1,6 +1,6 @@
 {% for link in socialNav %}
 <li class="c-socialNav__item">
-  <a href="{{ link.url }}" title="{{ link.title }}">
+  <a href="{{ link.url }}" title="{{ link.title }}" class="c-socialNav__link c-socialNav__link--{{ link.icon }}">
     <span class="is-vh">Click to visit out {{ link.name }} page</span>
     <svg class="icon icon--large icon-{{ link.icon }}"><use xlink:href="#icon-{{ link.icon }}"></use></svg>
   </a>

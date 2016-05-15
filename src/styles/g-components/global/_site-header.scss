@@ -31,11 +31,6 @@
       position: absolute;
       top: rem(24px);
       right: rem(72px);
-
-        .icon {
-          color: white;
-          opacity: 0.9;
-        }
     }
 
     @include bp(30) {

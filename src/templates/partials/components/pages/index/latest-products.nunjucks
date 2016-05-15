@@ -6,7 +6,7 @@
       <span>Latest</span> products
     </h2>
 
-    <p class="c-section__info">We are continually updating and improving our product range, below are our latest products.</p>
+    <p class="c-section__info">We are continually updating and improving our product range, below are our latest products</p>
 
     <ul class="o-grid">
       {% for product in products %}
