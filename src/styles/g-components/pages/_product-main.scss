@@ -8,7 +8,7 @@
       padding: $rhythm 0;
       text-align: center;
       line-height: 0;
-      border-top: 1px solid darken(colour(brand, c),14);
+      border-top: 1px solid darken(colour(brand, c),12);
 
         span {
           display: block;
@@ -30,12 +30,20 @@
     }
 
     @include bp(20, max) {
+      &__title {
+        margin: 0 rem(-12px) rem(24px) rem(-12px);
+        padding-left: rem(8px);
+        padding-right: rem(8px);
+        background: rgba(white, 0.4);
+        border-bottom: 1px solid darken(colour(brand, c),12);
+      }
       &__overview {
         padding-top: $rhythm;
       }
     }
     @include bp(20) {
       &__title {
+        padding: $rhythm * 1.6 0;
         span {
           font-size: rem(48px);
         }
