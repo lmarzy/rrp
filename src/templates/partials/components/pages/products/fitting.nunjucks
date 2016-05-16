@@ -95,5 +95,7 @@
 
 {% if fitting.important %}
 <h4 class="u-col-a">Important</h4>
-<p>{{ fitting.important }}</p>
+{% for item in fitting.important %}
+  <p>{{ item }}</p>
+{% endfor %}
 {% endif %}
