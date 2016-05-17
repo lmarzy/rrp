@@ -10,7 +10,7 @@
 
     <section class="u-mb2">
 
-      <h2 class="c-section__subTitle"><span>Mountain</span> bikes</h2>
+      <h2 id="products-mountain" class="c-section__subTitle"><span>Mountain</span> bikes</h2>
 
       <ul class="c-products">
         {% for product in products %}
@@ -32,7 +32,7 @@
 
     <section class="u-mb2">
 
-      <h2 class="c-section__subTitle"><span>Road</span> bikes</h2>
+      <h2 id="products-road" class="c-section__subTitle"><span>Road</span> bikes</h2>
 
       <ul class="c-products">
         {% for product in products %}
@@ -52,7 +52,7 @@
 
     </section>
 
-      <h2 class="c-section__subTitle"><span>Cyclocross</span> bikes</h2>
+      <h2 id="products-cyclocross" class="c-section__subTitle"><span>Cyclocross</span> bikes</h2>
 
       <ul class="c-products">
         {% for product in products %}

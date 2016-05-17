@@ -62,6 +62,18 @@ pageCss: distributors
               <dt>Website</dt>
               <dd><a href="http://{{ details.website }}">{{ details.website }}</a></dd>
             {% endif %}
+            {% if details.facebook %}
+              <dt>Facebook</dt>
+              <dd><a href="http://{{ details.facebook }}">{{ details.facebook }}</a></dd>
+            {% endif %}
+            {% if details.instagram %}
+              <dt>Instagram</dt>
+              <dd><a href="http://{{ details.instagram }}">{{ details.instagram }}</a></dd>
+            {% endif %}
+            {% if details.twitter %}
+              <dt>Twitter</dt>
+              <dd><a href="http://{{ details.twitter }}">{{ details.twitter }}</a></dd>
+            {% endif %}
             {% if details.orders %}
               <dt>Orders</dt>
               <dd><a href="http://{{ details.orders }}">{{ details.orders }}</a></dd>

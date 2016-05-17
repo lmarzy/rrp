@@ -32,23 +32,7 @@
         </button>
       </div>
 
-      <ul class="c-socialShare">
-          <li class="c-socialShare__item">
-            Share
-          </li>
-          <li class="c-socialShare__item">
-            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.rapidracerproducts.com{{ ogUrl }}" target="_blank" class="c-socialShare__link c-socialShare__link--facebook">
-              <span class="is-vh">Share this product on Facebook</span>
-              <svg class="icon icon-facebook-share" viewBox="0 0 16 16"><use xlink:href="#icon-facebook-share"></use></svg>
-            </a>
-          </li>
-          <li class="c-socialShare__item">
-            <a href="http://twitter.com/share?url=http://www.rapidracerproducts.co.uk/products/{{ productUrl }}.html&text=Checkout this great product" target="_blank" class="c-socialShare__link c-socialShare__link--twitter">
-              <span class="is-vh">Share this product on Twitter</span>
-              <svg class="icon icon-twitter-share" viewBox="0 0 16 16"><use xlink:href="#icon-twitter-share"></use></svg>
-            </a>
-          </li>
-        </ul>
+      {% include "social-share.nunjucks" %}
 
     </div>
 

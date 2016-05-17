@@ -10,6 +10,13 @@
     line-height: 1;
     text-shadow: 1px 1px 6px rgba(black, 0.5);
 
+      a {
+        text-decoration: none;
+
+          &:hover {
+            color: colour(brand, a);
+          }
+      }
       &:not(:last-child) {
         border-right: 1px solid colour(brand, a);
       }

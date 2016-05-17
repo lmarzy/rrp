@@ -5,7 +5,7 @@
     {% include "logo-footer.nunjucks" %}
 
     <ul class="c-siteFooter__social c-socialNav">
-      {% include "social-nav.nunjucks" %}
+      {% include "social-share.nunjucks" %}
     </ul>
 
     {% include "small-print.nunjucks" %}
