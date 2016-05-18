@@ -9,7 +9,7 @@
     </a>
   </li>
   <li class="c-socialShare__item">
-    <a href="http://twitter.com/share?url=http://www.rapidracerproducts.co.uk/products/{{ productUrl }}.html&text=Checkout this great product" target="_blank" class="c-socialShare__link c-socialShare__link--twitter">
+    <a href="http://twitter.com/share?url=http://www.rapidracerproducts.com{{ ogUrl }}&text=Checkout this great product" target="_blank" class="c-socialShare__link c-socialShare__link--twitter">
       <span class="is-vh">Share this product on Twitter</span>
       <svg class="icon icon-twitter-share" viewBox="0 0 16 16"><use xlink:href="#icon-twitter-share"></use></svg>
     </a>
