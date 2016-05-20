@@ -14,9 +14,6 @@ const init = () => {
   const gallery     = document.getElementsByClassName('c-gallery')[0];
   const images      = gallery.getElementsByTagName('img');
 
-  console.log(gallery);
-  console.log(images);
-
   const showImage = (e) => {
     if (!e.target || !selectorMatches(e.target, 'img')) return;
 

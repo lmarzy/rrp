@@ -6,8 +6,10 @@
     display: flex;
     justify-content: center;
     padding-top: rem(8px);
+    padding-bottom: rem(8px);
     flex-wrap: wrap;
     clear: both;
+    border-bottom: 1px solid lighten(colour(brand, b),60);
 
       &__img {
         flex: 1 0 48px;
@@ -25,7 +27,7 @@
 
       @include bp(20) {
         max-width: 80%;
-        padding: 0;
+        padding-top: 0;
         margin: 0 auto;
         clear: none;
       }

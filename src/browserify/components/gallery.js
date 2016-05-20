@@ -15,6 +15,8 @@ const init = () => {
   let prevBtn   = gallery.getElementsByClassName('c-gallery__btn--prev')[0];
   let counter   = 0;
 
+  console.log(counter);
+
   function showImage (index) {
     // Set classname on the image-elements (hide them)
     for (var i = 0; i < images.length; i += 1) {

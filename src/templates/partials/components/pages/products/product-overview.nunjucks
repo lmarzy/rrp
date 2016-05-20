@@ -28,16 +28,16 @@
           <span class="is-vh">Click for next image</span>
           <svg class="icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
         </button>
-        <ul class="c-galleryThumbs c-gallery__thumbs">
-          {% for image in productImages %}
-          <li class="c-galleryThumbs__img">
-            <a href="#{{ image.id }}">
-              <img src="/img/products/{{ image.imageUrl }}.png" alt="{{ image.imageAlt }}" data-target="{{ image.id }}">
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
       </div>
+      <ul class="c-galleryThumbs c-gallery__thumbs">
+        {% for image in productImages %}
+        <li class="c-galleryThumbs__img">
+          <a href="#{{ image.id }}">
+            <img src="/img/products/{{ image.imageUrl }}.png" alt="{{ image.imageAlt }}" data-target="{{ image.id }}">
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
 
       {% include "social-share.nunjucks" %}
 
