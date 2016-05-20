@@ -17,9 +17,7 @@
           <img
             src="/img/products/{{ image.imageUrl }}.png"
             alt="{{ image.imageAlt }}"
-            {% if image.colour %}
-            id="col{{ image.colour }}"
-            {% endif %}
+            id="{{ image.id }}"
             class="c-gallery__img">
         {% endfor %}
         <button type="button" class="c-gallery__btn c-gallery__btn--prev">
@@ -30,6 +28,15 @@
           <span class="is-vh">Click for next image</span>
           <svg class="icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
         </button>
+        <ul class="c-galleryThumbs c-gallery__thumbs">
+          {% for image in productImages %}
+          <li class="c-galleryThumbs__img">
+            <a href="#{{ image.id }}">
+              <img src="/img/products/{{ image.imageUrl }}.png" alt="{{ image.imageAlt }}" data-target="{{ image.id }}">
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
       </div>
 
       {% include "social-share.nunjucks" %}
@@ -90,8 +97,8 @@
           <ul class="c-productCols u-mb1">
             {% for item in productColours.colours %}
               <li class="c-productCols__item c-productCols__item--{{ item.class }}">
-                <a href="#col{{ item.colour }}">
-                  <img src="/img/products/{{ item.imageUrl }}" alt="{{ item.imageAlt }}" class="c-productCols__img" title="{{ item.colour }}" data-target="col{{ item.colour }}">
+                <a href="#{{ item.colour }}">
+                  <img src="/img/products/{{ item.imageUrl }}" alt="{{ item.imageAlt }}" class="c-productCols__img" title="{{ item.colour }}" data-target="{{ item.colour }}">
                   <span class="c-productCols__name">{{ item.colour }}</span>
                 </a>
               </li>

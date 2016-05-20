@@ -1,0 +1,32 @@
+/* ==========================================================================
+   COMPONENTS/PAGES - GALLERY-THUMBS
+   ========================================================================== */
+
+  .c-galleryThumbs {
+    display: flex;
+    justify-content: center;
+    padding-top: rem(8px);
+    flex-wrap: wrap;
+    clear: both;
+
+      &__img {
+        flex: 1 0 48px;
+        max-width: rem(48px);
+        margin: rem(4px);
+        padding: rem(4px);
+        background: white;
+        border: 1px solid lighten(colour(brand, b),48);
+
+          a {
+            display: block;
+            line-height: 0;
+          }
+      }
+
+      @include bp(20) {
+        max-width: 80%;
+        padding: 0;
+        margin: 0 auto;
+        clear: none;
+      }
+  }

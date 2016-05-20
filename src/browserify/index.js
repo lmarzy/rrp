@@ -1,6 +1,6 @@
 import { tabs }     from './components/tabs';
 import { gallery }  from './components/gallery';
-import { prodColImage }  from './components/product-colour-image';
+import { productThumbs }  from './components/product-thumbs';
 import { distributors }  from './components/distributors';
 
 'use strict';
@@ -36,5 +36,5 @@ var productTabs = tabs({
 });
 
 gallery();
-prodColImage();
+productThumbs();
 distributors();
