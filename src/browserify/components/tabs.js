@@ -3,7 +3,7 @@
  * @paran {object} the tab options(container(id or class), link(class), content(class))
 */
 
-let fn = (options) => {
+export const tabs = (options) => {
 
   let $el         = document.querySelector(options.el);
 
@@ -16,8 +16,6 @@ let fn = (options) => {
   let handleClick = (link, index) => {
     link.addEventListener('click', function(e) {
       e.preventDefault();
-      console.log(link);
-      console.log(index);
       openTab(index);
     });
   }
@@ -38,5 +36,3 @@ let fn = (options) => {
   }
 
 }
-
-export { fn as tabs };

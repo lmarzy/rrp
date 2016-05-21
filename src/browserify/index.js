@@ -2,6 +2,7 @@ import { tabs }     from './components/tabs';
 import { gallery }  from './components/gallery';
 import { productThumbs }  from './components/product-thumbs';
 import { distributors }  from './components/distributors';
+import { showImage }  from './components/show-image';
 
 'use strict';
 
@@ -36,5 +37,7 @@ var productTabs = tabs({
 });
 
 gallery();
-productThumbs();
+productThumbs('.c-galleryThumbs');
+productThumbs('.c-productCols');
 distributors();
+showImage();

@@ -4,12 +4,11 @@
 
 import { selectorMatches } from '../helpers/selector-matches';
 
-const init = () => {
+export const productThumbs = (selector) => {
 
-  const productThumbs = document.querySelector('.c-galleryThumbs');
-  const productColThumbs = document.querySelector('.c-productCols');
+  const thumbs = document.querySelector(selector);
 
-  if(!productThumbs) return;
+  if(!thumbs) return;
 
   const gallery     = document.getElementsByClassName('c-gallery')[0];
   const images      = gallery.getElementsByTagName('img');
@@ -27,9 +26,6 @@ const init = () => {
     target.classList.add('is-visible');
   }
 
-  productThumbs.addEventListener('click', showImage);
-  productColThumbs.addEventListener('click', showImage);
+  thumbs.addEventListener('click', showImage);
 
 }
-
-export { init as productThumbs }

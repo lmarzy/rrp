@@ -4,7 +4,7 @@
 
 'use strict';
 
-const init = () => {
+export const gallery = () => {
 
   let gallery   = document.getElementsByClassName('c-gallery')[0];
 
@@ -14,8 +14,6 @@ const init = () => {
   let nextBtn   = gallery.getElementsByClassName('c-gallery__btn--next')[0];
   let prevBtn   = gallery.getElementsByClassName('c-gallery__btn--prev')[0];
   let counter   = 0;
-
-  console.log(counter);
 
   function showImage (index) {
     // Set classname on the image-elements (hide them)
@@ -60,5 +58,3 @@ const init = () => {
   showImage(0);
 
 }
-
-export { init as gallery };

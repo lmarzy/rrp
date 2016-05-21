@@ -4,7 +4,7 @@
 
 import { selectorMatches } from '../helpers/selector-matches';
 
-const init = () => {
+export const distributors = () => {
 
   const $countrySelect = document.getElementById('countries');
   const $distributorCountry = document.querySelectorAll('.c-distributorCountry');
@@ -26,5 +26,3 @@ const init = () => {
   });
 
 }
-
-export { init as distributors }
