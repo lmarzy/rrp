@@ -6,7 +6,8 @@ module.exports = {
     'styles',
     'browserify',
     'assets:css',
-    'assets:images'
+    'assets:images',
+    'assets:downloads'
   ],
   c: 'sitemap',
   d: 'copy:favicon',

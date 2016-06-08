@@ -341,6 +341,19 @@
       ]
     },
     {
+      "country": "Poland",
+      "distributors": [
+        {
+          "companyName": "BIKECOMPONENTS",
+          "address": "ul.Kordeckiego 77 25-134 Kielce, Poland",
+          "tel": "+48796762578",
+          "website": "www.bikecomponents.pl",
+          "email": "info@bikecomponents.pl",
+          "facebook": "www.facebook.com/CkBikeShoppl-146663555394143/"
+        }
+      ]
+    },
+    {
       "country": "Portugal",
       "distributors": [
         {

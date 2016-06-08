@@ -10,5 +10,9 @@ module.exports = {
   images: {
     src: path.src + 'img/**/*',
     dest: path.dest + 'img/'
+  },
+  downloads: {
+    src: path.src + 'downloads/**/*',
+    dest: path.dest + 'downloads/'
   }
 }

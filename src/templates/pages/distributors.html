@@ -36,14 +36,14 @@ pageCss: distributors
       <h4 class="c-distributorCompany__name">{{ details.companyName }}</h4>
 
       <div class="o-grid">
-        <div class="o-grid__item u-1of1 u-bp20-2of3 u-mb1">
-          <dl class="o-dlInline">
+        <div class="o-grid__item u-1of1 u-bp20-3of5 u-mb1">
+          <dl class="c-distributorDetails">
             <dt>Address:</dt>
             <dd>{{ details.address }}</dd>
           </dl>
         </div>
-        <div class="o-grid__item u-1of1 u-bp20-1of3 c-distributorCompany__contacts">
-          <dl class="o-dlInline">
+        <div class="o-grid__item u-1of1 u-bp20-2of5 c-distributorCompany__contacts">
+          <dl class="c-distributorDetails">
             <dt>Tel:</dt>
             <dd>{{ details.tel }}</dd>
             {% if details.mob %}
@@ -59,11 +59,11 @@ pageCss: distributors
               <dd><a href="mailto:{{details.email}}">{{ details.email }}</a></dd>
             {% endif %}
             {% if details.website %}
-              <dt>Website</dt>
+              <dt>Website:</dt>
               <dd><a href="http://{{ details.website }}">{{ details.website }}</a></dd>
             {% endif %}
             {% if details.facebook %}
-              <dt>Facebook</dt>
+              <dt>Facebook:</dt>
               <dd><a href="http://{{ details.facebook }}">{{ details.facebook }}</a></dd>
             {% endif %}
             {% if details.instagram %}

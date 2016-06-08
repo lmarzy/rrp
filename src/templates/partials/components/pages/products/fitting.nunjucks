@@ -1,7 +1,7 @@
 <h3 class="u-mb1">
   Fitting the {{ productName }}
   {% if printInstructionsUrl %}
-  <a href="/img/downloads/{{ printInstructionsUrl }}.pdf">(Print instructions)</a>
+  <a href="/downloads/{{ printInstructionsUrl }}.pdf">(Print instructions)</a>
   {% endif %}
 </h3>
 

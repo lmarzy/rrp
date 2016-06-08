@@ -10,6 +10,9 @@
   dd {
     display: inline;
   }
+  dd {
+    word-break: break-all;
+  }
   dd::after {
     content: "\A";
     white-space: pre;

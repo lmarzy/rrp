@@ -29,3 +29,9 @@ gulp.task('assets:images', function() {
     .pipe(gulp.dest(configTask.images.dest))
     .pipe(reload({stream:true}))
 });
+
+gulp.task('assets:downloads', function() {
+    return gulp.src(configTask.downloads.src)
+    .pipe(gulp.dest(configTask.downloads.dest))
+    .pipe(reload({stream:true}))
+});

@@ -12,8 +12,9 @@ var gulp            = require('gulp'),
 
 gulp.task('revAll', function () {
     var revAll = new RevAll({
+      dontSearchFile: configTask.dontSearchFile,
       dontRenameFile: configTask.dontRenameFile,
-      dontUpdateReference: configTask.dontUpdateReference
+      dontUpdateReference: configTask.dontUpdateReference,
     });
     gulp.src(configTask.src)
       .pipe(plumber(configGlobal.onError))

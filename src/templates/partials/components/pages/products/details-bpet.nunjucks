@@ -190,6 +190,6 @@
 <p>*Bearing Kits 1, 2 & 3 don’t have male adaptors (all are female adaptors) due to the small size of the bearing bore hole</p>
 
 <h4>IMPORTANT NOTICE</h4>
-<p>RapidRacerProducts Ltd accepts no liability for any damage caused, or consequential loss, arising from improper use of the Bearing Press & Extraction Tool, always use the Fitting Instructions provided. <a href="/img/downloads/instruction-for-bearing-press-tool.pdf">View printable fitting instructions</a></p>
+<p>RapidRacerProducts Ltd accepts no liability for any damage caused, or consequential loss, arising from improper use of the Bearing Press & Extraction Tool, always use the Fitting Instructions provided. <a href="/downloads/instructions-for-bearing-press-tool.pdf">View printable fitting instructions</a></p>
 
 {% include "made-in-uk.nunjucks" %}
