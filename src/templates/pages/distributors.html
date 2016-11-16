@@ -62,6 +62,10 @@ pageCss: distributors
               <dt>Website:</dt>
               <dd><a href="http://{{ details.website }}">{{ details.website }}</a></dd>
             {% endif %}
+            {% if details.b2b %}
+              <dt>B2B:</dt>
+              <dd><a href="http://{{ details.website }}">{{ details.website }}</a></dd>
+            {% endif %}
             {% if details.facebook %}
               <dt>Facebook:</dt>
               <dd><a href="http://{{ details.facebook }}">{{ details.facebook }}</a></dd>

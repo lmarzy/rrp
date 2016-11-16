@@ -222,11 +222,13 @@
       "country": "Bulgaria",
       "distributors": [
         {
-          "companyName": "Invert Ltd",
-          "address": "Gurko Str #72, Sofia 1000, Bulgaria",
-          "tel": "+359885657882",
-          "email": "nikki@invertfamily.com",
-          "website": "www.breakpointshop.com"
+          "companyName": "NOW Company",
+          "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+          "tel": "+32 10 23 01 80",
+					"fax": "+32 10 23 01 81",
+          "email": "romain@nowcompany.com",
+          "website": "www.nowcompany.com",
+					"b2b": "www.buytonow.com"
         }
       ]
     },
