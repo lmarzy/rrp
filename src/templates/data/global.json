@@ -217,208 +217,519 @@
     "videos": "https://www.youtube.com/playlist?list=PLkJnWfJ0ZkrwzStSFaVtez97eh7JiaxfE"
   },
 
-  "distributors": [
-    {
-      "country": "Bulgaria",
-      "distributors": [
-        {
-          "companyName": "NOW Company",
-          "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
-          "tel": "+32 10 23 01 80",
-					"fax": "+32 10 23 01 81",
-          "email": "romain@nowcompany.com",
-          "website": "www.nowcompany.com",
-					"b2b": "www.buytonow.com"
-        }
-      ]
-    },
-    {
-      "country": "Canada / USA",
-      "distributors": [
-        {
-          "companyName": "Cycle Component Network Inc",
-          "address": "107 Kings Road West, Unit 1, North Vancouver, British Columbia, Canada, V7N 2L7",
-          "tel": " Canada - 1 866 534 2453 or 604 332 4433 | USA - 1 877 941 2453 or 1 503 444 9664",
-          "mob": "778 998 BIKE (2453)",
-          "email": "nfo@ccnbikes.com",
-          "website": "www.ccnbikes.com"
-        }
-      ]
-    },
-    {
-      "country": "France",
-      "distributors": [
-        {
-          "companyName": "TRIBE Sportgroup",
-          "address": "1 Rue Condorcet, ZA de Cogolin, 83310 Cogolin, France",
-          "tel": "0033(4)94541950",
-          "email": "contact@tribesportgroup.fr",
-          "website": "www.tribesportgroup.com"
-        }
-      ]
-    },
-    {
-      "country": "Germany / Austria",
-      "distributors": [
-        {
-          "companyName": "Fusion Bikes GmbH",
-          "address": "Hauptstrasse 177, 63110 Rodgau Germany",
-          "tel": "06106-2066",
-          "fax": "06106-645233",
-          "email": "webshop@fusion-bikes.de",
-          "website": "www.fusion-bikes.de"
-        }
-      ]
-    },
-    {
-      "country": "Greece",
-      "distributors": [
-        {
-          "companyName": "LIFE CYCLES Bike Work Shop",
-          "address": "Vas. Konstantinou 2 171-21 Nea Smirni Athens, Greece",
-          "tel": "+30 2130265613",
-          "email": "ffwracing@gmail.com",
-          "website": "www.lifecycles.gr"
-        }
-      ]
-    },
-    {
-      "country": "Czech Republic / Slovakia",
-      "distributors": [
-        {
-          "companyName": "TL Sport",
-          "address": "Havirska 1442, Teplice, 415 01, Czech Republic",
-          "tel": "+420 722 354 356",
-          "email": "info@tlsportuk.com",
-          "Website": "www.tlsportuk.com"
-        }
-      ]
-    },
-    {
-      "country": "Italy",
-      "distributors": [
-        {
-          "companyName": "TRIBE Distribution",
-          "address": "Via Cuneo, 74, 12084 Mondovì CN, Italy",
-          "tel": "+39 0174 33 01 52",
-          "email": "info@tribedistribution.com",
-          "website": "www.tribedistribution.com"
-        }
-      ]
-    },
-    {
-      "country": "Latvia / Lithuania / Estonia",
-      "distributors": [
-        {
-          "companyName": "Gandrs Ltd",
-          "address": "Kapselu iela 11, Riga, LV-1046, Latvia",
-          "tel": "00371 6761 2624",
-          "email": "gandrs@gandrs.lv",
-          "website": "www.gandrs.lv"
-        }
-      ]
-    },
-    {
-      "country": "New Zealand",
-      "distributors": [
-        {
-          "companyName": "Bikes International Ltd",
-          "address": "38 Airpark Drive, Auckland Airport, Auckland, 2022, New Zealand",
-          "tel": "0926 71245",
-          "email": "sales@bikesinternational.co.nz",
-          "website": "www.bikesinternational.co.nz"
-        }
-      ]
-    },
-    {
-      "country": "Norway",
-      "distributors": [
-        {
-          "companyName": "Deler AS",
-          "address": "Postboks 1004, 1442 Drøbak, Norway",
-          "tel": "0047 64989950",
-          "email": "parts@deler.no",
-          "website": "www.deler.no"
-        }
-      ]
-    },
-    {
-      "country": "Poland",
-      "distributors": [
-        {
-          "companyName": "BIKECOMPONENTS",
-          "address": "ul.Kordeckiego 77 25-134 Kielce, Poland",
-          "tel": "+48796762578",
-          "website": "www.bikecomponents.pl",
-          "email": "info@bikecomponents.pl",
-          "facebook": "www.facebook.com/CkBikeShoppl-146663555394143/"
-        }
-      ]
-    },
-    {
-      "country": "Portugal",
-      "distributors": [
-        {
-          "companyName": "Saltar Trilhos Unipessoal, Lda",
-          "address": "Rua Jose Basaliza, 81 Loja, Valejas, 2730-106 Barcarena, Portugal",
-          "tel": "+351966589441",
-          "website": "www.saltartrilhos.pt",
-          "email": "saltartrilhos@gmail.com"
-        }
-      ]
-    },
-    {
-      "country": "Romania",
-      "distributors": [
-        {
-          "companyName": "Surmont Sport SR",
-          "address": "STR Lomonosov, NR.1, 550005, Sibiu, Romania",
-          "tel": "0040728949494",
-          "website": "www.surmont.ro",
-          "email": "contact@surmont.ro"
-        }
-      ]
-    },
-    {
-      "country": "Slovenia",
-      "distributors": [
-        {
-          "companyName": "ETAPA",
-          "address": "Kidriceva cesta 75, 4220 Škofja Loka, Slovenia",
-          "tel": "+386 833 02000",
-          "website": "www.etapa.si",
-          "email": "info@etapa.si"
-        }
-      ]
-    },
-    {
-      "country": "Spain",
-      "distributors": [
-        {
-          "companyName": "Crosscountrysports Distribution",
-          "address": "Gallocanta 3, 2C, 09400 Aranda de Duero, Burgos, Spain",
-          "tel": "+34 625634855",
-          "email": "info@crosscountrysports.org",
-          "Website": "www.crosscountrysports.org"
-        }
-      ]
-    },
-    {
-      "country": "UK / Ireland",
-      "distributors": [
-        {
-          "companyName": "EXTRA (UK) Ltd",
-          "address": "Datamex House, Morris Close, Park Farm Industrial Estate, Wellingborough, Northants, NN8 6XF",
-          "tel": "01933 672 170",
-          "website": "www.extrauk.co.uk",
-          "facebook": "https://www.facebook.com/ExtraUK",
-          "instagram": "https://www.instagram.com/extra_uk",
-          "twitter": "http://twitter.com/Extra_UK",
-          "orders": "orders@extrauk.co.uk",
-          "customerService": "service@extrauk.co.uk",
-          "enquiries": "mailbox@extrauk.co.uk"
-        }
-      ]
-    }
-  ]
+	"distributors": [
+  {
+    "country": "Albania",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Belarus",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Belgium",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Bulgaria",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Croatia",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Cyprus",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Canada / USA",
+    "distributors": [
+      {
+        "companyName": "Cycle Component Network Inc",
+        "address": "107 Kings Road West, Unit 1, North Vancouver, British Columbia, Canada, V7N 2L7",
+        "tel": " Canada - 1 866 534 2453 or 604 332 4433 | USA - 1 877 941 2453 or 1 503 444 9664",
+        "mob": "778 998 BIKE (2453)",
+        "email": "nfo@ccnbikes.com",
+        "website": "www.ccnbikes.com"
+      }
+    ]
+  },
+  {
+    "country": "Denmark",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Finland",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "France",
+    "distributors": [
+      {
+        "companyName": "TRIBE Sportgroup",
+        "address": "1 Rue Condorcet, ZA de Cogolin, 83310 Cogolin, France",
+        "tel": "0033(4)94541950",
+        "email": "contact@tribesportgroup.fr",
+        "website": "www.tribesportgroup.com"
+      }
+    ]
+  },
+  {
+    "country": "Georgia",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Germany / Austria",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Greece",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Czech Republic / Slovakia",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Hungary",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Iceland",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Italy",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Latvia / Lithuania / Estonia",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Liechtenstein",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Luxenbourg",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Malta",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Monaco",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Netherlands",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "New Zealand",
+    "distributors": [
+      {
+        "companyName": "Bikes International Ltd",
+        "address": "38 Airpark Drive, Auckland Airport, Auckland, 2022, New Zealand",
+        "tel": "0926 71245",
+        "email": "sales@bikesinternational.co.nz",
+        "website": "www.bikesinternational.co.nz"
+      }
+    ]
+  },
+  {
+    "country": "Norway",
+    "distributors": [
+      {
+        "companyName": "Deler AS",
+        "address": "Postboks 1004, 1442 Drøbak, Norway",
+        "tel": "0047 64989950",
+        "email": "parts@deler.no",
+        "website": "www.deler.no"
+      }
+    ]
+  },
+  {
+    "country": "Poland",
+    "distributors": [
+      {
+        "companyName": "BIKECOMPONENTS",
+        "address": "ul.Kordeckiego 77 25-134 Kielce, Poland",
+        "tel": "+48796762578",
+        "website": "www.bikecomponents.pl",
+        "email": "info@bikecomponents.pl",
+        "facebook": "www.facebook.com/CkBikeShoppl-146663555394143/"
+      }
+    ]
+  },
+  {
+    "country": "Portugal",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Romania",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Russia",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "San Marino",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Slovenia",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Spain",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Sweden",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Switzerland",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Turkey",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Ukraine",
+    "distributors": [
+      {
+        "companyName": "NOW Company",
+        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "UK / Ireland",
+    "distributors": [
+      {
+        "companyName": "EXTRA (UK) Ltd",
+        "address": "Datamex House, Morris Close, Park Farm Industrial Estate, Wellingborough, Northants, NN8 6XF",
+        "tel": "01933 672 170",
+        "website": "www.extrauk.co.uk",
+        "facebook": "https://www.facebook.com/ExtraUK",
+        "instagram": "https://www.instagram.com/extra_uk",
+        "twitter": "http://twitter.com/Extra_UK",
+        "orders": "orders@extrauk.co.uk",
+        "customerService": "service@extrauk.co.uk",
+        "enquiries": "mailbox@extrauk.co.uk"
+      }
+    ]
+  }
+]
 }
