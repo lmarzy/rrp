@@ -1,6 +1,8 @@
 {
 	"siteName": "Rapid Racer Products",
 
+	"logoType": "dark",
+
 	"siteNav": [
 		{
       "title": "Home",
@@ -222,8 +224,8 @@
     "country": "Albania",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -236,8 +238,8 @@
     "country": "Belarus",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -250,8 +252,8 @@
     "country": "Belgium",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -264,8 +266,8 @@
     "country": "Bulgaria",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -278,8 +280,8 @@
     "country": "Croatia",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -292,8 +294,8 @@
     "country": "Cyprus",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -310,7 +312,7 @@
         "address": "107 Kings Road West, Unit 1, North Vancouver, British Columbia, Canada, V7N 2L7",
         "tel": " Canada - 1 866 534 2453 or 604 332 4433 | USA - 1 877 941 2453 or 1 503 444 9664",
         "mob": "778 998 BIKE (2453)",
-        "email": "nfo@ccnbikes.com",
+        "email": "info@ccnbikes.com",
         "website": "www.ccnbikes.com"
       }
     ]
@@ -319,8 +321,8 @@
     "country": "Denmark",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -333,8 +335,8 @@
     "country": "Finland",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -359,8 +361,8 @@
     "country": "Georgia",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -373,8 +375,8 @@
     "country": "Germany / Austria",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -387,8 +389,8 @@
     "country": "Greece",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -401,8 +403,8 @@
     "country": "Czech Republic / Slovakia",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -415,8 +417,8 @@
     "country": "Hungary",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -429,8 +431,8 @@
     "country": "Iceland",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -443,8 +445,8 @@
     "country": "Italy",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -457,8 +459,8 @@
     "country": "Latvia / Lithuania / Estonia",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -471,8 +473,8 @@
     "country": "Liechtenstein",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -485,8 +487,8 @@
     "country": "Luxenbourg",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -499,8 +501,8 @@
     "country": "Malta",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -513,8 +515,8 @@
     "country": "Monaco",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -527,8 +529,8 @@
     "country": "Netherlands",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -578,8 +580,8 @@
     "country": "Portugal",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -592,8 +594,8 @@
     "country": "Romania",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -606,8 +608,8 @@
     "country": "Russia",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -620,8 +622,8 @@
     "country": "San Marino",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -634,8 +636,8 @@
     "country": "Slovenia",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -648,8 +650,8 @@
     "country": "Spain",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -662,8 +664,8 @@
     "country": "Sweden",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -676,8 +678,8 @@
     "country": "Switzerland",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -690,8 +692,8 @@
     "country": "Turkey",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
@@ -704,8 +706,8 @@
     "country": "Ukraine",
     "distributors": [
       {
-        "companyName": "NOW Company",
-        "address": "Avenue Edison 5 - Zoning Nord - 1300 Wavre - Belgium",
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
         "tel": "+32 10 23 01 80",
         "fax": "+32 10 23 01 81",
         "email": "romain@nowcompany.com",
