@@ -103,6 +103,12 @@
       "url": "https://www.youtube.com/playlist?list=PLkJnWfJ0ZkrwzStSFaVtez97eh7JiaxfE",
       "title": "Fitting Videos",
       "icon": "youtube"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.instagram.com/rapidracerproducts",
+      "title": "Instagram",
+      "icon": "instagram"
     }
   ],
 
