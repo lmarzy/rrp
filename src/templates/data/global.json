@@ -99,16 +99,16 @@
       "icon": "facebook"
     },
     {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/rapidracerproducts",
+      "title": "Instagram",
+      "icon": "instagram"
+    },
+    {
       "name": "Youtube",
       "url": "https://www.youtube.com/playlist?list=PLkJnWfJ0ZkrwzStSFaVtez97eh7JiaxfE",
       "title": "Fitting Videos",
       "icon": "youtube"
-    },
-    {
-      "name": "Youtube",
-      "url": "https://www.instagram.com/rapidracerproducts",
-      "title": "Instagram",
-      "icon": "instagram"
     }
   ],
 
@@ -649,6 +649,18 @@
         "email": "romain@nowcompany.com",
         "website": "www.nowcompany.com",
         "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "South Korea",
+    "distributors": [
+      {
+        "companyName": "BM WORKS Co, Ltd",
+        "address": "619, Geumo-ro, Siheung-si, Gyeonggi-do, Korea. ZIP 14927",
+        "tel": "82-70-8650-2398",
+        "email": "info@bm-works.co.kr",
+        "website": "www.bm-works.co.kr/"
       }
     ]
   },
