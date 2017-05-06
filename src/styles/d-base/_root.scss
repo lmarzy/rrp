@@ -38,7 +38,7 @@ body {
   padding: 0 0 rem(290px) 0;
   min-height: 100%;
 
-    &.c-indexPage, &.c-productPage,&.c-contactPage {
+    &.c-indexPage, &.c-productPage,&.c-contactPage,&.c-salePage {
       background-color: black;
       background-image: url($imgPath+'bg-main1.jpg');
       background-position: 0 0;
