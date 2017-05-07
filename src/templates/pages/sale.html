@@ -20,6 +20,19 @@ pageCss: sale
       Close out sale
     </h2>
 
+    <ul class="c-saleItems">
+      {% for product in saleItems %}
+        <li class="c-saleItems_item">
+          <article class="c-saleItem">
+            <h2 class="c-saleItem_title">{{ product.name }}</h2>
+            <img src="{{ product.imgUrl }}" alt="{{ product.imgUrlAlt}}" class="c-saleItem_img">
+            <p class="c-saleItem_price">&pound; {{ product.price }}</p>
+            <button class="c-saleItem_btn c-btn c-btn--b c-btn--small">Add to Basket</button>
+          </article>
+        </li>
+      {% endfor %}
+    </ul>
+
   </section>
 
 {% endblock %}

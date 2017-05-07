@@ -2,7 +2,7 @@
   /* ==========================================================================
    COMPONENTS - BUTTONS
    ========================================================================== */
-   
+
   .c-btn {
     position: relative;
     display: inline-block;
@@ -55,6 +55,15 @@
           &:before {
             transform: translateY(0%);
           }
+        }
+    }
+    &--b {
+      background: colour(brand, d);
+      border-color: colour(main, borders);
+      color: white;
+
+        &:hover, &:focus {
+          background: darken(colour(brand, d), 10);
         }
     }
     &--tiny {

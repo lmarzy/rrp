@@ -1,0 +1,36 @@
+/* ==========================================================================
+   COMPONENTS/PAGES - SALE ITEM
+   ========================================================================== */
+
+.c-saleItem {
+  padding: rem(12px);
+  background: white;
+  border-radius: 2px;
+  box-shadow: 0 0 6px 6px rgba(black, 0.2);
+
+  &_img {
+    display: block;
+    margin-bottom: rem(12px);
+    border: 1px solid colour(main, borders);
+    transition: transform 200ms ease-in;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &_title {
+    margin-bottom: rem(12px);
+    font-size: rem(18px);
+    text-align: center;
+  }
+
+  &_price {
+    font-size: rem(18px);
+  }
+
+  &_btn {
+    width: 100%;
+  }
+}

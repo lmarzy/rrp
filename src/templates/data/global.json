@@ -88,6 +88,10 @@
     {
       "title": "Contact",
       "link": "/contact.html"
+    },
+    {
+      "title": "Sale",
+      "link": "/sale.html"
     }
 	],
 
@@ -751,5 +755,49 @@
       }
     ]
   }
-]
+],
+
+  "saleItems": [
+    {
+      "imgUrl": "/img/products/mudguards/thumbs/enduroguard.png",
+      "imgUrlAlt": "test 1",
+      "name": "test 1",
+      "price": "20"
+    },
+    {
+      "imgUrl": "/img/products/mudguards/thumbs/enduroguard.png",
+      "imgUrlAlt": "test 1",
+      "name": "test 1",
+      "price": "20"
+    },
+    {
+      "imgUrl": "/img/products/mudguards/thumbs/enduroguard.png",
+      "imgUrlAlt": "test 1",
+      "name": "test 1",
+      "price": "20"
+    },{
+      "imgUrl": "/img/products/mudguards/thumbs/enduroguard.png",
+      "imgUrlAlt": "test 1",
+      "name": "test 1",
+      "price": "20"
+    },
+    {
+      "imgUrl": "/img/products/mudguards/thumbs/enduroguard.png",
+      "imgUrlAlt": "test 1",
+      "name": "test 1",
+      "price": "20"
+    },
+    {
+      "imgUrl": "/img/products/mudguards/thumbs/enduroguard.png",
+      "imgUrlAlt": "test 1",
+      "name": "test 1",
+      "price": "20"
+    },
+    {
+      "imgUrl": "/img/products/mudguards/thumbs/enduroguard.png",
+      "imgUrlAlt": "test 1",
+      "name": "test 1",
+      "price": "20"
+    }
+  ]
 }

@@ -76,7 +76,7 @@
       }
       @include bp(30) {
         float: right;
-        margin-right: rem(100px);
+        margin-right: rem(104px);
 
           &__list {
             display: flex;
@@ -107,7 +107,7 @@
           }
           &__link {
             height: rem(60px);
-            padding: 0 rem(15px);
+            padding: 0 rem(12px);
             font-size: rem(18px);
             line-height: rem(60px);
             text-shadow: 1px 1px 6px rgba(black,0.5);

@@ -1,0 +1,21 @@
+/* ==========================================================================
+   COMPONENTS/PAGES - SALE ITEMS
+   ========================================================================== */
+
+.c-saleItems {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: rem(-24px);
+
+  &_item {
+    flex: 1 0 rem(260px);
+    padding-left: rem(24px);
+    margin-bottom: rem(24px);
+  }
+
+  @include bp(20) {
+    &_item {
+      max-width: 25%;
+    }
+  }
+}
