@@ -28,6 +28,16 @@ pageCss: sale
             <img src="{{ product.imgUrl }}" alt="{{ product.imgUrlAlt}}" class="c-saleItem_img">
             <p class="c-saleItem_price">&pound; {{ product.price }}</p>
             <button class="c-saleItem_btn c-btn c-btn--b c-btn--small">Add to Basket</button>
+            <button
+              class="snipcart-add-item"
+              data-item-id="2"
+              data-item-name="Guard one"
+              data-item-price="12.00"
+              data-item-weight="40"
+              data-item-url="/"
+              data-item-description="Mudguard one">
+                  Add to basket
+          </button>
           </article>
         </li>
       {% endfor %}

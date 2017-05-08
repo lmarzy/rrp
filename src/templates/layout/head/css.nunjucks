@@ -1,2 +1,6 @@
 <link rel="stylesheet" href="/css/global.css">
 <link rel="stylesheet" href="/css/{{ pageCss }}.css">
+
+{% if pageId == 'js-sale' %}
+<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+{% endif %}
