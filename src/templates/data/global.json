@@ -863,24 +863,13 @@
       "description": "The NeoGuard is specifically designed to prevent mud and spray from getting in your face and eyes, the NeoGuard throws the mud off every time the fork compresses keeping your bike light and agile.",
       "products": [
         {
-          "id": "NGGBL",
-          "name": "neoguard-graffiti",
-          "imgUrl": "/img/products/mudguards/neoguard/gallery/standard.png",
-          "imgUrlAlt": "Neoguard-Graffiti",
-          "size": "Large",
-          "weight": "25",
-          "for": "From 180mm to 200mm",
-          "color": "Black",
-          "price": "9.99"
-        },
-        {
           "id": "NGGBM",
           "name": "neoguard-graffiti",
           "imgUrl": "/img/products/mudguards/neoguard/gallery/standard.png",
           "imgUrlAlt": "Neoguard-Graffiti",
-          "size": "Medium",
-          "weight": "21",
-          "for": "From 160mm to 180mm",
+          "size": "Extra Small",
+          "weight": "18",
+          "for": "from 80mm to 130mm",
           "color": "Black",
           "price": "9.99"
         },
@@ -900,9 +889,20 @@
           "name": "neoguard-graffiti",
           "imgUrl": "/img/products/mudguards/neoguard/gallery/standard.png",
           "imgUrlAlt": "Neoguard-Graffiti",
-          "size": "Extra Small",
-          "weight": "18",
-          "for": "from 80mm to 130mm",
+          "size": "Medium",
+          "weight": "21",
+          "for": "From 160mm to 180mm",
+          "color": "Black",
+          "price": "9.99"
+        },
+        {
+          "id": "NGGBL",
+          "name": "neoguard-graffiti",
+          "imgUrl": "/img/products/mudguards/neoguard/gallery/standard.png",
+          "imgUrlAlt": "Neoguard-Graffiti",
+          "size": "Large",
+          "weight": "25",
+          "for": "From 180mm to 200mm",
           "color": "Black",
           "price": "9.99"
         }

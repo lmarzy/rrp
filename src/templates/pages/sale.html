@@ -22,7 +22,7 @@ pageCss: sale
 
     {% for product in saleItems %}
       <section class="u-mb2">
-        <h2 class="u-colWhite">{{ product.product }}</h2>
+        <h2 class="u-textLarge u-colWhite">{{ product.product }}</h2>
         <p class="u-colWhite">{{ product.description }}</p>
 
         <ul class="c-saleItems">
@@ -31,18 +31,29 @@ pageCss: sale
               <article class="c-saleItem">
                 <h2 class="c-saleItem_title">{{ products.name }}</h2>
                 <img src="{{ products.imgUrl }}" alt="{{ products.imgUrlAlt}}" class="c-saleItem_img">
+                <dl class="c-saleItem_attributes">
+                  <dt>Colour:</dt>
+                  <dd>{{ products.color }}</dd>
+                  {% if products.size %}
+                  <dt>Size:</dt>
+                  <dd>{{ products.size }}</dd>
+                  {% endif %}
+                  {% if products.weight %}
+                  <dt>Weight:</dt>
+                  <dd>{{ products.weight }}g</dd>
+                  {% endif %}
+                </dl>
+                <p>{{ products.for }}</p>
                 <p class="c-saleItem_price">&pound; {{ products.price }}</p>
-                <button class="c-saleItem_btn c-btn c-btn--b c-btn--small">Add to Basket</button>
                 <button
-                  class="snipcart-add-item"
-                  data-item-id="2"
-                  data-item-name="Guard one"
-                  data-item-price="12.00"
-                  data-item-weight="40"
-                  data-item-url="/"
-                  data-item-description="Mudguard one">
-                      Add to basket
-              </button>
+                  class="snipcart-add-item c-saleItem_btn c-btn c-btn--b c-btn--small"
+                  data-item-id="{{ products.id }}"
+                  data-item-name="{{ products.name }} ( {{ products.size }} {{ products.color }} )"
+                  data-item-price="{{ products.price }}"
+                  data-item-weight="100"
+                  data-item-url="/">
+                  Add to Basket
+                </button>
               </article>
             </li>
           {% endfor %}

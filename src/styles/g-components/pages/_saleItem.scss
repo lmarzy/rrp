@@ -24,6 +24,18 @@
     margin-bottom: rem(12px);
     font-size: rem(18px);
     text-align: center;
+    text-transform: uppercase;
+  }
+
+  &_attributes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: $rhythm;
+
+    dt,
+    dd {
+      flex: 1 0 50%;
+    }
   }
 
   &_price {
