@@ -20,28 +20,35 @@ pageCss: sale
       Close out sale
     </h2>
 
-    <ul class="c-saleItems">
-      {% for product in saleItems %}
-        <li class="c-saleItems_item">
-          <article class="c-saleItem">
-            <h2 class="c-saleItem_title">{{ product.name }}</h2>
-            <img src="{{ product.imgUrl }}" alt="{{ product.imgUrlAlt}}" class="c-saleItem_img">
-            <p class="c-saleItem_price">&pound; {{ product.price }}</p>
-            <button class="c-saleItem_btn c-btn c-btn--b c-btn--small">Add to Basket</button>
-            <button
-              class="snipcart-add-item"
-              data-item-id="2"
-              data-item-name="Guard one"
-              data-item-price="12.00"
-              data-item-weight="40"
-              data-item-url="/"
-              data-item-description="Mudguard one">
-                  Add to basket
-          </button>
-          </article>
-        </li>
-      {% endfor %}
-    </ul>
+    {% for product in saleItems %}
+      <section class="u-mb2">
+        <h2 class="u-colWhite">{{ product.product }}</h2>
+        <p class="u-colWhite">{{ product.description }}</p>
+
+        <ul class="c-saleItems">
+          {% for products in product.products %}
+            <li class="c-saleItems_item">
+              <article class="c-saleItem">
+                <h2 class="c-saleItem_title">{{ products.name }}</h2>
+                <img src="{{ products.imgUrl }}" alt="{{ products.imgUrlAlt}}" class="c-saleItem_img">
+                <p class="c-saleItem_price">&pound; {{ products.price }}</p>
+                <button class="c-saleItem_btn c-btn c-btn--b c-btn--small">Add to Basket</button>
+                <button
+                  class="snipcart-add-item"
+                  data-item-id="2"
+                  data-item-name="Guard one"
+                  data-item-price="12.00"
+                  data-item-weight="40"
+                  data-item-url="/"
+                  data-item-description="Mudguard one">
+                      Add to basket
+              </button>
+              </article>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endfor %}
 
   </section>
 

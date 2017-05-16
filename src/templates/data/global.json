@@ -759,45 +759,154 @@
 
   "saleItems": [
     {
-      "imgUrl": "/img/products/mudguards/thumbs/enduroguard.png",
-      "imgUrlAlt": "test 1",
-      "name": "test 1",
-      "price": "20"
+      "product": "Enduroguard",
+      "description": "The RapidRacerProducts Enduroguard is a simple lightweight mudguard that offers excellent protection for you and your suspension components.",
+      "products": [
+        {
+          "id": "EGGS",
+          "name": "enduroguard",
+          "imgUrl": "/img/products/mudguards/enduroguard/gallery/green.png",
+          "imgUrlAlt": "Enduroguard",
+          "size": "Standard",
+          "weight": "31",
+          "for": "For forks from 80mm to 125mm travel",
+          "color": "Green",
+          "price": "6.99"
+        },
+        {
+          "id": "EGMS",
+          "name": "enduroguard",
+          "imgUrl": "/img/products/mudguards/enduroguard/gallery/magenta.png",
+          "imgUrlAlt": "Enduroguard",
+          "size": "Standard",
+          "weight": "31",
+          "for": "For forks from 80mm to 125mm travel",
+          "color": "Magenta",
+          "price": "6.99"
+        },
+        {
+          "id": "EGRS",
+          "name": "enduroguard",
+          "imgUrl": "/img/products/mudguards/enduroguard/gallery/red.png",
+          "imgUrlAlt": "Enduroguard",
+          "size": "Standard",
+          "weight": "31",
+          "for": "For forks from 80mm to 125mm travel",
+          "color": "Red",
+          "price": "6.99"
+        },
+        {
+          "id": "EGGL",
+          "name": "enduroguard",
+          "imgUrl": "/img/products/mudguards/enduroguard/gallery/green.png",
+          "imgUrlAlt": "Enduroguard",
+          "size": "Large",
+          "weight": "35",
+          "for": "Large: For forks from 130mm to 200mm travel",
+          "color": "Green",
+          "price": "6.99"
+        },
+        {
+          "id": "EGML",
+          "name": "enduroguard",
+          "imgUrl": "/img/products/mudguards/enduroguard/gallery/magenta.png",
+          "imgUrlAlt": "Enduroguard",
+          "size": "Large",
+          "weight": "35",
+          "for": "Large: For forks from 130mm to 200mm travel",
+          "color": "Magenta",
+          "price": "6.99"
+        },
+        {
+          "id": "EGWL",
+          "name": "enduroguard",
+          "imgUrl": "/img/products/mudguards/enduroguard/gallery/white.png",
+          "imgUrlAlt": "Enduroguard",
+          "size": "Large",
+          "weight": "35",
+          "for": "Large: For forks from 130mm to 200mm travel",
+          "color": "White",
+          "price": "6.99"
+        },
+        {
+          "id": "EGRL",
+          "name": "enduroguard",
+          "imgUrl": "/img/products/mudguards/enduroguard/gallery/red.png",
+          "imgUrlAlt": "Enduroguard",
+          "size": "Large",
+          "weight": "35",
+          "for": "Large: For forks from 130mm to 200mm travel",
+          "color": "Red",
+          "price": "6.99"
+        }
+      ]
     },
     {
-      "imgUrl": "/img/products/mudguards/thumbs/enduroguard.png",
-      "imgUrlAlt": "test 1",
-      "name": "test 1",
-      "price": "20"
+      "product": "Rearguard",
+      "description": "The RearGuard is a secure and easy to fit rear mudguard, designed to keep your rear and most of your back dry. Using a Velcro strap, the guard fits in around 10 seconds and stays put!",
+      "products": [
+        {
+          "id": "RGW",
+          "name": "rearguard",
+          "imgUrl": "/img/products/mudguards/rearguard-road/gallery/white.png",
+          "imgUrlAlt": "Rearguard",
+          "size": null,
+          "weight": "33",
+          "for": null,
+          "color": "White",
+          "price": "6.99"
+        }
+      ]
     },
     {
-      "imgUrl": "/img/products/mudguards/thumbs/enduroguard.png",
-      "imgUrlAlt": "test 1",
-      "name": "test 1",
-      "price": "20"
-    },{
-      "imgUrl": "/img/products/mudguards/thumbs/enduroguard.png",
-      "imgUrlAlt": "test 1",
-      "name": "test 1",
-      "price": "20"
-    },
-    {
-      "imgUrl": "/img/products/mudguards/thumbs/enduroguard.png",
-      "imgUrlAlt": "test 1",
-      "name": "test 1",
-      "price": "20"
-    },
-    {
-      "imgUrl": "/img/products/mudguards/thumbs/enduroguard.png",
-      "imgUrlAlt": "test 1",
-      "name": "test 1",
-      "price": "20"
-    },
-    {
-      "imgUrl": "/img/products/mudguards/thumbs/enduroguard.png",
-      "imgUrlAlt": "test 1",
-      "name": "test 1",
-      "price": "20"
+      "product": "Neoguard-Graffiti",
+      "description": "The NeoGuard is specifically designed to prevent mud and spray from getting in your face and eyes, the NeoGuard throws the mud off every time the fork compresses keeping your bike light and agile.",
+      "products": [
+        {
+          "id": "NGGBL",
+          "name": "neoguard-graffiti",
+          "imgUrl": "/img/products/mudguards/neoguard/gallery/standard.png",
+          "imgUrlAlt": "Neoguard-Graffiti",
+          "size": "Large",
+          "weight": "25",
+          "for": "From 180mm to 200mm",
+          "color": "Black",
+          "price": "9.99"
+        },
+        {
+          "id": "NGGBM",
+          "name": "neoguard-graffiti",
+          "imgUrl": "/img/products/mudguards/neoguard/gallery/standard.png",
+          "imgUrlAlt": "Neoguard-Graffiti",
+          "size": "Medium",
+          "weight": "21",
+          "for": "From 160mm to 180mm",
+          "color": "Black",
+          "price": "9.99"
+        },
+        {
+          "id": "NGGBM",
+          "name": "neoguard-graffiti",
+          "imgUrl": "/img/products/mudguards/neoguard/gallery/standard.png",
+          "imgUrlAlt": "Neoguard-Graffiti",
+          "size": "Small",
+          "weight": "20",
+          "for": "from 120mm to 150mm",
+          "color": "Black",
+          "price": "9.99"
+        },
+        {
+          "id": "NGGBM",
+          "name": "neoguard-graffiti",
+          "imgUrl": "/img/products/mudguards/neoguard/gallery/standard.png",
+          "imgUrlAlt": "Neoguard-Graffiti",
+          "size": "Extra Small",
+          "weight": "18",
+          "for": "from 80mm to 130mm",
+          "color": "Black",
+          "price": "9.99"
+        }
+      ]
     }
   ]
 }
