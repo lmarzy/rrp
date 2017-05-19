@@ -765,7 +765,7 @@
         {
           "id": "EGGS",
           "name": "enduroguard",
-          "imgUrl": "/img/products/mudguards/enduroguard/gallery/green.png",
+          "imgUrl": "/img/products/sale/enduroguard/standard/green.png",
           "imgUrlAlt": "Enduroguard",
           "size": "Standard",
           "weight": "31",
@@ -776,7 +776,7 @@
         {
           "id": "EGMS",
           "name": "enduroguard",
-          "imgUrl": "/img/products/mudguards/enduroguard/gallery/magenta.png",
+          "imgUrl": "/img/products/sale/enduroguard/standard/magenta.png",
           "imgUrlAlt": "Enduroguard",
           "size": "Standard",
           "weight": "31",
@@ -787,7 +787,7 @@
         {
           "id": "EGRS",
           "name": "enduroguard",
-          "imgUrl": "/img/products/mudguards/enduroguard/gallery/red.png",
+          "imgUrl": "/img/products/sale/enduroguard/standard/red.png",
           "imgUrlAlt": "Enduroguard",
           "size": "Standard",
           "weight": "31",
@@ -798,44 +798,44 @@
         {
           "id": "EGGL",
           "name": "enduroguard",
-          "imgUrl": "/img/products/mudguards/enduroguard/gallery/green.png",
+          "imgUrl": "/img/products/sale/enduroguard/large/green.png",
           "imgUrlAlt": "Enduroguard",
           "size": "Large",
           "weight": "35",
-          "for": "Large: For forks from 130mm to 200mm travel",
+          "for": "For forks from 130mm to 200mm travel",
           "color": "Green",
           "price": "6.99"
         },
         {
           "id": "EGML",
           "name": "enduroguard",
-          "imgUrl": "/img/products/mudguards/enduroguard/gallery/magenta.png",
+          "imgUrl": "/img/products/sale/enduroguard/large/magenta.png",
           "imgUrlAlt": "Enduroguard",
           "size": "Large",
           "weight": "35",
-          "for": "Large: For forks from 130mm to 200mm travel",
+          "for": "For forks from 130mm to 200mm travel",
           "color": "Magenta",
           "price": "6.99"
         },
         {
           "id": "EGWL",
           "name": "enduroguard",
-          "imgUrl": "/img/products/mudguards/enduroguard/gallery/white.png",
+          "imgUrl": "/img/products/sale/enduroguard/large/white.png",
           "imgUrlAlt": "Enduroguard",
           "size": "Large",
           "weight": "35",
-          "for": "Large: For forks from 130mm to 200mm travel",
+          "for": "For forks from 130mm to 200mm travel",
           "color": "White",
           "price": "6.99"
         },
         {
           "id": "EGRL",
           "name": "enduroguard",
-          "imgUrl": "/img/products/mudguards/enduroguard/gallery/red.png",
+          "imgUrl": "/img/products/sale/enduroguard/large/red.png",
           "imgUrlAlt": "Enduroguard",
           "size": "Large",
           "weight": "35",
-          "for": "Large: For forks from 130mm to 200mm travel",
+          "for": "For forks from 130mm to 200mm travel",
           "color": "Red",
           "price": "6.99"
         }
@@ -848,7 +848,7 @@
         {
           "id": "RGW",
           "name": "rearguard",
-          "imgUrl": "/img/products/mudguards/rearguard-road/gallery/white.png",
+          "imgUrl": "/img/products/sale/rearguard/white.png",
           "imgUrlAlt": "Rearguard",
           "size": null,
           "weight": "33",
@@ -865,7 +865,7 @@
         {
           "id": "NGGBM",
           "name": "neoguard-graffiti",
-          "imgUrl": "/img/products/mudguards/neoguard/gallery/standard.png",
+          "imgUrl": "/img/products/sale/neoguard/graffiti/black-extrasmall.png",
           "imgUrlAlt": "Neoguard-Graffiti",
           "size": "Extra Small",
           "weight": "18",
@@ -876,7 +876,7 @@
         {
           "id": "NGGBM",
           "name": "neoguard-graffiti",
-          "imgUrl": "/img/products/mudguards/neoguard/gallery/standard.png",
+          "imgUrl": "/img/products/sale/neoguard/graffiti/black-small.png",
           "imgUrlAlt": "Neoguard-Graffiti",
           "size": "Small",
           "weight": "20",
@@ -887,7 +887,7 @@
         {
           "id": "NGGBM",
           "name": "neoguard-graffiti",
-          "imgUrl": "/img/products/mudguards/neoguard/gallery/standard.png",
+          "imgUrl": "/img/products/sale/neoguard/graffiti/black-medium.png",
           "imgUrlAlt": "Neoguard-Graffiti",
           "size": "Medium",
           "weight": "21",
@@ -898,7 +898,7 @@
         {
           "id": "NGGBL",
           "name": "neoguard-graffiti",
-          "imgUrl": "/img/products/mudguards/neoguard/gallery/standard.png",
+          "imgUrl": "/img/products/sale/neoguard/graffiti/black-large.png",
           "imgUrlAlt": "Neoguard-Graffiti",
           "size": "Large",
           "weight": "25",
