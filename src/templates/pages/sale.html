@@ -16,9 +16,18 @@ pageCss: sale
 
   <section class="o-container">
 
-    <h2 class="c-pageTitle">
-      Close out sale
-    </h2>
+    <header class="c-snipcart">
+
+      <h2 class="c-snipcart_title">
+        Close out sale
+      </h2>
+
+      <div class="c-snipcart_summary snipcart-summary">
+        <span class="c-snipcart_items">Number of items: <span class="snipcart-total-items"></span></span>
+        <a href="#" class="c-snipcart_checkout snipcart-checkout">Click here to checkout</a>
+      </div>
+
+    </header>
 
     {% for product in saleItems %}
       <section class="u-mb2">

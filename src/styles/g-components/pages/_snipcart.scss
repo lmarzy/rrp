@@ -1,0 +1,33 @@
+/* ==========================================================================
+   COMPONENTS/PAGES - SNIPCART
+   ========================================================================== */
+
+.c-snipcart {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: rem(24px);
+  color: white;
+
+  &_title {
+    margin-bottom: rem(6px);
+    font-size: rem(26px);
+    text-shadow: 0 1px 1px rgba(black, 0.3);
+    color: colour(brand, a);
+  }
+  &_checkout {
+    display: block;
+  }
+
+  @include bp(15) {
+    flex-direction: row;
+    align-items: center;
+
+    &_title {
+      font-size: rem(36px);
+    }
+
+    &_summary {
+      margin-left: auto;
+    }
+  }
+}
