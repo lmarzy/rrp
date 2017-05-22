@@ -1,0 +1,13 @@
+<section class="c-closeOutSale">
+
+  <div class="o-container">
+
+    <h2 class="c-closeOutSale_title">Close out sale</h2>
+
+    <a href="/sale.html" class="c-closeOutSale_link c-btn c-btn--a">
+      <span>View all products</span>
+    </a>
+
+  </div>
+
+</section>
