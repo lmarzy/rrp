@@ -3,22 +3,18 @@
    ========================================================================== */
 
 .c-closeOutSale {
-  padding: $rhythm 0;
+  padding: $rhythm / 2 0;
   background: rgba(colour(brand, a), 0.8);
   text-align: center;
 
   &_title {
-    @include vr(28px, 1, 1);
+    @include vr(22px, 1, 1);
     color: white;
     text-transform: uppercase;
   }
 
-  &_link {
-    font-size: rem(18px);
-  }
-
   @include bp(20) {
-    padding: $rhythm * 2 0;
+    padding: $rhythm 0;
 
     .o-container {
       display: flex;
@@ -27,7 +23,7 @@
     }
 
     &_title {
-      font-size: rem(36px);
+      font-size: rem(24px);
       margin: 0 rem(36px) 0 0;
     }
   }

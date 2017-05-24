@@ -759,8 +759,8 @@
 
   "saleItems": [
     {
-      "product": "Enduroguard",
-      "description": "The Enduroguard is a simple lightweight mudguard that offers excellent protection for you and your suspension components.",
+      "product": "EnduroGuard",
+      "description": "The EnduroGuard is a simple lightweight mudguard that offers excellent protection for you and your suspension components.",
       "products": [
         {
           "id": "EGGS",
@@ -842,7 +842,7 @@
       ]
     },
     {
-      "product": "Rearguard",
+      "product": "RearGuard",
       "description": "The RearGuard is a secure and easy to fit rear mudguard, designed to keep your rear and most of your back dry. Using a Velcro strap, the guard fits in around 10 seconds and stays put!",
       "products": [
         {
@@ -859,12 +859,12 @@
       ]
     },
     {
-      "product": "Neoguard-Graffiti",
+      "product": "NeoGuard Graffiti",
       "description": "The NeoGuard is specifically designed to prevent mud and spray from getting in your face and eyes, the NeoGuard throws the mud off every time the fork compresses keeping your bike light and agile.",
       "products": [
         {
           "id": "NGGBM",
-          "name": "neoguard-graffiti",
+          "name": "neoguard graffiti",
           "imgUrl": "/img/products/sale/neoguard/graffiti/black-extrasmall.png",
           "imgUrlAlt": "Neoguard-Graffiti",
           "size": "Extra Small",
@@ -875,7 +875,7 @@
         },
         {
           "id": "NGGBM",
-          "name": "neoguard-graffiti",
+          "name": "neoguard graffiti",
           "imgUrl": "/img/products/sale/neoguard/graffiti/black-small.png",
           "imgUrlAlt": "Neoguard-Graffiti",
           "size": "Small",
@@ -886,7 +886,7 @@
         },
         {
           "id": "NGGBM",
-          "name": "neoguard-graffiti",
+          "name": "neoguard graffiti",
           "imgUrl": "/img/products/sale/neoguard/graffiti/black-medium.png",
           "imgUrlAlt": "Neoguard-Graffiti",
           "size": "Medium",
@@ -897,7 +897,7 @@
         },
         {
           "id": "NGGBL",
-          "name": "neoguard-graffiti",
+          "name": "neoguard graffiti",
           "imgUrl": "/img/products/sale/neoguard/graffiti/black-large.png",
           "imgUrlAlt": "Neoguard-Graffiti",
           "size": "Large",
