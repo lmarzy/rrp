@@ -14,61 +14,65 @@ pageCss: sale
 
 {% block content %}
 
-  <section class="o-container">
+  <section class="c-snipcart o-container">
 
-    <header class="c-snipcart">
+      <header class="c-snipcart_header">
+        <h2 class="c-snipcart_title">
+          <span>Close</span>
+          out sale
+        </h2>
+        <p class="c-snipcart_text">See our end of line sale products below, for all current models visit our Distributors Page for your region. <a href="/distributors.html">Distributors</a></p>
+      </header>
 
-      <h2 class="c-snipcart_title">
-        Close out sale
-      </h2>
+      <div class="c-snipcart_content">
 
-      <div class="c-snipcart_summary snipcart-summary">
-        <span class="c-snipcart_items">Number of items: <span class="snipcart-total-items"></span></span>
-        <a href="#" class="c-snipcart_checkout snipcart-checkout">Click here to checkout</a>
-      </div>
+        <div class="c-snipcart_summary snipcart-summary">
+          <span class="c-snipcart_items">Number of items: <span class="snipcart-total-items"></span></span>
+          <a href="#" class="c-snipcart_checkout snipcart-checkout">Checkout</a>
+        </div>
 
-    </header>
+        {% for product in saleItems %}
+          <section class="u-mb2">
+            <h2 class="u-textLarge">{{ product.product }}</h2>
+            <p>{{ product.description }}</p>
 
-    {% for product in saleItems %}
-      <section class="u-mb2">
-        <h2 class="u-textLarge u-colWhite">{{ product.product }}</h2>
-        <p class="u-colWhite">{{ product.description }}</p>
+            <ul class="c-saleItems">
+              {% for products in product.products %}
+                <li class="c-saleItems_item">
+                  <article class="c-saleItem">
+                    <h2 class="c-saleItem_title">{{ products.name }}</h2>
+                    <img src="{{ products.imgUrl }}" alt="{{ products.imgUrlAlt}}" class="c-saleItem_img">
+                    <dl class="c-saleItem_attributes">
+                      <dt>Colour:</dt>
+                      <dd>{{ products.color }}</dd>
+                      {% if products.size %}
+                      <dt>Size:</dt>
+                      <dd>{{ products.size }}</dd>
+                      {% endif %}
+                      {% if products.weight %}
+                      <dt>Weight:</dt>
+                      <dd>{{ products.weight }}g</dd>
+                      {% endif %}
+                    </dl>
+                    <p>{{ products.for }}</p>
+                    <p class="c-saleItem_price">&pound; {{ products.price }}</p>
+                    <button
+                      class="snipcart-add-item c-saleItem_btn c-btn c-btn--b c-btn--small"
+                      data-item-id="{{ products.id }}"
+                      data-item-name="{{ products.name }} ( {{ products.size }} {{ products.color }} )"
+                      data-item-price="{{ products.price }}"
+                      data-item-weight="100"
+                      data-item-url="https://rrp.netlify.com/sale.html">
+                      Add to Basket
+                    </button>
+                  </article>
+                </li>
+              {% endfor %}
+            </ul>
+          </section>
+        {% endfor %}
 
-        <ul class="c-saleItems">
-          {% for products in product.products %}
-            <li class="c-saleItems_item">
-              <article class="c-saleItem">
-                <h2 class="c-saleItem_title">{{ products.name }}</h2>
-                <img src="{{ products.imgUrl }}" alt="{{ products.imgUrlAlt}}" class="c-saleItem_img">
-                <dl class="c-saleItem_attributes">
-                  <dt>Colour:</dt>
-                  <dd>{{ products.color }}</dd>
-                  {% if products.size %}
-                  <dt>Size:</dt>
-                  <dd>{{ products.size }}</dd>
-                  {% endif %}
-                  {% if products.weight %}
-                  <dt>Weight:</dt>
-                  <dd>{{ products.weight }}g</dd>
-                  {% endif %}
-                </dl>
-                <p>{{ products.for }}</p>
-                <p class="c-saleItem_price">&pound; {{ products.price }}</p>
-                <button
-                  class="snipcart-add-item c-saleItem_btn c-btn c-btn--b c-btn--small"
-                  data-item-id="{{ products.id }}"
-                  data-item-name="{{ products.name }} ( {{ products.size }} {{ products.color }} )"
-                  data-item-price="{{ products.price }}"
-                  data-item-weight="100"
-                  data-item-url="https://rrp.netlify.com/sale.html">
-                  Add to Basket
-                </button>
-              </article>
-            </li>
-          {% endfor %}
-        </ul>
-      </section>
-    {% endfor %}
+    </div>
 
   </section>
 
