@@ -4,7 +4,7 @@
 
     <h2 class="c-closeOutSale_title">Close out sales</h2>
 
-    <a href="/sale.html" class="c-closeOutSale_link c-btn c-btn--a">
+    <a href="/sale.html" class="c-closeOutSale_link c-btn c-btn--a c-btn--small">
       <span>View all sale products</span>
     </a>
 
