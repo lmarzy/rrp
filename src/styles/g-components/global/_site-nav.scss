@@ -97,6 +97,9 @@
                   transform: rotate(180deg);
                 }
             }
+            &:last-child a {
+              color: colour(brand, a);
+            }
           }
           &__itemSub {
             border-bottom: 1px solid darken(white,15);
