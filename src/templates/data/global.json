@@ -771,7 +771,7 @@
           "weight": "31",
           "for": "For forks from 80mm to 125mm travel",
           "color": "Green",
-          "price": "6.99"
+          "price": "4.99"
         },
         {
           "id": "EGMS",
@@ -782,7 +782,7 @@
           "weight": "31",
           "for": "For forks from 80mm to 125mm travel",
           "color": "Magenta",
-          "price": "6.99"
+          "price": "4.99"
         },
         {
           "id": "EGRS",
@@ -793,7 +793,7 @@
           "weight": "31",
           "for": "For forks from 80mm to 125mm travel",
           "color": "Red",
-          "price": "6.99"
+          "price": "4.99"
         },
         {
           "id": "EGGL",
@@ -804,7 +804,7 @@
           "weight": "35",
           "for": "For forks from 130mm to 200mm travel",
           "color": "Green",
-          "price": "6.99"
+          "price": "4.99"
         },
         {
           "id": "EGML",
@@ -815,7 +815,7 @@
           "weight": "35",
           "for": "For forks from 130mm to 200mm travel",
           "color": "Magenta",
-          "price": "6.99"
+          "price": "4.99"
         },
         {
           "id": "EGWL",
@@ -826,7 +826,7 @@
           "weight": "35",
           "for": "For forks from 130mm to 200mm travel",
           "color": "White",
-          "price": "6.99"
+          "price": "4.99"
         },
         {
           "id": "EGRL",
@@ -837,7 +837,7 @@
           "weight": "35",
           "for": "For forks from 130mm to 200mm travel",
           "color": "Red",
-          "price": "6.99"
+          "price": "4.99"
         }
       ]
     },
@@ -854,7 +854,7 @@
           "weight": "33",
           "for": null,
           "color": "White",
-          "price": "6.99"
+          "price": "4.99"
         }
       ]
     },
@@ -871,7 +871,7 @@
           "weight": "18",
           "for": "from 80mm to 130mm",
           "color": "Black",
-          "price": "9.99"
+          "price": "6.99"
         },
         {
           "id": "NGGBM",
@@ -882,7 +882,7 @@
           "weight": "20",
           "for": "from 120mm to 150mm",
           "color": "Black",
-          "price": "9.99"
+          "price": "6.99"
         },
         {
           "id": "NGGBM",
@@ -893,7 +893,7 @@
           "weight": "21",
           "for": "From 160mm to 180mm",
           "color": "Black",
-          "price": "9.99"
+          "price": "6.99"
         },
         {
           "id": "NGGBL",
@@ -904,7 +904,7 @@
           "weight": "25",
           "for": "From 180mm to 200mm",
           "color": "Black",
-          "price": "9.99"
+          "price": "6.99"
         }
       ]
     }
