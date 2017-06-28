@@ -12,6 +12,7 @@
       margin-bottom: $rhythm;
     }
     &__title {
+      visibility: hidden;
       font-family: "Lato", sans-serif;
       font-size: rem(24px);
       font-weight: normal;
@@ -37,9 +38,6 @@
 
         &__title {
           font-size: rem(48px);
-        }
-        &__category {
-          margin-bottom: $rhythm * 8;
         }
     }
 }
