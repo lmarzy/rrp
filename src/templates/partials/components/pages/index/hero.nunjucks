@@ -1,5 +1,9 @@
 <aside class="o-container c-hero">
 
+  <a href="{{ links.distributors }}" class="c-hero__btn c-btn c-btn--a c-btn--small">
+    <span>Find distributors</span>
+  </a>
+
   <ul class="c-hero__category c-categoryList">
     <li class="c-categoryList__item">
       <a href="#products-road">Road
@@ -14,14 +18,5 @@
       </a>
     </li>
   </ul>
-
-  <h2 class="c-hero__title">
-    <span>Designed by racers,</span>
-    <span>used by riders</span>
-  </h2>
-
-  <a href="{{ links.distributors }}" class="c-btn c-btn--a">
-    <span>Find distributors</span>
-  </a>
 
 </aside>

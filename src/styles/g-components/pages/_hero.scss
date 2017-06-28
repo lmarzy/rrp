@@ -3,41 +3,25 @@
    ========================================================================== */
 
 .c-hero {
-  padding-top: rem(24px);
-  padding-bottom: rem(24px);
+  padding-top: rem(12px);
+  padding-bottom: rem(48px);
   text-align: center;
   color: white;
 
-    &__category, &__title {
+    &__btn {
       margin-bottom: $rhythm;
-    }
-    &__title {
-      visibility: hidden;
-      font-family: "Lato", sans-serif;
-      font-size: rem(24px);
-      font-weight: normal;
-      text-shadow: 0 0 6px rgba(black,0.4);
-
-        span {
-          display: block;
-        }
     }
 
     @include bp(10) {
-      padding-top: rem(36px);
-      padding-bottom: rem(72px);
-
-        &__title {
-          font-size: rem(32px);
-        }
+      padding-bottom: rem(120px);
     }
 
     @include bp(20) {
-      padding-top: rem(60px);
-      padding-bottom: rem(96px);
+      padding-top: rem(48px);
+      padding-bottom: rem(194px);
 
-        &__title {
-          font-size: rem(48px);
-        }
+      &__btn {
+        margin-bottom: $rhythm * 2;
+      }
     }
 }
