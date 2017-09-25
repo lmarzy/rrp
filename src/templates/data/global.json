@@ -118,6 +118,15 @@
 
   "products": [
     {
+      "name": "ProGuard",
+      "category": "Mudguard",
+      "for": "MTB",
+      "imgUrl": "/img/products/mudguards/thumbs/proguard.png",
+      "imgAlt": "ProGuard product image",
+      "url": "/products/mudguards/proguard.html",
+      "latest": true
+    },
+    {
       "name": "EnduroGuard",
       "nameMore": "v3",
       "category": "Mudguard",
