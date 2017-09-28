@@ -17,12 +17,10 @@ productSizes: {
   sizes: [
     {
       size: "Standard:",
-      details: SIZE NEEDED,
       weight: 112g
     },
     {
       size: "Max Protection:",
-      details: 70mm longer at the rear,
       weight: 126g
     }
   ]
@@ -236,76 +234,37 @@ tabsNav: [
 fitting: {
   front: [
     {
-      step: Remove zip ties and insert them into all the holes as shown below,
-      images: [
-        {
-          imgUrl: mudguards/enduroguard/fitting/front-1.png,
-          imgAlt: Image showing how to fit ties into holes of the front EnduroGuard
-        },
-        {
-          imgUrl: mudguards/enduroguard/fitting/front-2.png,
-          imgAlt: Image showing how to fit ties into holes of the front EnduroGuard
-        }
-      ]
+      step: Slide the guard into position with the wheel in, you may need to squeeze the sides of the guard as you do so to get it through the fork brace
     },
     {
-      step: Bend and slide the ENDUROGUARD into position from the front
+      step: Hold the guard in position making sure it tracks the tyres equally both ends
     },
     {
-      step: Loosely fasten up the top zip ties around the fork brace first then the legs4) Centralise and then tighten up the top zip ties real tight so it won't move
+      step: You can now see which holes you need for the most secure fit to your fork brace
     },
     {
-      step: Rotate/twist the bottom arms around the legs to raise the back of the guard (ensure the guard doesn't hit the frame when bottoming the fork)
+      step: Remove guard and push out / snap-off these holes, then feed zip ties through the same holes (from front to rear) plus 2 sets on the arms (total 6 zip ties)
     },
     {
-      step: Tighten all zip ties and cut off any excess and move them to cover the holes
+      step: "NOTE: Add clear tape to areas the guard contacts the fork to reduce scratches"
     },
     {
-      step: Finally push up the arms to shove the guard up towards the fork brace,
-      images: [
-        {
-          imgUrl: mudguards/enduroguard/fitting/front-3.png,
-          imgAlt: Image showing front EnduroGuard fitted
-        }
-      ]
+      step: Tighten zip ties lightly and check alignment, when happy tighten zip ties fully
+    },
+    {
+      step: You can still grab the arms around the fork legs and twist them to raise/lower the back or front of the guard for final adjustment if needed
+    },
+    {
+      step: Cut off excess zip ties
+    },
+    {
+      step: "Before use, ensure the guard doesn't hit the frame when bottoming the fork"
     }
   ],
-  rear: [
-    {
-      step: Remove the snap-off holes either side of the RRP logo if you have a rear brace, if you don't have a rear brace then use the other snap-off holes
-    },
-    {
-      step: Loosely attach the zip ties to the rear seatstays and rear brace
-    },
-    {
-      step: Align the ENDUROGUARD and do up all the zip ties real tight,
-      images: [
-        {
-          imgUrl: mudguards/enduroguard/fitting/rear-1.png,
-          imgAlt: Image showing rear EnduroGuard fitted
-        }
-      ]
-    }
+  important: [
+    "Zip ties must be tight to prevent movement. Must be a minimum of 15mm tyre & 10mm frame clearance on bottoming RECOMENDED: Use clear protective tape on areas that the guard contacts the fork to eliminate any rub marks or scratches DO NOT USE IN STICKY / CLAGGY MUD AS IT MAY BLOCK AND CAUSE INJURY OR DAMAGE RapidRacerProducts Ltd accepts no liability for any damage / injury caused due to improper fitting / use of our products RapidRacerProducts Ltd, Parkfields Business Centre, Park Street, Stafford, ST17 4AL, United Kingdom"
   ]
 }
-reviews: [
-  {
-    quote: "The EnduroGuard v3 is perhaps the best small mudguard out there",
-    cite: What Mountain Bike
-  },
-  {
-    quote: "We think RRP might have managed to sneak ahead of the competition thanks to some neat little touches on this new EnduroGuard",
-    cite: Dirt mountainbike magazine
-  },
-  {
-    quote: "They are real easy to install, their performance is good, these are very affordable. The EnduroGuard Mudguard fits all sized wheels and the colour choice is also a great option",
-    cite: Enduro mountainbike magazine
-  },
-  {
-    quote: "A more aesthetically pleasing splatter guard, a wee bit stiffer than some of the rivals. Fit is great, it's almost compulsary to have one of these fitted even if you only ride in the dry. Seal Guards! Yes",
-    cite: Decent-World
-  }
-]
 ---
 
 {% extends "default.html" %}
@@ -339,13 +298,13 @@ reviews: [
         <div class="o-container">
 
           <div id="details" class="c-tabs__content is-active">
-            {% include "details-enduroguard.nunjucks" %}
+            {% include "details-proguard.nunjucks" %}
           </div>
           <div id="fitting" class="c-tabs__content">
             {% include "fitting.nunjucks" %}
           </div>
           <div id="reviews" class="c-tabs__content">
-            {% include "reviews.nunjucks" %}
+            <p>No reviews yes - New Product</p>
           </div>
 
         </div>

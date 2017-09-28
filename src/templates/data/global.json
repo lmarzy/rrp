@@ -13,6 +13,11 @@
       "link": "#mudguards",
       "subnav": [
         {
+          "title": "ProGuard",
+          "link": "/products/mudguards/proguard.html",
+          "type": "OFF ROAD"
+        },
+        {
           "title": "EnduroGuard",
           "link": "/products/mudguards/enduroguard.html",
           "type": "OFF ROAD"
