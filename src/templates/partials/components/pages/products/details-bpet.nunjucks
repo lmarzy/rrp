@@ -39,7 +39,7 @@
         <td>16</td>
       </tr>
       <tr>
-        <td>698 2rs</td>
+        <td>698 2rs / 398v</td>
         <td>2</td>
         <td>BPET698</td>
         <td>8</td>
@@ -72,13 +72,6 @@
         <td>BPET6000</td>
         <td>10</td>
         <td>26</td>
-      </tr>
-      <tr>
-        <td>6801 2rs / 61801 2rs</td>
-        <td>6a</td>
-        <td>BPET6801</td>
-        <td>12</td>
-        <td>21</td>
       </tr>
       <tr>
         <td>6901 2rs / 61901 2rs</td>
@@ -137,7 +130,7 @@
         <td>28</td>
       </tr>
       <tr>
-        <td>6903 2rs / 6903E-2rs / 61903 2rs /  61903E-2rs</td>
+        <td>6903 2rs / 6903E-2rs / 61903 2rs / 61903E-2rs</td>
         <td>14</td>
         <td>BPET6903</td>
         <td>17</td>
@@ -163,6 +156,13 @@
         <td>BPET6805</td>
         <td>25</td>
         <td>37</td>
+      </tr>
+      <tr>
+        <td>Bearing Press & Extraction Tool(BPET)</td>
+        <td></td>
+        <td>BPETHTB</td>
+        <td></td>
+        <td></td>
       </tr>
     </tbody>
     <tfoot>
