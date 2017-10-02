@@ -93,14 +93,16 @@
   </ol>
 {% endif %}
 
-{% if fitting.important %}
+{% if fitting.important.single %}
 <h4 class="u-col-a">Important</h4>
-  <p>{{ item }}</p>
+  {% for item in fitting.important.single %}
+    <p>{{ item }}</p>
+  {% endfor %}
 {% endif %}
 
 {% if fitting.important.multiple %}
 <h4 class="u-col-a">Important</h4>
-<ul class="c-bullet">
+<ul class="c-bullet u-mb1">
   {% for item in fitting.important.multiple %}
     <li>{{ item }}</li>
   {% endfor %}
