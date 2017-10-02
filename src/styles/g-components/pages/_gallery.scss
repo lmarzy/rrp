@@ -3,14 +3,18 @@
    ========================================================================== */
 
 .c-gallery {
+  margin-bottom: rem(6px);
   box-shadow: 0 0 8px rgba(black, 0.4);
   background: white;
+
+    &__inner {
+      margin-bottom: rem(6px);
+      padding: rem(12px);
+    }
 
     &__img {
       display: none;
       width: 100%;
-      margin-bottom: rem(6px);
-
         &.is-visible {
           display: block
         }

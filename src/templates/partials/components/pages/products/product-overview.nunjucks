@@ -13,6 +13,7 @@
     <div class="o-grid__item u-1of1 u-bp20-7of12">
 
       <div class="c-gallery">
+        <div class="c-gallery__inner">
         {% for image in productImages %}
           <img
             src="/img/products/{{ image.imageUrl }}.png"
@@ -20,6 +21,7 @@
             id="{{ image.id }}"
             class="c-gallery__img">
         {% endfor %}
+      </div>
         <button type="button" class="c-gallery__btn c-gallery__btn--prev">
           <span class="is-vh">Click for previous image</span>
           <svg class="icon icon-chevron-left"><use xlink:href="#icon-chevron-left"></use></svg>
