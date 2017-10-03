@@ -3,6 +3,22 @@
    ========================================================================== */
 
 .o-dlInline {
+  dt {
+    margin-right: rem(4px);
+  }
+
+  dt,
+  dd {
+    display: inline;
+  }
+
+  dd::after {
+  content: "\A";
+    white-space: pre;
+  }
+}
+
+.o-dlInfo {
   @include bp(10) {
     @include cf;
     
