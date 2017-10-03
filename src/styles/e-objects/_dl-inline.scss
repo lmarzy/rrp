@@ -3,18 +3,12 @@
    ========================================================================== */
 
 .o-dlInline {
-  dt {
-    margin-right: rem(4px);
-  }
-  dt,
-  dd {
-    display: inline;
-  }
-  dd {
-    word-break: break-all;
-  }
-  dd::after {
-    content: "\A";
-    white-space: pre;
+  @include bp(10) {
+    @include cf;
+    
+    dt {
+      float: left;
+      width: 265px;
+    }
   }
 }
