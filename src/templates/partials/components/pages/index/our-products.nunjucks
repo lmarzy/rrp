@@ -18,7 +18,7 @@
         <li class="c-products__item">
           <a href="{{ product.url }}">
             <article class="c-product">
-              <h2 class="c-product__name">{{ product.name }}</h2>
+              <h2 class="c-product__name">{{ product.name }} {{ product.nameMore }}</h2>
               <img src="{{ product.imgUrl }}" alt="{{ product.imgAlt }}" class="c-product__img">
               <p class="c-product__for">{{ product.for }}</p>
             </article>
