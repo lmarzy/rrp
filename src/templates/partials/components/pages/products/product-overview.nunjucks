@@ -1,6 +1,6 @@
 <h2 class="c-productMain__title">
   {% if productLogo %}
-  <img src="/img/product-logos/{{ productLogo }}.png" alt="EnduroGuard">
+  <img src="/img/product-logos/{{ productLogo }}.png" alt="{{ productName }}">
   {% else %}
   <span>{{ productName }}</span>
   {% endif %}
