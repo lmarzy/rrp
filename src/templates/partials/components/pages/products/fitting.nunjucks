@@ -108,3 +108,45 @@
   {% endfor %}
 </ul>
 {% endif %}
+
+{% if fitting.roadf %}
+  <h4>RearGuard - Road F Mudguard(For Fizik saddles with ICS only)</h4>
+  <p>{{ fitting.roadFText }}</p>
+  <ol class="c-fitting">
+  {% for step in fitting.roadf %}
+  <li class="c-fitting__item">
+    {{ step.step }}
+    {% if step.images %}
+      {% for image in step.images %}
+        <img src="/img/products/{{ image.imgUrl }}" alt="{{ image.imgUrl }}" class="c-fitting__img">
+      {% endfor %}
+    {% endif %}
+  </li>
+  {% endfor %}
+  </ol>
+{% endif %}
+
+{% if fitting.removalf %}
+  <h4>Removal</h4>
+  <ol class="c-fitting">
+    {% for step in fitting.removalf %}
+    <li class="c-fitting__item">
+      {{ step.step }}
+      {% if step.images %}
+        {% for image in step.images %}
+          <img src="/img/products/{{ image.imgUrl }}" alt="{{ image.imgUrl }}" class="c-fitting__img">
+        {% endfor %}
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+{% endif %}
+
+{% if fitting.importantf.multiple %}
+<h4 class="u-col-a">Important</h4>
+<ul class="c-bullet u-mb1">
+  {% for item in fitting.importantf.multiple %}
+    <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
