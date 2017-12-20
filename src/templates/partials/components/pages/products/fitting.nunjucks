@@ -110,7 +110,7 @@
 {% endif %}
 
 {% if fitting.roadf %}
-  <h4>RearGuard - Road F Mudguard(For Fizik saddles with ICS only)</h4>
+  <h3>Fitting the RearGuard {{ productNameAdditional }}</h3>
   <p>{{ fitting.roadFText }}</p>
   <ol class="c-fitting">
   {% for step in fitting.roadf %}

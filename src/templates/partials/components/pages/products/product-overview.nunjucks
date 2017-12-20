@@ -2,7 +2,7 @@
   {% if productLogo %}
   <img src="/img/product-logos/{{ productLogo }}.png" alt="{{ productName }}">
   {% else %}
-  <span>{{ productName }}</span>
+  <span>{{ productName }} {{ productNameAdditional }}</span>
   {% endif %}
 </h2>
 
@@ -49,7 +49,13 @@
 
       <section class="c-productMain__overview">
 
-        <h3 class="c-productMain__subTitle">{{ productName }} <em>{{ productVersion }}</em></h3>
+        <h3 class="c-productMain__subTitle">
+          {{ productName }}
+          {% if productNameAdditional %}
+            & {{ productNameAdditional }}
+          {% endif %}
+          <em>{{ productVersion }}</em>
+        </h3>
 
         {% if productShortDesc1 %}
           <p class="c-productMain__shortDesc">{{ productShortDesc1 }}</p>
@@ -99,8 +105,8 @@
           <ul class="c-productCols u-mb1">
             {% for item in productColours.colours %}
               <li class="c-productCols__item c-productCols__item--{{ item.class }}">
-                <a href="#{{ item.colour }}">
-                  <img src="/img/products/{{ item.imageUrl }}" alt="{{ item.imageAlt }}" class="c-productCols__img" title="{{ item.colour }}" data-target="{{ item.colour }}">
+                <a href="#{{ item.id }}">
+                  <img src="/img/products/{{ item.imageUrl }}" alt="{{ item.imageAlt }}" class="c-productCols__img" title="{{ item.colour }}" data-target="{{ item.id }}">
                   <span class="c-productCols__name">{{ item.colour }}</span>
                 </a>
               </li>
