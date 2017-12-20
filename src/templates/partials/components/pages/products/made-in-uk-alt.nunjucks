@@ -1,1 +1,9 @@
-<p class="u-center u-textLarge">Our <span class="u-upper u-col-a">{{ productName }}</span> is designed, and packed in the United Kingdom</p>
+<p class="u-center u-textLarge">Our 
+<span class="u-upper u-col-a">{
+  { productName }}
+  {% if productNameAdditional %}
+    & {{ productNameAdditional }}
+  {% endif %}
+  </span>
+is designed, and packed in the United Kingdom
+</p>
