@@ -11,7 +11,7 @@ productUrl: mudguards/proguard
 productLogo: proguard
 uk: true
 productOverview: [
-  "The ProGuard is an amazing front mudguard for mountain bikes offering unmatched protection from mud and spray, it’s perfect for Enduro or Downhill racers and essential for the weekend warrior looking for the very best protection. Our design intent was to increase the tyre clearance and improve the mud clogging issues seen with this type of mudguard. The STANDARD offers superb protection in a more lightweight compact design, whereas the longer MAX PROTECTION version (70mm longer at the rear) offers incredible levels of protection especially for high speed racing."
+  "The ProGuard is an amazing front mudguard for mountain bikes offering unmatched protection from mud and spray, it’s perfect for Enduro or Downhill racers and essential for the weekend warrior looking for the very best protection. Our design intent was to increase the tyre clearance and improve the mud clogging issues seen with this type of mudguard. The STANDARD offers superb protection in a more lightweight compact design, whereas the longer MAX PROTECTION version (68mm longer at the rear) offers incredible levels of protection especially for high speed racing."
 ]
 productSizes: {
   title: Available in 2 sizes,
@@ -256,7 +256,17 @@ fitting: {
       step: You can now see which holes you need for the most secure fit to your fork brace
     },
     {
-      step: Remove guard and push out / snap-off these holes, then feed zip ties through the same holes (from front to rear) plus 2 sets on the arms (total 6 zip ties)
+      step: Remove guard and push out / snap-off these holes, then feed zip ties through the same holes (from front to rear) plus 2 sets on the arms (total 6 zip ties),
+      images: [
+        {
+          imgUrl: mudguards/proguard/fitting/1.png,
+          imgAlt: Image showing how to fit ties into holes of the ProGuard
+        },
+        {
+          imgUrl: mudguards/proguard/fitting/2.png,
+          imgAlt: Image showing how to fit ties into holes of the ProGuard
+        }
+      ]
     },
     {
       step: "NOTE: Add clear tape to areas the guard contacts the fork to reduce scratches"
@@ -286,6 +296,32 @@ fitting: {
     ]
   }
 }
+reviews: [
+  {
+    quote: "No goggles no problem",
+    cite: Glyn O’Brien,
+    link: {
+      text: "Check out Glyn O’Brien’s short mudguard test",
+      url: 'https://www.youtube.com/watch?v=kVfbFr5QQvU'
+    }
+  },
+  {
+    quote: "The reduced mud in your face was so noticeable we headed for the biggest puddles we could find to get mud in our face to no avail. Does EVERYTHING it claims to do. Majorly impressed",
+    cite: Pinned TV,
+    link: {
+      text: "Check out Pinned TV’s video review",
+      url: "https://youtu.be/4MEwZd2aj58"
+    }
+  },
+  {
+    quote: "Can honestly say this mudguard is bloody awesome!",
+    cite: Tim Ponting
+  },
+  {
+    quote: "Props to British company rapidracerproducts they have a created an awesome new front fender",
+    cite: rogue_mtb
+  }
+]
 ---
 
 {% extends "default.html" %}
@@ -325,7 +361,7 @@ fitting: {
             {% include "fitting.nunjucks" %}
           </div>
           <div id="reviews" class="c-tabs__content">
-            <p>No reviews yes - New Product</p>
+            {% include "reviews.nunjucks" %}
           </div>
 
         </div>

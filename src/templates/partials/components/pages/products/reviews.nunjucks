@@ -5,6 +5,9 @@
     <footer>
       <cite>{{ item.cite }}</cite>
     </footer>
+    {% if item.link %}
+      <a href="{{ item.link.url }}">{{ item.link.text }}</a>
+    {% endif %}
   </blockquote>
 {% endfor %}
 {% endif %}
