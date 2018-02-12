@@ -84,7 +84,7 @@
           {% endif %}
           <dl class="c-productSizes u-mb1">
             {% for item in productSizes.sizes %}
-              <dt>{{ item.size }}</dt>
+              <dt>{{ item.size }}:</dt>
               <dd>
                 <p class="u-mb0">{{ item.details }}</p>
                 <p class="u-textSmall u-mb05">({{ item.weight }})</p>
@@ -112,6 +112,38 @@
               </li>
             {% endfor %}
           </ul>
+        {% endif %}
+
+        {% if forSale %}
+
+          <div class="c-productForSale">
+
+            {% if forSale.sizes %}
+              <label for="js-productSizes" class=""c-productForSale_label>Please select a size</label>
+              <select id="js-productSizes" class="c-productForSale_select">
+                {% for size in productSizes.sizes %}
+                  <option>{{ size.size }}</option>
+                  {% endfor %}
+              </select>
+            {% endif %}
+
+            <button
+              id="js-forSaleBtn"
+              class="snipcart-add-item c-productForSale_cta c-btn c-btn--b"
+              data-item-id="{{ forSale.id }}"
+              data-item-name="{{ forSale.name }}"
+              data-item-price="{{ forSale.price }}"
+              data-item-weight="{{ forSale.weight }}"
+              {% if forSale.sizes %}
+                data-item-custom1-name="Size"
+                data-item-custom1-options="{{ forSale.sizes }}"
+              {% endif %}
+              data-item-url="http://www.rapidracerproducts.com/products/{{ productUrl }}.html">
+              Buy Now (UK only)
+            </button>
+
+          </div>
+
         {% endif %}
 
         {% if ukDistributor %}

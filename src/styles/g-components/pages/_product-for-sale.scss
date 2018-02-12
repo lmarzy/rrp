@@ -1,0 +1,27 @@
+/* ==========================================================================
+   COMPONENTS/PAGES - PRODUCT-FOR-SALE
+   ========================================================================== */
+
+.c-productForSale {
+  padding: $rhythm / 2;
+  background: colour(brand, c);
+  border-radius: 6px;
+
+  &_label,
+  &_select {
+    display: block;
+  }
+
+  &_label {
+    margin-bottom: toRem(6px);
+  }
+
+  &_select,
+  &_cta {
+    width: 100%;
+  }
+
+  &_select {
+    margin-bottom: $rhythm;
+  }
+}

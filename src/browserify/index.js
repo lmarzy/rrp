@@ -4,6 +4,8 @@ import { productThumbs }  from './components/product-thumbs';
 import { distributors }  from './components/distributors';
 import { showImage }  from './components/show-image';
 
+import './components/update-size';
+
 'use strict';
 
 var burgerId = document.getElementById('js-burger');

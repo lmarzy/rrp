@@ -1,6 +1,6 @@
 <script>(function(h){h.className = h.className.replace('no-js', 'js')})(document.documentElement)</script>
 
-{% if pageId == 'js-sale' %}
+{% if pageId == 'js-sale' or pageId == 'js-product' %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="OTFmOGJkZDMtOGJlZi00OTcxLWI2ZmEtNTRiZTRhMmQ1MDRiNjM2MjkyNTM5NTU0MTE3OTE4"></script>
 {% endif %}
