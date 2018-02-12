@@ -46,8 +46,15 @@
         <td>19</td>
       </tr>
       <tr>
-        <td>608 2rs / 608E-2rs</td>
+        <td>609 2rs</td>
         <td>3</td>
+        <td>BPET609</td>
+        <td>9</td>
+        <td>24</td>
+      </tr>
+      <tr>
+        <td>608 2rs / 608E-2rs</td>
+        <td>3a</td>
         <td>BPET608</td>
         <td>8</td>
         <td>22</td>
@@ -72,6 +79,13 @@
         <td>BPET6000</td>
         <td>10</td>
         <td>26</td>
+      </tr>
+      <tr>
+        <td>6801 2rs / 61801 2rs</td>
+        <td>6a</td>
+        <td>BPET6801</td>
+        <td>12</td>
+        <td>21</td>
       </tr>
       <tr>
         <td>6901 2rs / 61901 2rs</td>
