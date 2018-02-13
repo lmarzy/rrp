@@ -122,7 +122,7 @@
               <label for="js-productSizes" class=""c-productForSale_label>Please select a size</label>
               <select id="js-productSizes" class="c-productForSale_select">
                 {% for size in productSizes.sizes %}
-                  <option>{{ size.size }}</option>
+                  <option data-id="{{ size.id }}">{{ size.size }}</option>
                   {% endfor %}
               </select>
             {% endif %}
@@ -143,6 +143,22 @@
             </button>
 
           </div>
+
+        {% endif %}
+
+        {% if forSaleMultipleBts %}
+          
+          {% for item in forSaleMultipleBts %}
+            <button
+              class="snipcart-add-item c-productForSale_cta c-btn c-btn--b"
+              data-item-id="{{ item.id }}"
+              data-item-name="{{ item.name }}"
+              data-item-price="{{ item.price }}"
+              data-item-weight="{{ item.weight }}"
+              data-item-url="http://www.rapidracerproducts.com/products/{{ productUrl }}.html">
+              Buy {{ item.name }} (UK only)
+            </button>
+          {% endfor %}
 
         {% endif %}
 
