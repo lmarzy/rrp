@@ -6,7 +6,6 @@
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
-    min-width: rem(500px);
     border: 1px solid lighten(colour(brand, b), 60);
   }
   th {
@@ -17,6 +16,10 @@
     border-bottom: 1px solid lighten(colour(brand, b), 60);
     border-right: 1px solid lighten(colour(brand, b), 60);
   }
+}
+
+.c-table-min {
+  min-width: rem(500px);
 }
 
 // typical table markup

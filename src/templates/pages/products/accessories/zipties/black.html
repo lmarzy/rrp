@@ -1,0 +1,49 @@
+---
+title: RapidRacerProducts | BPET
+desc: "The Bearing Press and Extraction Tool is a simple tool used to extract and insert linkage bearings on mountain bikes"
+ogUrl: /products/accessories/zipties-black.html
+ogImg: /img/products/accessories/zipties-black.png
+pageId: js-product
+pageClass: c-productPage
+pageCss: product
+productName: black Zip Ties
+productUrl: accessories/zipties/black
+productDetails: {
+  size: "250mm x 4.6mm",
+  quantity: "pack of 100",
+  cost: "5.00"
+}
+productImages: [
+  {
+    imageUrl: accessories/zipties/black,
+    imageAlt: Bright black Zip Ties,
+    id: 1
+  }
+]
+forSale: {
+  id: "ZTB",
+  name: "Zip Ties - black",
+  price: "5.00",
+  weight: "100",
+}
+---
+
+{% extends "default.html" %}
+
+{% block icons %}
+  {% include "icons-products.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+
+  <article class="c-productMain">
+
+    <div class="o-container">
+
+      {% include "product-overview.nunjucks" %}
+
+    </div>
+
+  </article>
+
+{% endblock %}

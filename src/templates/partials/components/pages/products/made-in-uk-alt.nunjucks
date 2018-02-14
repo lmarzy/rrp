@@ -1,6 +1,6 @@
 <p class="u-center u-textLarge">Our 
-<span class="u-upper u-col-a">{
-  { productName }}
+<span class="u-upper u-col-a">
+  {{ productName }}
   {% if productNameAdditional %}
     & {{ productNameAdditional }}
   {% endif %}

@@ -114,6 +114,19 @@
           </ul>
         {% endif %}
 
+        {% if productDetails %}
+          <dl class="c-productSizes u-mb1">
+            {% for name, item in productDetails %}
+              <dt>{{ name }}:</dt>
+              {% if name == "cost" %}
+                <dd>£{{ item }}</dd>
+              {% else %}
+                <dd>{{ item }}</dd>
+              {% endif %}
+            {% endfor %}
+          </dl>
+        {% endif %}
+
         {% if forSale %}
 
           <div class="c-productForSale">
@@ -132,7 +145,7 @@
               class="snipcart-add-item c-productForSale_cta c-btn c-btn--b"
               data-item-id="{{ forSale.id }}"
               data-item-name="{{ forSale.name }}"
-              data-item-price="{{ forSale.price }}"
+              data-item-price="{{ productDetails.cost }}"
               data-item-weight="{{ forSale.weight }}"
               {% if forSale.sizes %}
                 data-item-custom1-name="Size"

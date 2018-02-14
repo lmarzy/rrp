@@ -232,6 +232,24 @@
       "imgAlt": "PunctureGuard product image",
       "url": "/products/wheel-accessories/punctureguard.html",
       "latest": false
+    },
+    {
+      "name": "Bright White Zip Ties",
+      "category": "Accessories",
+      "for": "accessories",
+      "imgUrl": "/img/products/accessories/zipties/white.png",
+      "imgAlt": "Bright White Zip Ties",
+      "url": "/products/accessories/zipties/white.html",
+      "latest": false
+    },
+    {
+      "name": "Black Zip Ties",
+      "category": "Accessories",
+      "for": "accessories",
+      "imgUrl": "/img/products/accessories/zipties/black.png",
+      "imgAlt": "Black Zip Ties",
+      "url": "/products/accessories/zipties/black.html",
+      "latest": false
     }
   ],
 
@@ -917,27 +935,6 @@
           "for": "From 180mm to 200mm",
           "color": "Black",
           "price": "6.99"
-        }
-      ]
-    },
-    {
-      "product": "Accessories",
-      "products": [
-        {
-          "id": "ZTW",
-          "name": "ZIP TIES - WHITE 245mm x 4.6mm (PACK OF 100)",
-          "imgUrl": "/img/products/sale/accessories/zipties-white.png",
-          "imgUrlAlt": "Bright White Zip Ties",
-          "color": "White",
-          "price": "6.00"
-        },
-        {
-          "id": "ZTB",
-          "name": "TIP TIES - BLACK 250mm x 4.6mm (PACK OF 100)",
-          "imgUrl": "/img/products/sale/accessories/zipties-black.png",
-          "imgUrlAlt": "Black Zip Ties",
-          "color": "Black",
-          "price": "5 .00"
         }
       ]
     }

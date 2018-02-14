@@ -41,6 +41,9 @@ pageCss: sale
                 <li class="c-saleItems_item">
                   <article class="c-saleItem">
                     <h2 class="c-saleItem_title">{{ products.name }}</h2>
+                    {% if products.details %}
+                    <p class="c-saleItem_details">{{ products.details }}</p>
+                    {% endif %}
                     <img src="{{ products.imgUrl }}" alt="{{ products.imgUrlAlt}}" class="c-saleItem_img">
                     <dl class="c-saleItem_attributes">
                       <dt>Colour:</dt>
@@ -73,7 +76,7 @@ pageCss: sale
         {% endfor %}
 
         <div class="u-center">
-          <p>Note: We only sell 'End of Line" sale products direct to the public, all current products are sold through our regional distributors.</p>
+          <p>Note: We only sell “End of Line” products and products not stocked by our UK distributor direct to the public, all other products are sold through our regional distributors.</p>
 
           <a href="/distributors.html" class="c-btn c-btn--c">
             <span>Find distributors</span>

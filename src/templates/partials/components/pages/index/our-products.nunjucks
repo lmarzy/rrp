@@ -52,11 +52,35 @@
 
     </section>
 
+    <section class="u-mb2">
+
       <h2 id="products-cyclocross" class="c-section__subTitle"><span>Cyclocross</span> bikes</h2>
 
       <ul class="c-products">
         {% for product in products %}
         {% if product.for == "CX" or product.for == "MTB & CX" %}
+        <li class="c-products__item">
+          <a href="{{ product.url }}">
+            <article class="c-product">
+              <h2 class="c-product__name">{{ product.name }} {{ product.nameMore }}</h2>
+              <img src="{{ product.imgUrl }}" alt="{{ product.imgAlt }}" class="c-product__img">
+              <p class="c-product__for">{{ product.for }}</p>
+            </article>
+          </a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+
+    </section>
+
+    <section class="u-mb2">
+
+      <h2 id="products-cyclocross" class="c-section__subTitle">Accessories</h2>
+
+      <ul class="c-products">
+        {% for product in products %}
+        {% if product.for == "accessories" %}
         <li class="c-products__item">
           <a href="{{ product.url }}">
             <article class="c-product">

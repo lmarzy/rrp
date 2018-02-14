@@ -20,11 +20,19 @@
     }
   }
 
-  &_title {
-    margin-bottom: rem(12px);
-    font-size: rem(18px);
+  &_title,
+  &_details {
     text-align: center;
+  }
+
+  &_title {
+    margin-bottom: rem(6px);
+    font-size: rem(18px);
     text-transform: uppercase;
+  }
+
+  &_details {
+    margin-bottom: rem(6px);
   }
 
   &_attributes {
