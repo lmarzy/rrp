@@ -1,0 +1,10 @@
+<ul class="c-productVideos">
+  {% for video in productVideos %}
+    <li class="c-productVideos_video">
+      <a href="{{ video.url }}">
+        <span class="c-productVideo_text">{{ video.name }}</span>
+        <img src="/img/products/{{ video.img }}.png" alt="{{ video.imgAlt }}">
+      </a>
+    </li>
+  {% endfor %}
+</ul>

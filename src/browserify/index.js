@@ -3,8 +3,7 @@ import { gallery }  from './components/gallery';
 import { productThumbs }  from './components/product-thumbs';
 import { distributors }  from './components/distributors';
 import { showImage }  from './components/show-image';
-
-import './components/update-size';
+import { updateProductSizes } from './components/update-size';
 
 'use strict';
 
@@ -43,3 +42,4 @@ productThumbs('.c-galleryThumbs');
 productThumbs('.c-productCols');
 distributors();
 showImage();
+updateProductSizes();

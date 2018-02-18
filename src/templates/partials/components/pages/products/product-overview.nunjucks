@@ -43,6 +43,10 @@
 
       {% include "social-share.nunjucks" %}
 
+      {% if productVideos %}
+        {% include "product-videos.nunjucks" %}
+      {% endif %}
+
     </div>
 
     <div class="o-grid__item u-1of1 u-bp20-5of12">

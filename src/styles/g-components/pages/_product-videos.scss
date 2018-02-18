@@ -1,0 +1,13 @@
+/* ==========================================================================
+   COMPONENTS/PAGES - PRODUCT-VIDEOS
+   ========================================================================== */
+
+.c-productVideos {
+  display: flex;
+  padding-top: $rhythm;
+
+  &_video {
+    flex: 1;
+    text-align: center;
+  }
+}
