@@ -1,0 +1,14 @@
+<div id="js-modal" class="c-modal">
+
+  <div class="c-modal_content">
+  
+    <button type="button" id="js-modalClose" class="c-modal_close">
+      <span class="is-vh">Close</span>
+      <svg class="icon icon-close-circle"><use xlink:href="#icon-close-circle"></use></svg>
+    </button>
+
+    <iframe id="js-videoIframe" class="c-modal_iframe" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+  </div>
+
+</div>

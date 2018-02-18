@@ -4,6 +4,7 @@ import { productThumbs }  from './components/product-thumbs';
 import { distributors }  from './components/distributors';
 import { showImage }  from './components/show-image';
 import { updateProductSizes } from './components/update-size';
+import { modalVideo } from './components/modal-video';
 
 'use strict';
 
@@ -43,3 +44,4 @@ productThumbs('.c-productCols');
 distributors();
 showImage();
 updateProductSizes();
+modalVideo();

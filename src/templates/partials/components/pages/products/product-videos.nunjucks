@@ -1,10 +1,11 @@
 <ul class="c-productVideos">
   {% for video in productVideos %}
     <li class="c-productVideos_video">
-      <a href="{{ video.url }}">
-        <span class="c-productVideo_text">{{ video.name }}</span>
-        <img src="/img/products/{{ video.img }}.png" alt="{{ video.imgAlt }}">
-      </a>
+      <button type="button" class="c-productVideos_btn js-modalBtn" data-url="{{ video.url }}">
+        <span class="c-productVideos_text">{{ video.name }}</span>
+        <svg class="icon c-productVideos_youtube"><use xlink:href="#icon-youtube"></use></svg>
+        <img src="/img/products/{{ video.img }}.png" alt="{{ video.imgAlt }}" class="c-productVideos_img">
+      </button>
     </li>
   {% endfor %}
 </ul>

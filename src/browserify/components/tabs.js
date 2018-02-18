@@ -5,7 +5,7 @@
 
 export const tabs = (options) => {
 
-  let $el         = document.querySelector(options.el);
+  let $el = document.querySelector(options.el);
 
   if(!$el) return;
 
