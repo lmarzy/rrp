@@ -5,8 +5,7 @@
 .c-productVideo {
   border: none;
   position: relative;
-  display: block;
-  width: 100%;
+  overflow: hidden;  
 
   &:before {
     content: '';
@@ -16,6 +15,7 @@
     left: 0;
     right: 0;
     background-color: rgba(black, 0.6);
+    z-index: 10;
   }
 
   &_text,
@@ -31,19 +31,34 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    z-index: 20;
   }
 
   &_youtube {
-    top: rem(4px);
-    right: rem(6px);
+    top: 0;
+    right: rem(4px);
     font-size: rem(22px);
     z-index: 10;
     fill: colour(social, youtube);
+    opacity: 0.6;
+    transition: opacity ease-in 200ms;
   }
 
   &_img {
     width: 100%;
     display: block;
+    transition: transform ease-in 200ms;
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    .c-productVideo_youtube {
+      opacity: 1;
+    }
+    .c-productVideo_img {
+      transform: scale(1.2);
+    }
   }
 
   @include bp(30) {

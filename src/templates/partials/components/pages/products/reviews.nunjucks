@@ -2,11 +2,12 @@
 {% for item in reviews %}
   <blockquote>
     <p>{{ item.quote }}</p>
-    <footer>
+    <footer class="u-mb05">
       <cite>{{ item.cite }}</cite>
     </footer>
     {% if item.link %}
-      <a href="{{ item.link.url }}">{{ item.link.text }}</a>
+      {% import "product-video.nunjucks" as vid %}
+      {{ vid.productVideo(item.link.url, item.link.name, item.link.img, item.link.name) }}
     {% endif %}
   </blockquote>
 {% endfor %}

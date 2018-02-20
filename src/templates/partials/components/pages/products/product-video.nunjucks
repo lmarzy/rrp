@@ -1,5 +1,5 @@
-{% macro productVideo(url, name, img, imgAlt) %}
-  <button type="button" class="c-productVideos_btn c-productVideo js-modalBtn" data-url="{{ url }}">
+{% macro productVideo(url, name, img, imgAlt, class) %}
+  <button type="button" class="c-productVideo js-modalBtn {{ class }}" data-url="{{ url }}">
     <span class="c-productVideo_text">{{ name }}</span>
     <svg class="icon c-productVideo_youtube"><use xlink:href="#icon-youtube"></use></svg>
     <img src="/img/products/{{ img }}.png" alt="{{ imgAlt }}" class="c-productVideo_img">
