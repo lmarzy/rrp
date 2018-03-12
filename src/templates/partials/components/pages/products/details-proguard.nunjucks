@@ -34,12 +34,12 @@
 <dl class="o-dlInfo u-mb1">
   <dt>STANDARD PLAIN BLACK:</dt>
   <dd>£24.99 GBP</dd>
-  <dt>STANDARD COLOURED LOGOS:</dt>	
-  <dd>£25.99 GBP</dd>
+  {# <dt>STANDARD COLOURED LOGOS:</dt>	
+  <dd>£25.99 GBP</dd> #}
   <dt>MAX PROTECTION PLAIN BLACK:</dt>
   <dd>£26.99 GBP</dd>
-  <dt>MAX PROTECTION COLOURED LOGOS:</dt>	 
-  <dd>£27.99 GBP</dd>
+  {# <dt>MAX PROTECTION COLOURED LOGOS:</dt>	 
+  <dd>£27.99 GBP</dd> #}
   <dt>COLOURED STICKERS:</dt>
   <dd>£4.49 GBP</dd>
 </dl>
@@ -62,8 +62,8 @@
   <dd>Any travel</dd>
 </dl>
 
-<h3>LOGO COLOURS AVAILABLE</h3>
-<p>PLAIN BLACK, WHITE, CYAN, YELLOW, ORANGE, RED, MAGENTA, GREEN, TURQUIOSE, NEON GREEN, BLUE, PURPLE</p>
+{# <h3>LOGO COLOURS AVAILABLE</h3>
+<p>PLAIN BLACK, WHITE, CYAN, YELLOW, ORANGE, RED, MAGENTA, GREEN, TURQUIOSE, NEON GREEN, BLUE, PURPLE</p> #}
 
 <h3>COLOURED STICKERS AVAILABLE (SOLD SEPARATELY)</h3>
 <p>WHITE, CYAN, YELLOW, ORANGE, RED, MAGENTA, GREEN, TURQUIOSE, NEON GREEN, BLUE, PURPLE</p>
@@ -89,8 +89,8 @@
 <h3>MAX PROTECTION VERSION</h3>
 <p>We offer the longer MAX PROTECTION version to be the best protection in the world, this version is 68mm longer at the rear. No other mudguard offers more protection</p>
 
-<h3>COLOUR OPTIONS</h3>
-<p>We thought long and hard about colour options which is important to many riders, we offer the PROGUARD in plain black, or plain black with the logo’s coloured (11 different colours), if that’s not enough we also offer 11 different coloured stickers that run down the length of the mudguard, this allows the rider to choose from several options to get the look they want.</p>
+{# <h3>COLOUR OPTIONS</h3>
+<p>We thought long and hard about colour options which is important to many riders, we offer the PROGUARD in plain black, or plain black with the logo’s coloured (11 different colours), if that’s not enough we also offer 11 different coloured stickers that run down the length of the mudguard, this allows the rider to choose from several options to get the look they want.</p> #}
 
 <h3>MATERIAL</h3>
 <p>We decided to make our mudguard material slightly thicker than some offerings which together with our unique polypropylene mix gives great flexibility, durability and strength</p>
