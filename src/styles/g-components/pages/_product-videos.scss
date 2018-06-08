@@ -5,10 +5,11 @@
 .c-productVideos {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -4px;
 
   &_video {
     flex: 1 0 rem(140px);
     text-align: center;
-    padding: rem(12px);
+    padding-left: 4px;
   }
 }
