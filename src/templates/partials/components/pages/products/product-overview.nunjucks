@@ -155,7 +155,7 @@
                 data-item-custom1-name="Size"
                 data-item-custom1-options="{{ forSale.sizes }}"
               {% endif %}
-              data-item-url="http://www.rapidracerproducts.com/products/{{ productUrl }}.html">
+              data-item-url="http://rapidracerproducts.com/products/{{ productUrl }}.html">
               Buy Now (UK only)
             </button>
 
