@@ -159,6 +159,18 @@
               Buy Now (UK only)
             </button>
 
+            <button
+              class="is-hidden"
+              data-item-id="{{ productSizes.sizes[1].id }}">
+              Buy Now(UK only)
+            </button>
+
+            <button
+              class="is-hidden"
+              data-item-id="{{ productSizes.sizes[2].id }}">
+              Buy Now(UK only)
+            </button>
+
           </div>
 
         {% endif %}
