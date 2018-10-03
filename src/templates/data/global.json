@@ -612,12 +612,13 @@
     "country": "Poland",
     "distributors": [
       {
-        "companyName": "BIKECOMPONENTS",
-        "address": "ul.Kordeckiego 77 25-134 Kielce, Poland",
-        "tel": "+48796762578",
-        "website": "www.bikecomponents.pl",
-        "email": "info@bikecomponents.pl",
-        "facebook": "www.facebook.com/CkBikeShoppl-146663555394143/"
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
       }
     ]
   },

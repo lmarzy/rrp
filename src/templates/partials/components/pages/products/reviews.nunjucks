@@ -3,11 +3,15 @@
   <blockquote>
     <p>{{ item.quote }}</p>
     <footer class="u-mb05">
-      <cite>{{ item.cite }}</cite>
+      {% if item.url %}
+        <cite><a href={{item.url}}>{{ item.cite }}</a></cite>
+      {%else%}
+        <cite>{{ item.cite }}</cite>
+      {% endif%}
     </footer>
-    {% if item.link %}
+    {% if item.vidLink %}
       {% import "product-video.nunjucks" as vid %}
-      {{ vid.productVideo(item.link.url, item.link.name, item.link.img, item.link.name) }}
+      {{ vid.productVideo(item.vidLink.url, item.vidLink.name, item.vidLink.img, item.vidLink.name) }}
     {% endif %}
   </blockquote>
 {% endfor %}
