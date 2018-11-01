@@ -5,21 +5,27 @@
 .c-productCols {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
 
   &__item {
     flex: 1 0 82px;
     max-width: 82px;
-    padding: rem(4px);
-    background: white;
-    border: 1px solid lighten(colour(brand, b),48);
-    transition: box-shadow 150ms ease-in;
 
       a {
+        display: block;
+        padding: rem(4px);
+        background: white;
+        border: 1px solid lighten(colour(brand, b),48);
         text-decoration: none;
+        transition: box-shadow 150ms ease-in;
+
+        &:hover {
+          box-shadow: 0 0 15px rgba(black, 0.7);
+        }
       }
-      &:hover {
-        box-shadow: 0 0 15px rgba(black, 0.7);
-      }
+  }
+  &__title {
+    color: colour(brand, a);
   }
   &__img {
     display: block;

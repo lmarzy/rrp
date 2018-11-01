@@ -82,12 +82,12 @@
         {% endif %}
 
         {% if productSizes %}
-          <h4 class="u-mb05">{{ productSizes.title }}</h4>
-          {% if productSizes.subTitle %}
-            <p class="u-mb05">{{ productSizes.subTitle }}</p>
+          <h4 class="u-mb05">{{ productSizes.titleMain }}</h4>
+          {% if productSizes.subTitle1 %}
+            <h5 class="c-productSizes-titleSub u-mb05">{{ productSizes.subTitle1 }}</h5>
           {% endif %}
-          <dl class="c-productSizes u-mb1">
-            {% for item in productSizes.sizes %}
+          <dl class="c-productSizes">
+            {% for item in productSizes.sizes1 %}
               <dt>{{ item.size }}:</dt>
               <dd>
                 <p class="u-mb0">{{ item.details }}</p>
@@ -95,6 +95,18 @@
               </dd>
             {% endfor %}
           </dl>
+          {% if productSizes.subTitle2 %}
+          <h5 class="c-productSizes-titleSub u-mb05">{{ productSizes.subTitle2 }}</h5>
+            <dl class="c-productSizes u-mb1">
+            {% for item in productSizes.sizes2 %}
+              <dt>{{ item.size }}:</dt>
+              <dd>
+                <p class="u-mb0">{{ item.details }}</p>
+                <p class="u-textSmall u-mb05">({{ item.weight }})</p>
+              </dd>
+            {% endfor %}
+          </dl>
+          {% endif %}
         {% endif %}
 
         {% if productWeight %}
@@ -109,6 +121,9 @@
           <ul class="c-productCols u-mb1">
             {% for item in productColours.colours %}
               <li class="c-productCols__item c-productCols__item--{{ item.class }}">
+                {% if item.title %}
+                  <span class="c-productCols__title">{{ item.title }}</span>
+                {% endif %}
                 <a href="#{{ item.id }}">
                   <img src="/img/products/{{ item.imageUrl }}" alt="{{ item.imageAlt }}" class="c-productCols__img" title="{{ item.colour }}" data-target="{{ item.id }}">
                   <span class="c-productCols__name">{{ item.colour }}</span>
