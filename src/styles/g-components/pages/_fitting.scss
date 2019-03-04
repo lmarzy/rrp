@@ -7,7 +7,17 @@
 
   &__item {
     padding: rem(4px) 0;
+    
+    p {
+      margin-bottom: rem(6px);
+    }
   }
+
+  &__important {
+    text-transform: uppercase;
+    color: colour(brand, a);
+  }
+
   &__img {
     display: block;
     margin-left: auto;
@@ -17,7 +27,7 @@
 
       &:first-child {
         margin-top: rem(24px);
-        margin-botom: rem(8px);
+        margin-bottom: rem(8px);
       }
       &:last-child {
         margin-bottom: rem(24px);

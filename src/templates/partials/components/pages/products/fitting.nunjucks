@@ -27,14 +27,17 @@
 {% endif %}
 
 {% if fitting.front %}
-  <h4>Front mudguard</h4>
+  <h4 class="u-mb05">Front mudguard</h4>
+  {% if fitting.images.front %}
+    <img src="/img/products/{{ fitting.images.front.imgUrl }}" alt="{{ fitting.images.front.imgAlt }}">
+  {% endif %}
   <ol class="c-fitting">
   {% for step in fitting.front %}
   <li class="c-fitting__item">
     {{ step.step }}
     {% if step.images %}
       {% for image in step.images %}
-        <img src="/img/products/{{ image.imgUrl }}" alt="{{ image.imgUrl }}" class="c-fitting__img">
+        <img src="/img/products/{{ image.imgUrl }}" alt="{{ image.imgAlt }}" class="c-fitting__img">
       {% endfor %}
     {% endif %}
   </li>
@@ -62,11 +65,17 @@
 {% endif %}
 
 {% if fitting.rear %}
-  <h4>Rear mudguard</h4>
+  <h4 class="u-mb05">Rear mudguard</h4>
+  {% if fitting.images.rear %}
+    <img src="/img/products/{{ fitting.images.rear.imgUrl }}" alt="{{ fitting.images.rear.imgAlt }}">
+  {% endif %}
   <ol class="c-fitting">
     {% for step in fitting.rear %}
     <li class="c-fitting__item">
-      {{ step.step }}
+      <p>{{ step.step }}</p>
+      {% if step.important %}
+        <p class="c-fitting__important">{{ step.important }}</p>
+      {% endif %}
       {% if step.images %}
         {% for image in step.images %}
           <img src="/img/products/{{ image.imgUrl }}" alt="{{ image.imgUrl }}" class="c-fitting__img">
