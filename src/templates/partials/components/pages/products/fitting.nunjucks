@@ -65,6 +65,9 @@
 {% endif %}
 
 {% if fitting.rear %}
+  <br/>
+  <hr>
+  <br/>
   <h4 class="u-mb05">Rear mudguard</h4>
   {% if fitting.images.rear %}
     <img src="/img/products/{{ fitting.images.rear.imgUrl }}" alt="{{ fitting.images.rear.imgAlt }}">
