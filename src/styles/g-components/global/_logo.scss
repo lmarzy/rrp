@@ -2,11 +2,14 @@
    COMPONENTS - LOGO
    ========================================================================== */
 
-.c-logo {;
-
+.c-logo {
   a {
     display: block;
     line-height: 0;
+  }
+
+  @include bp(30, max) {
+    max-width: 100px;
   }
 
   @include bp(30) {
