@@ -21,6 +21,12 @@
         }
     }
 
+    &__logo,
+    &__name {
+      display: block;
+      margin: 0 auto rem(12px) auto;
+    }
+
     @include bp(20) {
       text-align: left;
       @include cf;
