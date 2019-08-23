@@ -30,13 +30,14 @@
     @include bp(20) {
       text-align: left;
       @include cf;
-      &__logo, &__name {
+      &__logo {
         float: left;
       }
       &__name {
-        margin: rem(10px) 0 0 rem(12px);
-        padding-left: rem(12px);
-        border-left: 1px solid colour(brand, c);
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        margin-left: -140px;
       }
       &__social {
         float: right;

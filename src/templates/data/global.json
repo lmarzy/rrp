@@ -292,6 +292,20 @@
     ]
   },
   {
+    "country": "Austria",
+    "distributors": [
+      {
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
     "country": "Belarus",
     "distributors": [
       {
@@ -362,7 +376,7 @@
     ]
   },
   {
-    "country": "Canada / USA",
+    "country": "Canada",
     "distributors": [
       {
         "companyName": "Reciprocators",
@@ -374,7 +388,35 @@
     ]
   },
   {
+    "country": "Czech Republic",
+    "distributors": [
+      {
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
     "country": "Denmark",
+    "distributors": [
+      {
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Estonia",
     "distributors": [
       {
         "companyName": "NOW Company SPRL",
@@ -428,7 +470,7 @@
     ]
   },
   {
-    "country": "Germany / Austria",
+    "country": "Germany",
     "distributors": [
       {
         "companyName": "NOW Company SPRL",
@@ -443,20 +485,6 @@
   },
   {
     "country": "Greece",
-    "distributors": [
-      {
-        "companyName": "NOW Company SPRL",
-        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
-        "tel": "+32 10 23 01 80",
-        "fax": "+32 10 23 01 81",
-        "email": "romain@nowcompany.com",
-        "website": "www.nowcompany.com",
-        "B2B": "www.buytonow.com"
-      }
-    ]
-  },
-  {
-    "country": "Czech Republic / Slovakia",
     "distributors": [
       {
         "companyName": "NOW Company SPRL",
@@ -512,7 +540,24 @@
     ]
   },
   {
-    "country": "Latvia / Lithuania / Estonia",
+    "country": "Ireland",
+    "distributors": [
+      {
+        "companyName": "EXTRA (UK) Ltd",
+        "address": "Datamex House, Morris Close, Park Farm Industrial Estate, Wellingborough, Northants, NN8 6XF",
+        "tel": "01933 672 170",
+        "website": "www.extrauk.co.uk",
+        "facebook": "https://www.facebook.com/ExtraUK",
+        "instagram": "https://www.instagram.com/extra_uk",
+        "twitter": "http://twitter.com/Extra_UK",
+        "orders": "orders@extrauk.co.uk",
+        "customerService": "service@extrauk.co.uk",
+        "enquiries": "mailbox@extrauk.co.uk"
+      }
+    ]
+  },
+  {
+    "country": "Latvia",
     "distributors": [
       {
         "companyName": "NOW Company SPRL",
@@ -527,6 +572,20 @@
   },
   {
     "country": "Liechtenstein",
+    "distributors": [
+      {
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Lithuania",
     "distributors": [
       {
         "companyName": "NOW Company SPRL",
@@ -690,6 +749,20 @@
     ]
   },
   {
+    "country": "Slovakia",
+    "distributors": [
+      {
+        "companyName": "NOW Company SPRL",
+        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
+        "tel": "+32 10 23 01 80",
+        "fax": "+32 10 23 01 81",
+        "email": "romain@nowcompany.com",
+        "website": "www.nowcompany.com",
+        "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
     "country": "Slovenia",
     "distributors": [
       {
@@ -786,7 +859,7 @@
     ]
   },
   {
-    "country": "UK / Ireland",
+    "country": "UK",
     "distributors": [
       {
         "companyName": "EXTRA (UK) Ltd",
@@ -799,6 +872,18 @@
         "orders": "orders@extrauk.co.uk",
         "customerService": "service@extrauk.co.uk",
         "enquiries": "mailbox@extrauk.co.uk"
+      }
+    ]
+  },
+  {
+    "country": "USA",
+    "distributors": [
+      {
+        "companyName": "Reciprocators",
+        "address": "2455 Dollarton Hwy #217, North Vancouver, BC, Canada, V7H 0A2",
+        "tel": "778 996 2453",
+        "email": "info@reciprocators.ca",
+        "website": "www.reciprocators.ca"
       }
     ]
   }
@@ -905,6 +990,47 @@
         }
       ]
     },
+
+    {
+      "product": "NeoGuard - Rigid",
+      "description": "This NeoGuard RIGID is specifically designed for Rigid forks whether you have a Moutainbike, Cyclo-Cross bike, or a Fat Bike this little mudguard is a must have.",
+      "products": [
+        {
+          "id": "NGRFS",
+          "name": "neoguard-rigid",
+          "imgUrl": "/img/products/sale/neoguard/rigid.png",
+          "imgUrlAlt": "NeoGuard-Rigid",
+          "size": "Small",
+          "weight": "7",
+          "for": null,
+          "color": "Black",
+          "price": "12.99"
+        },
+        {
+          "id": "NGRFM",
+          "name": "neoguard-rigid",
+          "imgUrl": "/img/products/sale/neoguard/rigid.png",
+          "imgUrlAlt": "NeoGuard-Rigid",
+          "size": "Medium",
+          "weight": "8",
+          "for": null,
+          "color": "Black",
+          "price": "12.99"
+        },
+        {
+          "id": "NGRFL",
+          "name": "neoguard-rigid",
+          "imgUrl": "/img/products/sale/neoguard/rigid.png",
+          "imgUrlAlt": "NeoGuard-Rigid",
+          "size": "Large",
+          "weight": "9",
+          "for": null,
+          "color": "Black",
+          "price": "12.99"
+        }
+      ]
+    },
+
     {
       "product": "NeoGuard Graffiti",
       "description": "The NeoGuard is specifically designed to prevent mud and spray from getting in your face and eyes, the NeoGuard throws the mud off every time the fork compresses keeping your bike light and agile.",
