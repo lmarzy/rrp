@@ -1,7 +1,7 @@
 <aside class="o-container c-hero">
 
   <a href="{{ links.distributors }}" class="c-hero__btn c-btn c-btn--a c-btn--small">
-    <span>Find distributors</span>
+    <span>FIND YOUR DEALER/DISTRIBUTOR</span>
   </a>
 
   <ul class="c-hero__category c-categoryList">
