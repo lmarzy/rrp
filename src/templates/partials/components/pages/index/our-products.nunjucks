@@ -8,6 +8,8 @@
 
     <p class="c-section__info u-mb2">Our products cater for most biking disciplines including Mountain bikes, Road bikes and Cyclocross, see below for our full range</p>
 
+    {% include "vorova.nunjucks" %}
+    
     <section class="u-mb2">
 
       <h2 id="products-mountain" class="c-section__subTitle"><span>Mountain</span> bikes</h2>

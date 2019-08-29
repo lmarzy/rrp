@@ -6,6 +6,10 @@
   {% endif %}
 </h2>
 
+{% if productLogo == "proguard" %}
+  {% include "vorova.nunjucks" %}
+{% endif %}
+
 <div class="c-box c-box--white u-mb2">
 
   <div class="o-grid">
@@ -15,11 +19,17 @@
       <div class="c-gallery">
         <div class="c-gallery__inner">
         {% for image in productImages %}
-          <img
-            src="/img/products/{{ image.imageUrl }}.png"
-            alt="{{ image.imageAlt }}"
-            id="{{ image.id }}"
-            class="c-gallery__img">
+          {% if image.link %}
+            <a href="{{ image.link }}">
+          {% endif %}
+              <img
+              src="/img/products/{{ image.imageUrl }}.png"
+              alt="{{ image.imageAlt }}"
+              id="{{ image.id }}"
+              class="c-gallery__img">
+          {% if image.link %}
+            </a>
+          {% endif %} 
         {% endfor %}
       </div>
         <button type="button" class="c-gallery__btn c-gallery__btn--prev">
