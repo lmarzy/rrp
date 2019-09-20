@@ -348,6 +348,18 @@
     ]
   },
   {
+    "country": "Canada",
+    "distributors": [
+      {
+        "companyName": "Reciprocators",
+        "address": "2455 Dollarton Hwy #217, North Vancouver, BC, Canada, V7H 0A2",
+        "tel": "778 996 2453",
+        "email": "info@reciprocators.ca",
+        "website": "www.reciprocators.ca"
+      }
+    ]
+  },
+  {
     "country": "Croatia",
     "distributors": [
       {
@@ -372,18 +384,6 @@
         "email": "romain@nowcompany.com",
         "website": "www.nowcompany.com",
         "B2B": "www.buytonow.com"
-      }
-    ]
-  },
-  {
-    "country": "Canada",
-    "distributors": [
-      {
-        "companyName": "Reciprocators",
-        "address": "2455 Dollarton Hwy #217, North Vancouver, BC, Canada, V7H 0A2",
-        "tel": "778 996 2453",
-        "email": "info@reciprocators.ca",
-        "website": "www.reciprocators.ca"
       }
     ]
   },
