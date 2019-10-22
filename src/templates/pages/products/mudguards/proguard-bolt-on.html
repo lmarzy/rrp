@@ -1,0 +1,277 @@
+---
+title: RapidRacerProducts | ProGuard
+desc: "The ProGuard is an amazing front mudguard for mountain bikes offering unmatched protection from mud and spray."
+ogUrl: /products/mudguards/proguard.html
+ogImg: /img/products/mudguards/proguard/gallery/1.png
+pageId: js-product
+pageClass: c-productPage
+pageCss: product
+productName: "ProGuard BOLT ON"
+productUrl: mudguards/proguard-bolt-on
+uk: true
+productOverview: [
+  "The ProGuard – BOLT ON is the first large direct mount mudguard of its type, it offers outstanding protection with the slickest most factory look available There are no zip ties or velcro straps to ruin the clean lines on your bike as they are secured by bolts (supplied) We also have TILT BRACKETS which allow you to fine tune the fit angle of the mudguard, you can tilt the front/back up or down a few millimetres with 2 brackets (supplied)"
+]
+productSizes: {
+  titleMain: Available in 2 sizes,
+  sizes1: [
+    {
+      size: "Mini",
+      weight: 388mm long 104g (without bolts)
+    },
+    {
+      size: "Standard",
+      weight: 503mm long 130g (without bolts)
+    }
+  ]
+}
+productColours: {
+  title: Sizes Available,
+  colours: [
+    {
+      title: Mini,
+      imageUrl: mudguards/proguard-bolt-on/gallery/5.png,
+      imageAlt: ProGuard Bolt On Mini,
+      id: mini
+    },
+    {
+      title: Standard,
+      imageUrl: mudguards/proguard-bolt-on/gallery/6.png,
+      imageAlt: ProGuard Bolt On Standard,
+      id: standard
+    }
+  ]
+}
+productImages: [
+  {
+    imageUrl: mudguards/proguard-bolt-on/gallery/1,
+    imageAlt: ProGuard,
+    id: main
+  },
+  {
+    imageUrl: mudguards/proguard-bolt-on/gallery/2,
+    imageAlt: ProGuard,
+    id: front
+  },
+  {
+    imageUrl: mudguards/proguard-bolt-on/gallery/3,
+    imageAlt: ProGuard,
+    id: rear
+  },
+  {
+    imageUrl: mudguards/proguard/gallery/vorova,
+    imageAlt: Vorova,
+    id: vorova,
+    link: 'https://vorova.com/partners/rrp/'
+  },
+  {
+    imageUrl: mudguards/proguard-bolt-on/gallery/4,
+    imageAlt: ProGuard,
+    id: bike-side
+  },
+  {
+    imageUrl: mudguards/proguard-bolt-on/gallery/5,
+    imageAlt: ProGuard,
+    id: mini
+  },
+  {
+    imageUrl: mudguards/proguard-bolt-on/gallery/6,
+    imageAlt: ProGuard,
+    id: standard
+  },
+  {
+    imageUrl: mudguards/proguard/gallery/sticker-white,
+    imageAlt: ProGuard,
+    id: sticker-white
+  },
+  {
+    imageUrl: mudguards/proguard/gallery/sticker-yellow,
+    imageAlt: ProGuard,
+    id: sticker-yellow
+  },
+  {
+    imageUrl: mudguards/proguard/gallery/sticker-orange,
+    imageAlt: ProGuard,
+    id: sticker-orange
+  },
+  {
+    imageUrl: mudguards/proguard/gallery/sticker-red,
+    imageAlt: ProGuard,
+    id: sticker-red
+  },
+  {
+    imageUrl: mudguards/proguard/gallery/sticker-magenta,
+    imageAlt: ProGuard,
+    id: sticker-magenta
+  },
+  {
+    imageUrl: mudguards/proguard/gallery/sticker-green,
+    imageAlt: ProGuard,
+    id: sticker-green
+  },
+  {
+    imageUrl: mudguards/proguard/gallery/sticker-neongreen,
+    imageAlt: ProGuard,
+    id: sticker-neongreen
+  },
+  {
+    imageUrl: mudguards/proguard/gallery/sticker-turquiose,
+    imageAlt: ProGuard,
+    id: sticker-turquiose
+  },
+  {
+    imageUrl: mudguards/proguard/gallery/sticker-cyan,
+    imageAlt: ProGuard,
+    id: sticker-cyan
+  },
+  {
+    imageUrl: mudguards/proguard/gallery/sticker-blue,
+    imageAlt: ProGuard,
+    id: sticker-blue
+  },
+  {
+    imageUrl: mudguards/proguard/gallery/sticker-purple,
+    imageAlt: ProGuard,
+    id: sticker-purple
+  }
+]
+ukDistributor: [
+  EXTRA UK
+]
+tabsNav: [
+  {
+    link: Details,
+    id: details,
+    activeClass: is-active
+  },
+  {
+    link: Fitting,
+    id: fitting
+  },
+  {
+    link: Reviews,
+    id: reviews
+  }
+]
+---
+
+{% extends "default.html" %}
+
+{% block icons %}
+  {% include "icons-products.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+
+  <article class="c-productMain">
+
+    <div class="o-container">
+
+    {% include "product-overview.nunjucks" %}
+
+    </div><!-- !END div.o-grid -->
+
+    <div class="c-tabs">
+
+      <ul class="c-tabs__nav o-container">
+        {% for item in tabsNav %}
+        <li class="c-tabs__navItem">
+          <a href="#{{ item.id }}" class="c-tabs__link {{ item.activeClass }}">{{ item.link }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <div class="c-tabs__contentWrap">
+
+        <div class="o-container">
+
+          <div id="details" class="c-tabs__content is-active">
+            {% include "details-proguard-bolt-on.nunjucks" %}
+          </div>
+          <div id="fitting" class="c-tabs__content">
+            <h3 class="u-mb1">Fitting the ProGuard BOLT ON</h3>
+            <p>The ProGuard - BOLT ON is our direct mount front mountainbike mudguard designed for big spray and mud protection (DISC BRAKE ONLY)<p>
+            <h3 class="u-mb05">COMPATIBILITY</h3>
+            <p>The ProGuard BOLT ON will fit most fork models listed below if they have the *THREADED HOLES at the rear of the fork brace (you will also need 18mm MIN of tyre clearance to fit)</p>
+            <dl class="o-dlInfo u-mb1">
+              <dt>FORKS:</dt>
+              <dd>FOX 32, 34, 36, 40 [FOX 40 in 29" only] - OHLINS ALL - <span class="u-col-a">*</span>SR SUNTOUR - ALL MARZOCCHI - ALL 2017 onwards</dd>
+              <dt>WHEELS:</dt>
+              <dd>26"  27.5"  29"</dd>
+              <dt>TYRES:</dt>
+              <dd>up to 3"</dd>
+              <dt>TYRES:</dt>
+              <dd>STD or BOOST</dd>
+            </dl>
+            <p><span class="u-col-a">*</span>Some SR Suntour forks have an UNTHREADED straight through hole in the centre of the brace, a separate bolt sleeve kit can be purchased to fit these types of forks.</p>
+            
+            <h4 class="u-mb05">FITTING TO THE FRONT:</h4>
+
+            <ol class="c-fitting">
+              <li class="c-fitting__item"><span class="u-col-a">
+                IMPORTANT: You must apply the rubber adhesive side pads to the recess on the mudguard side wings, they protect your fork legs and provide vital stability and resonance damping<span>
+                <img src="/img/products/mudguards/proguard-bolt-on/fitting/1.png" alt="Image showing how to apply the rubber adhesive side pads" class="c-fitting__img">
+              </li>
+              <li class="c-fitting__item">Clean the fork threads and the fork legs MAKING SURE YOU DRY THE THREADS THOROUGHLY</li>
+              <li class="c-fitting__item">
+                <p class="u-mb05">Select the correct bolts for your fork (details below) and run these into the threads WITHOUT the mudguard which will 'PRIME' and clean the threads before fitting, this part is important</p>
+                <dl class="o-dlInline u-mb1">
+                  <dt>BOLTS:</dt>
+                  <dd>FOX = M3 (2 bolts) | OHLINS = M4 (3 bolts) | SR SUNTOUR = M6 (<span class="u-col-a">*</span>1 bolt)</dd>
+                </dl>
+                <p><span class="u-col-a">*</span>SOME SR SUNTOUR FORKS ALSO HAVE 2 x M4 BOLT HOLES YOU CAN USE IN ADDITION FOR EXTRA STABILITY</p>
+            </dl>
+              </li>
+              <li class="c-fitting__item">
+                Squeeze the side wings of the mudguard hard and slide under the fork brace from the rear with the wheel and tyre still in place
+              </li>
+              <li class="c-fitting__item">You should be able to locate the mudguard and let go as the rubber side pads should hold it in place (ensure the slots are centrally aligned to the threaded holes on your fork)</li>
+              <li class="c-fitting__item">Use the Allen key provided to screw the bolts in EVENLY a bit each side, go gentle to start off to ensure you DON'T CROSS THREAD THEM, stop once it's pulled together so you can still move it</li>
+              <li class="c-fitting__item">Check alignment of the mudguard to ensure the distance from the tyre is even front and back, if you need to adjust the alignment then remove the mudguard and clip-on the appropriate TILT BRACKET found in the packaging (see fig a example below).  There are 2 TILT BRACKETS, one raises the front of the mudguard up and the other lowers it down (written on the TILT BRACKET)</li>
+              <li class="c-fitting__item">You can also change the height of the mudguard by 6mm through the slots for more clearance. NOTE: Highest position offers the most stability with the best mud clearance<li>
+              <li class="c-fitting__item">
+                <p class="u-mb05">Finally tighten the bolts to the torque settings below:</p>
+                <dl class="o-dlInline u-mb1">
+                  <dt>TORQUE SETTINGS:</dt>
+                  <dd>FOX & OHLINS = 1nm | SR SUNTOUR = 2nm</dd>
+                </dl>
+              </li>
+            </ol>
+
+            <p>NOTE: ONLY USE THE RRP SUPPLIED BOLTS AS THESE ARE SPECIFICALLY SELECTED OR DESIGNED FOR THE MUDGUARD - USING OTHER BOLTS MAY INVALIDATE WARRANTY - REPLACEMENT BOLTS PACKS ARE AVAILIBLE</p>
+
+            <p class="u-col-a">IMPORTANT - YOU MUST CHECK BOTTOM OUT CLEARANCE LET MOST (BUT NOT ALL) OF THE AIR OUT OF YOUR FORK AND COMPRESS TO TEST IF THE CROWN OF THE FORK HITS THE MUDGUARD WHEN BOTTOMING.  LOWER THE MUDGUARD THROUGH THE SLOTS IF YOU NEED MORE CLEARANCE, IF YOU CAN'T LOWER FURTHER THEN DO NOT USE</p>
+
+            <dl class="o-dlInline u-mb1">
+              <dt>WEIGHT:</dt>
+              <dd>MINI 104g | STANDARD 130g - (WITHOUT BOLTS - WITH RUBBER PADS)</dd>
+            </dl>
+
+            <h4 class="u-col-a">Important</h4>
+
+            <ul class="c-bullet u-mb1">
+              <li>Bolts must be checked after each ride to ensure the mudguard is secure</li>
+              <li>Remove mudguard every few rides to clean the brace / threads and fork legs</li>
+              <li>DO NOT USE IN STICKY  / CLAGGY MUD AS IT MAY BLOCK AND CAUSE INJURY OR DAMAGE</li>
+              <li>MIN CLEARANCES - 18mm from the tyre when fitted and 10mm from the frame (on bottoming)</li>
+              <li>INSPECT BEFORE YOU RIDE: DO NOT USE IF DAMAGED IN ANY WAY AS CONTINUED USE MAY LEAD TO FAILURE OR INJURY</li>
+              <li>RapidRacerProducts Ltd accepts no liability for any damage or injury caused due to improper fitting or use of our products</li>
+              <li>RapidRacerProducts Ltd, Parkfields Business Centre, Park Street, Stafford, ST17 4AL, United Kingdom</li>
+            </ul>
+
+          </div>
+          <div id="reviews" class="c-tabs__content">
+            {% include "reviews.nunjucks" %}
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </article>
+
+  {% include "modal.nunjucks" %}
+
+{% endblock %}

@@ -136,7 +136,9 @@
                 {% endif %}
                 <a href="#{{ item.id }}">
                   <img src="/img/products/{{ item.imageUrl }}" alt="{{ item.imageAlt }}" class="c-productCols__img" title="{{ item.colour }}" data-target="{{ item.id }}">
-                  <span class="c-productCols__name">{{ item.colour }}</span>
+                  {% if item.color %}
+                    <span class="c-productCols__name">{{ item.colour }}</span>
+                  {% endif %}
                 </a>
               </li>
             {% endfor %}
