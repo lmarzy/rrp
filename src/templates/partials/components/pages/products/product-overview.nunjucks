@@ -6,7 +6,7 @@
   {% endif %}
 </h2>
 
-{% if productLogo == "proguard" %}
+{% if (productLogo == "proguard") or (productLogo == "ProGuard-bolt-on") %}
   {% include "vorova.nunjucks" %}
 {% endif %}
 
