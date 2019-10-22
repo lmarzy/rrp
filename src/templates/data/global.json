@@ -134,6 +134,15 @@
 
   "products": [
     {
+      "name": "ProGuard Bolt On",
+      "category": "Mudguard",
+      "for": "MTB",
+      "imgUrl": "/img/products/mudguards/thumbs/proguard-bolt-on.png",
+      "imgAlt": "ProGuard Bolt On product image",
+      "url": "/products/mudguards/proguard-bolt-on.html",
+      "latest": true
+    },
+    {
       "name": "ProGuard",
       "category": "Mudguard",
       "for": "MTB",
@@ -233,15 +242,6 @@
       "imgUrl": "/img/products/wheel-accessories/thumbs/valveguard.png",
       "imgAlt": "ValveGuard product image",
       "url": "/products/wheel-accessories/valveguard.html",
-      "latest": false
-    },
-    {
-      "name": "PunctureGuard",
-      "category": "Wheel Accessories",
-      "for": "MTB",
-      "imgUrl": "/img/products/wheel-accessories/thumbs/punctureguard.png",
-      "imgAlt": "PunctureGuard product image",
-      "url": "/products/wheel-accessories/punctureguard.html",
       "latest": false
     },
     {
