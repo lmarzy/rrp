@@ -19,15 +19,15 @@
 <li>PROVEN SEAL SHIELD TO INCREASE FORK PROTECTION AND EXTEND SERVICE INTERVALS</li>
 </ul>
 
-<h3>Mini & Standard</h3>
+<h3 class="u-mb05">MINI & STANDARD COMPATIBILITY</h3>
 
-<dl class="o-dlInfo u-mb1">
+<dl class="o-dlInline u-mb1">
   <dt>WHEELS:</dt>
   <dd>26”  27.5”  29”</dd>
   <dt>TYRES:</dt>
-  <dd>TYRES - up to a 3” tyre</dd>
+  <dd>up to a 3” tyre</dd>
   <dt>FORKS:</dt>
-  <dd>STANDARD & BOOST</dd>
+  <dd>FITS FOX 32, 34, 36, 49 FORKS - STD & BOOST (doesn’t fit FOX 40 in 26” or 27.5” without our adapter bracket <span class="u-col-a">sold separately)</span></dd>
 </dl>
 
 <p>This direct mount mudguard is designed for the forks listed below that have the THREADED HOLES in the rear of the fork brace:</p>
@@ -43,7 +43,8 @@
 
 <p>NOTE: brackets are being developed to allow the mudguard to fit other forks such as DVO, X-Fusion, Cane Creek, & Fox 40</p>
 
-<h3 class="u-mb1">DESIGN FEATURES IN MORE DETAIL</h3>
+<section>
+<h2 class="u-textLarge u-mb1">DESIGN FEATURES IN MORE DETAIL</h2>
 
 <h3>RUBBER PADS</h3>
 <p>The sides of the mudguard are flared out to touch and hold onto the fork to dampen resonance and create more stability, thick rubber pads have been included for the sides of the mudguard to protect the fork</p>
@@ -81,5 +82,7 @@
 
 <h3>SLEEVE PACK – SR SUNTOUR</h3>
 <p>Some SR Suntour forks have a straight through UNTHREADED hole in the centre of the fork brace, you can purchase a sleeve pack that allows you to fit the ProGuard BOLT ON to the fork</p>
+
+</section>
 
 {% include "made-in-uk.nunjucks" %}
