@@ -134,11 +134,11 @@
 
   "products": [
     {
-      "name": "ProGuard Bolt On",
+      "name": "ProGuard BOLT ON",
       "category": "Mudguard",
       "for": "MTB",
       "imgUrl": "/img/products/mudguards/thumbs/proguard-bolt-on.png",
-      "imgAlt": "ProGuard Bolt On product image",
+      "imgAlt": "ProGuard BOLT ON product image",
       "url": "/products/mudguards/proguard-bolt-on.html",
       "latest": true
     },
