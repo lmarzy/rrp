@@ -36,6 +36,10 @@ logoType: light
     <article class="c-distributorCompany">
       <h4 class="c-distributorCompany__name">{{ details.companyName }}</h4>
 
+      {% if details.companyName == "NOW Company SPRL - Master EU distributor" %}
+        <p>All distribution applications for EU countries via email address below</p>
+      {% endif %}
+
       <div class="o-grid">
         <div class="o-grid__item u-1of1 u-bp20-3of5 u-mb1">
           <dl class="c-distributorDetails">
