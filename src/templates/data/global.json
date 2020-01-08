@@ -286,6 +286,14 @@
     ]
   },
   {
+    "country": "Argentina",
+    "distributors": [
+      {
+        "companyName": "Distributor Wanted"
+      }
+    ]
+  },
+  {
     "country": "Australia",
     "distributors": [
       {
@@ -339,16 +347,22 @@
     ]
   },
   {
+    "country": "Brazil",
+    "distributors": [
+      {
+        "companyName": "Distributor Wanted"
+      }
+    ]
+  },
+  {
     "country": "Bulgaria",
     "distributors": [
       {
-        "companyName": "NOW Company SPRL - Master EU distributor",
-        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
-        "tel": "+32 10 23 01 80",
-        "fax": "+32 10 23 01 81",
-        "email": "romain@nowcompany.com",
-        "website": "www.nowcompany.com",
-        "B2B": "www.buytonow.com"
+        "companyName": "Velosiped",
+        "address": "Industrialna 34 Street - 3400 Montana",
+        "tel": "+359 888 897 569",
+        "email": "components@velosiped.bg",
+        "website": "www.velosiped.bg"
       }
     ]
   },
@@ -365,16 +379,22 @@
     ]
   },
   {
+    "country": "China",
+    "distributors": [
+      {
+        "companyName": "Distributor Wanted"
+      }
+    ]
+  },
+  {
     "country": "Croatia",
     "distributors": [
       {
-        "companyName": "NOW Company SPRL - Master EU distributor",
-        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
-        "tel": "+32 10 23 01 80",
-        "fax": "+32 10 23 01 81",
-        "email": "romain@nowcompany.com",
-        "website": "www.nowcompany.com",
-        "B2B": "www.buytonow.com"
+        "companyName": "Marko Projekt ltd.",
+        "address": "Vlaska Ul. 81A - 10000 Zagreb",
+        "tel": "+385 1 4618 777",
+        "email": "info@markoprojekt.com",
+        "website": "www.markoprojekt.com"
       }
     ]
   },
@@ -396,13 +416,11 @@
     "country": "Czech Republic",
     "distributors": [
       {
-        "companyName": "NOW Company SPRL - Master EU distributor",
-        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
-        "tel": "+32 10 23 01 80",
-        "fax": "+32 10 23 01 81",
-        "email": "romain@nowcompany.com",
-        "website": "www.nowcompany.com",
-        "B2B": "www.buytonow.com"
+        "companyName": "Vokolek",
+        "address": "U Továren 256/14, 102 00 Praha 10",
+        "tel": "+420 775 646 540",
+        "email": "info@vokolek.cz",
+        "website": "www.vokolek.cz"
       }
     ]
   },
@@ -534,13 +552,11 @@
     "country": "Italy",
     "distributors": [
       {
-        "companyName": "NOW Company SPRL - Master EU distributor",
-        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
-        "tel": "+32 10 23 01 80",
-        "fax": "+32 10 23 01 81",
-        "email": "romain@nowcompany.com",
-        "website": "www.nowcompany.com",
-        "B2B": "www.buytonow.com"
+        "companyName": "Tribe Distribution",
+        "address": "Strada Statale 28 - 12080 Vicoforte CN",
+        "tel": "+39 0174 33 01 52",
+        "email": "info@tribedistribution.com",
+        "website": "www.tribedistribution.com"
       }
     ]
   },
@@ -565,13 +581,11 @@
     "country": "Latvia",
     "distributors": [
       {
-        "companyName": "NOW Company SPRL - Master EU distributor",
-        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
-        "tel": "+32 10 23 01 80",
-        "fax": "+32 10 23 01 81",
-        "email": "romain@nowcompany.com",
-        "website": "www.nowcompany.com",
-        "B2B": "www.buytonow.com"
+        "companyName": "Gandrs Ltd.",
+        "address": "Kalnciema 28 - 1046 Latvia",
+        "tel": "+371 2927 3600",
+        "email": "gandrs@gandrs.lv",
+        "website": "www.gandrs.lv"
       }
     ]
   },
@@ -593,13 +607,11 @@
     "country": "Lithuania",
     "distributors": [
       {
-        "companyName": "NOW Company SPRL - Master EU distributor",
-        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
-        "tel": "+32 10 23 01 80",
-        "fax": "+32 10 23 01 81",
-        "email": "romain@nowcompany.com",
-        "website": "www.nowcompany.com",
-        "B2B": "www.buytonow.com"
+        "companyName": "Gandrs Ltd.",
+        "address": "Kalnciema 28 - 1046 Latvia",
+        "tel": "+371 2927 3601",
+        "email": "gandrs@gandrs.lv",
+        "website": "www.gandrs.lt"
       }
     ]
   },
@@ -628,6 +640,14 @@
         "email": "romain@nowcompany.com",
         "website": "www.nowcompany.com",
         "B2B": "www.buytonow.com"
+      }
+    ]
+  },
+  {
+    "country": "Mexico",
+    "distributors": [
+      {
+        "companyName": "Distributor Wanted"
       }
     ]
   },
@@ -663,11 +683,7 @@
     "country": "New Zealand",
     "distributors": [
       {
-        "companyName": "Bikes International Ltd",
-        "address": "38 Airpark Drive, Auckland Airport, Auckland, 2022, New Zealand",
-        "tel": "0926 71245",
-        "email": "sales@bikesinternational.co.nz",
-        "website": "www.bikesinternational.co.nz"
+        "companyName": "Distributor Wanted"
       }
     ]
   },
@@ -715,13 +731,11 @@
     "country": "Romania",
     "distributors": [
       {
-        "companyName": "NOW Company SPRL - Master EU distributor",
-        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
-        "tel": "+32 10 23 01 80",
-        "fax": "+32 10 23 01 81",
-        "email": "romain@nowcompany.com",
-        "website": "www.nowcompany.com",
-        "B2B": "www.buytonow.com"
+        "companyName": "Coolbike Team",
+        "address": "Str. Penes Curcanul 4-5 - 300124 Timisoara",
+        "tel": "+40 356 43 73 33",
+        "email": "office@coolbiketeam.ro",
+        "website": "www.coolbiketeam.ro"
       }
     ]
   },
@@ -729,13 +743,7 @@
     "country": "Russia",
     "distributors": [
       {
-        "companyName": "NOW Company SPRL - Master EU distributor",
-        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
-        "tel": "+32 10 23 01 80",
-        "fax": "+32 10 23 01 81",
-        "email": "romain@nowcompany.com",
-        "website": "www.nowcompany.com",
-        "B2B": "www.buytonow.com"
+        "companyName": "Distributor Wanted"
       }
     ]
   },
@@ -782,6 +790,14 @@
     ]
   },
   {
+    "country": "South Africa",
+    "distributors": [
+      {
+        "companyName": "Distributor Wanted"
+      }
+    ]
+  },
+  {
     "country": "South Korea",
     "distributors": [
       {
@@ -797,13 +813,11 @@
     "country": "Spain",
     "distributors": [
       {
-        "companyName": "NOW Company SPRL - Master EU distributor",
-        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
-        "tel": "+32 10 23 01 80",
-        "fax": "+32 10 23 01 81",
-        "email": "romain@nowcompany.com",
-        "website": "www.nowcompany.com",
-        "B2B": "www.buytonow.com"
+        "companyName": "Bike Difusion",
+        "address": "Arkatza 1 - Pabellon 48 - 01006 Vitoria-Gasteiz - Alava",
+        "tel": "+34 945 158 288",
+        "email": "info@bikedifusion.com",
+        "website": "www.bikedifusion.com"
       }
     ]
   },

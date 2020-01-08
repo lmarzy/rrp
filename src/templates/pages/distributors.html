@@ -40,6 +40,11 @@ logoType: light
         <p>All distribution applications for EU countries via email address below</p>
       {% endif %}
 
+      {% if details.companyName == "Distributor Wanted" %}
+        <p>If you’re interested then apply through our <a href="/contact.html">contacts page.</a></p>
+      {% endif %}
+
+      {% if details.companyName != "Distributor Wanted" %}
       <div class="o-grid">
         <div class="o-grid__item u-1of1 u-bp20-3of5 u-mb1">
           <dl class="c-distributorDetails">
@@ -98,6 +103,7 @@ logoType: light
           </dl>
         </div>
       </div>
+      {% endif %}
     </article>
     {% endfor %}
 
