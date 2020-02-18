@@ -825,13 +825,10 @@
     "country": "Sweden",
     "distributors": [
       {
-        "companyName": "NOW Company SPRL - Master EU distributor",
-        "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
-        "tel": "+32 10 23 01 80",
-        "fax": "+32 10 23 01 81",
-        "email": "romain@nowcompany.com",
-        "website": "www.nowcompany.com",
-        "B2B": "www.buytonow.com"
+        "companyName": "Hub63",
+        "address": "Vasagatan, 16 Box 160, 101 23 Stockholm",
+        "website": "www.hub63.se",
+        "B2B": "info@hub63.se"
       }
     ]
   },
