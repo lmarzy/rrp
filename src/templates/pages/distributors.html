@@ -54,8 +54,10 @@ logoType: light
         </div>
         <div class="o-grid__item u-1of1 u-bp20-2of5 c-distributorCompany__contacts">
           <dl class="c-distributorDetails">
-            <dt>Tel:</dt>
-            <dd>{{ details.tel }}</dd>
+            {% if details.tel %}
+              <dt>Tel:</dt>
+              <dd>{{ details.tel }}</dd>
+            {% endif %}
             {% if details.mob %}
               <dt>Mob:</dt>
               <dd>{{ details.mob }}</dd>

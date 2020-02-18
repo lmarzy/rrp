@@ -827,8 +827,8 @@
       {
         "companyName": "Hub63",
         "address": "Vasagatan, 16 Box 160, 101 23 Stockholm",
-        "website": "www.hub63.se",
-        "B2B": "info@hub63.se"
+        "email": "info@hub63.se",
+        "website": "www.hub63.se"
       }
     ]
   },
