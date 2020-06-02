@@ -317,15 +317,6 @@
       "country": "Austria",
       "distributors": [
         {
-          "companyName": "NOW Company SPRL - Master EU distributor",
-          "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
-          "tel": "+32 10 23 01 80",
-          "fax": "+32 10 23 01 81",
-          "email": "romain@nowcompany.com",
-          "website": "www.nowcompany.com",
-          "B2B": "www.buytonow.com"
-        },
-        {
           "companyName": "Krama",
           "address": "Krama GmbH, Neustift 29, A-8272 Sebersdorf",
           "tel": " +43 (0) 3333/26095",
@@ -509,15 +500,6 @@
     {
       "country": "Germany",
       "distributors": [
-        {
-          "companyName": "NOW Company SPRL - Master EU distributor",
-          "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
-          "tel": "+32 10 23 01 80",
-          "fax": "+32 10 23 01 81",
-          "email": "romain@nowcompany.com",
-          "website": "www.nowcompany.com",
-          "B2B": "www.buytonow.com"
-        },
         {
           "companyName": "Freeride Mountain",
           "address": "Konrad Haußmann Weg 34, D-73614 Schorndorf",
