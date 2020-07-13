@@ -1,0 +1,13 @@
+/* ==========================================================================
+   COMPONENTS/PAGES - DREAMBUILD
+   ========================================================================== */
+
+.c-dream-build {
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 8px rgba(black, 1);
+
+  @include bp(20) {
+    font-size: rem(22px);
+  }
+}
