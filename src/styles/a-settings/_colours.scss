@@ -1,51 +1,38 @@
 // SETTINGS - COLOURS
 
 $colours: (
-
-	main: (
-		bg 						: #1b1d1e,
-		text 			 		: #2c2d30,
-		links 				: inherit,
-		borders 		  : #ECEBEB
-	),
-
-	brand: (
-		a 						: #EC2B0C,
-    b             : #2e3233,
-    c             : #F5F5F5,
-    d             : #016EDD
-	),
-
-  products: (
-    cyan          : #00ADEF,
-    yellow        : #FEF200,
-    red           : #EC1E23,
-    magenta       : #EC028D,
-    orange        : #F7941D,
-    green         : #019900,
-    blue          : #0054A6
+  main: (
+    bg: #1b1d1e,
+    text: #2c2d30,
+    links: inherit,
+    borders: #ecebeb,
   ),
-
-	alerts: (
-  	info 					: hsl(200, 65%, 91%),
-		warn 					: hsl(35, 84%, 62%),
-		error 				: hsl(6, 73%, 50%),
-		success 			: hsl(120, 39%, 54%)
-	),
-
-	social: (
-		facebook      : hsl(221, 44%, 41%),
-		twitter       : hsl(196, 100%, 46%),
-		google        : hsl(7, 71%, 55%),
-		instagram     : hsl(207, 34%, 48%),
-    youtube       : hsl(0, 100%, 37%),
-	),
-
-	tech: (
-		html          : hsl(31, 97%, 62%),
-		css           : hsl(196, 66%, 41%),
-		js            : hsl(41, 94%, 65%),
-		misc          : hsl(0, 0%, 45%)
-	)
-
+  brand: (
+    a: #ec2b0c,
+    b: #2e3233,
+    c: #f5f5f5,
+    d: #016edd,
+  ),
+  products: (
+    cyan: #00adef,
+    yellow: #fef200,
+    red: #ec1e23,
+    magenta: #ec028d,
+    orange: #f7941d,
+    green: #019900,
+    blue: #0054a6,
+  ),
+  alerts: (
+    info: hsl(200, 65%, 91%),
+    warn: hsl(35, 84%, 62%),
+    error: hsl(6, 73%, 50%),
+    success: hsl(120, 39%, 54%),
+  ),
+  social: (
+    facebook: hsl(221, 44%, 41%),
+    twitter: hsl(196, 100%, 46%),
+    google: hsl(7, 71%, 55%),
+    instagram: hsl(207, 34%, 48%),
+    youtube: hsl(0, 100%, 37%),
+  ),
 );

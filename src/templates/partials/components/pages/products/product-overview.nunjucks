@@ -219,7 +219,7 @@
         {% endif %}
 
         {% if dreamBuildLink %}
-          <p>Check out the RRP Dream Build featuring our ProGuard Bolt On mudguards with custom decals <a href={{dreamBuildLink}}>Here</a></p>
+          <p>Check out the RRP Dream Build featuring our ProGuard Bolt On mudguards with custom decals <a href={{dreamBuildLink}} class="u-col-d">HERE</a></p>
         {% endif %}
 
         {% if ukDistributor %}
