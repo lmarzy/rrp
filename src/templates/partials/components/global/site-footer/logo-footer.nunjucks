@@ -1,4 +1,2 @@
-<img src="/img/logo-footer.png" alt="{{ siteName }}" class="c-siteFooter__logo">
-<img src="/img/footer-union-jack.png" alt="{{ siteName }}" class="c-siteFooter__name">
-
-{# <p class="c-siteFooter__name">RapidRacerProducts Ltd</p> #}
+<img src="/img/logo-header-white.svg" width="118" alt="{{ siteName }}" class="c-siteFooter__logo">
+<img src="/img/footer-union-jack.svg" width="280" alt="{{ siteName }}" class="c-siteFooter__name">

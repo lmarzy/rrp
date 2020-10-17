@@ -1,5 +1,8 @@
 <h1 class="c-siteHeader__logo c-logo">
-  <a href="{{ links.home }}">
-    <img src="/img/logo-header-{{logoType}}.png" alt="{{ siteName }}">
+  <a href="{{ links.home }}" class="c-logo__dark">
+    <img src="/img/logo-header-black.svg" width="118" alt="{{ siteName }}">
+  </a>
+  <a href="{{ links.home }}" class="c-logo__light">
+    <img src="/img/logo-header-white.svg" width="118" alt="{{ siteName }}">
   </a>
 </h1>

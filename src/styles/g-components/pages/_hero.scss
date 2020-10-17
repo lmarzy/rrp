@@ -3,20 +3,43 @@
    ========================================================================== */
 
 .c-hero {
+  padding-top: rem(18px);
   padding-bottom: rem(132px);
   text-align: center;
   color: white;
 
-    &__btn {
-      margin-bottom: rem(18px);
-    }
+  &__img {
+    width: 265px;
+    margin: 0 auto rem(12px) auto;
+  }
 
-    @include bp(10) {
-      padding-bottom: rem(168px);
-    }
+  &__img-black {
+    display: none;
+  }
 
-    @include bp(20) {
-      padding-top: rem(12px);
-      padding-bottom: rem(340px);
+  &__btn {
+    margin-bottom: rem(18px);
+  }
+
+  @include bp(10) {
+    padding-bottom: rem(168px);
+  }
+
+  @include bp(20) {
+    padding-top: rem(12px);
+    padding-bottom: rem(340px);
+
+    &__img {
+      width: 370px;
+      margin-bottom: rem(24px);
+
+      &-black {
+        display: block;
+      }
+
+      &-white {
+        display: none;
+      }
     }
+  }
 }

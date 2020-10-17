@@ -22,12 +22,11 @@
     line-height: rem(32px);
     overflow: hidden;
 
-      &--facebook {
-        background: colour(social, facebook);
-      }
-      &--twitter {
-        background: colour(social, twitter);
-      }
+    &--facebook {
+      background: colour(social, facebook);
+    }
+    &--twitter {
+      background: colour(social, twitter);
+    }
   }
-
 }

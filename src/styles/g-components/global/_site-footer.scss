@@ -13,39 +13,40 @@
   color: white;
   text-align: center;
 
-    &__social {
-      margin-bottom: rem(12px);
+  &__social {
+    margin-bottom: rem(12px);
 
-        .icon {
-          color: white;
-        }
+    .icon {
+      color: white;
     }
+  }
 
-    &__logo,
+  &__logo,
+  &__name {
+    display: block;
+    margin: 0 auto rem(12px) auto;
+  }
+
+  @include bp(20) {
+    text-align: left;
+    @include cf;
+    &__logo {
+      float: left;
+    }
     &__name {
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      margin-left: -140px;
+    }
+    &__social {
+      float: right;
+    }
+    &__small {
       display: block;
-      margin: 0 auto rem(12px) auto;
+      padding-top: rem(36px);
+      text-align: center;
+      clear: both;
     }
-
-    @include bp(20) {
-      text-align: left;
-      @include cf;
-      &__logo {
-        float: left;
-      }
-      &__name {
-        position: absolute;
-        top: 30px;
-        left: 50%;
-        margin-left: -140px;
-      }
-      &__social {
-        float: right;
-      }
-      &__small {
-        display: block;
-        padding-top: rem(36px);
-        clear: both;
-      }
-    }
+  }
 }

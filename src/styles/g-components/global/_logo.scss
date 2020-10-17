@@ -4,8 +4,15 @@
 
 .c-logo {
   a {
-    display: block;
     line-height: 0;
+  }
+
+  &__dark {
+    display: block;
+  }
+
+  &__light {
+    display: none;
   }
 
   @include bp(30, max) {
@@ -14,5 +21,21 @@
 
   @include bp(30) {
     margin-top: rem(6px);
+  }
+}
+
+.c-distributorsPage {
+  .c-logo__dark {
+    display: none;
+  }
+  .c-logo__light {
+    display: block;
+  }
+  .c-siteNav__link,
+  .c-siteNav__icon {
+    color: white;
+  }
+  .sub-active .c-siteNav__icon {
+    color: colour(brand, b);
   }
 }

@@ -379,7 +379,6 @@
         {
           "companyName": "Reciprocators",
           "address": "2455 Dollarton Hwy #217, North Vancouver, BC, Canada, V7H 0A2",
-          "tel": "778 996 2453",
           "email": "info@reciprocators.ca",
           "website": "www.reciprocators.ca"
         }
@@ -446,6 +445,20 @@
       ]
     },
     {
+      "country": "Ecuador",
+      "distributors": [
+        {
+          "companyName": "Bike Spot",
+          "address": "1ro de mayo y Av de las Americas, Edf. 4 Rios, Cuenca, Ecuador, Zip 010107",
+          "tel": "+593998677695",
+          "email": " josedavidvivar@hotmail.com",
+          "website": "www.nowcompany.com",
+          "facebook": "https://www.facebook.com/Bikespotec/shop",
+          "instagram": "https://www.instagram.com/bikespotecu/"
+        }
+      ]
+    },
+    {
       "country": "Estonia",
       "distributors": [
         {
@@ -498,7 +511,7 @@
       ]
     },
     {
-      "country": "Germany",
+      "country": "Germany - RETAILER",
       "distributors": [
         {
           "companyName": "Freeride Mountain",
@@ -597,13 +610,11 @@
       "country": "Liechtenstein",
       "distributors": [
         {
-          "companyName": "NOW Company SPRL - Master EU distributor",
-          "address": "14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium",
-          "tel": "+32 10 23 01 80",
-          "fax": "+32 10 23 01 81",
-          "email": "romain@nowcompany.com",
-          "website": "www.nowcompany.com",
-          "B2B": "www.buytonow.com"
+          "companyName": "Gamux",
+          "address": "Gamux c/o 5zero AG, Fabrikstrasse 6 | CH-4562 Biberist",
+          "tel": "+41 79 209 78 64",
+          "email": "info@gamux.ch",
+          "website": "www.gamuxbikes.com/"
         }
       ]
     },
@@ -900,7 +911,6 @@
         {
           "companyName": "Reciprocators",
           "address": "2455 Dollarton Hwy #217, North Vancouver, BC, Canada, V7H 0A2",
-          "tel": "778 996 2453",
           "email": "info@reciprocators.ca",
           "website": "www.reciprocators.ca"
         }

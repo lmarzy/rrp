@@ -8,43 +8,51 @@
   padding-bottom: $rhythm / 2;
   z-index: 10;
 
-    &.nav-is-active {
-      background: rgba(colour(brand,b),0.9);
-      padding-bottom: 0;
+  &.nav-is-active {
+    background: rgba(colour(brand, b), 0.9);
+    padding-bottom: 0;
 
-        .c-siteHeader__nav {
-          display: block;
-        }
+    .c-siteHeader__nav {
+      display: block;
     }
 
-    &__nav {
+    .c-logo__dark {
       display: none;
     }
 
-    &__burger {
-      position: absolute;
-      top: rem(12px);
+    .c-logo__light {
+      display: block;
+    }
+  }
+
+  &__nav {
+    display: none;
+  }
+
+  &__burger {
+    position: absolute;
+    top: rem(12px);
+    right: 0;
+  }
+
+  &__social {
+    position: absolute;
+    top: rem(24px);
+    right: rem(55px);
+  }
+
+  @include bp(30) {
+    @include cf;
+
+    &__logo {
+      float: left;
+    }
+    &__nav {
+      display: inherit;
+    }
+    &__social {
+      top: rem(30px);
       right: 0;
     }
-
-    &__social {
-      position: absolute;
-      top: rem(24px);
-      right: rem(55px);
-    }
-
-    @include bp(30) {
-      @include cf;
-
-        &__logo {
-          float: left;
-        }
-        &__nav {
-          display: inherit;
-        }
-        &__social {
-          top: rem(30px);
-          right: 0;
-        }
-    }
+  }
 }

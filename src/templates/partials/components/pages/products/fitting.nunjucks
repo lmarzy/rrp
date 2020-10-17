@@ -11,6 +11,17 @@
 </a>
 {% endif %}
 
+{% if fittingVideos %}
+  <ul class="c-productVideos">
+    {% for video in fittingVideos %}
+      <li class="c-productVideos_video">
+        {% import "product-video.nunjucks" as vid %}
+        {{ vid.productVideo(video.url, video.name, video.img, video.imgAlt) }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
 {% if fitting.single %}
   <ol class="c-fitting">
   {% for step in fitting.single %}

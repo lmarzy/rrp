@@ -3,15 +3,35 @@
    ========================================================================== */
 
 .c-socialNav {
-
   &__item {
     display: inline-block;
-    padding: 0 rem(5px);
+    margin-left: 2px;
   }
 
-  .icon {
+  &__link {
+    display: block;
+    width: rem(28px);
+    height: rem(28px);
+    border-radius: 50%;
     color: white;
-    opacity: 0.9;
+    text-align: center;
+    line-height: rem(32px);
+    overflow: hidden;
   }
 
+  &__link--facebook {
+    background: colour(social, facebook);
+  }
+
+  &__link--twitter {
+    background: colour(social, twitter);
+  }
+
+  &__link--instagram {
+    background: colour(social, instagram);
+  }
+
+  &__link--youtube {
+    background: colour(social, youtube);
+  }
 }
