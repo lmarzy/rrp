@@ -6,18 +6,19 @@ pageId: js-contact
 pageClass: c-contactPage
 pageCss: contact
 ---
-{% extends "default.html" %}
 
-{% block content %}
+{% extends "default.html" %} {% block content %}
 
 <section class="o-container u-mb2">
+  <h2 class="c-pageTitle">Contact Us</h2>
 
-  <h2 class="c-pageTitle">
-    Contact Us
-  </h2>
-
-  <script type="text/javascript" src="https://form.jotformeu.com/jsform/61214788932361"></script>
-
+  <!-- <div class="contact-email">
+    <p>For any questions please email <a href="mailto:info@rapidracerproducts.co.uk">info@rapidracerproducts.co.uk</a></p>
+  </div> -->
+  <script
+    type="text/javascript"
+    src="https://form.jotformeu.com/jsform/61214788932361"
+  ></script>
 </section>
 
 {% endblock %}
