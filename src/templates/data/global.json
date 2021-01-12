@@ -777,6 +777,16 @@
       ]
     },
     {
+      "country": "Singapore",
+      "distributors": [
+        {
+          "companyName": "Bike Suite",
+          "address": "68 Jalan Jurong Kechil, #01-19 Suites, S(596180)",
+          "website": "www.carousell.com/bikesuite"
+        }
+      ]
+    },
+    {
       "country": "Slovakia",
       "distributors": [
         {
@@ -853,8 +863,8 @@
       "distributors": [
         {
           "companyName": "Gamux",
-          "address": "Gamux c/o 5zero AG, Fabrikstrasse 4/6 | CH-4562 Biberist - Switzerland",
-          "tel": "+41 79 209 78 64",
+          "address": "Gamux c/o 5zero AG, Tschachenhofweg 3 | CH – 8855 Wangen SZ - Switzerland",
+          "tel": "+41 41 554 53 85",
           "email": "info@gamux.ch",
           "website": "www.gamuxbikes.com/"
         }

@@ -19,6 +19,7 @@
       <div class="c-gallery">
         <div class="c-gallery__inner">
         {% for image in productImages %}
+        {% if image.imageUrl %}
           {% if image.link %}
             <a href="{{ image.link }}">
           {% endif %}
@@ -29,7 +30,13 @@
               class="c-gallery__img">
           {% if image.link %}
             </a>
-          {% endif %} 
+          {% endif %}
+        {% endif %}
+          {% if image.videoUrl %}
+          <video width="625" height="500" id="{{ image.id }}" class="c-gallery__img" controls>
+            <source src="/img/products/{{ image.videoUrl }}.mp4">
+          </video>
+          {% endif %}
         {% endfor %}
       </div>
         <button type="button" class="c-gallery__btn c-gallery__btn--prev">
@@ -45,7 +52,12 @@
         {% for image in productImages %}
         <li class="c-galleryThumbs__img">
           <a href="#{{ image.id }}">
-            <img src="/img/products/{{ image.imageUrl }}.png" alt="{{ image.imageAlt }}" data-target="{{ image.id }}">
+          {% if image.imageUrl %}
+              <img src="/img/products/{{ image.imageUrl }}.png" alt="{{ image.imageAlt }}" data-target="{{ image.id }}">
+            {% endif %}
+            {% if image.videoImageUrl %}
+              <img src="/img/products/{{ image.videoImageUrl }}.png" alt="{{ image.imageAlt }}" data-target="{{ image.id }}">
+            {% endif %}
           </a>
         </li>
         {% endfor %}
