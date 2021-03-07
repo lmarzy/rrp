@@ -13,12 +13,17 @@
       "link": "#mudguards",
       "subnav": [
         {
-          "title": "ProGuard",
+          "title": "ProGuard - Front (Cable Tie / Velcro)",
           "link": "/products/mudguards/proguard.html",
           "type": "OFF ROAD"
         },
         {
-          "title": "ProGuard BOLT ON",
+          "title": "ProGuard - Rear (Cable Tie)",
+          "link": "/products/mudguards/proguard-rear.html",
+          "type": "OFF ROAD"
+        },
+        {
+          "title": "ProGuard - Front (BOLT ON)",
           "link": "/products/mudguards/proguard-bolt-on.html",
           "type": "OFF ROAD"
         },
@@ -134,7 +139,8 @@
 
   "products": [
     {
-      "name": "ProGuard BOLT ON",
+      "name": "ProGuard - Front",
+      "nameMore": "BOLT ON",
       "category": "Mudguard",
       "for": "MTB",
       "imgUrl": "/img/products/mudguards/thumbs/proguard-bolt-on.png",
@@ -143,12 +149,33 @@
       "latest": true
     },
     {
-      "name": "ProGuard",
+      "name": "ProGuard - Front",
+      "nameMore": "CABLE TIE / VELCRO",
       "category": "Mudguard",
       "for": "MTB",
-      "imgUrl": "/img/products/mudguards/thumbs/proguard.png",
+      "imgUrl": "/img/products/mudguards/thumbs/proguard-front.png",
       "imgAlt": "ProGuard product image",
       "url": "/products/mudguards/proguard.html",
+      "latest": true
+    },
+    {
+      "name": "ProGuard - Rear",
+      "nameMore": "CABLE TIE",
+      "category": "Mudguard",
+      "for": "MTB",
+      "imgUrl": "/img/products/mudguards/thumbs/proguard-rear.png",
+      "imgAlt": "ProGuard product image",
+      "url": "/products/mudguards/proguard-rear.html",
+      "latest": true
+    },
+    {
+      "name": "Vorova",
+      "nameMore": "CUSTOM DECALS",
+      "category": "Mudguard",
+      "for": "MTB",
+      "imgUrl": "/img/thumb-vorova.png",
+      "imgAlt": "Vorova Custom Decals",
+      "url": "https://vorova.com/partners/rrp/",
       "latest": true
     },
     {
@@ -199,6 +226,16 @@
       "latest": true
     },
     {
+      "name": "BPET",
+      "title": "Bearing Press & Extraction Tool",
+      "category": "Tools",
+      "for": "MTB",
+      "imgUrl": "/img/products/tools/thumbs/bpet.png",
+      "imgAlt": "Bearing Press & Extraction Tool(BPET) product image",
+      "url": "/products/tools/bpet.html",
+      "latest": true
+    },
+    {
       "name": "NeoGuard",
       "category": "Mudguard",
       "for": "MTB",
@@ -208,7 +245,8 @@
       "latest": false
     },
     {
-      "name": "NeoGuard RIGID",
+      "name": "NeoGuard",
+      "nameMore": "RIGID",
       "category": "Mudguard",
       "for": "CX",
       "imgUrl": "/img/products/mudguards/thumbs/neoguard-rigid-cx.png",
@@ -217,23 +255,14 @@
       "latest": false
     },
     {
-      "name": "NeoGuard RIGID",
+      "name": "NeoGuard",
+      "nameMore": "RIGID",
       "category": "Mudguard",
       "for": "MTB",
       "imgUrl": "/img/products/mudguards/thumbs/neoguard-rigid-mtb.png",
       "imgAlt": "NeoGuard RIGID product image",
       "url": "/products/mudguards/neoguard-rigid.html",
       "latest": false
-    },
-    {
-      "name": "BPET",
-      "title": "Bearing Press & Extraction Tool",
-      "category": "Tools",
-      "for": "MTB",
-      "imgUrl": "/img/products/tools/thumbs/bpet.png",
-      "imgAlt": "Bearing Press & Extraction Tool(BPET) product image",
-      "url": "/products/tools/bpet.html",
-      "latest": true
     },
     {
       "name": "ValveGuard",
@@ -569,7 +598,7 @@
       "country": "Italy",
       "distributors": [
         {
-          "companyName": "Tribe Distribution",
+          "companyName": "Tribe Distribution - Retailer",
           "address": "Strada Statale 28 - 12080 Vicoforte CN",
           "tel": "+39 0174 33 01 52",
           "email": "info@tribedistribution.com",

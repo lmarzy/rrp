@@ -2,7 +2,3 @@
   <img src="/img/vorova.jpg" alt="Vorova" class="c-vorova__img" />
 </a>
 <img src="/img/crash-replacement.jpg" alt="ProGuard Crash Replacemetn" class="u-mb1" />
-
-{% if dreamBuildLink %}
-  <p class="c-dream-build">Check out the RRP Dream Build featuring our ProGuard Bolt On mudguards with custom decals <a href={{dreamBuildLink}} class="u-col-d">HERE</a></p>
-{% endif %}
