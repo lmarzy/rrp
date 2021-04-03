@@ -414,6 +414,19 @@
       ]
     },
     {
+      "country": "Chile",
+      "distributors": [
+        {
+          "companyName": "Multibike Santiago",
+          "address": "Camino el Venado 1380, Local 12, San Pedro de La Paz, Chile",
+          "tel": "+56 9 77515464",
+          "email": "facturasmultibike@gmail.com",
+          "website": "www.multibike.cl",
+          "instagram": "https://www.instagram.com/multibikechile/"
+        }
+      ]
+    },
+    {
       "country": "China",
       "distributors": [
         {
