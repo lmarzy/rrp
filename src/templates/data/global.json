@@ -754,7 +754,13 @@
       "country": "New Zealand",
       "distributors": [
         {
-          "companyName": "Distributor Wanted"
+          "companyName": "Bike Life Supply Co Ltd",
+          "address": "60 Vanguard st Nelson, New Zealand",
+          "tel": "03 539-0355",
+          "email": "sales@bikelife.co.nz",
+          "website": "www.bikelife.co.nz",
+          "facebook": "https://www.facebook.com/bikelifesupplyco",
+          "instagram": "@bikelifesupplyco"
         }
       ]
     },
