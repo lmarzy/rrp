@@ -274,20 +274,20 @@
       "latest": false
     },
     {
-      "name": "Bright White Zip Ties",
+      "name": "Bright White Cable Ties",
       "category": "Accessories",
       "for": "accessories",
       "imgUrl": "/img/products/accessories/zipties/white.png",
-      "imgAlt": "Bright White Zip Ties",
+      "imgAlt": "Bright White Cable Ties",
       "url": "/products/accessories/zipties/white.html",
       "latest": false
     },
     {
-      "name": "Black Zip Ties",
+      "name": "Black Cable Ties",
       "category": "Accessories",
       "for": "accessories",
       "imgUrl": "/img/products/accessories/zipties/black.png",
-      "imgAlt": "Black Zip Ties",
+      "imgAlt": "Black Cable Ties",
       "url": "/products/accessories/zipties/black.html",
       "latest": false
     },
@@ -296,7 +296,7 @@
       "category": "Accessories",
       "for": "accessories",
       "imgUrl": "/img/products/accessories/stickers/frame-helmet-sticker-set.png",
-      "imgAlt": "Black Zip Ties",
+      "imgAlt": "Black Cable Ties",
       "url": "/products/accessories/stickers/frame-helmet-sticker-set.html",
       "latest": false
     }
@@ -399,6 +399,13 @@
           "tel": "+359 888 897 569",
           "email": "components@velosiped.bg",
           "website": "www.velosiped.bg"
+        },
+        {
+          "companyName": "INVERT LTD",
+          "address": "Mladost 1a Bl-510 / En-2 Ap-27",
+          "tel": "+359 888 54 17 80",
+          "email": "nikolay.titev@gmail.com",
+          "website": "https://www.onedistribution.com/en/"
         }
       ]
     },
@@ -556,12 +563,11 @@
       "country": "Germany - RETAILER",
       "distributors": [
         {
-          "companyName": "Freeride Mountain",
-          "address": "Konrad Haußmann Weg 34, D-73614 Schorndorf",
-          "tel": "+49 (0) 7181 98 56 886",
-          "fax": "+49 (0) 7181 98 56 887",
-          "email": "info@freeride-mountain.com",
-          "website": "www.freeride-mountain.com/"
+          "companyName": "Absolut Bikes GmbH",
+          "address": "Robert-Bosch-Str. 17 D-73760 Ostfildern-Nellingen",
+          "tel": "+49 711-933087-0",
+          "email": "info@absolutbikes.de",
+          "website": "https://absolutbikes.de/"
         }
       ]
     },
@@ -611,11 +617,11 @@
       "country": "Italy",
       "distributors": [
         {
-          "companyName": "Tribe Distribution - Retailer",
-          "address": "Strada Statale 28 - 12080 Vicoforte CN",
-          "tel": "+39 0174 33 01 52",
-          "email": "info@tribedistribution.com",
-          "website": "www.tribedistribution.com"
+          "companyName": "Absolut Bikes GmbH",
+          "address": "Robert-Bosch-Str. 17 D-73760 Ostfildern-Nellingen",
+          "tel": "+49 711-933087-0",
+          "email": "info@absolutbikes.de",
+          "website": "https://absolutbikes.de/"
         }
       ]
     },

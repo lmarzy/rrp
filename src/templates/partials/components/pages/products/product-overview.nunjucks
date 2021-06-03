@@ -104,7 +104,7 @@
         {% endif %}
 
         {% if productSizes %}
-          <h4 class="u-mb05">{{ productSizes.titleMain }}</h4>
+          <h4 class="u-mb05">{{ productSizes.titleMain }} help</h4>
           {% if productSizes.subTitle1 %}
             <h5 class="c-productSizes-titleSub u-mb05">{{ productSizes.subTitle1 }}</h5>
           {% endif %}
@@ -113,7 +113,7 @@
               <dt>{{ item.size }}:</dt>
               <dd>
                 <p class="u-mb0">{{ item.details }}</p>
-                <p class="u-textSmall u-mb05">({{ item.weight }})</p>
+                <p class="u-textSmall u-mb05">{{ item.weight }}</p>
               </dd>
             {% endfor %}
           </dl>
@@ -124,7 +124,7 @@
               <dt>{{ item.size }}:</dt>
               <dd>
                 <p class="u-mb0">{{ item.details }}</p>
-                <p class="u-textSmall u-mb05">({{ item.weight }})</p>
+                <p class="u-textSmall u-mb05">{{ item.weight }}</p>
               </dd>
             {% endfor %}
           </dl>
@@ -169,7 +169,7 @@
 
         {% if productCompatability %}
           <h3 class="u-mb05">COMPATIBILITY</h3>
-          <dl class="o-dlInline">
+          <dl class="o-dlInfo narrow">
             <dt>WHEELS:</dt>
             <dd>26”  27.5”  29”</dd>
             <dt>TYRES:</dt>
@@ -180,7 +180,7 @@
             <dd>STD & BOOST</dd>
             <dt>FORKS:</dt>
             <dd>
-            <p class="u-mb05">This direct mount mudguard is designed for the forks listed below ONLY IF THEY HAVE THREADED HOLES in the rear of the fork brace:</p>
+            <p class="u-mb05">This direct mount mudguard is designed for the forks listed below <span class="u-col-a"></span>ONLY IF THEY HAVE THREADED HOLES</span> in the rear of the fork brace:</p>
               <ul class="c-bullets">
                 <li>FITS FOX 32, 34, 36, 38, <span class="u-col-a">*</span>40 (2021) 49</li>
                 <li>FITS NEW MARZOCCHI FORKS (FOX chassis only)</li>
@@ -265,6 +265,20 @@
             </button>
           {% endfor %}
 
+        {% endif %}
+
+        {% if compatibilityTop %}
+          <h3 class="u-mb05">COMPATIBILITY</h3>
+          <dl class="o-dlInfo narrow u-mb1">
+          <dt>WHEELS:</dt>
+          <dd>{{ compatibilityTop.wheels }}</dd>
+          <dt>TYRES:</dt>
+          <dd>{{ compatibilityTop.tyres }}</dd>
+          <dt>FORKS:</dt>
+          <dd>{{ compatibilityTop.forks }}</dd>
+          <dt>TRAVEL:</dt>
+          <dd>{{ compatibilityTop.travel }}</dd>
+          </dl>
         {% endif %}
 
         {% if dreamBuildLink %}

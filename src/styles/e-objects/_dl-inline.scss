@@ -26,5 +26,11 @@
       float: left;
       width: 305px;
     }
+
+    &.narrow {
+      dt {
+        width: 82px;
+      }
+    }
   }
 }

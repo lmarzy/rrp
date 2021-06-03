@@ -58,7 +58,7 @@ tabsNav: [
 fitting: {
   front: [
     {
-      step: Remove zip ties and insert them into all the holes as shown below,
+      step: Remove cable ties and insert them into all the holes as shown below,
       images: [
         {
           imgUrl: mudguards//fitting/.svg,
