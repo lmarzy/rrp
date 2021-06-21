@@ -13,7 +13,7 @@
       "link": "#mudguards",
       "subnav": [
         {
-          "title": "ProGuard - Front (Cable Tie / Velcro)",
+          "title": "ProGuard - Front (Cable Tie)",
           "link": "/products/mudguards/proguard.html",
           "type": "OFF ROAD"
         },
@@ -150,7 +150,7 @@
     },
     {
       "name": "ProGuard - Front",
-      "nameMore": "CABLE TIE / VELCRO",
+      "nameMore": "CABLE TIE",
       "category": "Mudguard",
       "for": "MTB",
       "imgUrl": "/img/products/mudguards/thumbs/proguard-front.png",
@@ -999,7 +999,7 @@
   "saleItems": [
     {
       "product": "RearGuard",
-      "description": "The RearGuard is a secure and easy to fit rear mudguard, designed to keep your rear and most of your back dry. Using a Velcro strap, the guard fits in around 10 seconds and stays put!",
+      "description": "The RearGuard is a secure and easy to fit rear mudguard, designed to keep your rear and most of your back dry. Using the strap, the guard fits in around 10 seconds and stays put!",
       "products": [
         {
           "id": "RGW",
