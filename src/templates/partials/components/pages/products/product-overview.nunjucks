@@ -104,7 +104,7 @@
         {% endif %}
 
         {% if productSizes %}
-          <h4 class="u-mb05">{{ productSizes.titleMain }} help</h4>
+          <h4 class="u-mb05">{{ productSizes.titleMain }}</h4>
           {% if productSizes.subTitle1 %}
             <h5 class="c-productSizes-titleSub u-mb05">{{ productSizes.subTitle1 }}</h5>
           {% endif %}
