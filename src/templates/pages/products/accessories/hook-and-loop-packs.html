@@ -1,0 +1,152 @@
+---
+title: RapidRacerProducts | Hook and Loop Packs
+desc: "Hook and Loop Packs"
+ogUrl: /products/accessories/hook-and-loop-packs.html
+ogImg: /img/products/accessories/hook-and-loop/gallry/1.png
+pageId: js-product
+pageClass: c-productPage
+pageCss: product
+productName: Hook and Loop Pack
+productUrl: accessories/hook-and-loop-packs
+productOverview: [
+  "The ProGuard Hook & Loop Packs adds easy convenience to fitting and removing your ProGuard mudguard (where compatible).  Any ProGuard that has the slots for these hook & loop straps is compatible.",
+  "The Hook & Loop Pack & Rubber Pads have the added bonus of our Super Tacky rubber pads which you can fit to all front ProGuards of any version, these rubber pads will grip your fork adding huge amounts of stability whilst also protection the fork from any rubbing."
+]
+productOptions:
+  {
+    titleMain: Options available,
+    subTitle1: Front,
+    options:
+      [
+        { term: "PGVP - Hook & Loop Pack", description: "8 hook and loop straps" },
+        { term: "PGVPR - Hook & Loop & Rubber Pads Pack", description: "8 hook and loop straps with 4 super tacky rubber pads" },
+      ],
+  }
+productPrices:
+  [
+    { product: "PGVP - Hook & Loop Pack", price: £9.99 GBP },
+    { product: "PGVPR - Hook & Loop & Rubber Pads Pack", price: £19.99 GBP },
+  ]
+productCompatabilityAlt:
+  {
+    title: COMPATIBILITY,
+    options:
+      [
+        { term: "HOOK & LOOP", description: "All ProGuard v2 front mudguards and the new ProGuard MINI" },
+        { term: "RUBBER PADS", description: "All ProGuard front mudguards (any version) including the new ProGuard MINI" },
+      ],
+  }
+dreamBuildLink: "https://youtu.be/qxuDDBj2_wE"
+ukDistributor: [EXTRA UK]
+productImages: [
+  {
+    imageUrl: accessories/hook-and-loop/gallery/1,
+    imageAlt: hook and loop strap pack,
+    id: 1
+  },
+  {
+    imageUrl: accessories/hook-and-loop/gallery/2,
+    imageAlt: hook and loop strap pack,
+    id: 2
+  },
+  {
+    imageUrl: accessories/hook-and-loop/gallery/3,
+    imageAlt: hook and loop strap pack,
+    id: 3
+  },
+  {
+    imageUrl: accessories/hook-and-loop/gallery/4,
+    imageAlt: hook and loop strap pack,
+    id: 4
+  }
+]
+tabsNav: [
+  {
+    link: Fitting,
+    id: fitting,
+    activeClass: is-active
+  }
+]
+fitting: {
+  single: [
+    {
+      step: "Offer up the mudguard under the fork brace so you can see which slots to use for the hook & loop, you can then use a small sharp flathead screwdriver to CAREFULLY push through the slots and waggle to widen to create enough room for the hook & loop straps",
+      caution: "TAKE YOUR TIME WHEN PUNCTURING THE HOLES OR SLOTS - DO IT SLOWLY AND ENSURE THAT PERSONS OR PROPERTY ARE ALSO NOT IN THE WAY"
+    },
+    {
+      step: "Slide the hook & loop straps through the top and sides as shown below ensuring the buckles are always at the rear of the mudguard and the logos are facing outward ***THE HOOK & LOOP STRAPS FOR THE ARMS ARE LEFT & RIGHT SPECIFIC***",
+      images:
+        [
+          {
+            imgUrl: accessories/hook-and-loop/fitting/1.png,
+            imgAlt: Image showing how to fit the hook and loop,
+          },
+          {
+            imgUrl: accessories/hook-and-loop/fitting/2.png,
+            imgAlt: Image showing how to fit the hook and loop,
+          },
+          {
+            imgUrl: accessories/hook-and-loop/fitting/3.png,
+            imgAlt: Image showing how to fit the hook and loop,
+          },
+        ],
+    },
+    {
+      step: "Attach side rubber pads including to ensure they protect the fork from touching the plastic of the mudguard, you can also use the top pads included between the top slots you have chosen for more protection and stability"
+    },
+    {
+      step: "If you have a high fork brace leaving the mudguard too high off the tyre, then there's a spare top pad you can add on top of the other to help lower the mudguard"
+    },
+    {
+      step: "Do up the hook & loop straps tight and CUT OFF ANY EXCESS"
+    },
+    {
+      step: "Before use, ensure the guard doesn't hit the frame/fork on bottoming the fork"
+    }
+  ]
+}
+---
+
+{% extends "default.html" %}
+
+{% block icons %}
+  {% include "icons-products.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+
+  <article class="c-productMain">
+
+    <div class="o-container">
+
+      {% include "product-overview.nunjucks" %}
+
+    </div>
+
+    <div class="c-tabs">
+
+      <ul class="c-tabs__nav o-container">
+        {% for item in tabsNav %}
+        <li class="c-tabs__navItem">
+          <a href="#{{ item.id }}" class="c-tabs__link {{ item.activeClass }}">{{ item.link }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <div class="c-tabs__contentWrap">
+
+        <div class="o-container">
+
+          <div id="fitting" class="c-tabs__content is-active">
+            {% include "fitting.nunjucks" %}
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </article>
+
+{% endblock %}

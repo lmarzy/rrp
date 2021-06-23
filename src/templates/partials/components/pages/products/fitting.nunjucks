@@ -26,7 +26,10 @@
   <ol class="c-fitting">
   {% for step in fitting.single %}
   <li class="c-fitting__item">
-    {{ step.step }}
+    <p>{{ step.step }}</p>
+    {% if step.caution %}
+      <p>CAUTION: <span class="u-col-a">{{ step.caution }}</span>}</p>
+    {% endif %}
     {% if step.images %}
       {% for image in step.images %}
         <img src="/img/products/{{ image.imgUrl }}" alt="{{ image.imgUrl }}" class="c-fitting__img">

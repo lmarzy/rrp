@@ -103,6 +103,19 @@
         </dl>
         {% endif %}
 
+        {% if productOptions %}
+          <h4 class="u-mb05">{{ productOptions.titleMain }}</h4>
+          {% if productOptions.subTitle1 %}
+            <h5 class="c-productSizes-titleSub u-mb05">{{ productOptions.subTitle1 }}</h5>
+          {% endif %}
+          <dl class="u-mb1">
+            {% for item in productOptions.options %}
+              <dt>{{ item.term }}:</dt>
+              <dd class="u-mb0">{{ item.description }}</dd>
+            {% endfor %}
+          </dl>
+        {% endif %}
+
         {% if productSizes %}
           <h4 class="u-mb05">{{ productSizes.titleMain }}</h4>
           {% if productSizes.subTitle1 %}
@@ -192,6 +205,16 @@
           </dl>
           <p><span class="u-col-a">*</span>FOX 40 2020 (26” or 27.5”) or older forks need our Fox 40 Adapter Bracket – no bracket needed for 2021 forks</p>
           <p><span class="u-col-a">**</span>Some SR SUNTOUR forks have an unthreaded straight through hole in the centre of the fork brace, you can purchase a SLEEVE PACK to allow the PROGUARD Bolt On to fit these forks (sold separately)</p>
+        {% endif %}
+
+        {% if productCompatabilityAlt %}
+          <h3 class="u-mb05">{{ productCompatabilityAlt.title }}</h3>
+          <dl class="u-mb1">
+            {% for item in productCompatabilityAlt.options %}
+              <dt>{{ item.term}}</dt>
+              <dd>{{ item.description }}</dd>
+            {% endfor %}
+          </dl>
         {% endif %}
 
         {% if productDetails %}
