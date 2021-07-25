@@ -92,9 +92,9 @@
       ]
     },
     {
-      "title": "Clothing",
+      "title": "Apparel",
       "link": "/coming-soon.html",
-      "external": true
+      "external": false
     },
     {
       "title": "Distributors",
