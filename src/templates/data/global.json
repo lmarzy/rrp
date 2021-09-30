@@ -338,7 +338,8 @@
           "companyName": "DanJas Imports",
           "address": "316 Ipswich Rd, Annerley, QLD 4103 - Australia",
           "tel": "+61 0490 316 072",
-          "email": "info@danjasimports.com"
+          "email": "info@danjasimports.com",
+          "website": "www.danjasimports.com/"
         }
       ]
     },
@@ -414,7 +415,7 @@
       "distributors": [
         {
           "companyName": "Reciprocators",
-          "address": "2455 Dollarton Hwy #217, North Vancouver, BC, Canada, V7H 0A2",
+          "address": "4313 Gallant Avenue, North Vancouver, BC, Canada, V7G 1L1",
           "email": "info@reciprocators.ca",
           "website": "www.reciprocators.ca"
         }
@@ -988,7 +989,7 @@
       "distributors": [
         {
           "companyName": "Reciprocators",
-          "address": "2455 Dollarton Hwy #217, North Vancouver, BC, Canada, V7H 0A2",
+          "address": "4313 Gallant Avenue, North Vancouver, BC, Canada, V7G 1L1",
           "email": "info@reciprocators.ca",
           "website": "www.reciprocators.ca"
         }
