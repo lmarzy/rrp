@@ -182,53 +182,52 @@
 
         {% if productCompatability %}
           <h3 class="u-mb05">COMPATIBILITY</h3>
-          <dl class="o-dlInline u-mb1">
-  <dt>WHEELS:</dt>
-  <dd>26”  27.5”  29”</dd>
-  <dt>TYRES:</dt>
-  <dd>up to a 3” tyre</dd>
-  <dt>OFFSET:</dt>
-  <dd><strong>MINIMUM FORK OFFSET 44mm</strong></dd>
-  <dt>HUB:</dt>
-  <dd>STD & BOOST</dd>
-  <dt>FORKS:</dt>
-  <dd>
-  <p class="u-mb05">This direct mount mudguard is designed for the forks listed below WHICH MUST BE:<span class="u-col-a"></span>DISC BRAKE ONLY WITH THREADED HOLES</span></p>
-    <ul class="c-bullets u-mb05">
-      <li>2020 FOX 32, 34, 36, 38, 40 <span class="u-col-a">*</span>, 49 (or older)</li>
-      <li>2021 FOX 34 <span class="u-col-a">**</span>, 36, 38, 40</li>
+  <dl class="o-dlInline">
+    <dt>WHEELS:</dt>
+    <dd>26”  27.5”  29”</dd>
+    <dt>TYRES:</dt>
+    <dd>up to a 3” tyre</dd>
+    <dt>OFFSET:</dt>
+    <dd><strong>MINIMUM FORK OFFSET 44mm</strong></dd>
+    <dt>HUB:</dt>
+    <dd>STD & BOOST</dd>
+    <dt>FORKS:</dt>
+    <dd>
+    <p class="u-mb05">This direct mount mudguard is designed for the forks listed below which must be: <br /><span class="u-col-a">DISC BRAKE ONLY WITH THREADED HOLES</span></p>
+    <ul class="c-bullets">
+      <li>2020 <strong>FOX</strong> 32, 34, 36, 38, 40 <span class="u-col-a">*</span>, 49 (or older)</li>
+      <li>2021 <strong>FOX</strong> 34 <span class="u-col-a">**</span>, 36, 38, 40</li>
     </ul>
-    <p><span class="u-col-a">*</span>2020 FOX 40 (26” or 27.5”) or older needs Adapter Bracket – sold separately</p>
-    <p class="u-mb-5"><span class="u-col-a">**</span>2021 FOX 34 needs Stability Bracket (not available yet)</p>
+    <p class="u-mb0"><span class="u-col-a">* </span>2020 FOX 40 (26” or 27.5”) or older needs Adapter Bracket – sold separately</p>
+    <p class="u-mb-5"><span class="u-col-a">** </span>2021 FOX 34 needs Stability Bracket (not available yet)</p>
+
+    <ul class="c-bullets">
+      <li>2020 <strong>MARZOCCHI</strong> FORKS<span class="u-col-a">*</span></li>
+    </ul>
+    <p class="u-mb05"><span class="u-col-a">* </span>newer FOX chassis only</p>
 
     <ul class="c-bullets u-mb05">
-      <li>2020 MARZOCCHI FORKS<span class="u-col-a">*</span></li>
-    </ul>
-    <p class="u-mb05"><span class="u-col-a">*</span>newer FOX chassis only</p>
-
-    <ul class="c-bullets u-mb05">
-      <li>2021 ROCKSHOX 35</li>
-      <li>2021 ROCKSHOX Recon (Gold / Silver)</li>
-      <li>2021 ROCKSHOX Paragon (Gold / Silver)</li>
+      <li>2021 <strong>ROCKSHOX</strong 35</li>
+      <li>2021 <strong>ROCKSHOX</strong Recon (Gold / Silver)</li>
+      <li>2021 <strong>ROCKSHOX</strong Paragon (Gold / Silver)</li>
     </ul>
 
-    <ul class="c-bullets u-mb05">
-      <li>2019 OHLINS RXF34, RXF 36, DH38 <span class="u-col-a">*</span> (or older)</li>
+    <ul class="c-bullets">
+      <li>2019 <strong>OHLINS</strong> RXF34, RXF 36, DH38 <span class="u-col-a">*</span> (or older)</li>
     </ul>
-    <p class="u-mb05"><span class="u-col-a">*</span>DH 38 requires Stability Bracket (PGOSB) - sold separately
+    <p class="u-mb05"><span class="u-col-a">* </span>DH 38 requires Stability Bracket (PGOSB) - sold separately
     
-    <ul class="c-bullets u-mb05">
-      <li>2019 SR SUNTOUR FORKS <span class="u-col-a">*</span> (or older)</li>
+    <ul class="c-bullets">
+      <li>2019 <strong>SR SUNTOUR</strong> FORKS <span class="u-col-a">*</span> (or older)</li>
     </ul>
-    <p class="u-mb05"><span class="u-col-a">*</span>forks that have an unthreaded straight through hole in the centre of the fork brace needs our SLEEVE PACK (PGBOSP) - sold separately</p>
+    <p class="u-mb05"><span class="u-col-a">* </span>forks that have an unthreaded straight through hole in the centre of the fork brace needs our SLEEVE PACK (PGBOSP) - sold separately</p>
 
-    <ul class="c-bullets u-mb05">
-      <li>2021 DVO D1 Diamond 27.5” Boost <span class="u-col-a">*</span></li>
-      <li>2021 DVO D1 ONYX 27.5” Boost SC <span class="u-col-a">**</span></li>
+    <ul class="c-bullets">
+      <li>2021 <strong>DVO</strong> D1 Diamond 27.5” Boost <span class="u-col-a">*</span></li>
+      <li>2021 <strong>DVO</strong> D1 ONYX 27.5” Boost SC <span class="u-col-a">**</span></li>
     </ul>
-    <p class="u-mb05"><span class="u-col-a">*</span> needs our custom bolt / washer (PGBODVOB)
-    <p><span class="u-col-a">**</span>needs our custom adapter bracket and custom M4 bolt / washer (PGBODVO)</p>
-
+    <p class="u-mb0"><span class="u-col-a">* </span> needs our custom bolt / washer (PGBODVOB)
+    <p class="u-mb0"><span class="u-col-a">** </span>needs our custom adapter bracket and custom M4 bolt / washer (PGBODVO)</p>
   </dd>
 </dl>
         {% endif %}
