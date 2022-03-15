@@ -194,40 +194,62 @@
     <dt>FORKS:</dt>
     <dd>
     <p class="u-mb05">This direct mount mudguard is designed for the forks listed below which must be: <br /><span class="u-col-a">DISC BRAKE ONLY WITH THREADED HOLES</span></p>
-    <ul class="c-bullets">
-      <li>2016 to 2021 <strong>FOX</strong> 32, 34, 36, 38, 40 <span class="u-col-a">*</span>, 49</li>
-      <li>2022 <strong>FOX</strong> 34 <span class="u-col-a">**</span>, 36, 38, 40</li>
-    </ul>
-    <p class="u-mb0"><span class="u-col-a">* </span>2020 FOX 40 (26” or 27.5”) or older needs Adapter Bracket – sold separately</p>
-    <p class="u-mb-5"><span class="u-col-a">** </span>2022 FOX 34 needs Stability Bracket (not available yet)</p>
-
-    <ul class="c-bullets">
-      <li>2020 <strong>MARZOCCHI</strong> FORKS<span class="u-col-a">*</span></li>
-    </ul>
-    <p class="u-mb05"><span class="u-col-a">* </span>newer FOX chassis only</p>
-
-    <ul class="c-bullets u-mb05">
-      <li>2021 <strong>ROCKSHOX</strong> 35</li>
-      <li>2021 <strong>ROCKSHOX</strong> Recon (Gold / Silver)</li>
-      <li>2021 <strong>ROCKSHOX</strong> Paragon (Gold / Silver)</li>
-    </ul>
-
-    <ul class="c-bullets">
-      <li>2019 <strong>OHLINS</strong> RXF34, RXF 36, DH38 <span class="u-col-a">*</span> (or older)</li>
-    </ul>
-    <p class="u-mb05"><span class="u-col-a">* </span>DH 38 requires Stability Bracket (PGOSB) - sold separately</p>
+    
+    <hr class="u-mb05" style="border-top: 1px dashed black"/>
     
     <ul class="c-bullets">
-      <li>2019 <strong>SR SUNTOUR</strong> FORKS <span class="u-col-a">*</span> (or older)</li>
+      <li>2016 > 2021 <strong>FOX</strong> 32, 34, 36, 38, 40<sup class="u-col-a">(a)</sup>, 49</li>
+      <li>2022 <strong>FOX</strong> 34<sup class="u-col-a">(b)</sup>, 36<sup class="u-col-a">(c)</sup>, 38, 40</li>
     </ul>
-    <p class="u-mb05"><span class="u-col-a">* </span>forks that have an unthreaded straight through hole in the centre of the fork brace needs our SLEEVE PACK (PGBOSP) - sold separately</p>
+    <p class="u-mb0"><sup class="u-col-a">(a)</sup>2020 FOX 40 (26” or 27.5”) or older needs Adapter Bracket (PGBOF40) – sold separately</p>
+    <p class="u-mb0"><sup class="u-col-a">(b)</sup>2022 FOX 34 needs Stability Bracket if the rear of the brace is hollowed out (not available yet)</p>
+    <p class="u-mb05"><sup class="u-col-a">(c)</sup>2022 FOX 36 needs Stability Bracket (supplied)</p>
+    
+    <hr class="u-mb05" style="border-top: 1px dashed black"/>
 
     <ul class="c-bullets">
-      <li>2021 <strong>DVO</strong> D1 Diamond 27.5” Boost <span class="u-col-a">*</span></li>
-      <li>2021 <strong>DVO</strong> D1 ONYX 27.5” Boost SC <span class="u-col-a">**</span></li>
+      <li>NEW <strong>MARZOCCHI</strong> FORKS<sup class="u-col-a">(d)</sup> (Fox chassis version)</li>
     </ul>
-    <p class="u-mb0"><span class="u-col-a">* </span> needs our custom bolt / washer (PGBODVOB)
-    <p class="u-mb0"><span class="u-col-a">** </span>needs our custom adapter bracket and custom M4 bolt / washer (PGBODVO)</p>
+    <p class="u-mb05">
+      <sup class="u-col-a">(d)</sup>Z2 forks may not come with threaded holes
+    </p>
+
+    <hr class="u-mb05" style="border-top: 1px dashed black"/>
+
+    <ul class="c-bullets">
+      <li>2021 <strong>ROCKSHOX</strong> 35<sup class="u-col-a">(e)</sup></li>
+      <li>2021 <strong>ROCKSHOX</strong> Recon<sup class="u-col-a">(e)</sup></li>
+      <li>2021 <strong>ROCKSHOX</strong> Paragon<sup class="u-col-a">(e)</sup></li>
+    </ul>
+    <p>
+      <sup class="u-col-a">(e)</sup>use the SR Suntour M6 centre bolt
+    </p>
+
+    <hr class="u-mb05" style="border-top: 1px dashed black"/>
+
+    <ul class="c-bullets">
+      <li>2019 <strong>OHLINS</strong> RXF34, RXF36, DH38<sup class="u-col-a">(f)</sup> (or older)</li>
+    </ul>
+    <p class="u-mb05"><sup class="u-col-a">(f)</sup>DH 38 requires Stability Bracket (PGOSB) - sold separately. NOTE: above adapter also fits RXF36 and adds stability</p>
+    
+    <hr class="u-mb05" style="border-top: 1px dashed black"/>
+
+    <ul class="c-bullets">
+      <li>2019 <strong>SR SUNTOUR</strong> FORKS <sup class="u-col-a">(g)</sup> (or older)</li>
+    </ul>
+    <p class="u-mb05"><sup class="u-col-a">(g)</sup>forks that have an unthreaded straight through hole in the centre of the fork brace needs our SLEEVE PACK (PGBOSP) - sold separately</p>
+
+    <hr class="u-mb05" style="border-top: 1px dashed black"/>
+
+    <ul class="c-bullets">
+      <li>2021 <strong>DVO</strong> D1 Diamond Boost <sup class="u-col-a">(h)</sup></li>
+      <li>2021 <strong>DVO</strong> D1 ONYX Boost SC <sup class="u-col-a">(i)</sup></li>
+    </ul>
+    <p class="u-mb0"><sup class="u-col-a">(h)</sup> needs our custom bolt / washer (PGBODVOB)
+    <p class="u-mb05"><sup class="u-col-a">(i)</sup>needs our custom adapter bracket and custom M4 bolt / washer (PGBODVO)</p>
+
+    <hr style="border-top: 1px dashed black"/>
+
   </dd>
 </dl>
         {% endif %}
@@ -285,13 +307,17 @@
 
             <button
               class="is-hidden"
-              data-item-id="{{ productSizes.sizes[1].id }}">
+              data-item-id="{{ productSizes.sizes[1].id }}"
+              data-item-price="{{ productSizes.sizes[1].price }}"
+              data-item-url="http://rapidracerproducts.com/products/{{ productUrl }}.html">
               Buy Now(UK only)
             </button>
 
             <button
               class="is-hidden"
-              data-item-id="{{ productSizes.sizes[2].id }}">
+              data-item-id="{{ productSizes.sizes[2].id }}"
+              data-item-price="{{ productSizes.sizes[1].price }}"
+              data-item-url="http://rapidracerproducts.com/products/{{ productUrl }}.html">
               Buy Now(UK only)
             </button>
 
