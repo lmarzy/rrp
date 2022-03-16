@@ -846,6 +846,19 @@
       ]
     },
     {
+      "country": "Saudi Arabia",
+      "distributors": [
+        {
+          "companyName": "Bikes for All KSA",
+          "address": "Prince Mohammed bin Saad st, Almalga district-Riyadh, Saudi Arabia",
+          "tel": "+966560097400",
+          "email": "info@bikesforall-ksa.com",
+          "website": "www.bikesforall-ksa.com"
+        }
+      ]
+    },
+
+    {
       "country": "Singapore",
       "distributors": [
         {
