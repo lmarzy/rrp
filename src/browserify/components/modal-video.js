@@ -18,16 +18,34 @@ export const modalVideo = () => {
       const docBody = document.getElementsByTagName('body')[0];
 
       const url = btn.getAttribute('data-url');
+      const imagePath = btn.getAttribute('data-img')
       const videoIframe = document.getElementById('js-videoIframe');
+      const imageTag = document.getElementById('js-image');
       const fullUrl = `https://www.youtube.com/embed/${url}`;
 
-      videoIframe.setAttribute('src', fullUrl);
       modal.classList.add('isActive');
       docBody.classList.add('modal-active');
 
+      console.log('URL', url);
+      console.log('IMAGE', imagePath);
+
+      if (url) {
+        imageTag.style.display = "none"
+        videoIframe.style.display = "block"
+        videoIframe.setAttribute('src', fullUrl);
+      }
+
+      if (imagePath) {
+        imageTag.style.display = "block"
+        videoIframe.style.display = "none"
+        imageTag.setAttribute('src', imagePath);
+      }
+
       const closeModal = () => {
         modal.classList.remove('isActive');
-        videoIframe.removeAttribute('src');
+        if (url) {
+          videoIframe.removeAttribute('src');
+        }
         docBody.classList.remove('modal-active');
 
         modalClose.removeEventListener('click', closeModal);

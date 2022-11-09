@@ -9,6 +9,7 @@
 
     <iframe id="js-videoIframe" class="c-modal_iframe" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+    <img id="js-image" />
   </div>
 
 </div>

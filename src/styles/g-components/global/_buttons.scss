@@ -35,11 +35,6 @@
         transition: transform 250ms ease-in;
       }
 
-      &:hover,
-      &:active,
-      &:focus,
-      &:visited {}
-
     &--a {
       background: transparent;
       border-color: colour(main, borders);
@@ -66,6 +61,17 @@
           background: darken(colour(brand, d), 10);
         }
     }
+
+    &--bare {
+      padding: 0;
+      height: auto;
+      line-height: 1;
+      background: transparent;
+      border: none;
+      color: blue;
+      font-size: rem(14px);
+    }
+
     &--tiny {
       font-size: rem(11px);
     }
