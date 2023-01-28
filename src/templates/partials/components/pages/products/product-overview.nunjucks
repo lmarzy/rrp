@@ -125,8 +125,11 @@
             {% for item in productSizes.sizes1 %}
               <dt>{{ item.size }}:</dt>
               <dd>
-                <p class="u-mb0">{{ item.details }}</p>
+                <p class="u-mb05">{{ item.details }}</p>
                 <p class="u-textSmall u-mb05">{{ item.weight }}</p>
+                {% if item.length %}
+                  <p class="u-textSmall u-mb5">Length: {{ item.length }}</p>
+                {% endif %}
               </dd>
             {% endfor %}
           </dl>
