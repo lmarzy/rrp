@@ -125,14 +125,26 @@
             {% for item in productSizes.sizes1 %}
               <dt>{{ item.size }}:</dt>
               <dd>
-                <p class="u-mb05">{{ item.details }}</p>
+                {% if item.details %}
+                  <p>{{ item.details }}</p>
+                {% endif %}
                 <p class="u-textSmall u-mb05">{{ item.weight }}</p>
                 {% if item.length %}
-                  <p class="u-textSmall u-mb5">Length: {{ item.length }}</p>
+                  <p class="u-textSmall">Length: {{ item.length }}</p>
                 {% endif %}
               </dd>
             {% endfor %}
           </dl>
+          {% if mainDistributors %}
+              <h5 class="c-productSizes-titleSub u-mb05">{{ mainDistributors.title }}</h5>
+              <dl class="c-productSizes u-mb05">
+                {% for item in mainDistributors.distributors %}
+                <dt>{{ item.country}}</dt>
+                <dd>{{ item.distributor }}</dd>
+                {% endfor%}
+              </dl>
+              <p>(check out our full list of distributors on the distributor tab at the top of the page)</p>
+            {% endif %}
           {% if productSizes.subTitle2 %}
           <h5 class="c-productSizes-titleSub u-mb05">{{ productSizes.subTitle2 }}</h5>
             <dl class="c-productSizes u-mb1">
