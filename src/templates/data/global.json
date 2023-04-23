@@ -1076,17 +1076,6 @@
           "for": "from 120mm to 150mm",
           "color": "Black",
           "price": "6.99"
-        },
-        {
-          "id": "NGGBL",
-          "name": "neoguard graffiti",
-          "imgUrl": "/img/products/sale/neoguard/graffiti/black-large.png",
-          "imgUrlAlt": "Neoguard-Graffiti",
-          "size": "Large",
-          "weight": "25",
-          "for": "From 180mm to 200mm",
-          "color": "Black",
-          "price": "6.99"
         }
       ]
     }
