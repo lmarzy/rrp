@@ -80,15 +80,15 @@ logoType: light
             {% endif %}
             {% if details.facebook %}
               <dt>Facebook:</dt>
-              <dd><a href="http://{{ details.facebook }}">{{ details.facebook }}</a></dd>
+              <dd><a href="{{ details.facebook }}">{{ details.facebook }}</a></dd>
             {% endif %}
             {% if details.instagram %}
               <dt>Instagram</dt>
-              <dd><a href="http://{{ details.instagram }}">{{ details.instagram }}</a></dd>
+              <dd><a href="{{ details.instagram }}">{{ details.instagram }}</a></dd>
             {% endif %}
             {% if details.twitter %}
               <dt>Twitter</dt>
-              <dd><a href="http://{{ details.twitter }}">{{ details.twitter }}</a></dd>
+              <dd><a href="{{ details.twitter }}">{{ details.twitter }}</a></dd>
             {% endif %}
             {% if details.orders %}
               <dt>Orders</dt>

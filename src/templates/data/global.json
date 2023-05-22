@@ -636,7 +636,7 @@
           "website": "www.extrauk.co.uk",
           "facebook": "https://www.facebook.com/ExtraUK",
           "instagram": "https://www.instagram.com/extra_uk",
-          "twitter": "http://twitter.com/Extra_UK",
+          "twitter": "https://twitter.com/Extra_UK",
           "orders": "orders@extrauk.co.uk",
           "customerService": "service@extrauk.co.uk",
           "enquiries": "mailbox@extrauk.co.uk"
@@ -913,6 +913,15 @@
           "tel": "82-70-8650-2398",
           "email": "info@bm-works.co.kr",
           "website": "www.bm-works.co.kr/"
+        },
+        {
+          "companyName": "BICEMOTO INC",
+          "address": "2F, Ablehub Bldg, 143 Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul, 07266, Republic Of Korea",
+          "tel": "82-2-2631-2753",
+          "email": "jerry@bicemoto.com",
+          "website": "www.bicemoto.com",
+          "facebook": "https://facebook.com/BICEMOTO/",
+          "instagram": "https://instagram.com/jerry_choi_bicemoto_inc"
         }
       ]
     },
@@ -990,7 +999,7 @@
           "website": "www.extrauk.co.uk",
           "facebook": "https://www.facebook.com/ExtraUK",
           "instagram": "https://www.instagram.com/extra_uk",
-          "twitter": "http://twitter.com/Extra_UK",
+          "twitter": "https://twitter.com/Extra_UK",
           "orders": "orders@extrauk.co.uk",
           "customerService": "service@extrauk.co.uk",
           "enquiries": "mailbox@extrauk.co.uk"
