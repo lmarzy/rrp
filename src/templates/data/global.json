@@ -908,16 +908,10 @@
       "country": "South Korea",
       "distributors": [
         {
-          "companyName": "BM WORKS Co, Ltd",
-          "address": "619, Geumo-ro, Siheung-si, Gyeonggi-do, Korea. ZIP 14927",
-          "tel": "82-70-8650-2398",
-          "email": "info@bm-works.co.kr",
-          "website": "www.bm-works.co.kr/"
-        },
-        {
           "companyName": "BICEMOTO INC",
           "address": "2F, Ablehub Bldg, 143 Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul, 07266, Republic Of Korea",
-          "tel": "82-2-2631-2753",
+          "tel": "82-2-2631-2752",
+          "fax": "82-2-2631-2753",
           "email": "jerry@bicemoto.com",
           "website": "www.bicemoto.com",
           "facebook": "https://facebook.com/BICEMOTO/",
