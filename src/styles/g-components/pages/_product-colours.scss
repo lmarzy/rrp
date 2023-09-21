@@ -5,11 +5,11 @@
 .c-productCols {
   display: flex;
   flex-wrap: wrap;
+  gap: rem(5px);
   text-align: center;
 
   &__item {
-    flex: 1 0 82px;
-    max-width: 82px;
+    max-width: 125px;
 
       a {
         display: block;

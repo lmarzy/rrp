@@ -135,16 +135,6 @@
               </dd>
             {% endfor %}
           </dl>
-          {% if mainDistributors %}
-              <h5 class="c-productSizes-titleSub u-mb05">{{ mainDistributors.title }}</h5>
-              <dl class="c-productSizes u-mb05">
-                {% for item in mainDistributors.distributors %}
-                <dt>{{ item.country}}</dt>
-                <dd>{{ item.distributor }}</dd>
-                {% endfor%}
-              </dl>
-              <p>(check out our full list of distributors on the distributor tab at the top of the page)</p>
-            {% endif %}
           {% if productSizes.subTitle2 %}
           <h5 class="c-productSizes-titleSub u-mb05">{{ productSizes.subTitle2 }}</h5>
             <dl class="c-productSizes u-mb1">
@@ -157,6 +147,35 @@
             {% endfor %}
           </dl>
           {% endif %}
+        {% endif %}
+
+        {% if productSizesOther %}
+          <h4 class="u-mb05">{{ productSizesOther.titleMain }}</h4>
+          <dl class="c-productSizes">
+            {% for item in productSizesOther.sizes1 %}
+              <dt>{{ item.size }}:</dt>
+              <dd>
+                {% if item.details %}
+                  <p>{{ item.details }}</p>
+                {% endif %}
+                <p class="u-textSmall u-mb05">{{ item.weight }}</p>
+                {% if item.length %}
+                  <p class="u-textSmall">Length: {{ item.length }}</p>
+                {% endif %}
+              </dd>
+            {% endfor %}
+          </dl>
+        {% endif %}
+
+        {% if mainDistributors %}
+            <h5 class="c-productSizes-titleSub u-mb05">{{ mainDistributors.title }}</h5>
+            <dl class="c-productSizes u-mb05">
+              {% for item in mainDistributors.distributors %}
+              <dt>{{ item.country}}</dt>
+              <dd>{{ item.distributor }}</dd>
+              {% endfor%}
+            </dl>
+            <p>(check out our full list of distributors on the distributor tab at the top of the page)</p>
         {% endif %}
 
         {% if productWeight %}
@@ -175,6 +194,33 @@
             {% endfor %}
           </dl>
         {% endif %}
+
+        {% if productOptions %}
+          <h4 class="u-mb05">{{ productOptions.title }}</h4>
+          <ul class="c-productCols u-mb1">
+            {% for item in productOptions.v1 %}
+              <li class="c-productCols__item c-productCols__item--{{ item.class }}">
+                <a href="#{{ item.id }}">
+                  <img src="/img/products/{{ item.imageUrl }}" alt="{{ item.imageAlt }}" class="c-productCols__img" title="{{ item.colour }}" data-target="{{ item.id }}">
+                    <span class="c-productCols__name">{{ item.title }}</span>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+          {% if productOptions.v2 %}
+          <ul class="c-productCols u-mb1">
+            {% for item in productOptions.v2 %}
+              <li class="c-productCols__item c-productCols__item--{{ item.class }}">
+                <a href="#{{ item.id }}">
+                  <img src="/img/products/{{ item.imageUrl }}" alt="{{ item.imageAlt }}" class="c-productCols__img" title="{{ item.colour }}" data-target="{{ item.id }}">
+                    <span class="c-productCols__name">{{ item.title }}</span>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        {% endif %}
+
 
         {% if productColours %}
           <h4 class="u-mb05">{{ productColours.title }}</h4>
