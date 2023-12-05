@@ -10,7 +10,7 @@ productName: "ProGuard Front - BOLT ON v1"
 productLogo: "proguard-bolt-on"
 productUrl: mudguards/proguard-bolt-on
 uk: true
-productCompatability: true
+productCompatabilityBoltOnV1: true
 altVersion: {
   version: 'v2',
   link: '/products/mudguards/proguard-bolt-on-v2.html'
@@ -259,6 +259,7 @@ ukDistributor: [EXTRA UK]
 tabsNav:
   [
     { link: Details, id: details, activeClass: is-active },
+    { link: Modifications, id: modifications },
     { link: Fitting, id: fitting },
     { link: Reviews, id: reviews },
   ]
@@ -308,13 +309,15 @@ reviews:
     <div class="c-tabs__contentWrap">
       <div class="o-container">
         <div id="details" class="c-tabs__content is-active">
-          {% from "details-proguard-bolt-on.nunjucks" import ProGuardBoltOn %}
-          {{ ProGuardBoltOn(1) }}
+          {% include "details-proguard-bolt-on-v1.nunjucks" %}
 
           {% include "made-in-uk.nunjucks" %}
         </div>
+        <div id="modifications" class="c-tabs__content">
+          {% include "modifications-proguard-bolt-on-v1.nunjucks" %}
+        </div>
         <div id="fitting" class="c-tabs__content">
-          {% include "fitting-proguard-bolt-on.nunjucks" %}
+          {% include "fitting-proguard-bolt-on-v1.nunjucks" %}
         </div>
         <div id="reviews" class="c-tabs__content">
           {% include "reviews.nunjucks" %}

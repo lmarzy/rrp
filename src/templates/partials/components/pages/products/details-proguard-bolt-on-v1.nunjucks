@@ -1,4 +1,3 @@
-{% macro ProGuardBoltOn(version) %}
 <p>The ProGuard BOLT ON has many design features, take a look at the information below:</p>
 
 <ul class="u-mb1">
@@ -9,13 +8,9 @@
 <li>HEIGHT ADJUSTABILITY</li>
 <li>ANGLE ADJUSTABILITY FOR BETTER FIT IF NEEDED VIA 2 TILT BRACKETS</li>
 <li>2 THICK RUBBER PADS TO PROTECT YOUR FORKS</li>
-{% if version === 1 %}
 <li>STICKER RECESS FOR EASY FIT AND STICKER PROTECTION</li>
-{% endif %}
 <li>OUR SPECIAL PROVEN POLYPROPYLENE MIX IS USED FOR MAXIMUM DURABILITY AND FIT</li>
-{% if version === 1 %}
 <li>BEAUTIFUL STYLING – EASY CLEAN MATTE TEXTURED FINISH WITH GLOSS HIGHLIGHTS</li>
-{% endif %}
 <li>LONG FRONT TO COPE WITH HIGH SPEED MUD AND SPRAY</li>
 <li>PROVEN SEAL SHIELD TO INCREASE FORK PROTECTION AND EXTEND SERVICE INTERVALS</li>
 </ul>
@@ -58,4 +53,3 @@
 <p>Additional bolt packs can be purchased should you need them</p>
 
 </section>
-{% endmacro %}

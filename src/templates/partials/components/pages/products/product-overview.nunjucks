@@ -222,6 +222,20 @@
         
         {% endif %}
 
+        {% if productCompatabilityBoltOnV1 %}
+          <h3 class="u-mb05">COMPATIBILITY</h3>
+          
+          {% include "compatability-proguard-bolt-on-v1.nunjucks" %}
+        
+        {% endif %}
+
+        {% if productCompatabilityBoltOnV2 %}
+          <h3 class="u-mb05">COMPATIBILITY</h3>
+          
+          {% include "compatability-proguard-bolt-on-v2.nunjucks" %}
+        
+        {% endif %}
+
         {% if productCompatabilityAlt %}
           <h3 class="u-mb05">{{ productCompatabilityAlt.title }}</h3>
           <dl class="u-mb1">
