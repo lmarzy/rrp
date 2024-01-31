@@ -1,0 +1,54 @@
+.c-main-distributors {
+    background-color: white;
+    padding-top: rem(24px);
+    padding-bottom: rem(24px);
+    border-top: 1px solid colour(main, borders);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: rem(24px);
+    margin-bottom: rem(24px);
+  }
+
+  &__heading {
+    margin-bottom: rem(12px);
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+
+    dt {
+        width: 40%;
+    }
+
+    dd {
+        width: 60%;
+    }
+  }
+
+  &__text {
+    text-align: center;
+    margin: 0;
+  }
+
+  @include bp(20) {
+    &__inner {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__heading,
+    &__list {
+        flex: 1;
+    }
+
+    &__heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+}
