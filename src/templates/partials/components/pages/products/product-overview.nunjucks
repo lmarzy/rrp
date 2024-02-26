@@ -139,6 +139,9 @@
               </dd>
             {% endfor %}
           </dl>
+          {% if productSizes.note %}
+            <p class="u-textSmall">(<b>NOTE:</b> {{ productSizes.note }})</p>
+          {% endif %}
           {% if productSizes.subTitle2 %}
           <h5 class="c-productSizes-titleSub u-mb05">{{ productSizes.subTitle2 }}</h5>
             <dl class="c-productSizes u-mb1">
