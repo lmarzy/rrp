@@ -100,6 +100,10 @@
           <p>{{ item }}</p>
         {% endfor %}
 
+        {% if productOverviewProguardBoltOnV2 %}
+        {% include "overview-proguard-bolt-on-v2.nunjucks" %}
+        {% endif %}
+
         {% if productOverviewImportantNote %}
         <dl class="o-dlInline u-mb1">
           <dt>Note:</dt>
