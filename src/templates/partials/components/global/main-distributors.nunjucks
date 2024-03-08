@@ -1,0 +1,22 @@
+<section class="c-main-distributors">
+    <div class="o-container">
+        <div class="c-main-distributors__inner">
+            <h3 class="c-main-distributors__heading">MAIN DISTRIBUTORS</h3>
+            <dl class="c-main-distributors__list">
+                <dt>UK</dt>
+                <dd>EXTRA UK</dd>
+                <dt>FRANCE</dt>
+                <dd>TRIBE SPORT GROUP</dd>
+                <dt>NORWAY</dt>
+                <dd>DELER AS</dd>
+                <dt>REST OF EU </dt>
+                <dd>NOW COMPANY</dd>
+                <dt>USA AND CANADA</dt>
+                <dd>RECIPROCATORS</dd>
+                <dt>AUSTRALIA</dt>
+                <dd>DAN JAS IMPORTS</dd>
+            </dl>
+        </div>
+        <p class="c-main-distributors__text">(check out our full list of distributors on the distributor tab at the top of the page)</p>
+    </div>
+</section>

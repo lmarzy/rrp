@@ -6,15 +6,24 @@
   text-align: center;
 }
 
+.u-textVerySmall {
+  font-size: rem(12px);
+}
+
 .u-textSmall {
   font-size: rem(14px);
 }
+
 .u-textLarge {
   font-size: rem(20px);
 }
 
 .u-upper {
   text-transform: uppercase;
+}
+
+.u-italic {
+  font-style: italic;
 }
 
 .u-fltR {

@@ -83,6 +83,10 @@
           <em>{{ productVersion }}</em>
         </h3>
 
+        {% if altVersion %}
+          <p>For {{altVersion.version}} details, click <a href={{altVersion.link}}>here</a></p>
+        {% endif %}
+
         {% if productShortDesc1 %}
           <p class="c-productMain__shortDesc">{{ productShortDesc1 }}</p>
           <p class="c-productMain__shortDesc">{{ productShortDesc2 }}</p>
@@ -95,6 +99,10 @@
         {% for item in productOverview %}
           <p>{{ item }}</p>
         {% endfor %}
+
+        {% if productOverviewProguardBoltOnV2 %}
+        {% include "overview-proguard-bolt-on-v2.nunjucks" %}
+        {% endif %}
 
         {% if productOverviewImportantNote %}
         <dl class="o-dlInline u-mb1">
@@ -135,16 +143,9 @@
               </dd>
             {% endfor %}
           </dl>
-          {% if mainDistributors %}
-              <h5 class="c-productSizes-titleSub u-mb05">{{ mainDistributors.title }}</h5>
-              <dl class="c-productSizes u-mb05">
-                {% for item in mainDistributors.distributors %}
-                <dt>{{ item.country}}</dt>
-                <dd>{{ item.distributor }}</dd>
-                {% endfor%}
-              </dl>
-              <p>(check out our full list of distributors on the distributor tab at the top of the page)</p>
-            {% endif %}
+          {% if productSizes.note %}
+            <p class="u-textVerySmall u-italic">(<b>NOTE:</b> {{ productSizes.note }})</p>
+          {% endif %}
           {% if productSizes.subTitle2 %}
           <h5 class="c-productSizes-titleSub u-mb05">{{ productSizes.subTitle2 }}</h5>
             <dl class="c-productSizes u-mb1">
@@ -157,6 +158,17 @@
             {% endfor %}
           </dl>
           {% endif %}
+        {% endif %}
+
+        {% if mainDistributors %}
+            <h5 class="c-productSizes-titleSub u-mb05">{{ mainDistributors.title }}</h5>
+            <dl class="c-productSizes u-mb05">
+              {% for item in mainDistributors.distributors %}
+              <dt>{{ item.country}}</dt>
+              <dd>{{ item.distributor }}</dd>
+              {% endfor%}
+            </dl>
+            <p>(check out our full list of distributors on the distributor tab at the top of the page)</p>
         {% endif %}
 
         {% if productWeight %}
@@ -175,6 +187,21 @@
             {% endfor %}
           </dl>
         {% endif %}
+
+        {% if productOptions %}
+          <h4 class="u-mb05">{{ productOptions.title }}</h4>
+          <ul class="c-productCols u-mb1">
+            {% for item in productOptions.list %}
+              <li class="c-productCols__item c-productCols__item--{{ item.class }}">
+                <a href="#{{ item.id }}">
+                  <img src="/img/products/{{ item.imageUrl }}" alt="{{ item.imageAlt }}" class="c-productCols__img" title="{{ item.colour }}" data-target="{{ item.id }}">
+                    <span class="c-productCols__name">{{ item.title }}</span>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
 
         {% if productColours %}
           <h4 class="u-mb05">{{ productColours.title }}</h4>
@@ -197,78 +224,23 @@
 
         {% if productCompatability %}
           <h3 class="u-mb05">COMPATIBILITY</h3>
-  <dl class="o-dlInline">
-    <dt>WHEELS:</dt>
-    <dd>26”  27.5”  29”</dd>
-    <dt>TYRES:</dt>
-    <dd>up to a 3” tyre</dd>
-    <dt>BRAKE / OFFSET:</dt>
-    <dd><strong>MINIMUM 44mm</strong></dd>
-    <dt>HUB:</dt>
-    <dd>STD & BOOST</dd>
-    <dt>FORKS:</dt>
-    <dd>
-    <p class="u-mb05">This direct mount mudguard is designed for the forks listed below which must be: <br /><span class="u-col-a">DISC BRAKE ONLY WITH THREADED HOLES</span></p>
-    <p class="u-textSmall u-col-a"><sup>*</sup>ALWAYS CHECK BOTTOM OUT CLEARANCE BEFORE USE AS MANUFACTURERS ARE BRINGING OUT WIDER TOP CROWNS (CSU) WHICH MAY NOT CLEAR THE MUDGUARD<sup>*</sup></p>
-    
-    <hr class="u-mb05" style="border-top: 1px dashed black"/>
-    
-    <ul class="c-bullets">
-      <li>2016 > 2021 <strong>FOX</strong> 32, 34, 36, 38, 40<sup class="u-col-a">(a)</sup>, 49</li>
-      <li>2022 <strong>FOX</strong> 34<sup class="u-col-a">(b)</sup>, 36<sup class="u-col-a">(c)</sup>, 38, 40</li>
-    </ul>
-    <p class="u-mb0"><sup class="u-col-a">(a)</sup>2020 FOX 40 (26” or 27.5”) or older needs Adapter Bracket (PGBOF40) – sold separately</p>
-    <p class="u-mb0"><sup class="u-col-a">(b)</sup>2022 FOX 34 only needs stability bracket if the rear of the brace is hollowed out as shown <button type="button" class="js-modalBtn c-btn c-btn--bare" data-img="/img/fox-34-bolt-on.jpg">HERE</button> (bracket not available yet)</p>
-    <p class="u-mb05"><sup class="u-col-a">(c)</sup>2022 FOX 36 needs Stability Bracket (supplied)</p>
-    
-    <hr class="u-mb05" style="border-top: 1px dashed black"/>
+          
+          {% include "compatability-proguard-bolt-on.nunjucks" %}
+        
+        {% endif %}
 
-    <ul class="c-bullets">
-      <li>NEW <strong>MARZOCCHI</strong> FORKS<sup class="u-col-a">(d)</sup> (Fox chassis version)</li>
-    </ul>
-    <p class="u-mb05">
-      <sup class="u-col-a">(d)</sup>Z2 forks may not come with threaded holes
-    </p>
+        {% if productCompatabilityBoltOnV1 %}
+          <h3 class="u-mb05">COMPATIBILITY</h3>
+          
+          {% include "compatability-proguard-bolt-on-v1.nunjucks" %}
+        
+        {% endif %}
 
-    <hr class="u-mb05" style="border-top: 1px dashed black"/>
-
-    <ul class="c-bullets">
-      <li>2021 <strong>ROCKSHOX</strong> 35<sup class="u-col-a">(e)</sup></li>
-      <li>2021 <strong>ROCKSHOX</strong> Recon<sup class="u-col-a">(e)</sup></li>
-      <li>2021 <strong>ROCKSHOX</strong> Paragon<sup class="u-col-a">(e)</sup></li>
-    </ul>
-    <p>
-      <sup class="u-col-a">(e)</sup>use the SR Suntour M6 centre bolt
-    </p>
-
-    <hr class="u-mb05" style="border-top: 1px dashed black"/>
-
-    <ul class="c-bullets">
-      <li>2019 <strong>OHLINS</strong> RXF34, RXF36, RXF38<sup class="u-col-a">(f)</sup>, DH38<sup class="u-col-a">(g)</sup> (or older)</li>
-    </ul>
-    <p class="u-mb0"><sup class="u-col-a">(f)</sup>RFX38 requires Stability Bracket (not available yet)</p>
-    <p class="u-mb05"><sup class="u-col-a">(g)</sup>DH 38 requires Stability Bracket (PGOSB) - sold separately. NOTE: above adapter also fits RXF36 and adds stability</p>
-    
-    <hr class="u-mb05" style="border-top: 1px dashed black"/>
-
-    <ul class="c-bullets">
-      <li>2019 <strong>SR SUNTOUR</strong> FORKS <sup class="u-col-a">(h)</sup> (or older)</li>
-    </ul>
-    <p class="u-mb05"><sup class="u-col-a">(h)</sup>forks that have an unthreaded straight through hole in the centre of the fork brace needs our SLEEVE PACK (PGBOSP) - sold separately</p>
-
-    <hr class="u-mb05" style="border-top: 1px dashed black"/>
-
-    <ul class="c-bullets">
-      <li>2021 <strong>DVO</strong> D1 Diamond Boost <sup class="u-col-a">(i)</sup></li>
-      <li>2021 <strong>DVO</strong> D1 ONYX Boost SC <sup class="u-col-a">(j)</sup></li>
-    </ul>
-    <p class="u-mb0"><sup class="u-col-a">(i)</sup>needs our custom bolt / washer (PGBODVOB)
-    <p class="u-mb05"><sup class="u-col-a">(j)</sup>needs our custom adapter bracket and custom M4 bolt / washer (PGBODVO)</p>
-
-    <hr style="border-top: 1px dashed black"/>
-
-  </dd>
-</dl>
+        {% if productCompatabilityBoltOnV2 %}
+          <h3 class="u-mb05">COMPATIBILITY</h3>
+          
+          {% include "compatability-proguard-bolt-on-v2.nunjucks" %}
+        
         {% endif %}
 
         {% if productCompatabilityAlt %}

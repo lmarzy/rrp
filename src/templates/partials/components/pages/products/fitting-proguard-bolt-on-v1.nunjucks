@@ -1,0 +1,121 @@
+<h3 class="u-mb1">Fitting the ProGuard BOLT ON</h3>
+<p><a href="/downloads/fork-compatability/proguard-bolt-on.pdf" class="u-col-d">A FULL LIST OF COMPATIBLE FORKS CAN BE FOUND HERE</a></p>
+<ul class="c-productVideos u-mb1">
+{% for video in fittingVideos %}
+<li class="c-productVideos_video">
+    {% import "product-video.nunjucks" as vid %} {{
+    vid.productVideo(video.url, video.name, video.img, video.imgAlt)
+    }}
+</li>
+{% endfor %}
+</ul>
+
+<h4 class="u-mb05">FITTING TO THE FRONT:</h4>
+
+<ol class="c-fitting">
+<li class="c-fitting__item">
+    <p>
+    IMPORTANT: You must apply the rubber adhesive side pads to the
+    recess on the mudguard side wings, they protect your fork legs
+    and provide vital stability and resonance damping
+    </p>
+    <img
+    src="/img/products/mudguards/proguard-bolt-on/fitting/1.png"
+    alt="Image showing how to apply the rubber adhesive side pads"
+    class="c-fitting__img"
+    />
+</li>
+<li class="c-fitting__item">
+    Clean the fork threads and the fork legs MAKING SURE YOU DRY THE
+    THREADS THOROUGHLY
+</li>
+<li class="c-fitting__item">
+    <p class="u-mb05">Select the correct bolts for your fork (details below) and run these into the threads WITHOUT the mudguard which will 'PRIME' and clean the threads before fitting, this part is important<span class="u-col-a">(YOU MAY NEED TO RE-TAP THE THREADS IF DEBRIS / PAINT IS LEFT IN THE THREADS FROM THE MANUFACTURE OF THE FORKS)</span></p>
+    <p>MOST COMMON BOLTS:  FOX & MARZOCCHI = M3 | OHLINS = M4 | EXT ERA & SOME XFUSION = M5 | SR SUNTOUR = M6</p>
+    <p>Some SR SUNTOUR forks have an unthreaded straight through hole in the centre of the fork brace, you can purchase a SLEEVE PACK FITTING KIT to allow the PROGUARD BOLT ON to fit these forks (sold separately)</p>
+</li>
+<li class="c-fitting__item">
+    Squeeze the side wings of the mudguard hard and slide under the
+    fork brace from the rear with the wheel and tyre still in place
+</li>
+<li class="c-fitting__item">
+    You should be able to locate the mudguard and let go as the rubber
+    side pads should hold it in place (ensure the slots are centrally
+    aligned to the threaded holes on your fork)
+</li>
+<li class="c-fitting__item">
+    Use the Allen key provided to screw the bolts in EVENLY a bit each side, go gentle to start off to ensure you DON'T CROSS THREAD THEM, squeeze the side wings periodically during tightening to break the seal so it can move
+</li>
+<li class="c-fitting__item">
+    <p>
+    Check alignment of the mudguard to ensure the distance from the
+    tyre is even front and back, if you need to adjust the alignment
+    then remove the mudguard and clip-on the appropriate TILT
+    BRACKET found in the packaging (see example below). There are 2
+    TILT BRACKETS, one raises the front of the mudguard up and the
+    other lowers it down (written on the TILT BRACKET)
+    </p>
+    <img
+    src="/img/products/mudguards/proguard-bolt-on/fitting/5.png"
+    alt="Image showing how to apply the rubber adhesive side pads"
+    class="c-fitting__img"
+    />
+</li>
+<li class="c-fitting__item">
+    You can also change the height of the mudguard through the
+    slots for more clearance. NOTE: Highest position offers the most
+    stability with the best mud clearance, check bottom out clearance before use.
+</li>
+<li class="c-fitting__item">
+    <p class="u-mb05">
+    Finally tighten the bolts to the torque settings below:
+    </p>
+    <dl class="o-dlInline u-mb1">
+    <dt>TORQUE SETTINGS:</dt>
+    <dd>M3 / M4 / M5 = 0.5nm to 1nm MAXIMUM | M6 = 2nm</dd>
+    </dl>
+</li>
+</ol>
+
+<p>
+NOTE: ONLY USE THE RRP SUPPLIED BOLTS AS THESE ARE SPECIFICALLY
+SELECTED OR DESIGNED FOR THE MUDGUARD. REPLACEMENT BOLTS PACKS ARE AVAILIBLE.
+</p>
+
+<p>
+IMPORTANT - YOU MUST CHECK BOTTOM OUT CLEARANCE, LET THE AIR OUT OF YOUR FORK AND COMPRESS TO TEST IF THE FORK HITS THE MUDGUARD WHEN BOTTOMING. LOWER THE MUDGUARD
+THROUGH THE SLOTS IF YOU NEED MORE CLEARANCE, IF YOU CAN'T LOWER
+FURTHER THEN DO NOT USE
+</p>
+
+<h4 class="u-col-a">Important</h4>
+
+<ul class="c-bullet u-mb1">
+<li>
+    Bolts must be checked before each ride to ensure the mudguard is
+    secure
+</li>
+<li>
+    Remove mudguard every few rides to clean the brace / threads / fork legs / rubber pads
+</li>
+<li>
+    DO NOT USE IN STICKY / CLAGGY MUD AS IT MAY BLOCK AND CAUSE INJURY
+    OR DAMAGE
+</li>
+<li>
+    MIN CLEARANCES - 15mm from the tyre when fitted and 10mm from the
+    frame (on bottoming)
+</li>
+<li>
+    INSPECT BEFORE YOU RIDE: DO NOT USE IF DAMAGED IN ANY WAY AS
+    CONTINUED USE MAY LEAD TO FAILURE OR INJURY
+</li>
+<li>
+    RapidRacerProducts Ltd accepts no liability for any damage or
+    injury caused due to improper fitting or use of our products
+</li>
+<li>
+    RapidRacerProducts Ltd, Parkfields Business Centre, Park Street,
+    Stafford, ST17 4AL, United Kingdom
+</li>
+</ul>
