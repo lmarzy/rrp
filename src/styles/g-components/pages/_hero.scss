@@ -3,43 +3,39 @@
    ========================================================================== */
 
 .c-hero {
-  padding-top: rem(18px);
-  padding-bottom: rem(132px);
+  padding-top: rem(20px);
+  padding-bottom: rem(50px);
   text-align: center;
   color: white;
 
   &__img {
-    width: 265px;
+    width: 285px;
     margin: 0 auto rem(12px) auto;
   }
 
-  &__img-black {
-    display: none;
-  }
-
   &__btn {
+    font-weight: bold;
     margin-bottom: rem(18px);
+    padding: 8px;
+    line-height: 1;
+    height: auto;
   }
 
   @include bp(10) {
-    padding-bottom: rem(168px);
+    padding-bottom: rem(75px);
+
+    &__img {
+      width: 400px;
+    }
   }
 
   @include bp(20) {
     padding-top: rem(12px);
-    padding-bottom: rem(340px);
+    padding-bottom: rem(175px);
 
     &__img {
-      width: 370px;
+      width: 600px;
       margin-bottom: rem(24px);
-
-      &-black {
-        display: block;
-      }
-
-      &-white {
-        display: none;
-      }
     }
   }
 }

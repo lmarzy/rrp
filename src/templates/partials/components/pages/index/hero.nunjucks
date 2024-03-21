@@ -1,10 +1,5 @@
 <aside class="o-container c-hero">
 
-  <div class="c-hero__img u-mb1">
-    <img src="/img/rapidracer-white.svg" width="265" alt="rapidracer products" class="c-hero__img-white">
-    <img src="/img/rapidracer-black.svg" width="365" alt="rapidracer products" class="c-hero__img-black">
-  </div>
-
   <ul class="c-hero__category c-categoryList u-mb1">
     <li class="c-categoryList__item">
       <a href="#products-road">Road
@@ -15,13 +10,17 @@
       </a>
     </li>
     <li class="c-categoryList__item">
-      <a href="#products-cyclocross">CycloCross
+      <a href="#products-cyclocross">CX / Gravel
       </a>
     </li>
   </ul>
 
-  <a href="{{ links.distributors }}" class="c-hero__btn c-btn c-btn--a c-btn--small">
+  <a href="{{ links.distributors }}" class="c-hero__btn c-btn c-btn--small">
     <span>FIND YOUR DEALER / DISTRIBUTOR</span>
   </a>
+
+  <div class="c-hero__img u-mb1">
+    <img src="/img/rapidracer-white.svg" alt="rapidracer products" class="c-hero__img-white">
+  </div>
 
 </aside>
