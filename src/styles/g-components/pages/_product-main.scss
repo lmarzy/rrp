@@ -28,13 +28,6 @@
     }
 
     @include bp(20, max) {
-      &__title {
-        margin: 0 rem(-12px) rem(24px) rem(-12px);
-        padding-left: rem(8px);
-        padding-right: rem(8px);
-        background: rgba(white, 0.3);
-        border-bottom: 1px solid darken(colour(brand, c),12);
-      }
       &__overview {
         padding-top: $rhythm;
       }

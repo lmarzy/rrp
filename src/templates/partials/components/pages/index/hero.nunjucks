@@ -15,12 +15,12 @@
     </li>
   </ul>
 
-  <a href="{{ links.distributors }}" class="c-hero__btn c-btn c-btn--small">
-    <span>FIND YOUR DEALER / DISTRIBUTOR</span>
-  </a>
-
   <div class="c-hero__img u-mb1">
     <img src="/img/rapidracer-white.svg" alt="rapidracer products" class="c-hero__img-white">
   </div>
+
+  <a href="{{ links.distributors }}" class="c-hero__btn c-btn c-btn--small">
+    <span>FIND YOUR DEALER / DISTRIBUTOR</span>
+  </a>
 
 </aside>
