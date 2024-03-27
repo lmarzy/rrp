@@ -19,23 +19,26 @@
       <div class="c-gallery">
         <div class="c-gallery__inner">
         {% for image in productImages %}
-        {% if image.imageUrl %}
-          {% if image.link %}
-            <a href="{{ image.link }}">
+          {% if image.imageUrl %}
+            {% if image.link %}
+              <a href="{{ image.link }}">
+            {% endif %}
+                <img
+                src="/img/products/{{ image.imageUrl }}.png"
+                alt="{{ image.imageAlt }}"
+                id="{{ image.id }}"
+                class="c-gallery__img">
+            {% if image.link %}
+              </a>
+            {% endif %}
           {% endif %}
-              <img
-              src="/img/products/{{ image.imageUrl }}.png"
-              alt="{{ image.imageAlt }}"
-              id="{{ image.id }}"
-              class="c-gallery__img">
-          {% if image.link %}
-            </a>
-          {% endif %}
-        {% endif %}
           {% if image.videoUrl %}
-          <video width="625" height="500" id="{{ image.id }}" class="c-gallery__img" controls>
-            <source src="/img/products/{{ image.videoUrl }}.mp4">
-          </video>
+            <video width="625" height="500" id="{{ image.id }}" class="c-gallery__img" controls>
+              <source src="/img/products/{{ image.videoUrl }}.mp4">
+            </video>
+          {% endif %}
+          {% if image.youtubeVideoLink %}
+            <iframe id={{image.id}} class="c-gallery__img" width="600" height="500" src="https://www.youtube.com/embed/{{ image.youtubeVideoLink }}"></iframe>
           {% endif %}
         {% endfor %}
       </div>
@@ -57,6 +60,9 @@
             {% endif %}
             {% if image.videoImageUrl %}
               <img src="/img/products/{{ image.videoImageUrl }}.png" alt="{{ image.imageAlt }}" data-target="{{ image.id }}">
+            {% endif %}
+            {% if image.youtubeVideoLink %}
+              <img src="/img/products/{{ image.youtubeVideoImageUrl }}.png" alt="{{ image.imageAlt }}" data-target="{{ image.id }}">
             {% endif %}
           </a>
         </li>
