@@ -415,12 +415,11 @@
       "country": "Chile",
       "distributors": [
         {
-          "companyName": "Drop Company",
-          "address": "Cochrane 635, Local 105, Concepcion, Chile",
-          "tel": "+56 987685022",
-          "email": "lukas@dropcompany.cl",
-          "website": "https://www.dropcompany.cl",
-          "instagram": "https://www.instagram.com/dropchile/"
+          "companyName": "Gembabike SpA",
+          "address": "Chacabuco 70, Local 8, 40300000, Concepción, Chile",
+          "tel": "+56991217072",
+          "email": "contacto@gembabike.cl",
+          "website": "www.gembabike.cl"
         }
       ]
     },
