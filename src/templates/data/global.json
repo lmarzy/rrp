@@ -804,11 +804,12 @@
       "country": "Romania",
       "distributors": [
         {
-          "companyName": "Coolbike Team",
-          "address": "Str. Penes Curcanul 4-5 - 300124 Timisoara",
-          "tel": "+40 356 43 73 33",
-          "email": "office@coolbiketeam.ro",
-          "website": "www.coolbiketeam.ro"
+          "companyName": "FIRESHOW S.R.L",
+          "address": "STR. INDUSTRIEI NR.6, SACALAZ, TIMIS, 307370",
+          "tel": "0356/437333",
+          "fax": "0356/437128",
+          "mob": "0744694431",
+          "email": "office@fireshow.ro"
         }
       ]
     },
