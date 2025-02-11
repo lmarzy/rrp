@@ -17,6 +17,13 @@
                 <dd>DAN JAS IMPORTS</dd>
             </dl>
         </div>
-        <p class="c-main-distributors__text">(check out our full list of distributors on the distributor tab at the top of the page)</p>
+        {% if page != 'distributors' %}
+            <p class="c-main-distributors__text">(check out our full list of distributors on the distributor tab at the top of the page)</p>
+        {% endif %}
+        <div class="c-main-distributors__eu-responsible">
+            <h3 class="">EU RESPONSIBLE PERSON DETAILS</h3>
+            <p class="u-mb0">NOW Company SPRL, 14 Avenue Leonard de Vinci - Zoning Nord - 1300 Wavre - Belgium</p>
+            <p><b>Tel:</b> +32 10 23 01 80, <b>Email:</b> <a href="mailto:contact@nowcompany.com">contact@nowcompany.com</a>, <b>Web:</b> <a href="http://www.nowcompany.com">www.nowcompany.com</a></p>
+        <div>
     </div>
 </section>
