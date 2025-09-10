@@ -3,10 +3,12 @@ logs
 *.log
 
 node_modules
+_archive/node_modules
+_archive/package-lock.json
 package-lock.json
-src/js/vendor
+_archive/src/js/vendor
 dev
-dist
+_archive/dist
 .sass-cache
 .DS_Store
 .tmp
