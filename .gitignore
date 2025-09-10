@@ -3,10 +3,10 @@ logs
 *.log
 
 node_modules
-_archive/node_modules
-_archive/package-lock.json
+_archived/node_modules
+_archived/package-lock.json
 package-lock.json
-_archive/src/js/vendor
+_archived/src/js/vendor
 dev
 _archive/dist
 .sass-cache
